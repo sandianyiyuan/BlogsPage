@@ -1,22 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>github仓库开启Discussions</title>
-    <url>/2021/05/19/github%E4%BB%93%E5%BA%93%E5%BC%80%E5%90%AFDiscussions/</url>
-    <content><![CDATA[<p>才发现github仓库可以开Discussions。<br>该功能在settings-&gt;Options中，勾选Discussions就可开启。<br>开启后就可以方便的讨论问题而不用提issue了。</p>
+    <title>hello</title>
+    <url>/2021/05/18/hello/</url>
+    <content><![CDATA[<p>hello,这是我的博客，准备以后在这里做笔记、分享日常。<br>留言<a href="https://github.com/sandianyiyuan/BlogsPage/discussions">传送门</a></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>Obsidian使用笔记</title>
+    <url>/2021/05/19/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Obsidian%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<h1 id="Obsidian-超好用的笔记软件"><a href="#Obsidian-超好用的笔记软件" class="headerlink" title="Obsidian 超好用的笔记软件"></a>Obsidian 超好用的笔记软件</h1><p>记录一下Obsidian软件的使用</p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>工具</tag>
+        <tag>技术</tag>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>github仓库开启Discussions</title>
+    <url>/2021/05/19/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/github%E4%BB%93%E5%BA%93%E5%BC%80%E5%90%AFDiscussions/</url>
+    <content><![CDATA[<p>才发现github仓库可以开Discussions。<br>该功能在settings-&gt;Options中，勾选Discussions就可开启。<br>开启后就可以方便的讨论问题而不用提issue了。<br>快来跟我一起讨论吧<a href="https://github.com/sandianyiyuan/BlogsPage/discussions">传送门</a></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
       <tags>
         <tag>git</tag>
       </tags>
   </entry>
   <entry>
-    <title>myPost</title>
-    <url>/2021/05/18/myPost/</url>
-    <content><![CDATA[<h1 id="第一篇帖子"><a href="#第一篇帖子" class="headerlink" title="第一篇帖子"></a>第一篇帖子</h1><h2 id="第一篇帖子-1"><a href="#第一篇帖子-1" class="headerlink" title="第一篇帖子"></a>第一篇帖子</h2>]]></content>
-  </entry>
-  <entry>
     <title>焦虑</title>
-    <url>/2021/05/18/%E7%84%A6%E8%99%91/</url>
+    <url>/2021/05/18/%E6%97%A5%E5%B8%B8/%E7%84%A6%E8%99%91/</url>
     <content><![CDATA[<p><a href="https://zhuanlan.zhihu.com/p/25909485">https://zhuanlan.zhihu.com/p/25909485</a></p>
 ]]></content>
   </entry>
