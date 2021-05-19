@@ -7,6 +7,18 @@
 ]]></content>
   </entry>
   <entry>
+    <title>github仓库开启Discussions</title>
+    <url>/2021/05/19/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/github%E4%BB%93%E5%BA%93%E5%BC%80%E5%90%AFDiscussions/</url>
+    <content><![CDATA[<p>才发现github仓库可以开Discussions。<br>该功能在settings-&gt;Options中，勾选Discussions就可开启。<br>开启后就可以方便的讨论问题而不用提issue了。<br>快来跟我一起讨论吧<a href="https://github.com/sandianyiyuan/BlogsPage/discussions">传送门</a></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>焦虑</title>
     <url>/2021/05/18/%E6%97%A5%E5%B8%B8/%E7%84%A6%E8%99%91/</url>
     <content><![CDATA[<p><a href="https://zhuanlan.zhihu.com/p/25909485">https://zhuanlan.zhihu.com/p/25909485</a></p>
@@ -24,18 +36,6 @@
         <tag>工具</tag>
         <tag>技术</tag>
         <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>github仓库开启Discussions</title>
-    <url>/2021/05/19/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/github%E4%BB%93%E5%BA%93%E5%BC%80%E5%90%AFDiscussions/</url>
-    <content><![CDATA[<p>才发现github仓库可以开Discussions。<br>该功能在settings-&gt;Options中，勾选Discussions就可开启。<br>开启后就可以方便的讨论问题而不用提issue了。<br>快来跟我一起讨论吧<a href="https://github.com/sandianyiyuan/BlogsPage/discussions">传送门</a></p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>git</tag>
       </tags>
   </entry>
 </search>
