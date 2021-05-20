@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>三点一圆</title>
+  
+  
+  <link href="http://sdyy.host/atom.xml" rel="self"/>
+  
+  <link href="http://sdyy.host/"/>
+  <updated>2021-05-20T01:01:28.255Z</updated>
+  <id>http://sdyy.host/</id>
+  
+  <author>
+    <name>三点一圆</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo搭建博客的过程</title>
+    <link href="http://sdyy.host/2021/05/19/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B/"/>
+    <id>http://sdyy.host/2021/05/19/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B/</id>
+    <published>2021-05-19T13:28:33.000Z</published>
+    <updated>2021-05-20T01:01:28.255Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>hexo d 部署报错 ERROR Deployer not found: git 需要安装插件<br><code>npm install --save hexo-deployer-git</code></p><h2 id="多电脑托管的处理方式"><a href="#多电脑托管的处理方式" class="headerlink" title="多电脑托管的处理方式"></a>多电脑托管的处理方式</h2><p>在A电脑源码构建完成，回到家想继续弄，应该怎么做？<br>直接将代码库拉下来是不行的，因为代码库中并没有托管全部所需的依赖包<br>我们应该在新电脑上执行<code>hexo init</code>，创建一个新的hexo项目，然后再将git库中的内容克隆到另一个目录中，克隆完之后，将所有的文件拷贝到刚才初始化的hexo项目目录中。这时候就可以写文章，并提交内容了 </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="技术" scheme="http://sdyy.host/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="工具" scheme="http://sdyy.host/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="技术" scheme="http://sdyy.host/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="笔记" scheme="http://sdyy.host/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Obsidian使用笔记</title>
+    <link href="http://sdyy.host/2021/05/19/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Obsidian%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/"/>
+    <id>http://sdyy.host/2021/05/19/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Obsidian%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</id>
+    <published>2021-05-19T07:34:33.000Z</published>
+    <updated>2021-05-19T08:13:38.882Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="Obsidian-超好用的笔记软件"><a href="#Obsidian-超好用的笔记软件" class="headerlink" title="Obsidian 超好用的笔记软件"></a>Obsidian 超好用的笔记软件</h1><p>记录一下Obsidian软件的使用</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="技术" scheme="http://sdyy.host/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="工具" scheme="http://sdyy.host/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="技术" scheme="http://sdyy.host/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="笔记" scheme="http://sdyy.host/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hello</title>
+    <link href="http://sdyy.host/2021/05/18/hello/"/>
+    <id>http://sdyy.host/2021/05/18/hello/</id>
+    <published>2021-05-18T08:34:33.000Z</published>
+    <updated>2021-05-19T07:30:14.749Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>hello,这是我的博客，准备以后在这里做笔记、分享日常。<br>留言<a href="https://github.com/sandianyiyuan/BlogsPage/discussions">传送门</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>github仓库开启Discussions</title>
+    <link href="http://sdyy.host/2021/05/18/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/github%E4%BB%93%E5%BA%93%E5%BC%80%E5%90%AFDiscussions/"/>
+    <id>http://sdyy.host/2021/05/18/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/github%E4%BB%93%E5%BA%93%E5%BC%80%E5%90%AFDiscussions/</id>
+    <published>2021-05-18T08:34:33.000Z</published>
+    <updated>2021-05-20T01:01:28.253Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>才发现github仓库可以开Discussions。<br>该功能在settings-&gt;Options中，勾选Discussions就可开启。<br>开启后就可以方便的讨论问题而不用提issue了。<br>快来跟我一起讨论吧<a href="https://github.com/sandianyiyuan/BlogsPage/discussions">传送门</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="技术" scheme="http://sdyy.host/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="git" scheme="http://sdyy.host/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>焦虑</title>
+    <link href="http://sdyy.host/2021/05/18/%E6%97%A5%E5%B8%B8/%E7%84%A6%E8%99%91/"/>
+    <id>http://sdyy.host/2021/05/18/%E6%97%A5%E5%B8%B8/%E7%84%A6%E8%99%91/</id>
+    <published>2021-05-18T08:34:33.000Z</published>
+    <updated>2021-05-19T02:16:03.100Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><a href="https://zhuanlan.zhihu.com/p/25909485">https://zhuanlan.zhihu.com/p/25909485</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
