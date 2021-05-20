@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Obsidian使用笔记</title>
-    <url>/2021/05/19/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Obsidian%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="Obsidian-超好用的笔记软件"><a href="#Obsidian-超好用的笔记软件" class="headerlink" title="Obsidian 超好用的笔记软件"></a>Obsidian 超好用的笔记软件</h1><p>记录一下Obsidian软件的使用</p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>工具</tag>
-        <tag>技术</tag>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>hello</title>
     <url>/2021/05/18/hello/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>hello,这是我的博客，准备以后在这里做笔记、分享日常。<br>留言<a href="https://github.com/sandianyiyuan/BlogsPage/discussions">传送门</a></p>
@@ -52,5 +38,19 @@
     <url>/2021/05/18/%E6%97%A5%E5%B8%B8/%E7%84%A6%E8%99%91/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><a href="https://zhuanlan.zhihu.com/p/25909485">https://zhuanlan.zhihu.com/p/25909485</a></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>Obsidian使用笔记</title>
+    <url>/2021/05/19/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Obsidian%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="Obsidian-超好用的笔记软件"><a href="#Obsidian-超好用的笔记软件" class="headerlink" title="Obsidian 超好用的笔记软件"></a>Obsidian 超好用的笔记软件</h1><p>记录一下Obsidian软件的使用</p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>工具</tag>
+        <tag>技术</tag>
+        <tag>笔记</tag>
+      </tags>
   </entry>
 </search>
