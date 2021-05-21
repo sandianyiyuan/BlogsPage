@@ -7,6 +7,20 @@
 ]]></content>
   </entry>
   <entry>
+    <title>mybase(个人笔记软件)</title>
+    <url>/2021/05/21/keepass/mybase(%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6)/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>myBase 是一款用于分类管理任意格式文档资料的小型个人数据库软件， 有助于个人用户在 (Linux/MacOSX/Windows)桌面电脑系统上实施文档、笔记、日记、图片和网页等知识内容的分类管理。 借助软件提供的各项功能，创建和维护一个专属于自己的个人知识库将变的非常容易。 与传统意义上的数据库软件不同，myBase 通过内置的富文本编辑器接受图文信息的输入，并按树形大纲分门别类保存，同时接受任意磁盘文件作为大纲条目的附件。 myBase 提供了更好的方式使知识/信息的捕获、编辑、组织、查看、索引、搜索和分享变得更快捷、更容易。<br>对于工作中的一些个人笔记，可以用mybase存放，使用mybase可以避免文件散落在磁盘的各个地方。</p>
+]]></content>
+      <categories>
+        <category>工具软件</category>
+        <category>mybase</category>
+      </categories>
+      <tags>
+        <tag>工具软件</tag>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Obsidian使用笔记</title>
     <url>/2021/05/19/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Obsidian%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="Obsidian-超好用的笔记软件"><a href="#Obsidian-超好用的笔记软件" class="headerlink" title="Obsidian 超好用的笔记软件"></a>Obsidian 超好用的笔记软件</h2><p>软件自带的说明文档已经很详细的说明了使用方法，直接安装后开始研究。</p>
@@ -18,8 +32,8 @@
       </categories>
       <tags>
         <tag>工具软件</tag>
-        <tag>技术</tag>
         <tag>笔记</tag>
+        <tag>技术</tag>
       </tags>
   </entry>
   <entry>
@@ -47,8 +61,8 @@
       </categories>
       <tags>
         <tag>工具软件</tag>
-        <tag>技术</tag>
         <tag>笔记</tag>
+        <tag>技术</tag>
       </tags>
   </entry>
   <entry>
@@ -73,22 +87,8 @@
       </categories>
       <tags>
         <tag>工具软件</tag>
+        <tag>笔记</tag>
         <tag>技术</tag>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>mybase(个人笔记软件)</title>
-    <url>/2021/05/21/keepass/mybase(%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6)/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>myBase 是一款用于分类管理任意格式文档资料的小型个人数据库软件， 有助于个人用户在 (Linux/MacOSX/Windows)桌面电脑系统上实施文档、笔记、日记、图片和网页等知识内容的分类管理。 借助软件提供的各项功能，创建和维护一个专属于自己的个人知识库将变的非常容易。 与传统意义上的数据库软件不同，myBase 通过内置的富文本编辑器接受图文信息的输入，并按树形大纲分门别类保存，同时接受任意磁盘文件作为大纲条目的附件。 myBase 提供了更好的方式使知识/信息的捕获、编辑、组织、查看、索引、搜索和分享变得更快捷、更容易。<br>对于工作中的一些个人笔记，可以用mybase存放，使用mybase可以避免文件散落在磁盘的各个地方。</p>
-]]></content>
-      <categories>
-        <category>工具软件</category>
-        <category>mybase</category>
-      </categories>
-      <tags>
-        <tag>工具软件</tag>
-        <tag>笔记</tag>
       </tags>
   </entry>
 </search>
