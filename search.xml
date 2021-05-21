@@ -7,6 +7,23 @@
 ]]></content>
   </entry>
   <entry>
+    <title>keepass(密码管理工具)</title>
+    <url>/2021/05/21/keepass/keepass(%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7)/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>官方网站<a href="https://keepass.info/">keepass.info</a><br>github上已经两个项目全面地介绍了keepass及插件的使用方法：<br><a href="https://github.com/1688aa/KeePass-Plugins-Instructions-for-use">github.com/1688aa/KeePass-Plugins-Instructions-for-use</a><br><a href="https://github.com/1688aa/KeePass-Instructions-for-use">github.com/1688aa/KeePass-Instructions-for-use</a></p>
+<p>KeePass 是一款免费的开源密码管理器，KeePass 将密码存储为一个数据库，而这个数据库由一个主密码或密码文件锁住，也就是说我们只需要记住一个主密码，或使用一个密码文件，就可以解开这个数据库，就可以获得其他的密码内容。<br>办公室电脑密码、笔记本密码、家里电脑密码、上网帐号密码、手机服务密码、邮箱密码、QQ 密码、银行卡查询密码、银行卡交易密码、银行卡网上支付密码……我们需要记太多太多的密码。纵然我们可以使一些密码一致，但无法让所有的密码都一样，到头来，我们仍要记不少的密码，尤其是对于掌握信息系统的人来说，密码更多了。</p>
+<p>实际上把密码记下来，也不代表不安全，完全留在脑中，反而容易忘记。所以有了 KeePass。</p>
+]]></content>
+      <categories>
+        <category>工具软件</category>
+        <category>keepass</category>
+      </categories>
+      <tags>
+        <tag>技术</tag>
+        <tag>工具软件</tag>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>mybase(个人笔记软件)</title>
     <url>/2021/05/21/keepass/mybase(%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6)/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>myBase 是一款用于分类管理任意格式文档资料的小型个人数据库软件， 有助于个人用户在 (Linux/MacOSX/Windows)桌面电脑系统上实施文档、笔记、日记、图片和网页等知识内容的分类管理。 借助软件提供的各项功能，创建和维护一个专属于自己的个人知识库将变的非常容易。 与传统意义上的数据库软件不同，myBase 通过内置的富文本编辑器接受图文信息的输入，并按树形大纲分门别类保存，同时接受任意磁盘文件作为大纲条目的附件。 myBase 提供了更好的方式使知识/信息的捕获、编辑、组织、查看、索引、搜索和分享变得更快捷、更容易。<br>对于工作中的一些个人笔记，可以用mybase存放，使用mybase可以避免文件散落在磁盘的各个地方。</p>
@@ -31,9 +48,9 @@
         <category>Obsidian</category>
       </categories>
       <tags>
+        <tag>技术</tag>
         <tag>工具软件</tag>
         <tag>笔记</tag>
-        <tag>技术</tag>
       </tags>
   </entry>
   <entry>
@@ -60,9 +77,9 @@
         <category>hexo</category>
       </categories>
       <tags>
+        <tag>技术</tag>
         <tag>工具软件</tag>
         <tag>笔记</tag>
-        <tag>技术</tag>
       </tags>
   </entry>
   <entry>
@@ -73,22 +90,5 @@
       <categories>
         <category>日常</category>
       </categories>
-  </entry>
-  <entry>
-    <title>keepass(密码管理工具)</title>
-    <url>/2021/05/21/keepass/keepass(%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7)/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>官方网站<a href="https://keepass.info/">keepass.info</a><br>github上已经两个项目全面地介绍了keepass及插件的使用方法：<br><a href="https://github.com/1688aa/KeePass-Plugins-Instructions-for-use">github.com/1688aa/KeePass-Plugins-Instructions-for-use</a><br><a href="https://github.com/1688aa/KeePass-Instructions-for-use">github.com/1688aa/KeePass-Instructions-for-use</a></p>
-<p>KeePass 是一款免费的开源密码管理器，KeePass 将密码存储为一个数据库，而这个数据库由一个主密码或密码文件锁住，也就是说我们只需要记住一个主密码，或使用一个密码文件，就可以解开这个数据库，就可以获得其他的密码内容。<br>办公室电脑密码、笔记本密码、家里电脑密码、上网帐号密码、手机服务密码、邮箱密码、QQ 密码、银行卡查询密码、银行卡交易密码、银行卡网上支付密码……我们需要记太多太多的密码。纵然我们可以使一些密码一致，但无法让所有的密码都一样，到头来，我们仍要记不少的密码，尤其是对于掌握信息系统的人来说，密码更多了。</p>
-<p>实际上把密码记下来，也不代表不安全，完全留在脑中，反而容易忘记。所以有了 KeePass。</p>
-]]></content>
-      <categories>
-        <category>工具软件</category>
-        <category>keepass</category>
-      </categories>
-      <tags>
-        <tag>工具软件</tag>
-        <tag>笔记</tag>
-        <tag>技术</tag>
-      </tags>
   </entry>
 </search>
