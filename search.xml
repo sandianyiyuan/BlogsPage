@@ -38,6 +38,15 @@
       </tags>
   </entry>
   <entry>
+    <title>关于焦虑</title>
+    <url>/2021/05/18/%E6%97%A5%E5%B8%B8/%E7%84%A6%E8%99%91/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>这几天感觉浑身不舒服，跟焦虑症的症状全都对上了<br>知乎上搜到篇文章<a href="https://zhuanlan.zhihu.com/p/25909485">焦虑，是闲出来的病，是懒出来的症</a>  </p>
+]]></content>
+      <categories>
+        <category>日常</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Obsidian使用笔记</title>
     <url>/2021/05/19/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Obsidian%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="Obsidian-超好用的笔记软件"><a href="#Obsidian-超好用的笔记软件" class="headerlink" title="Obsidian 超好用的笔记软件"></a>Obsidian 超好用的笔记软件</h2><p>软件自带的说明文档已经很详细的说明了使用方法，直接安装后开始研究。</p>
@@ -81,14 +90,5 @@
         <tag>工具软件</tag>
         <tag>笔记</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>关于焦虑</title>
-    <url>/2021/05/18/%E6%97%A5%E5%B8%B8/%E7%84%A6%E8%99%91/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>这几天感觉浑身不舒服，跟焦虑症的症状全都对上了<br>知乎上搜到篇文章<a href="https://zhuanlan.zhihu.com/p/25909485">焦虑，是闲出来的病，是懒出来的症</a>  </p>
-]]></content>
-      <categories>
-        <category>日常</category>
-      </categories>
   </entry>
 </search>
