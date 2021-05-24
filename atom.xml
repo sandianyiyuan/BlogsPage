@@ -6,7 +6,7 @@
   <link href="http://sdyy.host/atom.xml" rel="self"/>
   
   <link href="http://sdyy.host/"/>
-  <updated>2021-05-21T01:43:06.834Z</updated>
+  <updated>2021-05-24T03:31:06.866Z</updated>
   <id>http://sdyy.host/</id>
   
   <author>
@@ -17,9 +17,79 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>纠结症</title>
+    <link href="http://sdyy.host/%E6%97%A5%E5%B8%B8/%E7%BA%A0%E7%BB%93%E7%97%87/"/>
+    <id>http://sdyy.host/%E6%97%A5%E5%B8%B8/%E7%BA%A0%E7%BB%93%E7%97%87/</id>
+    <published>2021-05-24T02:26:40.000Z</published>
+    <updated>2021-05-24T03:31:06.866Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>经常会发生想做一件事又怕麻烦或者还没开始做就想得很远很远，怕开头的方向不对，导致后面纠正麻烦的情况，然后就让自己陷入无尽的纠结之中。<br>比如，我想搭博客，在博客中分享日常，这本来是一个挺好的想法，多了解一下之后发现在博客中可以打广告挣钱，要想挣钱就得分享有意义的内容，到这里又会想，既然要挣钱怎么不去做公众号呢？公众号更好引流，接着我又去查小白如何运营公众号，网上说首先是要找准定位，然后在细分领域中深耕细作，这一下又得想定位，开始想自己如何定位、哪个领域合适，怕定位不准，导致后期运营麻烦。你看，到这一步是不是想得太多了，这时候我意识到自己似乎已经背离写博客的初衷了。</p><p>晚上我开始思考，为什么这么纠结呢？我想到一句话是这么说的：种一棵树最好的时间是十年前，其次是现在。<br>对于有纠结症的人来说，种树之前是不是要问种什么树？可是为什么没人这么问，大概是没意义吧，随便啥树先种上再说，不要想以后这树是用来乘凉还是吃果子，要是拿来吃果子的话，是不是又要想应该种啥水果呢？未免太累了。<br><img src="https://z3.ax1x.com/2021/05/24/gjbShj.jpg" alt="抓狂"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="日常" scheme="http://sdyy.host/categories/%E6%97%A5%E5%B8%B8/"/>
+    
+    <category term="随想" scheme="http://sdyy.host/categories/%E6%97%A5%E5%B8%B8/%E9%9A%8F%E6%83%B3/"/>
+    
+    
+    <category term="日常" scheme="http://sdyy.host/tags/%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>送别国之脊梁袁隆平</title>
+    <link href="http://sdyy.host/%E6%97%A5%E5%B8%B8/%E9%80%81%E5%88%AB%E5%9B%BD%E4%B9%8B%E8%84%8A%E6%A2%81%E8%A2%81%E9%9A%86%E5%B9%B3/"/>
+    <id>http://sdyy.host/%E6%97%A5%E5%B8%B8/%E9%80%81%E5%88%AB%E5%9B%BD%E4%B9%8B%E8%84%8A%E6%A2%81%E8%A2%81%E9%9A%86%E5%B9%B3/</id>
+    <published>2021-05-22T07:25:46.000Z</published>
+    <updated>2021-05-24T03:40:14.068Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>【痛悼！送别国之脊梁袁隆平】今天，共和国痛失袁隆平院士。<br>“我最大的愿望是饭碗要牢牢地掌握在我们中国人自己手上！”<br>他把一生浸在稻田里，把功勋写在大地上。国士无双，致敬，缅怀！<br><img src="https://z3.ax1x.com/2021/05/22/gLpCq0.jpg" alt="袁隆平"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>hexo中本引用本站链接</title>
+    <link href="http://sdyy.host/hexo%E4%B8%AD%E6%9C%AC%E5%BC%95%E7%94%A8%E6%9C%AC%E7%AB%99%E9%93%BE%E6%8E%A5/"/>
+    <id>http://sdyy.host/hexo%E4%B8%AD%E6%9C%AC%E5%BC%95%E7%94%A8%E6%9C%AC%E7%AB%99%E9%93%BE%E6%8E%A5/</id>
+    <published>2021-05-22T04:29:59.000Z</published>
+    <updated>2021-05-24T03:39:09.137Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>在本地写md文件，在某篇文章中想引用其他文章，通过markdown的语法插入文章后，在本地跳转是OK的，但hexo生成静态文件部署之后的文章链接就不对了。<br>例如：我在这篇文章中引用“关于我”的页面。<br>这个地址在本地能正常跳转，部署后不能跳转：<br><a href="../../about/index.md">关于我</a></p><p>插入的链接如下：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[关于我](..&#x2F;..&#x2F;about&#x2F;index.md)</span><br></pre></td></tr></table></figure><p>在本地点击链接是可以正常跳转的，部署后web上文章的路径发生了变化，点击链接跳转就发生了错误。<br>原因有几点：<br>1.hexo的配置文件中 permalink 项是配置永久链接格式的。默认是年月日加文件路径，导致文件相对路径不正确的原因就是加了年月日，使网页路径与本地文件路径发生了变化，解决这个问题，可以去掉 permalink 配置中的年月日，只设置<code>:title/</code>就与与本地文件一致了。<br>2.现在解决了相对路径的问题，还有文件后缀存在问题。<br> md 文件中引用文件路径写的是 *.md , hexo 渲染的网页中还是 md ，导致页面还是访问不到，解决这个问题可以去掉链接中的后缀，这样markdown编辑器在本地能识别链接的文件，渲染后在浏览器中也能正常跳转。<br> 插入链接地址如下：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[关于我](..&#x2F;..&#x2F;about&#x2F;index)</span><br></pre></td></tr></table></figure><p>这个地址在本地能正常跳转，部署后也能跳转：<br><a href="../../about/index">关于我</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    
+    <category term="技术" scheme="http://sdyy.host/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="hexo" scheme="http://sdyy.host/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
     <title>keepass(密码管理工具)</title>
-    <link href="http://sdyy.host/2021/05/21/keepass/keepass(%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7)/"/>
-    <id>http://sdyy.host/2021/05/21/keepass/keepass(%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7)/</id>
+    <link href="http://sdyy.host/keepass/keepass(%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7)/"/>
+    <id>http://sdyy.host/keepass/keepass(%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7)/</id>
     <published>2021-05-21T01:20:15.000Z</published>
     <updated>2021-05-21T01:43:06.834Z</updated>
     
@@ -48,8 +118,8 @@
   
   <entry>
     <title>mybase(个人笔记软件)</title>
-    <link href="http://sdyy.host/2021/05/21/keepass/mybase(%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6)/"/>
-    <id>http://sdyy.host/2021/05/21/keepass/mybase(%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6)/</id>
+    <link href="http://sdyy.host/keepass/mybase(%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6)/"/>
+    <id>http://sdyy.host/keepass/mybase(%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6)/</id>
     <published>2021-05-21T01:15:15.000Z</published>
     <updated>2021-05-21T01:46:13.605Z</updated>
     
@@ -76,8 +146,8 @@
   
   <entry>
     <title>hexo搭建博客的过程</title>
-    <link href="http://sdyy.host/2021/05/19/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B/"/>
-    <id>http://sdyy.host/2021/05/19/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B/</id>
+    <link href="http://sdyy.host/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B/"/>
+    <id>http://sdyy.host/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B/</id>
     <published>2021-05-19T13:28:33.000Z</published>
     <updated>2021-05-21T08:28:34.894Z</updated>
     
@@ -106,12 +176,12 @@
   
   <entry>
     <title>Obsidian使用笔记</title>
-    <link href="http://sdyy.host/2021/05/19/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Obsidian%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/"/>
-    <id>http://sdyy.host/2021/05/19/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Obsidian%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</id>
+    <link href="http://sdyy.host/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Obsidian%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/"/>
+    <id>http://sdyy.host/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Obsidian%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</id>
     <published>2021-05-19T07:34:33.000Z</published>
-    <updated>2021-05-21T08:30:27.756Z</updated>
+    <updated>2021-05-24T02:24:16.840Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="Obsidian-超好用的笔记软件"><a href="#Obsidian-超好用的笔记软件" class="headerlink" title="Obsidian 超好用的笔记软件"></a>Obsidian 超好用的笔记软件</h2><p>软件自带的说明文档已经很详细的说明了使用方法，直接安装后开始研究。</p><p>如果你已经下载好obsidian，现在点击打开它。映入眼帘的是它的默认界面风格，我们马上就要改掉它，因为它不够快捷、直接。如果你曾有过开发经验，在一些开发IDE编辑器里写过代码，那obsidian的使用体验会让你如鱼得水，如果你没有开发经验也无妨，因为obsidian脱胎于markdown文本编辑器，你只要写过markdown文件，obsidian对你就是零门槛。即便你也从未用过markdown文件，也没关系，obsidian的操作及其简单，你只需要对着范例稍微熟悉最多半小时就可以轻松上手。点开范例随时开启obsidian之旅：点击help可以打开自带的示例库，里面有非常详细的使用说明。</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="Obsidian-超好用的笔记软件"><a href="#Obsidian-超好用的笔记软件" class="headerlink" title="Obsidian 超好用的笔记软件"></a>Obsidian 超好用的笔记软件</h2><p>官网地址：<a href="https://obsidian.md/">obsidian.md</a><br>软件自带的说明文档已经很详细的说明了使用方法，直接安装后开始研究。</p><p>如果你已经下载好obsidian，现在点击打开它。映入眼帘的是它的默认界面风格，我们马上就要改掉它，因为它不够快捷、直接。如果你曾有过开发经验，在一些开发IDE编辑器里写过代码，那obsidian的使用体验会让你如鱼得水，如果你没有开发经验也无妨，因为obsidian脱胎于markdown文本编辑器，你只要写过markdown文件，obsidian对你就是零门槛。即便你也从未用过markdown文件，也没关系，obsidian的操作及其简单，你只需要对着范例稍微熟悉最多半小时就可以轻松上手。点开范例随时开启obsidian之旅：点击help可以打开自带的示例库，里面有非常详细的使用说明。</p>]]></content>
     
     
       
@@ -136,8 +206,8 @@
   
   <entry>
     <title>github仓库开启Discussions</title>
-    <link href="http://sdyy.host/2021/05/18/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/github%E4%BB%93%E5%BA%93%E5%BC%80%E5%90%AFDiscussions/"/>
-    <id>http://sdyy.host/2021/05/18/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/github%E4%BB%93%E5%BA%93%E5%BC%80%E5%90%AFDiscussions/</id>
+    <link href="http://sdyy.host/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/github%E4%BB%93%E5%BA%93%E5%BC%80%E5%90%AFDiscussions/"/>
+    <id>http://sdyy.host/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/github%E4%BB%93%E5%BA%93%E5%BC%80%E5%90%AFDiscussions/</id>
     <published>2021-05-18T08:34:33.000Z</published>
     <updated>2021-05-21T08:31:59.377Z</updated>
     
@@ -162,8 +232,8 @@
   
   <entry>
     <title>关于焦虑</title>
-    <link href="http://sdyy.host/2021/05/18/%E6%97%A5%E5%B8%B8/%E7%84%A6%E8%99%91/"/>
-    <id>http://sdyy.host/2021/05/18/%E6%97%A5%E5%B8%B8/%E7%84%A6%E8%99%91/</id>
+    <link href="http://sdyy.host/%E6%97%A5%E5%B8%B8/%E7%84%A6%E8%99%91/"/>
+    <id>http://sdyy.host/%E6%97%A5%E5%B8%B8/%E7%84%A6%E8%99%91/</id>
     <published>2021-05-18T08:34:33.000Z</published>
     <updated>2021-05-21T02:07:28.012Z</updated>
     
@@ -183,13 +253,13 @@
   </entry>
   
   <entry>
-    <title>hello</title>
-    <link href="http://sdyy.host/2021/05/18/hello/"/>
-    <id>http://sdyy.host/2021/05/18/hello/</id>
-    <published>2021-05-18T00:08:08.000Z</published>
-    <updated>2021-05-21T02:03:50.981Z</updated>
+    <title>hello world</title>
+    <link href="http://sdyy.host/hello/"/>
+    <id>http://sdyy.host/hello/</id>
+    <published>2021-05-08T00:08:08.000Z</published>
+    <updated>2021-05-24T03:39:58.493Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>hello,这是我的博客，准备以后在这里做笔记、分享日常。<br>留言<a href="https://github.com/sandianyiyuan/BlogsPage/discussions">传送门</a></p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>按照惯例，从hello world开始，正式开启博客旅途。<br>这算是第一篇文章，以后在这里做笔记、分享日常。</p><p>如果有什么建议或者意见可以在文章末尾留言，由于使用的是第的三方评论系统，你的留言我可能看到不及时，而且回复你也不会收到提醒，如果想要与我沟通的话可以在博客讨论区与我交流：<a href="https://github.com/sandianyiyuan/BlogsPage/discussions">传送门</a>  或者在<a href="../about/index">关于我</a>页面通过其他联系方式找到我。</p>]]></content>
     
     
       
@@ -199,6 +269,30 @@
     
     
     
+    
+  </entry>
+  
+  <entry>
+    <title>币圈初窥</title>
+    <link href="http://sdyy.host/%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81/%E5%B8%81%E5%9C%88%E5%88%9D%E7%AA%A5/"/>
+    <id>http://sdyy.host/%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81/%E5%B8%81%E5%9C%88%E5%88%9D%E7%AA%A5/</id>
+    <published>2021-03-21T13:52:56.000Z</published>
+    <updated>2021-05-24T02:24:16.837Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>&#8194;&#8194;最近币市又疯狂了，手痒，也想了解一下电子货币的工作原理。<br>周末两天啥都没干，就百度谷歌微博知乎油管B站到处搜，找比特币相关介绍，其实一年前在上一波电子货币火热的时候就在B站看过<a href="https://space.bilibili.com/9458053?from=search&seid=11778469763140839529">李永乐老师</a>讲<a href="https://www.bilibili.com/video/BV1Bb411B7dq">比特币和区块链啥原理？矿机挖矿咋回事？</a>,这又看了一遍。<br>另外注册了OKEX和火币交易所，在上面买入卖出跑通了交易流程，后面了解了比特币钱包的加密性质和大概原理，感觉交易平台上买的币不实在，去中心化的货币在交易平台上应该是集中记账的，否则平台上转账做不到秒转，在后来看到的视频中也有博主强调了这一点，如果不是在交易平台上炒币的话，尽量不要放太多币在平台上，平台只用于买入卖出，交易完就应该马上提现离场。<br>然后就开始找合适的钱包了，在谷歌应用商店里里下载了十多个电子货币钱包，最后只楼下了比太和比特派，比太可以做冷钱包，比特派是热钱包，同时可以监控冷钱包的钱，不得不说比特币系统设计得很巧妙。<br>万事俱备就差币了，买了一点比特币和以太坊由于提现需要手续费，买得又少，暂时先不提到自己钱包上了。<br>然后看到我的电脑买来闲置很久了，正好显卡是RX580不拿来挖矿实在可惜。又花半天找挖矿程序，网上大多数挖矿软件会报毒，网友都说是正常的，随你们信不信，反正我不信。在github上找的正规内核程序，根本不报毒。<br>好了，让它跑一晚上，我也感受一下睡后收入，预计可能有几块块钱😂</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="其他" scheme="http://sdyy.host/categories/%E5%85%B6%E4%BB%96/"/>
+    
+    
+    <category term="加密货币" scheme="http://sdyy.host/tags/%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81/"/>
     
   </entry>
   
