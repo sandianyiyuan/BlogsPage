@@ -6,7 +6,7 @@
   <link href="http://sdyy.host/atom.xml" rel="self"/>
   
   <link href="http://sdyy.host/"/>
-  <updated>2021-05-24T06:15:57.891Z</updated>
+  <updated>2021-05-25T03:00:58.165Z</updated>
   <id>http://sdyy.host/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Anywhere 快捷卡片应用</title>
+    <link href="http://sdyy.host/%E6%97%A5%E5%B8%B8/Anywhere%20%E5%BF%AB%E6%8D%B7%E5%8D%A1%E7%89%87%E5%BA%94%E7%94%A8/"/>
+    <id>http://sdyy.host/%E6%97%A5%E5%B8%B8/Anywhere%20%E5%BF%AB%E6%8D%B7%E5%8D%A1%E7%89%87%E5%BA%94%E7%94%A8/</id>
+    <published>2021-05-25T02:45:31.000Z</published>
+    <updated>2021-05-25T03:00:58.165Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Anywhere 是一款快捷卡片应用，可以在桌面灵活的创建应用快捷方式。</p><p>有时候在群里说了一句话没人理我，然后我就想，能不能不说这么多废话，或者换一个地方说？ 不说憋着不舒服，发朋友圈感觉又不合适，想来想去好像只有微博最适合日常吐槽，发一些乱七八糟的东西。<br>这时候发现微博发文不像在群里说话那样输入内容点 send 就发出去了，微博稍微繁琐一些。想找一款第三方的客户端，它只有一个类似微信对话窗口，输入内容点 send 就能发博，避免停留在微博首页时间太长被其他信息干扰。<br>找来找去没找到合适的客户端，最后还是用了微博的官方客户端。<br>后来想到之前安装的快捷方式卡片能创建一个快捷方式，通过快捷方式可以直接打开编辑微博的页面，感觉这也很方便快捷。<br>上手之后发现确实不错。  </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="日常" scheme="http://sdyy.host/categories/%E6%97%A5%E5%B8%B8/"/>
+    
+    
+    <category term="日常" scheme="http://sdyy.host/tags/%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
   
   <entry>
     <title>纠结症</title>

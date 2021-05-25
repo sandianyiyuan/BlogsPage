@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>hello world</title>
+    <url>/hello/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>按照惯例，从hello world开始，正式开启博客旅途。<br>这算是第一篇文章，以后在这里做笔记、分享日常。</p>
+<p>如果有什么建议或者意见可以在文章末尾留言，由于使用的是第的三方评论系统，你的留言我可能看到不及时，而且回复你也不会收到提醒，如果想要与我沟通的话可以在博客讨论区与我交流：<a href="https://github.com/sandianyiyuan/BlogsPage/discussions">传送门</a>  或者在<a href="../about/index">关于我</a>页面通过其他联系方式找到我。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>hexo中本引用本站链接</title>
     <url>/hexo%E4%B8%AD%E6%9C%AC%E5%BC%95%E7%94%A8%E6%9C%AC%E7%AB%99%E9%93%BE%E6%8E%A5/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>在本地写md文件，在某篇文章中想引用其他文章，通过markdown的语法插入文章后，在本地跳转是OK的，但hexo生成静态文件部署之后的文章链接就不对了。<br>例如：我在这篇文章中引用“关于我”的页面。<br>这个地址在本地能正常跳转，部署后不能跳转：<br><a href="../../about/index.md">关于我</a></p>
@@ -16,11 +23,35 @@
       </tags>
   </entry>
   <entry>
-    <title>hello world</title>
-    <url>/hello/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>按照惯例，从hello world开始，正式开启博客旅途。<br>这算是第一篇文章，以后在这里做笔记、分享日常。</p>
-<p>如果有什么建议或者意见可以在文章末尾留言，由于使用的是第的三方评论系统，你的留言我可能看到不及时，而且回复你也不会收到提醒，如果想要与我沟通的话可以在博客讨论区与我交流：<a href="https://github.com/sandianyiyuan/BlogsPage/discussions">传送门</a>  或者在<a href="../about/index">关于我</a>页面通过其他联系方式找到我。</p>
+    <title>mybase(个人笔记软件)</title>
+    <url>/keepass/mybase(%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6)/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>myBase 是一款用于分类管理任意格式文档资料的小型个人数据库软件， 有助于个人用户在 (Linux/MacOSX/Windows)桌面电脑系统上实施文档、笔记、日记、图片和网页等知识内容的分类管理。 借助软件提供的各项功能，创建和维护一个专属于自己的个人知识库将变的非常容易。 与传统意义上的数据库软件不同，myBase 通过内置的富文本编辑器接受图文信息的输入，并按树形大纲分门别类保存，同时接受任意磁盘文件作为大纲条目的附件。 myBase 提供了更好的方式使知识/信息的捕获、编辑、组织、查看、索引、搜索和分享变得更快捷、更容易。<br>对于工作中的一些个人笔记，可以用mybase存放，使用mybase可以避免文件散落在磁盘的各个地方。</p>
 ]]></content>
+      <categories>
+        <category>工具软件</category>
+        <category>mybase</category>
+      </categories>
+      <tags>
+        <tag>工具软件</tag>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>keepass(密码管理工具)</title>
+    <url>/keepass/keepass(%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7)/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>官方网站<a href="https://keepass.info/">keepass.info</a><br>github上已经两个项目全面地介绍了keepass及插件的使用方法：<br><a href="https://github.com/1688aa/KeePass-Plugins-Instructions-for-use">github.com/1688aa/KeePass-Plugins-Instructions-for-use</a><br><a href="https://github.com/1688aa/KeePass-Instructions-for-use">github.com/1688aa/KeePass-Instructions-for-use</a></p>
+<p>KeePass 是一款免费的开源密码管理器，KeePass 将密码存储为一个数据库，而这个数据库由一个主密码或密码文件锁住，也就是说我们只需要记住一个主密码，或使用一个密码文件，就可以解开这个数据库，就可以获得其他的密码内容。<br>办公室电脑密码、笔记本密码、家里电脑密码、上网帐号密码、手机服务密码、邮箱密码、QQ 密码、银行卡查询密码、银行卡交易密码、银行卡网上支付密码……我们需要记太多太多的密码。纵然我们可以使一些密码一致，但无法让所有的密码都一样，到头来，我们仍要记不少的密码，尤其是对于掌握信息系统的人来说，密码更多了。</p>
+<p>实际上把密码记下来，也不代表不安全，完全留在脑中，反而容易忘记。所以有了 KeePass。</p>
+]]></content>
+      <categories>
+        <category>工具软件</category>
+        <category>keepass</category>
+      </categories>
+      <tags>
+        <tag>技术</tag>
+        <tag>工具软件</tag>
+        <tag>笔记</tag>
+      </tags>
   </entry>
   <entry>
     <title>币圈初窥</title>
@@ -32,6 +63,19 @@
       </categories>
       <tags>
         <tag>加密货币</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>github仓库开启Discussions</title>
+    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/github%E4%BB%93%E5%BA%93%E5%BC%80%E5%90%AFDiscussions/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>才发现github仓库可以开Discussions。<br>该功能在settings-&gt;Options中，勾选Discussions就可开启。<br>开启后就可以方便的讨论问题而不用提issue了。<br>快来跟我一起讨论吧<a href="https://github.com/sandianyiyuan/BlogsPage/discussions">传送门</a></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+        <category>git</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
       </tags>
   </entry>
   <entry>
@@ -51,16 +95,16 @@
       </tags>
   </entry>
   <entry>
-    <title>github仓库开启Discussions</title>
-    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/github%E4%BB%93%E5%BA%93%E5%BC%80%E5%90%AFDiscussions/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>才发现github仓库可以开Discussions。<br>该功能在settings-&gt;Options中，勾选Discussions就可开启。<br>开启后就可以方便的讨论问题而不用提issue了。<br>快来跟我一起讨论吧<a href="https://github.com/sandianyiyuan/BlogsPage/discussions">传送门</a></p>
+    <title>Anywhere 快捷卡片应用</title>
+    <url>/%E6%97%A5%E5%B8%B8/Anywhere%20%E5%BF%AB%E6%8D%B7%E5%8D%A1%E7%89%87%E5%BA%94%E7%94%A8/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Anywhere 是一款快捷卡片应用，可以在桌面灵活的创建应用快捷方式。</p>
+<p>有时候在群里说了一句话没人理我，然后我就想，能不能不说这么多废话，或者换一个地方说？ 不说憋着不舒服，发朋友圈感觉又不合适，想来想去好像只有微博最适合日常吐槽，发一些乱七八糟的东西。<br>这时候发现微博发文不像在群里说话那样输入内容点 send 就发出去了，微博稍微繁琐一些。想找一款第三方的客户端，它只有一个类似微信对话窗口，输入内容点 send 就能发博，避免停留在微博首页时间太长被其他信息干扰。<br>找来找去没找到合适的客户端，最后还是用了微博的官方客户端。<br>后来想到之前安装的快捷方式卡片能创建一个快捷方式，通过快捷方式可以直接打开编辑微博的页面，感觉这也很方便快捷。<br>上手之后发现确实不错。  </p>
 ]]></content>
       <categories>
-        <category>技术</category>
-        <category>git</category>
+        <category>日常</category>
       </categories>
       <tags>
-        <tag>git</tag>
+        <tag>日常</tag>
       </tags>
   </entry>
   <entry>
@@ -109,36 +153,5 @@
     <url>/%E6%97%A5%E5%B8%B8/%E9%80%81%E5%88%AB%E5%9B%BD%E4%B9%8B%E8%84%8A%E6%A2%81%E8%A2%81%E9%9A%86%E5%B9%B3/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>【痛悼！送别国之脊梁袁隆平】今天，共和国痛失袁隆平院士。<br>“我最大的愿望是饭碗要牢牢地掌握在我们中国人自己手上！”<br>他把一生浸在稻田里，把功勋写在大地上。国士无双，致敬，缅怀！<br><img src="https://z3.ax1x.com/2021/05/22/gLpCq0.jpg" alt="袁隆平"></p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>keepass(密码管理工具)</title>
-    <url>/keepass/keepass(%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7)/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>官方网站<a href="https://keepass.info/">keepass.info</a><br>github上已经两个项目全面地介绍了keepass及插件的使用方法：<br><a href="https://github.com/1688aa/KeePass-Plugins-Instructions-for-use">github.com/1688aa/KeePass-Plugins-Instructions-for-use</a><br><a href="https://github.com/1688aa/KeePass-Instructions-for-use">github.com/1688aa/KeePass-Instructions-for-use</a></p>
-<p>KeePass 是一款免费的开源密码管理器，KeePass 将密码存储为一个数据库，而这个数据库由一个主密码或密码文件锁住，也就是说我们只需要记住一个主密码，或使用一个密码文件，就可以解开这个数据库，就可以获得其他的密码内容。<br>办公室电脑密码、笔记本密码、家里电脑密码、上网帐号密码、手机服务密码、邮箱密码、QQ 密码、银行卡查询密码、银行卡交易密码、银行卡网上支付密码……我们需要记太多太多的密码。纵然我们可以使一些密码一致，但无法让所有的密码都一样，到头来，我们仍要记不少的密码，尤其是对于掌握信息系统的人来说，密码更多了。</p>
-<p>实际上把密码记下来，也不代表不安全，完全留在脑中，反而容易忘记。所以有了 KeePass。</p>
-]]></content>
-      <categories>
-        <category>工具软件</category>
-        <category>keepass</category>
-      </categories>
-      <tags>
-        <tag>技术</tag>
-        <tag>工具软件</tag>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>mybase(个人笔记软件)</title>
-    <url>/keepass/mybase(%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6)/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>myBase 是一款用于分类管理任意格式文档资料的小型个人数据库软件， 有助于个人用户在 (Linux/MacOSX/Windows)桌面电脑系统上实施文档、笔记、日记、图片和网页等知识内容的分类管理。 借助软件提供的各项功能，创建和维护一个专属于自己的个人知识库将变的非常容易。 与传统意义上的数据库软件不同，myBase 通过内置的富文本编辑器接受图文信息的输入，并按树形大纲分门别类保存，同时接受任意磁盘文件作为大纲条目的附件。 myBase 提供了更好的方式使知识/信息的捕获、编辑、组织、查看、索引、搜索和分享变得更快捷、更容易。<br>对于工作中的一些个人笔记，可以用mybase存放，使用mybase可以避免文件散落在磁盘的各个地方。</p>
-]]></content>
-      <categories>
-        <category>工具软件</category>
-        <category>mybase</category>
-      </categories>
-      <tags>
-        <tag>工具软件</tag>
-        <tag>笔记</tag>
-      </tags>
   </entry>
 </search>
