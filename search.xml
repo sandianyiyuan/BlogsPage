@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>hello world</title>
-    <url>/hello/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>按照惯例，从hello world开始，正式开启博客旅途。<br>这算是第一篇文章，以后在这里做笔记、分享日常。</p>
-<p>如果有什么建议或者意见可以在文章末尾留言，由于使用的是第的三方评论系统，你的留言我可能看到不及时，而且回复你也不会收到提醒，如果想要与我沟通的话可以在博客讨论区与我交流：<a href="https://github.com/sandianyiyuan/BlogsPage/discussions">传送门</a>  或者在<a href="../about/index">关于我</a>页面通过其他联系方式找到我。</p>
-]]></content>
-  </entry>
-  <entry>
     <title>hexo中本引用本站链接</title>
     <url>/hexo%E4%B8%AD%E6%9C%AC%E5%BC%95%E7%94%A8%E6%9C%AC%E7%AB%99%E9%93%BE%E6%8E%A5/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>在本地写md文件，在某篇文章中想引用其他文章，通过markdown的语法插入文章后，在本地跳转是OK的，但hexo生成静态文件部署之后的文章链接就不对了。<br>例如：我在这篇文章中引用“关于我”的页面。<br>这个地址在本地能正常跳转，部署后不能跳转：<br><a href="../../about/index.md">关于我</a></p>
@@ -21,6 +14,13 @@
         <tag>技术</tag>
         <tag>hexo</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>hello world</title>
+    <url>/hello/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>按照惯例，从hello world开始，正式开启博客旅途。<br>这算是第一篇文章，以后在这里做笔记、分享日常。</p>
+<p>如果有什么建议或者意见可以在文章末尾留言，由于使用的是第的三方评论系统，你的留言我可能看到不及时，而且回复你也不会收到提醒，如果想要与我沟通的话可以在博客讨论区与我交流：<a href="https://github.com/sandianyiyuan/BlogsPage/discussions">传送门</a>  或者在<a href="../about/index">关于我</a>页面通过其他联系方式找到我。</p>
+]]></content>
   </entry>
   <entry>
     <title>mybase(个人笔记软件)</title>
@@ -66,16 +66,59 @@
       </tags>
   </entry>
   <entry>
-    <title>币海大浪涛涛 人心左右摇</title>
-    <url>/%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81/%E5%B8%81%E6%B5%B7%E5%A4%A7%E6%B5%AA%E6%B6%9B%E6%B6%9B%20%E4%BA%BA%E5%BF%83%E5%B7%A6%E5%8F%B3%E6%91%87/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>币圈有句话“币圈一天，人间一年”。<br>最近币圈跌得生猛，前面投进去试水的一点钱，赶上大涨，后又大跌。真的应了这那句话。  目前浮亏一两个点，我是作为探索和研究加密货币而投资的，资金量不大而且都是现货，任它涨跌我就不动，看它到底要干啥。</p>
+    <title>Linux定时任务配置</title>
+    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Linux%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Linux定时任务配置在线生成工具：<a href="https://cron.qqe2.com/">https://cron.qqe2.com/</a></p>
+]]></content>
+      <tags>
+        <tag>技术</tag>
+        <tag>工具软件</tag>
+        <tag>linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Obsidian使用笔记</title>
+    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Obsidian%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="Obsidian-超好用的笔记软件"><a href="#Obsidian-超好用的笔记软件" class="headerlink" title="Obsidian 超好用的笔记软件"></a>Obsidian 超好用的笔记软件</h2><p>官网地址：<a href="https://obsidian.md/">obsidian.md</a><br>软件自带的说明文档已经很详细的说明了使用方法，直接安装后开始研究。</p>
+<p>如果你已经下载好obsidian，现在点击打开它。映入眼帘的是它的默认界面风格，我们马上就要改掉它，因为它不够快捷、直接。如果你曾有过开发经验，在一些开发IDE编辑器里写过代码，那obsidian的使用体验会让你如鱼得水，如果你没有开发经验也无妨，因为obsidian脱胎于markdown文本编辑器，你只要写过markdown文件，obsidian对你就是零门槛。即便你也从未用过markdown文件，也没关系，obsidian的操作及其简单，你只需要对着范例稍微熟悉最多半小时就可以轻松上手。点开范例随时开启obsidian之旅：点击help可以打开自带的示例库，里面有非常详细的使用说明。</p>
 ]]></content>
       <categories>
-        <category>日常</category>
-        <category>随想</category>
+        <category>工具软件</category>
+        <category>Obsidian</category>
       </categories>
       <tags>
-        <tag>加密货币</tag>
+        <tag>技术</tag>
+        <tag>工具软件</tag>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>github仓库开启Discussions</title>
+    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/github%E4%BB%93%E5%BA%93%E5%BC%80%E5%90%AFDiscussions/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>才发现github仓库可以开Discussions。<br>该功能在settings-&gt;Options中，勾选Discussions就可开启。<br>开启后就可以方便的讨论问题而不用提issue了。<br>快来跟我一起讨论吧<a href="https://github.com/sandianyiyuan/BlogsPage/discussions">传送门</a></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+        <category>git</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo搭建博客的过程</title>
+    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>hexo d 部署报错 ERROR Deployer not found: git 需要安装插件<br><code>npm install --save hexo-deployer-git</code></p>
+<h2 id="多电脑托管的处理方式"><a href="#多电脑托管的处理方式" class="headerlink" title="多电脑托管的处理方式"></a>多电脑托管的处理方式</h2><p>在公司电脑源码构建完成，回到家换了一台电脑想继续弄，应该怎么做？<br>直接将代码库拉下来是不行的，因为代码库中并没有托管全部所需的依赖包<br>应该在新电脑上执行<code>hexo init</code>，创建一个新的hexo项目，然后再将git库中的内容克隆到另一个目录中，克隆完之后，将所有的文件拷贝到刚才初始化的hexo项目目录中。并安装所需要的hexo插件。一切都完成之后就可以继续写文章，提交内容了 。</p>
+]]></content>
+      <categories>
+        <category>技术</category>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>技术</tag>
+        <tag>工具软件</tag>
+        <tag>笔记</tag>
       </tags>
   </entry>
   <entry>
@@ -114,12 +157,6 @@
       </categories>
   </entry>
   <entry>
-    <title>送别国之脊梁袁隆平</title>
-    <url>/%E6%97%A5%E5%B8%B8/%E9%80%81%E5%88%AB%E5%9B%BD%E4%B9%8B%E8%84%8A%E6%A2%81%E8%A2%81%E9%9A%86%E5%B9%B3/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>【痛悼！送别国之脊梁袁隆平】今天，共和国痛失袁隆平院士。<br>“我最大的愿望是饭碗要牢牢地掌握在我们中国人自己手上！”<br>他把一生浸在稻田里，把功勋写在大地上。国士无双，致敬，缅怀！<br><img src="https://z3.ax1x.com/2021/05/22/gLpCq0.jpg" alt="袁隆平"></p>
-]]></content>
-  </entry>
-  <entry>
     <title>纠结症</title>
     <url>/%E6%97%A5%E5%B8%B8/%E7%BA%A0%E7%BB%93%E7%97%87/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>经常会发生想做一件事又怕麻烦或者还没开始做就想得很远很远，怕开头的方向不对，导致后面纠正麻烦的情况，然后就让自己陷入无尽的纠结之中。<br><img src="https://z3.ax1x.com/2021/05/24/gjbShj.jpg" alt="抓狂"></p>
@@ -136,48 +173,22 @@
       </tags>
   </entry>
   <entry>
-    <title>Obsidian使用笔记</title>
-    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Obsidian%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="Obsidian-超好用的笔记软件"><a href="#Obsidian-超好用的笔记软件" class="headerlink" title="Obsidian 超好用的笔记软件"></a>Obsidian 超好用的笔记软件</h2><p>官网地址：<a href="https://obsidian.md/">obsidian.md</a><br>软件自带的说明文档已经很详细的说明了使用方法，直接安装后开始研究。</p>
-<p>如果你已经下载好obsidian，现在点击打开它。映入眼帘的是它的默认界面风格，我们马上就要改掉它，因为它不够快捷、直接。如果你曾有过开发经验，在一些开发IDE编辑器里写过代码，那obsidian的使用体验会让你如鱼得水，如果你没有开发经验也无妨，因为obsidian脱胎于markdown文本编辑器，你只要写过markdown文件，obsidian对你就是零门槛。即便你也从未用过markdown文件，也没关系，obsidian的操作及其简单，你只需要对着范例稍微熟悉最多半小时就可以轻松上手。点开范例随时开启obsidian之旅：点击help可以打开自带的示例库，里面有非常详细的使用说明。</p>
+    <title>送别国之脊梁袁隆平</title>
+    <url>/%E6%97%A5%E5%B8%B8/%E9%80%81%E5%88%AB%E5%9B%BD%E4%B9%8B%E8%84%8A%E6%A2%81%E8%A2%81%E9%9A%86%E5%B9%B3/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>【痛悼！送别国之脊梁袁隆平】今天，共和国痛失袁隆平院士。<br>“我最大的愿望是饭碗要牢牢地掌握在我们中国人自己手上！”<br>他把一生浸在稻田里，把功勋写在大地上。国士无双，致敬，缅怀！<br><img src="https://z3.ax1x.com/2021/05/22/gLpCq0.jpg" alt="袁隆平"></p>
 ]]></content>
-      <categories>
-        <category>工具软件</category>
-        <category>Obsidian</category>
-      </categories>
-      <tags>
-        <tag>技术</tag>
-        <tag>工具软件</tag>
-        <tag>笔记</tag>
-      </tags>
   </entry>
   <entry>
-    <title>hexo搭建博客的过程</title>
-    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>hexo d 部署报错 ERROR Deployer not found: git 需要安装插件<br><code>npm install --save hexo-deployer-git</code></p>
-<h2 id="多电脑托管的处理方式"><a href="#多电脑托管的处理方式" class="headerlink" title="多电脑托管的处理方式"></a>多电脑托管的处理方式</h2><p>在公司电脑源码构建完成，回到家换了一台电脑想继续弄，应该怎么做？<br>直接将代码库拉下来是不行的，因为代码库中并没有托管全部所需的依赖包<br>应该在新电脑上执行<code>hexo init</code>，创建一个新的hexo项目，然后再将git库中的内容克隆到另一个目录中，克隆完之后，将所有的文件拷贝到刚才初始化的hexo项目目录中。并安装所需要的hexo插件。一切都完成之后就可以继续写文章，提交内容了 。</p>
+    <title>币海大浪涛涛 人心左右摇</title>
+    <url>/%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81/%E5%B8%81%E6%B5%B7%E5%A4%A7%E6%B5%AA%E6%B6%9B%E6%B6%9B%20%E4%BA%BA%E5%BF%83%E5%B7%A6%E5%8F%B3%E6%91%87/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>币圈有句话“币圈一天，人间一年”。<br>最近币圈跌得生猛，前面投进去试水的一点钱，赶上大涨，后又大跌。真的应了这那句话。  目前浮亏一两个点，我是作为探索和研究加密货币而投资的，资金量不大而且都是现货，任它涨跌我就不动，看它到底要干啥。</p>
 ]]></content>
       <categories>
-        <category>技术</category>
-        <category>hexo</category>
+        <category>日常</category>
+        <category>随想</category>
       </categories>
       <tags>
-        <tag>技术</tag>
-        <tag>工具软件</tag>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>github仓库开启Discussions</title>
-    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/github%E4%BB%93%E5%BA%93%E5%BC%80%E5%90%AFDiscussions/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>才发现github仓库可以开Discussions。<br>该功能在settings-&gt;Options中，勾选Discussions就可开启。<br>开启后就可以方便的讨论问题而不用提issue了。<br>快来跟我一起讨论吧<a href="https://github.com/sandianyiyuan/BlogsPage/discussions">传送门</a></p>
-]]></content>
-      <categories>
-        <category>技术</category>
-        <category>git</category>
-      </categories>
-      <tags>
-        <tag>git</tag>
+        <tag>加密货币</tag>
       </tags>
   </entry>
 </search>
