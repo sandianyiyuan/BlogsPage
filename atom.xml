@@ -6,7 +6,7 @@
   <link href="http://sdyy.host/atom.xml" rel="self"/>
   
   <link href="http://sdyy.host/"/>
-  <updated>2021-05-31T06:10:23.080Z</updated>
+  <updated>2021-06-03T09:46:46.529Z</updated>
   <id>http://sdyy.host/</id>
   
   <author>
@@ -15,6 +15,60 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>java 学习笔记</title>
+    <link href="http://sdyy.host/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JAVA/java%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <id>http://sdyy.host/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JAVA/java%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
+    <published>2021-06-03T09:32:11.000Z</published>
+    <updated>2021-06-03T09:46:46.529Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>ipml 接口的实现类</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="技术" scheme="http://sdyy.host/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="java" scheme="http://sdyy.host/categories/%E6%8A%80%E6%9C%AF/java/"/>
+    
+    
+    <category term="技术" scheme="http://sdyy.host/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="java" scheme="http://sdyy.host/tags/java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello SpringBoot</title>
+    <link href="http://sdyy.host/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/Hello%20SpringBoot/"/>
+    <id>http://sdyy.host/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/Hello%20SpringBoot/</id>
+    <published>2021-06-03T06:17:03.000Z</published>
+    <updated>2021-06-03T09:31:34.247Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Hello SpringBoot</p><h2 id="创建项目"><a href="#创建项目" class="headerlink" title="创建项目"></a>创建项目</h2><p>创建SpringBoot项目需要联网获取依赖。<br>官方提供的创建方式：<a href="https://start.spring.io/">https://start.spring.io/</a><br>如果上面个地址不能访问，可以试试阿里提供的站点<a href="https://start.aliyun.com/bootstrap.html">https://start.aliyun.com/bootstrap.html</a></p><p>创建项目的参考<a href="https://blog.csdn.net/qq_42539533/article/details/90607415">https://blog.csdn.net/qq_42539533/article/details/90607415</a></p><p>创建项目需要填写一些信息<br><code>Group</code>：<strong>项目组织</strong>的唯一标识符，通常分为多个段，自己使用随便设置即可（我一般使用host.sdyy，sdyy是我网名的缩写）</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">介绍两段的写法,第一段为域,第二段为公司名称</span><br><span class="line">域又分为org、com、cn等,其中org为非营利组织,com为商业组织,cn表示中国,这个根据自己的域名来写</span><br><span class="line">例如apache公司的tomcat项目:org.apache.tomcat</span><br><span class="line">- Group 是org.apache</span><br><span class="line">- 域是org</span><br><span class="line">- 公司名称是apache</span><br><span class="line">- Artifact是tomcat</span><br></pre></td></tr></table></figure><p><code>Artifact</code>：<strong>项目</strong>的唯一的标识符，就是项目的名称，不能有大写，都是小写！</p><p>因此Grounp+Artifact就相当于项目的坐标，保证了项目的唯一性</p><p><code>Name</code>：默认同Artifact，声明了一个对于用户更为友好的项目名称，不是必须的</p><p><code>Description</code>：项目描述</p><p><code>Package name</code>：指定main目录里java下的包名称，默认为Group+Artifact</p><p><code>Packaging</code>：打包方式</p><p><code>version</code>：指定了项目的当前版本，SNAPSHOT意为快照，说明该项目还处于开发中，是不稳定的版本</p><p>所有信息填写完成之后，点击页面上的获取代码，根据提示下载或者克隆代码。</p><p>将项目导入到 IDEA 中，执行一下 MAVEN Updata 。<br>找到主程序，点击运行，就可以在本地浏览器访问到页面了。<br><img src="attachment/Pasted%20image%2020210603161006.png"></p><p>关于基础包，使用默认的值 Group + Artifact 生成的代码在 IDE 中会提示包路径不对：<br><img src="attachment/Pasted%20image%2020210603162636.png"></p><p>自己重新设置一下，去掉 Artifact ，生成的就正常了。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="技术" scheme="http://sdyy.host/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="技术" scheme="http://sdyy.host/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="Spring Boot" scheme="http://sdyy.host/tags/Spring-Boot/"/>
+    
+  </entry>
   
   <entry>
     <title>Linux定时任务配置</title>
@@ -304,6 +358,28 @@
   </entry>
   
   <entry>
+    <title>关于焦虑</title>
+    <link href="http://sdyy.host/%E6%97%A5%E5%B8%B8/%E7%84%A6%E8%99%91/"/>
+    <id>http://sdyy.host/%E6%97%A5%E5%B8%B8/%E7%84%A6%E8%99%91/</id>
+    <published>2021-05-18T08:34:33.000Z</published>
+    <updated>2021-05-21T02:07:28.012Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>这几天感觉浑身不舒服，跟焦虑症的症状全都对上了<br>知乎上搜到篇文章<a href="https://zhuanlan.zhihu.com/p/25909485">焦虑，是闲出来的病，是懒出来的症</a>  </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="日常" scheme="http://sdyy.host/categories/%E6%97%A5%E5%B8%B8/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>github仓库开启Discussions</title>
     <link href="http://sdyy.host/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/github%E4%BB%93%E5%BA%93%E5%BC%80%E5%90%AFDiscussions/"/>
     <id>http://sdyy.host/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/github%E4%BB%93%E5%BA%93%E5%BC%80%E5%90%AFDiscussions/</id>
@@ -326,28 +402,6 @@
     
     
     <category term="git" scheme="http://sdyy.host/tags/git/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>关于焦虑</title>
-    <link href="http://sdyy.host/%E6%97%A5%E5%B8%B8/%E7%84%A6%E8%99%91/"/>
-    <id>http://sdyy.host/%E6%97%A5%E5%B8%B8/%E7%84%A6%E8%99%91/</id>
-    <published>2021-05-18T08:34:33.000Z</published>
-    <updated>2021-05-21T02:07:28.012Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>这几天感觉浑身不舒服，跟焦虑症的症状全都对上了<br>知乎上搜到篇文章<a href="https://zhuanlan.zhihu.com/p/25909485">焦虑，是闲出来的病，是懒出来的症</a>  </p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    <category term="日常" scheme="http://sdyy.host/categories/%E6%97%A5%E5%B8%B8/"/>
-    
     
   </entry>
   

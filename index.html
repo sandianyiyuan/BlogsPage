@@ -147,6 +147,129 @@
     
     
     <article
+  id="post-学习笔记/JAVA/java 学习笔记"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JAVA/java%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"
+    >java 学习笔记</a> 
+</h2>
+ 
+
+      
+    </header>
+     
+    <div class="article-meta">
+      <a href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JAVA/java%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="article-date">
+  <time datetime="2021-06-03T09:32:11.000Z" itemprop="datePublished">2021-06-03</time>
+</a> 
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a> / <a class="article-category-link" href="/categories/%E6%8A%80%E6%9C%AF/java/">java</a>
+  </div>
+   
+    </div>
+      
+    <div class="article-entry" itemprop="articleBody">
+       
+  <p>ipml 接口的实现类</p>
+ 
+      <!-- reward -->
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <footer class="article-footer">
+       
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/java/" rel="tag">java</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%8A%80%E6%9C%AF/" rel="tag">技术</a></li></ul>
+
+    </footer>
+  </div>
+
+    
+ 
+    
+</article>
+
+    
+    <article
+  id="post-学习笔记/SpringBoot/Hello SpringBoot"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/Hello%20SpringBoot/"
+    >Hello SpringBoot</a> 
+</h2>
+ 
+
+      
+    </header>
+     
+    <div class="article-meta">
+      <a href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/Hello%20SpringBoot/" class="article-date">
+  <time datetime="2021-06-03T06:17:03.000Z" itemprop="datePublished">2021-06-03</time>
+</a> 
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a>
+  </div>
+   
+    </div>
+      
+    <div class="article-entry" itemprop="articleBody">
+       
+  <p>Hello SpringBoot</p>
+<h2 id="创建项目"><a href="#创建项目" class="headerlink" title="创建项目"></a>创建项目</h2><p>创建SpringBoot项目需要联网获取依赖。<br>官方提供的创建方式：<a target="_blank" rel="noopener" href="https://start.spring.io/">https://start.spring.io/</a><br>如果上面个地址不能访问，可以试试阿里提供的站点<a target="_blank" rel="noopener" href="https://start.aliyun.com/bootstrap.html">https://start.aliyun.com/bootstrap.html</a></p>
+<p>创建项目的参考<a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_42539533/article/details/90607415">https://blog.csdn.net/qq_42539533/article/details/90607415</a></p>
+<p>创建项目需要填写一些信息<br><code>Group</code>：<strong>项目组织</strong>的唯一标识符，通常分为多个段，自己使用随便设置即可（我一般使用host.sdyy，sdyy是我网名的缩写）</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">介绍两段的写法,第一段为域,第二段为公司名称</span><br><span class="line">域又分为org、com、cn等,其中org为非营利组织,com为商业组织,cn表示中国,这个根据自己的域名来写</span><br><span class="line">例如apache公司的tomcat项目:org.apache.tomcat</span><br><span class="line">- Group 是org.apache</span><br><span class="line">- 域是org</span><br><span class="line">- 公司名称是apache</span><br><span class="line">- Artifact是tomcat</span><br></pre></td></tr></table></figure>
+<p><code>Artifact</code>：<strong>项目</strong>的唯一的标识符，就是项目的名称，不能有大写，都是小写！</p>
+<p>因此Grounp+Artifact就相当于项目的坐标，保证了项目的唯一性</p>
+<p><code>Name</code>：默认同Artifact，声明了一个对于用户更为友好的项目名称，不是必须的</p>
+<p><code>Description</code>：项目描述</p>
+<p><code>Package name</code>：指定main目录里java下的包名称，默认为Group+Artifact</p>
+<p><code>Packaging</code>：打包方式</p>
+<p><code>version</code>：指定了项目的当前版本，SNAPSHOT意为快照，说明该项目还处于开发中，是不稳定的版本</p>
+<p>所有信息填写完成之后，点击页面上的获取代码，根据提示下载或者克隆代码。</p>
+<p>将项目导入到 IDEA 中，执行一下 MAVEN Updata 。<br>找到主程序，点击运行，就可以在本地浏览器访问到页面了。<br><img src="attachment/Pasted%20image%2020210603161006.png"></p>
+<p>关于基础包，使用默认的值 Group + Artifact 生成的代码在 IDE 中会提示包路径不对：<br><img src="attachment/Pasted%20image%2020210603162636.png"></p>
+<p>自己重新设置一下，去掉 Artifact ，生成的就正常了。</p>
+ 
+      <!-- reward -->
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <footer class="article-footer">
+       
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Spring-Boot/" rel="tag">Spring Boot</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%8A%80%E6%9C%AF/" rel="tag">技术</a></li></ul>
+
+    </footer>
+  </div>
+
+    
+ 
+    
+</article>
+
+    
+    <article
   id="post-学习笔记/Linux定时任务配置"
   class="article article-type-post"
   itemscope
@@ -554,115 +677,6 @@
   <p>官方网站<a target="_blank" rel="noopener" href="https://keepass.info/">keepass.info</a><br>github上已经两个项目全面地介绍了keepass及插件的使用方法：<br><a target="_blank" rel="noopener" href="https://github.com/1688aa/KeePass-Plugins-Instructions-for-use">github.com/1688aa/KeePass-Plugins-Instructions-for-use</a><br><a target="_blank" rel="noopener" href="https://github.com/1688aa/KeePass-Instructions-for-use">github.com/1688aa/KeePass-Instructions-for-use</a></p>
 <p>KeePass 是一款免费的开源密码管理器，KeePass 将密码存储为一个数据库，而这个数据库由一个主密码或密码文件锁住，也就是说我们只需要记住一个主密码，或使用一个密码文件，就可以解开这个数据库，就可以获得其他的密码内容。<br>办公室电脑密码、笔记本密码、家里电脑密码、上网帐号密码、手机服务密码、邮箱密码、QQ 密码、银行卡查询密码、银行卡交易密码、银行卡网上支付密码……我们需要记太多太多的密码。纵然我们可以使一些密码一致，但无法让所有的密码都一样，到头来，我们仍要记不少的密码，尤其是对于掌握信息系统的人来说，密码更多了。</p>
 <p>实际上把密码记下来，也不代表不安全，完全留在脑中，反而容易忘记。所以有了 KeePass。</p>
- 
-      <!-- reward -->
-      
-    </div>
-    
-
-    <!-- copyright -->
-    
-    <footer class="article-footer">
-       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%B7%A5%E5%85%B7%E8%BD%AF%E4%BB%B6/" rel="tag">工具软件</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%8A%80%E6%9C%AF/" rel="tag">技术</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%AC%94%E8%AE%B0/" rel="tag">笔记</a></li></ul>
-
-    </footer>
-  </div>
-
-    
- 
-    
-</article>
-
-    
-    <article
-  id="post-keepass/mybase(个人笔记软件)"
-  class="article article-type-post"
-  itemscope
-  itemprop="blogPost"
-  data-scroll-reveal
->
-  <div class="article-inner">
-    
-    <header class="article-header">
-       
-<h2 itemprop="name">
-  <a class="article-title" href="/keepass/mybase(%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6)/"
-    >mybase(个人笔记软件)</a> 
-</h2>
- 
-
-      
-    </header>
-     
-    <div class="article-meta">
-      <a href="/keepass/mybase(%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6)/" class="article-date">
-  <time datetime="2021-05-21T01:15:15.000Z" itemprop="datePublished">2021-05-21</time>
-</a> 
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E5%B7%A5%E5%85%B7%E8%BD%AF%E4%BB%B6/">工具软件</a> / <a class="article-category-link" href="/categories/%E5%B7%A5%E5%85%B7%E8%BD%AF%E4%BB%B6/mybase/">mybase</a>
-  </div>
-   
-    </div>
-      
-    <div class="article-entry" itemprop="articleBody">
-       
-  <p>myBase 是一款用于分类管理任意格式文档资料的小型个人数据库软件， 有助于个人用户在 (Linux/MacOSX/Windows)桌面电脑系统上实施文档、笔记、日记、图片和网页等知识内容的分类管理。 借助软件提供的各项功能，创建和维护一个专属于自己的个人知识库将变的非常容易。 与传统意义上的数据库软件不同，myBase 通过内置的富文本编辑器接受图文信息的输入，并按树形大纲分门别类保存，同时接受任意磁盘文件作为大纲条目的附件。 myBase 提供了更好的方式使知识/信息的捕获、编辑、组织、查看、索引、搜索和分享变得更快捷、更容易。<br>对于工作中的一些个人笔记，可以用mybase存放，使用mybase可以避免文件散落在磁盘的各个地方。</p>
- 
-      <!-- reward -->
-      
-    </div>
-    
-
-    <!-- copyright -->
-    
-    <footer class="article-footer">
-       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%B7%A5%E5%85%B7%E8%BD%AF%E4%BB%B6/" rel="tag">工具软件</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%AC%94%E8%AE%B0/" rel="tag">笔记</a></li></ul>
-
-    </footer>
-  </div>
-
-    
- 
-    
-</article>
-
-    
-    <article
-  id="post-学习笔记/hexo搭建博客的过程"
-  class="article article-type-post"
-  itemscope
-  itemprop="blogPost"
-  data-scroll-reveal
->
-  <div class="article-inner">
-    
-    <header class="article-header">
-       
-<h2 itemprop="name">
-  <a class="article-title" href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B/"
-    >hexo搭建博客的过程</a> 
-</h2>
- 
-
-      
-    </header>
-     
-    <div class="article-meta">
-      <a href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B/" class="article-date">
-  <time datetime="2021-05-19T13:28:33.000Z" itemprop="datePublished">2021-05-19</time>
-</a> 
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a> / <a class="article-category-link" href="/categories/%E6%8A%80%E6%9C%AF/hexo/">hexo</a>
-  </div>
-   
-    </div>
-      
-    <div class="article-entry" itemprop="articleBody">
-       
-  <p>hexo d 部署报错 ERROR Deployer not found: git 需要安装插件<br><code>npm install --save hexo-deployer-git</code></p>
-<h2 id="多电脑托管的处理方式"><a href="#多电脑托管的处理方式" class="headerlink" title="多电脑托管的处理方式"></a>多电脑托管的处理方式</h2><p>在公司电脑源码构建完成，回到家换了一台电脑想继续弄，应该怎么做？<br>直接将代码库拉下来是不行的，因为代码库中并没有托管全部所需的依赖包<br>应该在新电脑上执行<code>hexo init</code>，创建一个新的hexo项目，然后再将git库中的内容克隆到另一个目录中，克隆完之后，将所有的文件拷贝到刚才初始化的hexo项目目录中。并安装所需要的hexo插件。一切都完成之后就可以继续写文章，提交内容了 。</p>
  
       <!-- reward -->
       
