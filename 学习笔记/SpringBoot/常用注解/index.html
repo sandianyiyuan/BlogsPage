@@ -15,7 +15,7 @@
         name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1"
       />
-      <title>git常用指令笔记 |  三点一圆</title>
+      <title>常用注解 |  三点一圆</title>
   <meta name="generator" content="hexo-theme-ayer">
       
       <link rel="shortcut icon" href="/favicon.ico" />
@@ -51,7 +51,7 @@
     <main class="content on">
       <section class="outer">
   <article
-  id="post-学习笔记/GIT/git常用指令笔记"
+  id="post-学习笔记/SpringBoot/常用注解"
   class="article article-type-post"
   itemscope
   itemprop="blogPost"
@@ -62,7 +62,7 @@
     <header class="article-header">
        
 <h1 class="article-title sea-center" style="border-left:0" itemprop="name">
-  git常用指令笔记
+  常用注解
 </h1>
  
 
@@ -70,19 +70,15 @@
     </header>
      
     <div class="article-meta">
-      <a href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/GIT/git%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4%E7%AC%94%E8%AE%B0/" class="article-date">
-  <time datetime="2021-06-04T01:30:36.000Z" itemprop="datePublished">2021-06-04</time>
-</a> 
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a> / <a class="article-category-link" href="/categories/%E6%8A%80%E6%9C%AF/git/">git</a>
-  </div>
-  
+      <a href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/%E5%B8%B8%E7%94%A8%E6%B3%A8%E8%A7%A3/" class="article-date">
+  <time datetime="2021-06-04T09:54:27.000Z" itemprop="datePublished">2021-06-04</time>
+</a>   
 <div class="word_count">
     <span class="post-time">
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">671</span>
+            <span class="post-count">785</span>
         </span>
     </span>
 
@@ -91,40 +87,32 @@
         <span class="post-meta-item-icon">
             <i class="ri-book-open-line"></i>
             <span class="post-meta-item-text"> 阅读时长≈</span>
-            <span class="post-count">2 分钟</span>
+            <span class="post-count">3 分钟</span>
         </span>
     </span>
 </div>
  
     </div>
       
-    <div class="tocbot"></div>
-
 
 
 
   
     <div class="article-entry" itemprop="articleBody">
        
-  <h2 id="删除远程所有分支"><a href="#删除远程所有分支" class="headerlink" title="删除远程所有分支"></a>删除远程所有分支</h2><h2 id="删除远程文件"><a href="#删除远程文件" class="headerlink" title="删除远程文件"></a>删除远程文件</h2><p>多人协作中经常有人将中间文件提交，他人提交之后如果需要删除的话可以这样操作：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git rm -r --cached *.iml        &#x2F;&#x2F;*.iml 是需要删除的文件</span><br><span class="line">git commit -m &quot;ignore *.iml&quot;    &#x2F;&#x2F;&quot;ignore *.iml&quot;是提交的备注</span><br><span class="line">git push </span><br></pre></td></tr></table></figure>
-<p>该操作删除远程的文件，本地文件不受影响，但是别人pull代码之后本地的目录会被删除</p>
-<p>再修改.gitignore文件将其忽略规则加上，别人就不会提交这个文件了。</p>
-<p>gitignore文件规则，只能忽略未被添加到跟踪的文件，作用范围为当前目录的子目录</p>
-<p>如果文件已经被跟踪，则忽略规则不生效;已经被跟踪的文件被删除后忽略规则会生效。</p>
-<p>文件被跟踪后又被删除再被创建时如果满足忽略规则，则不会被跟踪。</p>
-<h2 id="重置远程分支"><a href="#重置远程分支" class="headerlink" title="重置远程分支"></a>重置远程分支</h2><p>本地分支与远程分支不同步时，拉取所有分支：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git fetch	# 将远程所有分支拉取到本地，这时候使用</span><br><span class="line">git checkout -b dev(本地分支名称) origin&#x2F;dev(远程分支名称)</span><br></pre></td></tr></table></figure>
-<h2 id="git-stash恢复文件"><a href="#git-stash恢复文件" class="headerlink" title="git stash恢复文件"></a>git stash恢复文件</h2><p>参考文档<a target="_blank" rel="noopener" href="https://www.cnblogs.com/exmyth/p/6213129.html">https://www.cnblogs.com/exmyth/p/6213129.html</a></p>
-<p>今天在提交脚本的时候不小心删除了数据，瞬间崩溃了</p>
-<p>丢代码的过程：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git stash save &quot;暂存文件&quot;</span><br><span class="line">git pull	# 下载最新的文件，下载很正常没提示错误</span><br><span class="line">git stash apply stash@&#123;0&#125;	# 将暂存的文件还原回来</span><br><span class="line">git stash drop stash@&#123;0&#125;	# 删除暂存的文件</span><br><span class="line">git status # 检查文件状态</span><br></pre></td></tr></table></figure>
-<p>这时候提示没有任何提示，现在工作区是干净的，然后就没有然后了。我也不知道我改了哪些文件改了啥，人都懵了。</p>
-<p>果断上网百度，发现有还原的方法，记录如下：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git fsck --lost-found	# 查看最近删除的提交，其中就有git stash drop stash@&#123;0&#125;时的ID</span><br><span class="line">git show id		# 查看文件记录，id是git fsck指令查出来的ID，找到要还原的记录</span><br><span class="line">git merge id	# 这样就可以将记录还原了。</span><br></pre></td></tr></table></figure>
-<h2 id="打标签"><a href="#打标签" class="headerlink" title="打标签"></a>打标签</h2><p><code>git tag</code> 在控制台打印出当前仓库的所有标签<br><code>git tag tagName commitId</code> 对之前的commit打标签<br><code>git tag v1.0</code> 对最后一次commit打标签<br><code>$ git tag -a v0.1 -m &quot;version 0.1 released&quot; 1094adb</code>创建带有说明的标签，用-a指定标签名，-m指定说明文字：<br><code>git tag -l ‘v0.1.*’</code> 搜索符合模式的标签<br><code>git push origin [tagname]</code> push单个tag<br><code>git push [origin] --tags</code> push所有tag  </p>
-<p><code>git checkout tagName</code> 根据标签名检出</p>
- 
+  <p>@ResponseBody 的作用其实是将 java 对象转为 json 格式的数据。</p>
+<p>@responseBody 注解的作用是将 controller 的方法返回的对象通过适当的转换器转换为指定的格式之后，写入到 response 对象的 body 区，通常用来返回 JSON 数据或者是XML数据。<br>注意：在使用此注解之后不会再走视图处理器，而是直接将数据写入到输入流中，他的效果等同于通过response 对象输出指定格式的数据。</p>
+<p>@ResponseBody 是作用在方法上的， @ResponseBody 表示该方法的返回结果直接写入 HTTP response body 中，一般在异步获取数据时使用【也就是AJAX】。<br>注意：在使用 @RequestMapping后，返回值通常解析为跳转路径，但是加上 @ResponseBody 后返回结果不会被解析为跳转路径，而是直接写入 HTTP response body 中。 比如异步获取 json 数据，加上 @ResponseBody 后，会直接返回 json 数据。@RequestBody 将 HTTP 请求正文插入方法中，使用适合的 HttpMessageConverter 将请求体写入某个对象。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">后台 Controller类中对应的方法：</span><br><span class="line">@RequestMapping(&quot;&#x2F;login.do&quot;)</span><br><span class="line">@ResponseBody</span><br><span class="line">public Object login(String name, String password, HttpSession session) &#123;</span><br><span class="line">	user &#x3D; userService.checkLogin(name, password);</span><br><span class="line">	session.setAttribute(&quot;user&quot;, user);</span><br><span class="line">	return new JsonResult(user);</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line">@RequestBody是作用在形参列表上，用于将前台发送过来固定格式的数据【xml格式 或者 json等】封装为对应的 JavaBean 对象，</span><br><span class="line">封装时使用到的一个对象是系统默认配置的 HttpMessageConverter进行解析，然后封装到形参上。</span><br><span class="line">如上面的登录后台代码可以改为：</span><br><span class="line">@RequestMapping(&quot;&#x2F;login.do&quot;)</span><br><span class="line">@ResponseBody</span><br><span class="line">public Object login(@RequestBody User loginUuser, HttpSession session) &#123;</span><br><span class="line">	user &#x3D; userService.checkLogin(loginUser);</span><br><span class="line">	session.setAttribute(&quot;user&quot;, user);</span><br><span class="line">	return new JsonResult(user);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>@RequestBody<br>@RequestBody 注解则是将 HTTP 请求正文插入方法中，使用适合的 HttpMessageConverter 将请求体写入某个对象。<br>作用：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1) 该注解用于读取Request请求的body部分数据，使用系统默认配置的HttpMessageConverter进行解析，然后把相应的数据绑定</span><br><span class="line">    到要返回的对象上； </span><br><span class="line">2) 再把HttpMessageConverter返回的对象数据绑定到 controller中方法的参数上。</span><br></pre></td></tr></table></figure>
+<p>使用时机：</p>
+<p>A) GET、POST方式提时， 根据request header Content-Type的值来判断:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">    application&#x2F;x-www-form-urlencoded， 可选（即非必须，因为这种情况的数据@RequestParam, @ModelAttribute</span><br><span class="line">也可以处理，当然@RequestBody也能处理）； </span><br><span class="line">    multipart&#x2F;form-data, 不能处理（即使用@RequestBody不能处理这种格式的数据）； </span><br><span class="line">    其他格式， 必须（其他格式包括application&#x2F;json, application&#x2F;xml等。这些格式的数据，必须使用@RequestBody来处理）；</span><br></pre></td></tr></table></figure>
+<p>B) PUT方式提交时， 根据request header Content-Type的值来判断:</p>
+<p>application/x-www-form-urlencoded， 必须；multipart/form-data, 不能处理；其他格式， 必须；<br>说明：request的body部分的数据编码格式由header部分的Content-Type指定；</p>
+<p>例如：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">@RequestMapping(value &#x3D; &quot;user&#x2F;login&quot;)</span><br><span class="line">@ResponseBody</span><br><span class="line">&#x2F;&#x2F; 将ajax（datas）发出的请求写入 User 对象中</span><br><span class="line">public User login(@RequestBody User user) &#123;   </span><br><span class="line">&#x2F;&#x2F; 这样就不会再被解析为跳转路径，而是直接将user对象写入 HTTP 响应正文中</span><br><span class="line">    return user;    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure> 
       <!-- reward -->
       
       <div id="reword-out">
@@ -194,12 +182,12 @@
     <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://sdyy.host/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/GIT/git%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4%E7%AC%94%E8%AE%B0/" alt="微信分享二维码">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://sdyy.host/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/%E5%B8%B8%E7%94%A8%E6%B3%A8%E8%A7%A3/" alt="微信分享二维码">
     </div>
 </div>
 
 <div id="share-mask"></div>  
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/git/" rel="tag">git</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/spring-Boot/" rel="tag">spring Boot</a></li></ul>
 
     </footer>
   </div>
@@ -207,19 +195,19 @@
    
   <nav class="article-nav">
     
-      <a href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/SpringBoot%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/" class="article-nav-link">
+      <a href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/GIT/GitLabPages/" class="article-nav-link">
         <strong class="article-nav-caption">上一篇</strong>
         <div class="article-nav-title">
           
-            SpringBoot配置文件
+            GitLabPages
           
         </div>
       </a>
     
     
-      <a href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JAVA/java%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="article-nav-link">
+      <a href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/SpringBoot%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/" class="article-nav-link">
         <strong class="article-nav-caption">下一篇</strong>
-        <div class="article-nav-title">java 学习笔记</div>
+        <div class="article-nav-title">SpringBoot配置文件</div>
       </a>
     
   </nav>
