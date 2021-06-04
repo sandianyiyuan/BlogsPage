@@ -23,23 +23,6 @@
       </tags>
   </entry>
   <entry>
-    <title>keepass(密码管理工具)</title>
-    <url>/keepass/keepass(%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7)/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>官方网站<a href="https://keepass.info/">keepass.info</a><br>github上已经两个项目全面地介绍了keepass及插件的使用方法：<br><a href="https://github.com/1688aa/KeePass-Plugins-Instructions-for-use">github.com/1688aa/KeePass-Plugins-Instructions-for-use</a><br><a href="https://github.com/1688aa/KeePass-Instructions-for-use">github.com/1688aa/KeePass-Instructions-for-use</a></p>
-<p>KeePass 是一款免费的开源密码管理器，KeePass 将密码存储为一个数据库，而这个数据库由一个主密码或密码文件锁住，也就是说我们只需要记住一个主密码，或使用一个密码文件，就可以解开这个数据库，就可以获得其他的密码内容。<br>办公室电脑密码、笔记本密码、家里电脑密码、上网帐号密码、手机服务密码、邮箱密码、QQ 密码、银行卡查询密码、银行卡交易密码、银行卡网上支付密码……我们需要记太多太多的密码。纵然我们可以使一些密码一致，但无法让所有的密码都一样，到头来，我们仍要记不少的密码，尤其是对于掌握信息系统的人来说，密码更多了。</p>
-<p>实际上把密码记下来，也不代表不安全，完全留在脑中，反而容易忘记。所以有了 KeePass。</p>
-]]></content>
-      <categories>
-        <category>工具软件</category>
-        <category>keepass</category>
-      </categories>
-      <tags>
-        <tag>技术</tag>
-        <tag>工具软件</tag>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>mybase(个人笔记软件)</title>
     <url>/keepass/mybase(%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6)/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>myBase 是一款用于分类管理任意格式文档资料的小型个人数据库软件， 有助于个人用户在 (Linux/MacOSX/Windows)桌面电脑系统上实施文档、笔记、日记、图片和网页等知识内容的分类管理。 借助软件提供的各项功能，创建和维护一个专属于自己的个人知识库将变的非常容易。 与传统意义上的数据库软件不同，myBase 通过内置的富文本编辑器接受图文信息的输入，并按树形大纲分门别类保存，同时接受任意磁盘文件作为大纲条目的附件。 myBase 提供了更好的方式使知识/信息的捕获、编辑、组织、查看、索引、搜索和分享变得更快捷、更容易。<br>对于工作中的一些个人笔记，可以用mybase存放，使用mybase可以避免文件散落在磁盘的各个地方。</p>
@@ -51,32 +34,6 @@
       <tags>
         <tag>工具软件</tag>
         <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>币海大浪涛涛 人心左右摇</title>
-    <url>/%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81/%E5%B8%81%E6%B5%B7%E5%A4%A7%E6%B5%AA%E6%B6%9B%E6%B6%9B%20%E4%BA%BA%E5%BF%83%E5%B7%A6%E5%8F%B3%E6%91%87/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>币圈有句话“币圈一天，人间一年”。<br>最近币圈跌得生猛，前面投进去试水的一点钱，赶上大涨，后又大跌。真的应了这那句话。  目前浮亏一两个点，我是作为探索和研究加密货币而投资的，资金量不大而且都是现货，任它涨跌我就不动，看它到底要干啥。</p>
-]]></content>
-      <categories>
-        <category>日常</category>
-        <category>随想</category>
-      </categories>
-      <tags>
-        <tag>加密货币</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>反诈宣传</title>
-    <url>/%E6%97%A5%E5%B8%B8/%E5%8F%8D%E8%AF%88%E5%AE%A3%E4%BC%A0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>国家为了反诈骗也是操碎了心，开发出一款叫“国家反诈中心”的APP，公司为了完成任务要求强制安装。<br>出于习惯，反对一切强制的行为。<br>如果给我安利说这APP里有一些很牛皮的功能，建议装了看看，我可能出于好奇会安装体验一下，但直接强制要我安装的话就不一样了，出于对自己隐私的保护，我是拒绝安装的，它要的权限真的太多了。</p>
-]]></content>
-      <categories>
-        <category>日常</category>
-        <category>随想</category>
-      </categories>
-      <tags>
-        <tag>日常</tag>
       </tags>
   </entry>
   <entry>
@@ -92,34 +49,16 @@
       </tags>
   </entry>
   <entry>
-    <title>关于焦虑</title>
-    <url>/%E6%97%A5%E5%B8%B8/%E7%84%A6%E8%99%91/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>这几天感觉浑身不舒服，跟焦虑症的症状全都对上了<br>知乎上搜到篇文章<a href="https://zhuanlan.zhihu.com/p/25909485">焦虑，是闲出来的病，是懒出来的症</a>  </p>
-]]></content>
-      <categories>
-        <category>日常</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>送别国之脊梁袁隆平</title>
-    <url>/%E6%97%A5%E5%B8%B8/%E9%80%81%E5%88%AB%E5%9B%BD%E4%B9%8B%E8%84%8A%E6%A2%81%E8%A2%81%E9%9A%86%E5%B9%B3/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>【痛悼！送别国之脊梁袁隆平】今天，共和国痛失袁隆平院士。<br>“我最大的愿望是饭碗要牢牢地掌握在我们中国人自己手上！”<br>他把一生浸在稻田里，把功勋写在大地上。国士无双，致敬，缅怀！<br><img src="https://z3.ax1x.com/2021/05/22/gLpCq0.jpg" alt="袁隆平"></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>纠结症</title>
-    <url>/%E6%97%A5%E5%B8%B8/%E7%BA%A0%E7%BB%93%E7%97%87/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>经常会发生想做一件事又怕麻烦或者还没开始做就想得很远很远，怕开头的方向不对，导致后面纠正麻烦的情况，然后就让自己陷入无尽的纠结之中。<br><img src="https://z3.ax1x.com/2021/05/24/gjbShj.jpg" alt="抓狂"></p>
-<a id="more"></a>
-<p>比如，我想搭博客，在博客中分享日常，这本来是一个挺好的想法，多了解一下之后发现在博客中可以打广告挣钱，要想挣钱就得分享有意义的内容，到这里又会想，既然要挣钱怎么不去做公众号呢？公众号更好引流，接着我又去查小白如何运营公众号，网上说首先是要找准定位，然后在细分领域中深耕细作，这一下又得想定位，开始想自己如何定位、哪个领域合适，怕定位不准，导致后期运营麻烦。你看，到这一步是不是想得太多了，这时候我意识到自己似乎已经背离写博客的初衷了。</p>
-<p>晚上我开始思考，为什么这么纠结呢？我想到一句话是这么说的：种一棵树最好的时间是十年前，其次是现在。<br>对于有纠结症的人来说，种树之前是不是要问种什么树？可是为什么没人这么问，大概是没意义吧，随便啥树先种上再说，不要想以后这树是用来乘凉还是吃果子，要是拿来吃果子的话，是不是又要想应该种啥水果呢？未免太累了。</p>
+    <title>币海大浪涛涛 人心左右摇</title>
+    <url>/%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81/%E5%B8%81%E6%B5%B7%E5%A4%A7%E6%B5%AA%E6%B6%9B%E6%B6%9B%20%E4%BA%BA%E5%BF%83%E5%B7%A6%E5%8F%B3%E6%91%87/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>币圈有句话“币圈一天，人间一年”。<br>最近币圈跌得生猛，前面投进去试水的一点钱，赶上大涨，后又大跌。真的应了这那句话。  目前浮亏一两个点，我是作为探索和研究加密货币而投资的，资金量不大而且都是现货，任它涨跌我就不动，看它到底要干啥。</p>
 ]]></content>
       <categories>
         <category>日常</category>
         <category>随想</category>
       </categories>
       <tags>
-        <tag>日常</tag>
+        <tag>加密货币</tag>
       </tags>
   </entry>
   <entry>
@@ -150,19 +89,6 @@
       </tags>
   </entry>
   <entry>
-    <title>github仓库开启Discussions</title>
-    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/github%E4%BB%93%E5%BA%93%E5%BC%80%E5%90%AFDiscussions/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>才发现github仓库可以开Discussions。<br>该功能在settings-&gt;Options中，勾选Discussions就可开启。<br>开启后就可以方便的讨论问题而不用提issue了。<br>快来跟我一起讨论吧<a href="https://github.com/sandianyiyuan/BlogsPage/discussions">传送门</a></p>
-]]></content>
-      <categories>
-        <category>技术</category>
-        <category>git</category>
-      </categories>
-      <tags>
-        <tag>git</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>hexo搭建博客的过程</title>
     <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>hexo d 部署报错 ERROR Deployer not found: git 需要安装插件<br><code>npm install --save hexo-deployer-git</code></p>
@@ -179,6 +105,19 @@
       </tags>
   </entry>
   <entry>
+    <title>github仓库开启Discussions</title>
+    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/github%E4%BB%93%E5%BA%93%E5%BC%80%E5%90%AFDiscussions/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>才发现github仓库可以开Discussions。<br>该功能在settings-&gt;Options中，勾选Discussions就可开启。<br>开启后就可以方便的讨论问题而不用提issue了。<br>快来跟我一起讨论吧<a href="https://github.com/sandianyiyuan/BlogsPage/discussions">传送门</a></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+        <category>git</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Anywhere 快捷卡片应用</title>
     <url>/%E6%97%A5%E5%B8%B8/Anywhere%20%E5%BF%AB%E6%8D%B7%E5%8D%A1%E7%89%87%E5%BA%94%E7%94%A8/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Anywhere 是一款快捷卡片应用，可以在桌面灵活的创建应用快捷方式。</p>
@@ -189,6 +128,126 @@
       </categories>
       <tags>
         <tag>日常</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>反诈宣传</title>
+    <url>/%E6%97%A5%E5%B8%B8/%E5%8F%8D%E8%AF%88%E5%AE%A3%E4%BC%A0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>国家为了反诈骗也是操碎了心，开发出一款叫“国家反诈中心”的APP，公司为了完成任务要求强制安装。<br>出于习惯，反对一切强制的行为。<br>如果给我安利说这APP里有一些很牛皮的功能，建议装了看看，我可能出于好奇会安装体验一下，但直接强制要我安装的话就不一样了，出于对自己隐私的保护，我是拒绝安装的，它要的权限真的太多了。</p>
+]]></content>
+      <categories>
+        <category>日常</category>
+        <category>随想</category>
+      </categories>
+      <tags>
+        <tag>日常</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>keepass(密码管理工具)</title>
+    <url>/keepass/keepass(%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7)/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>官方网站<a href="https://keepass.info/">keepass.info</a><br>github上已经两个项目全面地介绍了keepass及插件的使用方法：<br><a href="https://github.com/1688aa/KeePass-Plugins-Instructions-for-use">github.com/1688aa/KeePass-Plugins-Instructions-for-use</a><br><a href="https://github.com/1688aa/KeePass-Instructions-for-use">github.com/1688aa/KeePass-Instructions-for-use</a></p>
+<p>KeePass 是一款免费的开源密码管理器，KeePass 将密码存储为一个数据库，而这个数据库由一个主密码或密码文件锁住，也就是说我们只需要记住一个主密码，或使用一个密码文件，就可以解开这个数据库，就可以获得其他的密码内容。<br>办公室电脑密码、笔记本密码、家里电脑密码、上网帐号密码、手机服务密码、邮箱密码、QQ 密码、银行卡查询密码、银行卡交易密码、银行卡网上支付密码……我们需要记太多太多的密码。纵然我们可以使一些密码一致，但无法让所有的密码都一样，到头来，我们仍要记不少的密码，尤其是对于掌握信息系统的人来说，密码更多了。</p>
+<p>实际上把密码记下来，也不代表不安全，完全留在脑中，反而容易忘记。所以有了 KeePass。</p>
+]]></content>
+      <categories>
+        <category>工具软件</category>
+        <category>keepass</category>
+      </categories>
+      <tags>
+        <tag>技术</tag>
+        <tag>工具软件</tag>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>纠结症</title>
+    <url>/%E6%97%A5%E5%B8%B8/%E7%BA%A0%E7%BB%93%E7%97%87/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>经常会发生想做一件事又怕麻烦或者还没开始做就想得很远很远，怕开头的方向不对，导致后面纠正麻烦的情况，然后就让自己陷入无尽的纠结之中。<br><img src="https://z3.ax1x.com/2021/05/24/gjbShj.jpg" alt="抓狂"></p>
+<a id="more"></a>
+<p>比如，我想搭博客，在博客中分享日常，这本来是一个挺好的想法，多了解一下之后发现在博客中可以打广告挣钱，要想挣钱就得分享有意义的内容，到这里又会想，既然要挣钱怎么不去做公众号呢？公众号更好引流，接着我又去查小白如何运营公众号，网上说首先是要找准定位，然后在细分领域中深耕细作，这一下又得想定位，开始想自己如何定位、哪个领域合适，怕定位不准，导致后期运营麻烦。你看，到这一步是不是想得太多了，这时候我意识到自己似乎已经背离写博客的初衷了。</p>
+<p>晚上我开始思考，为什么这么纠结呢？我想到一句话是这么说的：种一棵树最好的时间是十年前，其次是现在。<br>对于有纠结症的人来说，种树之前是不是要问种什么树？可是为什么没人这么问，大概是没意义吧，随便啥树先种上再说，不要想以后这树是用来乘凉还是吃果子，要是拿来吃果子的话，是不是又要想应该种啥水果呢？未免太累了。</p>
+]]></content>
+      <categories>
+        <category>日常</category>
+        <category>随想</category>
+      </categories>
+      <tags>
+        <tag>日常</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>送别国之脊梁袁隆平</title>
+    <url>/%E6%97%A5%E5%B8%B8/%E9%80%81%E5%88%AB%E5%9B%BD%E4%B9%8B%E8%84%8A%E6%A2%81%E8%A2%81%E9%9A%86%E5%B9%B3/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>【痛悼！送别国之脊梁袁隆平】今天，共和国痛失袁隆平院士。<br>“我最大的愿望是饭碗要牢牢地掌握在我们中国人自己手上！”<br>他把一生浸在稻田里，把功勋写在大地上。国士无双，致敬，缅怀！<br><img src="https://z3.ax1x.com/2021/05/22/gLpCq0.jpg" alt="袁隆平"></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>关于焦虑</title>
+    <url>/%E6%97%A5%E5%B8%B8/%E7%84%A6%E8%99%91/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>这几天感觉浑身不舒服，跟焦虑症的症状全都对上了<br>知乎上搜到篇文章<a href="https://zhuanlan.zhihu.com/p/25909485">焦虑，是闲出来的病，是懒出来的症</a>  </p>
+]]></content>
+      <categories>
+        <category>日常</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>GitLabPages</title>
+    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/GIT/GitLabPages/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>cnblogs.com/zhangnan35/p/10709252.html</p>
+<h1 id="配置Gitlab-pages和Gitlab-CI"><a href="#配置Gitlab-pages和Gitlab-CI" class="headerlink" title="配置Gitlab pages和Gitlab CI"></a><a href="https://www.cnblogs.com/zhangnan35/p/10709252.html">配置Gitlab pages和Gitlab CI</a></h1><p>　　首先，Gitlab pages是很简单的，至少比起github pages要简单很多。</p>
+<p>　　Gitlab Pages的原理这是样的：首先，当你新建一个Gitlab项目的时候，你同时也建了一个存储库。</p>
+<p>　　只要你的工程目录的根目录下有.gitlab-ci.yml文件，注意必须严格起这个名字。gitlab runner就会执行这个脚本文件。</p>
+<p>　　脚本的最终目的很简单：把静态文件放入名为public目录下的文件夹内。Gitlab pages会一直去这个存储库的public目录找。注意：这个public是指存储库的public，与项目结构无关。换言之，这个public目录不可见。</p>
+<p>　　也就是说：当你在项目的根目录下添加了.gitlab-ci.yml，且在脚本中将静态文件正确地放入了public文件夹，gitlab page就会自动打开并部署，部署的域名将会默认分配。</p>
+<p>　　当然，如果你不想使用默认的配置，而是想部署到特定的域名和服务器，则需要在yml文件中进行一些docker的配置。</p>
+<p>　　开发者提交代码后,runner检索项目根目录下名为**.gitlab-ci.yml<strong>的文件，并执行文件中的脚本，脚本内容包括项目的运行，打包，缓存打包文件，转移文件到</strong>public**目录以供gitlab pages使用。而gitlab pages会到public目录中解析静态文件成页面。</p>
+<p>　　好，现在就来看一下我写的一份CI脚本，首先说一下，CI的代码风格类似于python这种，纯靠缩进来区分层级关系的，所以书写时，<strong>缩进是严格的</strong>。</p>
+<p>　　<img src="img/%E4%B8%80%E4%BB%BDCI%E8%84%9A%E6%9C%AC.png" alt="img"></p>
+<p>　　下面是代码注释版版的：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">building: &#x2F;&#x2F;自己随便命名的</span><br><span class="line">  image: node:latest &#x2F;&#x2F;node镜像为最新版的，最好指定版本号</span><br><span class="line">  stage: build &#x2F;&#x2F;当前stage阶段为build</span><br><span class="line">  script: &#x2F;&#x2F;build阶段运行的脚本</span><br><span class="line">    - npm install --progress&#x3D;false --no-optional &#x2F;&#x2F;根据package.json来安装依赖 progress设为false是为了不打印安装的具体进度，no optional是为了跳过npm推荐的但不是编译必须的，也没有写在package.json里一些依赖，比如说查看源代码等</span><br><span class="line">    - npm run build &#x2F;&#x2F;打包</span><br><span class="line">  artifacts: &#x2F;&#x2F;工件，可以缓存在gitlab的流水线记录中，供直接下载</span><br><span class="line">    expire_in: 3 days &#x2F;&#x2F;工件缓存的有效时间</span><br><span class="line">    paths: &#x2F;&#x2F;路径</span><br><span class="line">      - dist &#x2F;&#x2F;工件指向的目录，这里指整个dist目录</span><br><span class="line"></span><br><span class="line">cache: &#x2F;&#x2F;缓存</span><br><span class="line">  paths: &#x2F;&#x2F;路径</span><br><span class="line">    - node_modules&#x2F; &#x2F;&#x2F;缓存node_mudules将大大提高ci运行的速度</span><br><span class="line"></span><br><span class="line">pages: &#x2F;&#x2F;随便起的名字</span><br><span class="line">  stage: deploy &#x2F;&#x2F;当前阶段为deploy</span><br><span class="line">  script: &#x2F;&#x2F;deploy阶段运行的命令</span><br><span class="line">    - rm -rf public&#x2F;* &#x2F;&#x2F;linux命令，递归无询问删除public目录下所有文件- mv dist&#x2F;* public &#x2F;&#x2F;将dist目录下的所有文件都移动到public目录下</span><br><span class="line">  artifacts: &#x2F;&#x2F;工件缓存</span><br><span class="line">    expire_in: 3 days &#x2F;&#x2F;时效为3天</span><br><span class="line">    paths: &#x2F;&#x2F;路径</span><br><span class="line">      - public &#x2F;&#x2F;缓存整个public目录的文件</span><br><span class="line">  only: </span><br><span class="line">    - dev &#x2F;&#x2F;ceate pages下的所有操作只在dev分支上进行</span><br></pre></td></tr></table></figure>
+<p>　　下载一个工件下来看看：</p>
+<p>　　<img src="img/%E5%B7%A5%E4%BB%B6.png" alt="img"></p>
+<p>　　可以发现我所言非虚。这时候我们把这个提交推到远程。</p>
+<p><img src="img/%E6%8F%90%E4%BA%A4%E5%88%B0%E8%BF%9C%E7%A8%8B.png" alt="img"></p>
+<p>　　等待这个流水线跑完，在 <strong>项目 –&gt; 设置 –&gt; pages</strong> 中，可以看到线上页面已经生成了。</p>
+<p>　　<img src="img/%E6%9F%A5%E7%9C%8B%E9%A1%B5%E9%9D%A2.png" alt="img"></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+        <category>git</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>git常用指令笔记</title>
+    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/GIT/git%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="删除远程所有分支"><a href="#删除远程所有分支" class="headerlink" title="删除远程所有分支"></a>删除远程所有分支</h2><h2 id="删除远程文件"><a href="#删除远程文件" class="headerlink" title="删除远程文件"></a>删除远程文件</h2><p>多人协作中经常有人将中间文件提交，他人提交之后如果需要删除的话可以这样操作：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git rm -r --cached *.iml        &#x2F;&#x2F;*.iml 是需要删除的文件</span><br><span class="line">git commit -m &quot;ignore *.iml&quot;    &#x2F;&#x2F;&quot;ignore *.iml&quot;是提交的备注</span><br><span class="line">git push </span><br></pre></td></tr></table></figure>
+<p>该操作删除远程的文件，本地文件不受影响，但是别人pull代码之后本地的目录会被删除</p>
+<p>再修改.gitignore文件将其忽略规则加上，别人就不会提交这个文件了。</p>
+<p>gitignore文件规则，只能忽略未被添加到跟踪的文件，作用范围为当前目录的子目录</p>
+<p>如果文件已经被跟踪，则忽略规则不生效;已经被跟踪的文件被删除后忽略规则会生效。</p>
+<p>文件被跟踪后又被删除再被创建时如果满足忽略规则，则不会被跟踪。</p>
+<h2 id="重置远程分支"><a href="#重置远程分支" class="headerlink" title="重置远程分支"></a>重置远程分支</h2><p>本地分支与远程分支不同步时，拉取所有分支：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git fetch	# 将远程所有分支拉取到本地，这时候使用</span><br><span class="line">git checkout -b dev(本地分支名称) origin&#x2F;dev(远程分支名称)</span><br></pre></td></tr></table></figure>
+<h2 id="git-stash恢复文件"><a href="#git-stash恢复文件" class="headerlink" title="git stash恢复文件"></a>git stash恢复文件</h2><p>参考文档<a href="https://www.cnblogs.com/exmyth/p/6213129.html">https://www.cnblogs.com/exmyth/p/6213129.html</a></p>
+<p>今天在提交脚本的时候不小心删除了数据，瞬间崩溃了</p>
+<p>丢代码的过程：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git stash save &quot;暂存文件&quot;</span><br><span class="line">git pull	# 下载最新的文件，下载很正常没提示错误</span><br><span class="line">git stash apply stash@&#123;0&#125;	# 将暂存的文件还原回来</span><br><span class="line">git stash drop stash@&#123;0&#125;	# 删除暂存的文件</span><br><span class="line">git status # 检查文件状态</span><br></pre></td></tr></table></figure>
+<p>这时候提示没有任何提示，现在工作区是干净的，然后就没有然后了。我也不知道我改了哪些文件改了啥，人都懵了。</p>
+<p>果断上网百度，发现有还原的方法，记录如下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git fsck --lost-found	# 查看最近删除的提交，其中就有git stash drop stash@&#123;0&#125;时的ID</span><br><span class="line">git show id		# 查看文件记录，id是git fsck指令查出来的ID，找到要还原的记录</span><br><span class="line">git merge id	# 这样就可以将记录还原了。</span><br></pre></td></tr></table></figure>
+<h2 id="打标签"><a href="#打标签" class="headerlink" title="打标签"></a>打标签</h2><p><code>git tag</code> 在控制台打印出当前仓库的所有标签<br><code>git tag tagName commitId</code> 对之前的commit打标签<br><code>git tag v1.0</code> 对最后一次commit打标签<br><code>$ git tag -a v0.1 -m &quot;version 0.1 released&quot; 1094adb</code>创建带有说明的标签，用-a指定标签名，-m指定说明文字：<br><code>git tag -l ‘v0.1.*’</code> 搜索符合模式的标签<br><code>git push origin [tagname]</code> push单个tag<br><code>git push [origin] --tags</code> push所有tag  </p>
+]]></content>
+      <categories>
+        <category>技术</category>
+        <category>git</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
       </tags>
   </entry>
   <entry>

@@ -15,7 +15,7 @@
         name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1"
       />
-      <title>归档: 2021/6 |  三点一圆</title>
+      <title> 三点一圆</title>
   <meta name="generator" content="hexo-theme-ayer">
       
       <link rel="shortcut icon" href="/favicon.ico" />
@@ -49,96 +49,218 @@
         style="position: fixed; left: 0px; top: 0px; z-index: 99999; pointer-events: none;"></canvas>
       
     <main class="content on">
-      <section class="outer">
+      
+<section class="cover">
+    
+  <div class="cover-frame">
+    <div class="bg-box">
+      <img src="/images/cover3.jpg" alt="image frame" />
+    </div>
+    <div class="cover-inner text-center text-white">
+      <h1><a href="/">三点一圆</a></h1>
+      <div id="subtitle-box">
+        
+        <span id="subtitle"></span>
+        
+      </div>
+      <div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="cover-learn-more">
+    <a href="javascript:void(0)" class="anchor"><i class="ri-arrow-down-line"></i></a>
+  </div>
+</section>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
+
+
+<!-- Subtitle -->
+
+  <script>
+    try {
+      var typed = new Typed("#subtitle", {
+        strings: ['面朝大海，春暖花开', '愿你一生努力，一生被爱', '想要的都拥有，得不到的都释怀'],
+        startDelay: 0,
+        typeSpeed: 200,
+        loop: true,
+        backSpeed: 100,
+        showCursor: true
+      });
+    } catch (err) {
+      console.log(err)
+    }
+  </script>
   
+<div id="main">
+  <section class="outer">
+  
+  
+  
+
+<div class="notice" style="margin-top:50px">
+    <i class="ri-heart-fill"></i>
+    <div class="notice-content" id="broad"></div>
+</div>
+<script type="text/javascript">
+    fetch('https://v1.hitokoto.cn')
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById("broad").innerHTML = data.hitokoto;
+        })
+        .catch(console.error)
+</script>
+
+<style>
+    .notice {
+        padding: 20px;
+        border: 1px dashed #e6e6e6;
+        color: #969696;
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        background: #fbfbfb50;
+        border-radius: 10px;
+    }
+
+    .notice i {
+        float: left;
+        color: #999;
+        font-size: 16px;
+        padding-right: 10px;
+        vertical-align: middle;
+        margin-top: -2px;
+    }
+
+    .notice-content {
+        display: initial;
+        vertical-align: middle;
+    }
+</style>
   
   <article class="articles">
     
     
-    <h1 class="page-type-title">2021/6</h1>
     
     
-  
-  
-  
-  
-  
-  
-  <div class="archives-wrap">
-    <div class="archive-year-wrap">
-      <a href="/archives/2021" class="archive-year">2021</a>
+    <article
+  id="post-学习笔记/SpringBoot/1. Maven、Spring IO、SpringBoot简介/Spring IO是什么"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/1.%20Maven%E3%80%81Spring%20IO%E3%80%81SpringBoot%E7%AE%80%E4%BB%8B/Spring%20IO%E6%98%AF%E4%BB%80%E4%B9%88/"
+    >Spring IO是什么</a> 
+</h2>
+ 
+
+      
+    </header>
+     
+    <div class="article-meta">
+      <a href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/1.%20Maven%E3%80%81Spring%20IO%E3%80%81SpringBoot%E7%AE%80%E4%BB%8B/Spring%20IO%E6%98%AF%E4%BB%80%E4%B9%88/" class="article-date">
+  <time datetime="2020-09-03T02:34:09.000Z" itemprop="datePublished">2020-09-03</time>
+</a>    
     </div>
-    <div class="archives">
       
-      <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/GIT/git%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4%E7%AC%94%E8%AE%B0/" class="archive-article-date">
-  <time datetime="2021-06-04T01:30:36.000Z" itemprop="datePublished">06/04</time>
-</a>
+    <div class="article-entry" itemprop="articleBody">
        
-<h2 itemprop="name">
-  <a class="archive-article-title" href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/GIT/git%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4%E7%AC%94%E8%AE%B0/"
-    >git常用指令笔记</a> 
-</h2>
+  <h2 id="Spring-IO"><a href="#Spring-IO" class="headerlink" title="Spring IO"></a>Spring IO</h2><p>Spring IO 项目用于帮助管理项目依赖的版本号,创建Maven项目后在官网找到将其拷贝放入pom中即可。</p>
+<p>其中管理了大量依赖，各个依赖版本之间正确可用。</p>
+<p>Spring IO 已经停止维护，鼓励使用Spring Boot。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">End of Life</span><br><span class="line">The Platform will reach the end of its supported life on 9 April 2019. Maintenence releases of both the Brussels and Cairo lines will continue to be published up until that time. Users of the Platform are encourage to start using Spring Boot’s dependency management directory, either by using spring-boot-starter-parent as their Maven project’s parent, or by importing the spring-boot-dependencies bom.</span><br></pre></td></tr></table></figure>
  
-
-    </header>
-    
-    
-  </div>
-</article>
-      
-  
-  
-      <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JAVA/java%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="archive-article-date">
-  <time datetime="2021-06-03T09:32:11.000Z" itemprop="datePublished">06/03</time>
-</a>
-       
-<h2 itemprop="name">
-  <a class="archive-article-title" href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JAVA/java%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"
-    >java 学习笔记</a> 
-</h2>
- 
-
-    </header>
-    
-    
-  </div>
-</article>
-      
-  
-  
-      <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/Hello%20SpringBoot/" class="archive-article-date">
-  <time datetime="2021-06-03T06:17:03.000Z" itemprop="datePublished">06/03</time>
-</a>
-       
-<h2 itemprop="name">
-  <a class="archive-article-title" href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/Hello%20SpringBoot/"
-    >Hello SpringBoot</a> 
-</h2>
- 
-
-    </header>
-    
-    
-  </div>
-</article>
-      
+      <!-- reward -->
       
     </div>
+    
+
+    <!-- copyright -->
+    
+    <footer class="article-footer">
+       
+    </footer>
   </div>
-  
+
+    
+ 
+    
+</article>
+
+    
+    <article
+  id="post-学习笔记/SpringBoot/1. Maven、Spring IO、SpringBoot简介/SpringBoot是什么"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/1.%20Maven%E3%80%81Spring%20IO%E3%80%81SpringBoot%E7%AE%80%E4%BB%8B/SpringBoot%E6%98%AF%E4%BB%80%E4%B9%88/"
+    >SpringBoot是什么</a> 
+</h2>
+ 
+
+      
+    </header>
+     
+    <div class="article-meta">
+      <a href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/1.%20Maven%E3%80%81Spring%20IO%E3%80%81SpringBoot%E7%AE%80%E4%BB%8B/SpringBoot%E6%98%AF%E4%BB%80%E4%B9%88/" class="article-date">
+  <time datetime="2020-09-03T02:34:09.000Z" itemprop="datePublished">2020-09-03</time>
+</a>    
+    </div>
+      
+    <div class="article-entry" itemprop="articleBody">
+       
+  <h2 id="Spring-Boot是什么"><a href="#Spring-Boot是什么" class="headerlink" title="Spring Boot是什么"></a>Spring Boot是什么</h2><p>创建Spring Boot项目后，项目会自动添加spring-boot-starter-parent的父依赖项目，其就是Spring IO。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&lt;project xmlns&#x3D;&quot;http:&#x2F;&#x2F;maven.apache.org&#x2F;POM&#x2F;4.0.0&quot; xmlns:xsi&#x3D;&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2001&#x2F;XMLSchema-instance&quot;</span><br><span class="line">         xsi:schemaLocation&#x3D;&quot;http:&#x2F;&#x2F;maven.apache.org&#x2F;POM&#x2F;4.0.0 https:&#x2F;&#x2F;maven.apache.org&#x2F;xsd&#x2F;maven-4.0.0.xsd&quot;&gt;</span><br><span class="line">    &lt;modelVersion&gt;4.0.0&lt;&#x2F;modelVersion&gt;</span><br><span class="line">    &lt;parent&gt;</span><br><span class="line">        &lt;groupId&gt;org.springframework.boot&lt;&#x2F;groupId&gt;</span><br><span class="line">        &lt;artifactId&gt;spring-boot-starter-parent&lt;&#x2F;artifactId&gt;</span><br><span class="line">        &lt;version&gt;2.1.8.RELEASE&lt;&#x2F;version&gt;</span><br><span class="line">        &lt;relativePath&#x2F;&gt; &lt;!-- lookup parent from repository --&gt;</span><br><span class="line">    &lt;&#x2F;parent&gt;</span><br><span class="line">&lt;&#x2F;project&gt;</span><br></pre></td></tr></table></figure>
+<p>当前创建的项目需要使用的依赖只需要写名字就好，父项目自动使用合适的版本。</p>
+<p>连接数据库要使用data-jpa，像下面这样写到dependencies中即可。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;dependencies&gt;</span><br><span class="line">        &lt;dependency&gt;</span><br><span class="line">            &lt;groupId&gt;org.springframework.boot&lt;&#x2F;groupId&gt;</span><br><span class="line">            &lt;artifactId&gt;spring-boot-starter-data-jpa&lt;&#x2F;artifactId&gt;</span><br><span class="line">        &lt;&#x2F;dependency&gt;</span><br><span class="line">&lt;&#x2F;dependencies&gt;        </span><br></pre></td></tr></table></figure>
+ 
+      <!-- reward -->
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <footer class="article-footer">
+       
+    </footer>
+  </div>
+
+    
+ 
+    
+</article>
+
+    
+  </article>
   
 
+  
+  <nav class="page-nav">
+    
+    <a class="extend prev" rel="prev" href="/page/2/">上一页</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span>
+  </nav>
   
 </section>
+</div>
+
       <footer class="footer">
   <div class="outer">
     <ul>
