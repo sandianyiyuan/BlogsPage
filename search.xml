@@ -23,6 +23,23 @@
       </tags>
   </entry>
   <entry>
+    <title>keepass(密码管理工具)</title>
+    <url>/keepass/keepass(%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7)/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>官方网站<a href="https://keepass.info/">keepass.info</a><br>github上已经两个项目全面地介绍了keepass及插件的使用方法：<br><a href="https://github.com/1688aa/KeePass-Plugins-Instructions-for-use">github.com/1688aa/KeePass-Plugins-Instructions-for-use</a><br><a href="https://github.com/1688aa/KeePass-Instructions-for-use">github.com/1688aa/KeePass-Instructions-for-use</a></p>
+<p>KeePass 是一款免费的开源密码管理器，KeePass 将密码存储为一个数据库，而这个数据库由一个主密码或密码文件锁住，也就是说我们只需要记住一个主密码，或使用一个密码文件，就可以解开这个数据库，就可以获得其他的密码内容。<br>办公室电脑密码、笔记本密码、家里电脑密码、上网帐号密码、手机服务密码、邮箱密码、QQ 密码、银行卡查询密码、银行卡交易密码、银行卡网上支付密码……我们需要记太多太多的密码。纵然我们可以使一些密码一致，但无法让所有的密码都一样，到头来，我们仍要记不少的密码，尤其是对于掌握信息系统的人来说，密码更多了。</p>
+<p>实际上把密码记下来，也不代表不安全，完全留在脑中，反而容易忘记。所以有了 KeePass。</p>
+]]></content>
+      <categories>
+        <category>工具软件</category>
+        <category>keepass</category>
+      </categories>
+      <tags>
+        <tag>技术</tag>
+        <tag>工具软件</tag>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>mybase(个人笔记软件)</title>
     <url>/keepass/mybase(%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6)/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>myBase 是一款用于分类管理任意格式文档资料的小型个人数据库软件， 有助于个人用户在 (Linux/MacOSX/Windows)桌面电脑系统上实施文档、笔记、日记、图片和网页等知识内容的分类管理。 借助软件提供的各项功能，创建和维护一个专属于自己的个人知识库将变的非常容易。 与传统意义上的数据库软件不同，myBase 通过内置的富文本编辑器接受图文信息的输入，并按树形大纲分门别类保存，同时接受任意磁盘文件作为大纲条目的附件。 myBase 提供了更好的方式使知识/信息的捕获、编辑、组织、查看、索引、搜索和分享变得更快捷、更容易。<br>对于工作中的一些个人笔记，可以用mybase存放，使用mybase可以避免文件散落在磁盘的各个地方。</p>
@@ -62,6 +79,63 @@
       </tags>
   </entry>
   <entry>
+    <title>Anywhere 快捷卡片应用</title>
+    <url>/%E6%97%A5%E5%B8%B8/Anywhere%20%E5%BF%AB%E6%8D%B7%E5%8D%A1%E7%89%87%E5%BA%94%E7%94%A8/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Anywhere 是一款快捷卡片应用，可以在桌面灵活的创建应用快捷方式。</p>
+<p>有时候在群里说了一句话没人理我，然后我就想，能不能不说这么多废话，或者换一个地方说？ 不说憋着不舒服，发朋友圈感觉又不合适，想来想去好像只有微博最适合日常吐槽，发一些乱七八糟的东西。<br>这时候发现微博发文不像在群里说话那样输入内容点 send 就发出去了，微博稍微繁琐一些。想找一款第三方的客户端，它只有一个类似微信对话窗口，输入内容点 send 就能发博，避免停留在微博首页时间太长被其他信息干扰。<br>找来找去没找到合适的客户端，最后还是用了微博的官方客户端。<br>后来想到之前安装的快捷方式卡片能创建一个快捷方式，通过快捷方式可以直接打开编辑微博的页面，感觉这也很方便快捷。<br>上手之后发现确实不错。  </p>
+]]></content>
+      <categories>
+        <category>日常</category>
+      </categories>
+      <tags>
+        <tag>日常</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>反诈宣传</title>
+    <url>/%E6%97%A5%E5%B8%B8/%E5%8F%8D%E8%AF%88%E5%AE%A3%E4%BC%A0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>国家为了反诈骗也是操碎了心，开发出一款叫“国家反诈中心”的APP，公司为了完成任务要求强制安装。<br>出于习惯，反对一切强制的行为。<br>如果给我安利说这APP里有一些很牛皮的功能，建议装了看看，我可能出于好奇会安装体验一下，但直接强制要我安装的话就不一样了，出于对自己隐私的保护，我是拒绝安装的，它要的权限真的太多了。</p>
+]]></content>
+      <categories>
+        <category>日常</category>
+        <category>随想</category>
+      </categories>
+      <tags>
+        <tag>日常</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于焦虑</title>
+    <url>/%E6%97%A5%E5%B8%B8/%E7%84%A6%E8%99%91/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>这几天感觉浑身不舒服，跟焦虑症的症状全都对上了<br>知乎上搜到篇文章<a href="https://zhuanlan.zhihu.com/p/25909485">焦虑，是闲出来的病，是懒出来的症</a>  </p>
+]]></content>
+      <categories>
+        <category>日常</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>纠结症</title>
+    <url>/%E6%97%A5%E5%B8%B8/%E7%BA%A0%E7%BB%93%E7%97%87/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>经常会发生想做一件事又怕麻烦或者还没开始做就想得很远很远，怕开头的方向不对，导致后面纠正麻烦的情况，然后就让自己陷入无尽的纠结之中。<br><img src="https://z3.ax1x.com/2021/05/24/gjbShj.jpg" alt="抓狂"></p>
+<a id="more"></a>
+<p>比如，我想搭博客，在博客中分享日常，这本来是一个挺好的想法，多了解一下之后发现在博客中可以打广告挣钱，要想挣钱就得分享有意义的内容，到这里又会想，既然要挣钱怎么不去做公众号呢？公众号更好引流，接着我又去查小白如何运营公众号，网上说首先是要找准定位，然后在细分领域中深耕细作，这一下又得想定位，开始想自己如何定位、哪个领域合适，怕定位不准，导致后期运营麻烦。你看，到这一步是不是想得太多了，这时候我意识到自己似乎已经背离写博客的初衷了。</p>
+<p>晚上我开始思考，为什么这么纠结呢？我想到一句话是这么说的：种一棵树最好的时间是十年前，其次是现在。<br>对于有纠结症的人来说，种树之前是不是要问种什么树？可是为什么没人这么问，大概是没意义吧，随便啥树先种上再说，不要想以后这树是用来乘凉还是吃果子，要是拿来吃果子的话，是不是又要想应该种啥水果呢？未免太累了。</p>
+]]></content>
+      <categories>
+        <category>日常</category>
+        <category>随想</category>
+      </categories>
+      <tags>
+        <tag>日常</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>送别国之脊梁袁隆平</title>
+    <url>/%E6%97%A5%E5%B8%B8/%E9%80%81%E5%88%AB%E5%9B%BD%E4%B9%8B%E8%84%8A%E6%A2%81%E8%A2%81%E9%9A%86%E5%B9%B3/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>【痛悼！送别国之脊梁袁隆平】今天，共和国痛失袁隆平院士。<br>“我最大的愿望是饭碗要牢牢地掌握在我们中国人自己手上！”<br>他把一生浸在稻田里，把功勋写在大地上。国士无双，致敬，缅怀！<br><img src="https://z3.ax1x.com/2021/05/22/gLpCq0.jpg" alt="袁隆平"></p>
+]]></content>
+  </entry>
+  <entry>
     <title>Linux定时任务配置</title>
     <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Linux%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1%E9%85%8D%E7%BD%AE/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Linux定时任务配置在线生成工具：<a href="https://cron.qqe2.com/">https://cron.qqe2.com/</a></p>
@@ -89,6 +163,19 @@
       </tags>
   </entry>
   <entry>
+    <title>github仓库开启Discussions</title>
+    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/github%E4%BB%93%E5%BA%93%E5%BC%80%E5%90%AFDiscussions/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>才发现github仓库可以开Discussions。<br>该功能在settings-&gt;Options中，勾选Discussions就可开启。<br>开启后就可以方便的讨论问题而不用提issue了。<br>快来跟我一起讨论吧<a href="https://github.com/sandianyiyuan/BlogsPage/discussions">传送门</a></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+        <category>git</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>hexo搭建博客的过程</title>
     <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>hexo d 部署报错 ERROR Deployer not found: git 需要安装插件<br><code>npm install --save hexo-deployer-git</code></p>
@@ -105,97 +192,11 @@
       </tags>
   </entry>
   <entry>
-    <title>github仓库开启Discussions</title>
-    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/github%E4%BB%93%E5%BA%93%E5%BC%80%E5%90%AFDiscussions/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>才发现github仓库可以开Discussions。<br>该功能在settings-&gt;Options中，勾选Discussions就可开启。<br>开启后就可以方便的讨论问题而不用提issue了。<br>快来跟我一起讨论吧<a href="https://github.com/sandianyiyuan/BlogsPage/discussions">传送门</a></p>
-]]></content>
-      <categories>
-        <category>技术</category>
-        <category>git</category>
-      </categories>
-      <tags>
-        <tag>git</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Anywhere 快捷卡片应用</title>
-    <url>/%E6%97%A5%E5%B8%B8/Anywhere%20%E5%BF%AB%E6%8D%B7%E5%8D%A1%E7%89%87%E5%BA%94%E7%94%A8/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Anywhere 是一款快捷卡片应用，可以在桌面灵活的创建应用快捷方式。</p>
-<p>有时候在群里说了一句话没人理我，然后我就想，能不能不说这么多废话，或者换一个地方说？ 不说憋着不舒服，发朋友圈感觉又不合适，想来想去好像只有微博最适合日常吐槽，发一些乱七八糟的东西。<br>这时候发现微博发文不像在群里说话那样输入内容点 send 就发出去了，微博稍微繁琐一些。想找一款第三方的客户端，它只有一个类似微信对话窗口，输入内容点 send 就能发博，避免停留在微博首页时间太长被其他信息干扰。<br>找来找去没找到合适的客户端，最后还是用了微博的官方客户端。<br>后来想到之前安装的快捷方式卡片能创建一个快捷方式，通过快捷方式可以直接打开编辑微博的页面，感觉这也很方便快捷。<br>上手之后发现确实不错。  </p>
-]]></content>
-      <categories>
-        <category>日常</category>
-      </categories>
-      <tags>
-        <tag>日常</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>反诈宣传</title>
-    <url>/%E6%97%A5%E5%B8%B8/%E5%8F%8D%E8%AF%88%E5%AE%A3%E4%BC%A0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>国家为了反诈骗也是操碎了心，开发出一款叫“国家反诈中心”的APP，公司为了完成任务要求强制安装。<br>出于习惯，反对一切强制的行为。<br>如果给我安利说这APP里有一些很牛皮的功能，建议装了看看，我可能出于好奇会安装体验一下，但直接强制要我安装的话就不一样了，出于对自己隐私的保护，我是拒绝安装的，它要的权限真的太多了。</p>
-]]></content>
-      <categories>
-        <category>日常</category>
-        <category>随想</category>
-      </categories>
-      <tags>
-        <tag>日常</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>keepass(密码管理工具)</title>
-    <url>/keepass/keepass(%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7)/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>官方网站<a href="https://keepass.info/">keepass.info</a><br>github上已经两个项目全面地介绍了keepass及插件的使用方法：<br><a href="https://github.com/1688aa/KeePass-Plugins-Instructions-for-use">github.com/1688aa/KeePass-Plugins-Instructions-for-use</a><br><a href="https://github.com/1688aa/KeePass-Instructions-for-use">github.com/1688aa/KeePass-Instructions-for-use</a></p>
-<p>KeePass 是一款免费的开源密码管理器，KeePass 将密码存储为一个数据库，而这个数据库由一个主密码或密码文件锁住，也就是说我们只需要记住一个主密码，或使用一个密码文件，就可以解开这个数据库，就可以获得其他的密码内容。<br>办公室电脑密码、笔记本密码、家里电脑密码、上网帐号密码、手机服务密码、邮箱密码、QQ 密码、银行卡查询密码、银行卡交易密码、银行卡网上支付密码……我们需要记太多太多的密码。纵然我们可以使一些密码一致，但无法让所有的密码都一样，到头来，我们仍要记不少的密码，尤其是对于掌握信息系统的人来说，密码更多了。</p>
-<p>实际上把密码记下来，也不代表不安全，完全留在脑中，反而容易忘记。所以有了 KeePass。</p>
-]]></content>
-      <categories>
-        <category>工具软件</category>
-        <category>keepass</category>
-      </categories>
-      <tags>
-        <tag>技术</tag>
-        <tag>工具软件</tag>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>纠结症</title>
-    <url>/%E6%97%A5%E5%B8%B8/%E7%BA%A0%E7%BB%93%E7%97%87/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>经常会发生想做一件事又怕麻烦或者还没开始做就想得很远很远，怕开头的方向不对，导致后面纠正麻烦的情况，然后就让自己陷入无尽的纠结之中。<br><img src="https://z3.ax1x.com/2021/05/24/gjbShj.jpg" alt="抓狂"></p>
-<a id="more"></a>
-<p>比如，我想搭博客，在博客中分享日常，这本来是一个挺好的想法，多了解一下之后发现在博客中可以打广告挣钱，要想挣钱就得分享有意义的内容，到这里又会想，既然要挣钱怎么不去做公众号呢？公众号更好引流，接着我又去查小白如何运营公众号，网上说首先是要找准定位，然后在细分领域中深耕细作，这一下又得想定位，开始想自己如何定位、哪个领域合适，怕定位不准，导致后期运营麻烦。你看，到这一步是不是想得太多了，这时候我意识到自己似乎已经背离写博客的初衷了。</p>
-<p>晚上我开始思考，为什么这么纠结呢？我想到一句话是这么说的：种一棵树最好的时间是十年前，其次是现在。<br>对于有纠结症的人来说，种树之前是不是要问种什么树？可是为什么没人这么问，大概是没意义吧，随便啥树先种上再说，不要想以后这树是用来乘凉还是吃果子，要是拿来吃果子的话，是不是又要想应该种啥水果呢？未免太累了。</p>
-]]></content>
-      <categories>
-        <category>日常</category>
-        <category>随想</category>
-      </categories>
-      <tags>
-        <tag>日常</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>送别国之脊梁袁隆平</title>
-    <url>/%E6%97%A5%E5%B8%B8/%E9%80%81%E5%88%AB%E5%9B%BD%E4%B9%8B%E8%84%8A%E6%A2%81%E8%A2%81%E9%9A%86%E5%B9%B3/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>【痛悼！送别国之脊梁袁隆平】今天，共和国痛失袁隆平院士。<br>“我最大的愿望是饭碗要牢牢地掌握在我们中国人自己手上！”<br>他把一生浸在稻田里，把功勋写在大地上。国士无双，致敬，缅怀！<br><img src="https://z3.ax1x.com/2021/05/22/gLpCq0.jpg" alt="袁隆平"></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>关于焦虑</title>
-    <url>/%E6%97%A5%E5%B8%B8/%E7%84%A6%E8%99%91/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>这几天感觉浑身不舒服，跟焦虑症的症状全都对上了<br>知乎上搜到篇文章<a href="https://zhuanlan.zhihu.com/p/25909485">焦虑，是闲出来的病，是懒出来的症</a>  </p>
-]]></content>
-      <categories>
-        <category>日常</category>
-      </categories>
-  </entry>
-  <entry>
     <title>GitLabPages</title>
     <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/GIT/GitLabPages/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>cnblogs.com/zhangnan35/p/10709252.html</p>
-<h1 id="配置Gitlab-pages和Gitlab-CI"><a href="#配置Gitlab-pages和Gitlab-CI" class="headerlink" title="配置Gitlab pages和Gitlab CI"></a><a href="https://www.cnblogs.com/zhangnan35/p/10709252.html">配置Gitlab pages和Gitlab CI</a></h1><p>　　首先，Gitlab pages是很简单的，至少比起github pages要简单很多。</p>
+<p>配置Gitlab pages和Gitlab CI<a href="https://www.cnblogs.com/zhangnan35/p/10709252.html">参考文档：https://www.cnblogs.com/zhangnan35/p/10709252.htm</a></p>
+<p>　　首先，Gitlab pages是很简单的，至少比起github pages要简单很多。</p>
 <p>　　Gitlab Pages的原理这是样的：首先，当你新建一个Gitlab项目的时候，你同时也建了一个存储库。</p>
 <p>　　只要你的工程目录的根目录下有.gitlab-ci.yml文件，注意必须严格起这个名字。gitlab runner就会执行这个脚本文件。</p>
 <p>　　脚本的最终目的很简单：把静态文件放入名为public目录下的文件夹内。Gitlab pages会一直去这个存储库的public目录找。注意：这个public是指存储库的public，与项目结构无关。换言之，这个public目录不可见。</p>
@@ -203,15 +204,15 @@
 <p>　　当然，如果你不想使用默认的配置，而是想部署到特定的域名和服务器，则需要在yml文件中进行一些docker的配置。</p>
 <p>　　开发者提交代码后,runner检索项目根目录下名为**.gitlab-ci.yml<strong>的文件，并执行文件中的脚本，脚本内容包括项目的运行，打包，缓存打包文件，转移文件到</strong>public**目录以供gitlab pages使用。而gitlab pages会到public目录中解析静态文件成页面。</p>
 <p>　　好，现在就来看一下我写的一份CI脚本，首先说一下，CI的代码风格类似于python这种，纯靠缩进来区分层级关系的，所以书写时，<strong>缩进是严格的</strong>。</p>
-<p>　　<img src="img/%E4%B8%80%E4%BB%BDCI%E8%84%9A%E6%9C%AC.png" alt="img"></p>
+<p>　　<img src="GitLabPages/%E4%B8%80%E4%BB%BDCI%E8%84%9A%E6%9C%AC.png" alt="img"></p>
 <p>　　下面是代码注释版版的：</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">building: &#x2F;&#x2F;自己随便命名的</span><br><span class="line">  image: node:latest &#x2F;&#x2F;node镜像为最新版的，最好指定版本号</span><br><span class="line">  stage: build &#x2F;&#x2F;当前stage阶段为build</span><br><span class="line">  script: &#x2F;&#x2F;build阶段运行的脚本</span><br><span class="line">    - npm install --progress&#x3D;false --no-optional &#x2F;&#x2F;根据package.json来安装依赖 progress设为false是为了不打印安装的具体进度，no optional是为了跳过npm推荐的但不是编译必须的，也没有写在package.json里一些依赖，比如说查看源代码等</span><br><span class="line">    - npm run build &#x2F;&#x2F;打包</span><br><span class="line">  artifacts: &#x2F;&#x2F;工件，可以缓存在gitlab的流水线记录中，供直接下载</span><br><span class="line">    expire_in: 3 days &#x2F;&#x2F;工件缓存的有效时间</span><br><span class="line">    paths: &#x2F;&#x2F;路径</span><br><span class="line">      - dist &#x2F;&#x2F;工件指向的目录，这里指整个dist目录</span><br><span class="line"></span><br><span class="line">cache: &#x2F;&#x2F;缓存</span><br><span class="line">  paths: &#x2F;&#x2F;路径</span><br><span class="line">    - node_modules&#x2F; &#x2F;&#x2F;缓存node_mudules将大大提高ci运行的速度</span><br><span class="line"></span><br><span class="line">pages: &#x2F;&#x2F;随便起的名字</span><br><span class="line">  stage: deploy &#x2F;&#x2F;当前阶段为deploy</span><br><span class="line">  script: &#x2F;&#x2F;deploy阶段运行的命令</span><br><span class="line">    - rm -rf public&#x2F;* &#x2F;&#x2F;linux命令，递归无询问删除public目录下所有文件- mv dist&#x2F;* public &#x2F;&#x2F;将dist目录下的所有文件都移动到public目录下</span><br><span class="line">  artifacts: &#x2F;&#x2F;工件缓存</span><br><span class="line">    expire_in: 3 days &#x2F;&#x2F;时效为3天</span><br><span class="line">    paths: &#x2F;&#x2F;路径</span><br><span class="line">      - public &#x2F;&#x2F;缓存整个public目录的文件</span><br><span class="line">  only: </span><br><span class="line">    - dev &#x2F;&#x2F;ceate pages下的所有操作只在dev分支上进行</span><br></pre></td></tr></table></figure>
 <p>　　下载一个工件下来看看：</p>
-<p>　　<img src="img/%E5%B7%A5%E4%BB%B6.png" alt="img"></p>
+<p>　　<img src="GitLabPages/%E5%B7%A5%E4%BB%B6.png" alt="img"></p>
 <p>　　可以发现我所言非虚。这时候我们把这个提交推到远程。</p>
-<p><img src="img/%E6%8F%90%E4%BA%A4%E5%88%B0%E8%BF%9C%E7%A8%8B.png" alt="img"></p>
+<p><img src="GitLabPages/%E6%8F%90%E4%BA%A4%E5%88%B0%E8%BF%9C%E7%A8%8B.png" alt="img"></p>
 <p>　　等待这个流水线跑完，在 <strong>项目 –&gt; 设置 –&gt; pages</strong> 中，可以看到线上页面已经生成了。</p>
-<p>　　<img src="img/%E6%9F%A5%E7%9C%8B%E9%A1%B5%E9%9D%A2.png" alt="img"></p>
+<p>　　<img src="GitLabPages/%E6%9F%A5%E7%9C%8B%E9%A1%B5%E9%9D%A2.png" alt="img"></p>
 ]]></content>
       <categories>
         <category>技术</category>
@@ -252,20 +253,6 @@
       </tags>
   </entry>
   <entry>
-    <title>java 学习笔记</title>
-    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JAVA/java%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>ipml 接口的实现类</p>
-]]></content>
-      <categories>
-        <category>技术</category>
-        <category>java</category>
-      </categories>
-      <tags>
-        <tag>技术</tag>
-        <tag>java</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello SpringBoot</title>
     <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/Hello%20SpringBoot/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Hello SpringBoot</p>
@@ -281,10 +268,16 @@
 <p><code>Packaging</code>：打包方式</p>
 <p><code>version</code>：指定了项目的当前版本，SNAPSHOT意为快照，说明该项目还处于开发中，是不稳定的版本</p>
 <p>所有信息填写完成之后，点击页面上的获取代码，根据提示下载或者克隆代码。</p>
-<p>将项目导入到 IDEA 中，执行一下 MAVEN Updata 。<br>找到主程序，点击运行，就可以在本地浏览器访问到页面了。<br><img src="attachment/Pasted%20image%2020210603161006.png"></p>
-<p>关于基础包，使用默认的值 Group + Artifact 生成的代码在 IDE 中会提示包路径不对：<br><img src="attachment/Pasted%20image%2020210603162636.png"></p>
+<p>将项目导入到 IDEA 中，执行一下 MAVEN Updata 。<br>找到主程序，点击运行，就可以在本地浏览器访问到页面了。<br><img src="Hello%20SpringBoot/Pasted%20image%2020210603161006.png"></p>
+<p>关于基础包，使用默认的值 Group + Artifact 生成的代码在 IDE 中会提示包路径不对：<br><img src="Hello%20SpringBoot/Pasted%20image%2020210603162636.png"></p>
 <p>自己重新设置一下，去掉 Artifact ，生成的就正常了。</p>
 <p>阿里在线生成的是一个多模块的项目，各层是个独立的模块。<br>这样做有什么好参考这篇文章<a href="https://blog.csdn.net/weixin_30361753/article/details/96202803">https://blog.csdn.net/weixin_30361753/article/details/96202803</a><br>maven多模块项目的使用，参考这篇文章<a href="https://blog.csdn.net/tomcat_2014/article/details/50206197">https://blog.csdn.net/tomcat_2014/article/details/50206197</a></p>
+<h2 id="关于三层架构"><a href="#关于三层架构" class="headerlink" title="关于三层架构"></a>关于三层架构</h2><ul>
+<li>entity 层<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">别名： model 层、domain 层</span><br><span class="line">作用： 实体层，用于存放我们的实体类，与数据库中的属性值基本保持一致，实现set和get的方法。</span><br></pre></td></tr></table></figure></li>
+<li> mapper 层<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">别名： dao 层  </span><br><span class="line">用途： 对数据库进行数据持久化操作，他的方法语句是直接针对数据库的操作，主要实现一些增删改查操作。</span><br></pre></td></tr></table></figure></li>
+<li>service 层<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">用途： 业务 service 层，给 controller 层的类提供接口进行调用。一般就是自己写的方法封装起来，就是声明一下，具体实现在serviceImpl中。</span><br></pre></td></tr></table></figure></li>
+<li>controller 层<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">别名： web 层、控制层 </span><br><span class="line">用途： 负责具体模块的业务流程控制，需要调用 service 逻辑设计层的接口来控制业务流程。 controller 通过接收前端 H5 或者 App 传过来的参数进行业务操作，再将处理结果返回到前端。</span><br></pre></td></tr></table></figure></li>
+</ul>
 ]]></content>
       <categories>
         <category>技术</category>
@@ -292,6 +285,74 @@
       <tags>
         <tag>技术</tag>
         <tag>Spring Boot</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>java 学习笔记</title>
+    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JAVA/java%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>ipml 接口的实现类</p>
+]]></content>
+      <categories>
+        <category>技术</category>
+        <category>java</category>
+      </categories>
+      <tags>
+        <tag>技术</tag>
+        <tag>java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>SpringBoot搭建博客</title>
+    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/SpringBoot%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>参考文章：<a href="https://www.cnblogs.com/superfj/p/9044532.html">https://www.cnblogs.com/superfj/p/9044532.html</a></p>
+<p>项目代码：<a href="https://github.com/JayTange/Jantent">https://github.com/JayTange/Jantent</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>SpringBoot配置文件</title>
+    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/SpringBoot%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>配置文件 <code>application.properties</code> 与<code>application.yml</code> </p>
+<p>spring boot项目中同时存在application.properties和application.yml文件时，两个文件都有效，但是application.properties的优先级会比application.yml高。<br>参考文档：<a href="https://www.hangge.com/blog/cache/detail_2459.html">https://www.hangge.com/blog/cache/detail_2459.html</a><br>在创建一个 SpringBoot 项目时，引入的 spring-boot-starter-web 依赖间接地引入了 snakeyaml 依赖， snakeyaml 会实现对 YAML 配置的解析。<br><code>application.yml</code> 的结构更加清晰，建议使用 <code>application.yml</code></p>
+]]></content>
+      <tags>
+        <tag>技术</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据库笔记</title>
+    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E6%95%B0%E6%8D%AE%E5%BA%93/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="未找到父项关键字"><a href="#未找到父项关键字" class="headerlink" title="未找到父项关键字"></a>未找到父项关键字</h2><p>考虑子表中数据已经与主表不一致，可能存在主表没有的数据。<br>解决方法： 先把数据查出来删除再添加外键。<br>查询语句如下：  </p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="keyword">DISTINCT</span>  st.id <span class="keyword">from</span> sub_tab st </span><br><span class="line"><span class="keyword">where</span> st.id  <span class="keyword">NOT</span> <span class="keyword">in</span> (<span class="keyword">select</span> ft.id <span class="keyword">from</span> parent_tab ft);</span><br></pre></td></tr></table></figure>
+<p>看一眼数据，确认之后，将这些数据删除。</p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">delete</span> sub_tab st  <span class="keyword">where</span> st.id <span class="keyword">IN</span></span><br><span class="line">(<span class="keyword">select</span> <span class="keyword">DISTINCT</span>  st.id <span class="keyword">from</span> sub_tab st </span><br><span class="line"><span class="keyword">where</span> st.id  <span class="keyword">NOT</span> <span class="keyword">in</span> (<span class="keyword">select</span> ft.id <span class="keyword">from</span> parent_tab ft););</span><br></pre></td></tr></table></figure>
+<h2 id="名称已被现有约束条件占用"><a href="#名称已被现有约束条件占用" class="headerlink" title="名称已被现有约束条件占用"></a>名称已被现有约束条件占用</h2><p>外键也有自己的名字，报这个错可能是名字其他地方占用了，换个名字就可以了</p>
+]]></content>
+      <categories>
+        <category>技术</category>
+        <category>数据库</category>
+      </categories>
+      <tags>
+        <tag>数据库</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>常用注解</title>
+    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/%E5%B8%B8%E7%94%A8%E6%B3%A8%E8%A7%A3/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>@ResponseBody 的作用其实是将 java 对象转为 json 格式的数据。</p>
+<p>@responseBody 注解的作用是将 controller 的方法返回的对象通过适当的转换器转换为指定的格式之后，写入到 response 对象的 body 区，通常用来返回 JSON 数据或者是XML数据。<br>注意：在使用此注解之后不会再走视图处理器，而是直接将数据写入到输入流中，他的效果等同于通过response 对象输出指定格式的数据。</p>
+<p>@ResponseBody 是作用在方法上的， @ResponseBody 表示该方法的返回结果直接写入 HTTP response body 中，一般在异步获取数据时使用【也就是AJAX】。<br>注意：在使用 @RequestMapping后，返回值通常解析为跳转路径，但是加上 @ResponseBody 后返回结果不会被解析为跳转路径，而是直接写入 HTTP response body 中。 比如异步获取 json 数据，加上 @ResponseBody 后，会直接返回 json 数据。@RequestBody 将 HTTP 请求正文插入方法中，使用适合的 HttpMessageConverter 将请求体写入某个对象。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">后台 Controller类中对应的方法：</span><br><span class="line">@RequestMapping(&quot;&#x2F;login.do&quot;)</span><br><span class="line">@ResponseBody</span><br><span class="line">public Object login(String name, String password, HttpSession session) &#123;</span><br><span class="line">	user &#x3D; userService.checkLogin(name, password);</span><br><span class="line">	session.setAttribute(&quot;user&quot;, user);</span><br><span class="line">	return new JsonResult(user);</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line">@RequestBody是作用在形参列表上，用于将前台发送过来固定格式的数据【xml格式 或者 json等】封装为对应的 JavaBean 对象，</span><br><span class="line">封装时使用到的一个对象是系统默认配置的 HttpMessageConverter进行解析，然后封装到形参上。</span><br><span class="line">如上面的登录后台代码可以改为：</span><br><span class="line">@RequestMapping(&quot;&#x2F;login.do&quot;)</span><br><span class="line">@ResponseBody</span><br><span class="line">public Object login(@RequestBody User loginUuser, HttpSession session) &#123;</span><br><span class="line">	user &#x3D; userService.checkLogin(loginUser);</span><br><span class="line">	session.setAttribute(&quot;user&quot;, user);</span><br><span class="line">	return new JsonResult(user);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>@RequestBody<br>@RequestBody 注解则是将 HTTP 请求正文插入方法中，使用适合的 HttpMessageConverter 将请求体写入某个对象。<br>作用：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">1) 该注解用于读取Request请求的body部分数据，使用系统默认配置的HttpMessageConverter进行解析，然后把相应的数据绑定</span><br><span class="line">    到要返回的对象上； </span><br><span class="line">2) 再把HttpMessageConverter返回的对象数据绑定到 controller中方法的参数上。</span><br></pre></td></tr></table></figure>
+<p>使用时机：</p>
+<p>A) GET、POST方式提时， 根据request header Content-Type的值来判断:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">    application&#x2F;x-www-form-urlencoded， 可选（即非必须，因为这种情况的数据@RequestParam, @ModelAttribute</span><br><span class="line">也可以处理，当然@RequestBody也能处理）； </span><br><span class="line">    multipart&#x2F;form-data, 不能处理（即使用@RequestBody不能处理这种格式的数据）； </span><br><span class="line">    其他格式， 必须（其他格式包括application&#x2F;json, application&#x2F;xml等。这些格式的数据，必须使用@RequestBody来处理）；</span><br></pre></td></tr></table></figure>
+<p>B) PUT方式提交时， 根据request header Content-Type的值来判断:</p>
+<p>application/x-www-form-urlencoded， 必须；multipart/form-data, 不能处理；其他格式， 必须；<br>说明：request的body部分的数据编码格式由header部分的Content-Type指定；</p>
+<p>例如：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">@RequestMapping(value &#x3D; &quot;user&#x2F;login&quot;)</span><br><span class="line">@ResponseBody</span><br><span class="line">&#x2F;&#x2F; 将ajax（datas）发出的请求写入 User 对象中</span><br><span class="line">public User login(@RequestBody User user) &#123;   </span><br><span class="line">&#x2F;&#x2F; 这样就不会再被解析为跳转路径，而是直接将user对象写入 HTTP 响应正文中</span><br><span class="line">    return user;    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      <tags>
+        <tag>spring Boot</tag>
       </tags>
   </entry>
   <entry>
@@ -321,35 +382,5 @@
 <p>连接数据库要使用data-jpa，像下面这样写到dependencies中即可。</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;dependencies&gt;</span><br><span class="line">        &lt;dependency&gt;</span><br><span class="line">            &lt;groupId&gt;org.springframework.boot&lt;&#x2F;groupId&gt;</span><br><span class="line">            &lt;artifactId&gt;spring-boot-starter-data-jpa&lt;&#x2F;artifactId&gt;</span><br><span class="line">        &lt;&#x2F;dependency&gt;</span><br><span class="line">&lt;&#x2F;dependencies&gt;        </span><br></pre></td></tr></table></figure>
 ]]></content>
-  </entry>
-  <entry>
-    <title>SpringBoot配置文件</title>
-    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/SpringBoot%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>配置文件 <code>application.properties</code> 与<code>application.yml</code> </p>
-<p>spring boot项目中同时存在application.properties和application.yml文件时，两个文件都有效，但是application.properties的优先级会比application.yml高。<br>参考文档：<a href="https://www.hangge.com/blog/cache/detail_2459.html">https://www.hangge.com/blog/cache/detail_2459.html</a><br>在创建一个 SpringBoot 项目时，引入的 spring-boot-starter-web 依赖间接地引入了 snakeyaml 依赖， snakeyaml 会实现对 YAML 配置的解析。<br><code>application.yml</code> 的结构更加清晰，建议使用 <code>application.yml</code></p>
-]]></content>
-      <tags>
-        <tag>技术</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>常用注解</title>
-    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/%E5%B8%B8%E7%94%A8%E6%B3%A8%E8%A7%A3/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>@ResponseBody 的作用其实是将 java 对象转为 json 格式的数据。</p>
-<p>@responseBody 注解的作用是将 controller 的方法返回的对象通过适当的转换器转换为指定的格式之后，写入到 response 对象的 body 区，通常用来返回 JSON 数据或者是XML数据。<br>注意：在使用此注解之后不会再走视图处理器，而是直接将数据写入到输入流中，他的效果等同于通过response 对象输出指定格式的数据。</p>
-<p>@ResponseBody 是作用在方法上的， @ResponseBody 表示该方法的返回结果直接写入 HTTP response body 中，一般在异步获取数据时使用【也就是AJAX】。<br>注意：在使用 @RequestMapping后，返回值通常解析为跳转路径，但是加上 @ResponseBody 后返回结果不会被解析为跳转路径，而是直接写入 HTTP response body 中。 比如异步获取 json 数据，加上 @ResponseBody 后，会直接返回 json 数据。@RequestBody 将 HTTP 请求正文插入方法中，使用适合的 HttpMessageConverter 将请求体写入某个对象。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">后台 Controller类中对应的方法：</span><br><span class="line">@RequestMapping(&quot;&#x2F;login.do&quot;)</span><br><span class="line">@ResponseBody</span><br><span class="line">public Object login(String name, String password, HttpSession session) &#123;</span><br><span class="line">	user &#x3D; userService.checkLogin(name, password);</span><br><span class="line">	session.setAttribute(&quot;user&quot;, user);</span><br><span class="line">	return new JsonResult(user);</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line">@RequestBody是作用在形参列表上，用于将前台发送过来固定格式的数据【xml格式 或者 json等】封装为对应的 JavaBean 对象，</span><br><span class="line">封装时使用到的一个对象是系统默认配置的 HttpMessageConverter进行解析，然后封装到形参上。</span><br><span class="line">如上面的登录后台代码可以改为：</span><br><span class="line">@RequestMapping(&quot;&#x2F;login.do&quot;)</span><br><span class="line">@ResponseBody</span><br><span class="line">public Object login(@RequestBody User loginUuser, HttpSession session) &#123;</span><br><span class="line">	user &#x3D; userService.checkLogin(loginUser);</span><br><span class="line">	session.setAttribute(&quot;user&quot;, user);</span><br><span class="line">	return new JsonResult(user);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>@RequestBody<br>@RequestBody 注解则是将 HTTP 请求正文插入方法中，使用适合的 HttpMessageConverter 将请求体写入某个对象。<br>作用：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">1) 该注解用于读取Request请求的body部分数据，使用系统默认配置的HttpMessageConverter进行解析，然后把相应的数据绑定</span><br><span class="line">    到要返回的对象上； </span><br><span class="line">2) 再把HttpMessageConverter返回的对象数据绑定到 controller中方法的参数上。</span><br></pre></td></tr></table></figure>
-<p>使用时机：</p>
-<p>A) GET、POST方式提时， 根据request header Content-Type的值来判断:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">    application&#x2F;x-www-form-urlencoded， 可选（即非必须，因为这种情况的数据@RequestParam, @ModelAttribute</span><br><span class="line">也可以处理，当然@RequestBody也能处理）； </span><br><span class="line">    multipart&#x2F;form-data, 不能处理（即使用@RequestBody不能处理这种格式的数据）； </span><br><span class="line">    其他格式， 必须（其他格式包括application&#x2F;json, application&#x2F;xml等。这些格式的数据，必须使用@RequestBody来处理）；</span><br></pre></td></tr></table></figure>
-<p>B) PUT方式提交时， 根据request header Content-Type的值来判断:</p>
-<p>application/x-www-form-urlencoded， 必须；multipart/form-data, 不能处理；其他格式， 必须；<br>说明：request的body部分的数据编码格式由header部分的Content-Type指定；</p>
-<p>例如：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">@RequestMapping(value &#x3D; &quot;user&#x2F;login&quot;)</span><br><span class="line">@ResponseBody</span><br><span class="line">&#x2F;&#x2F; 将ajax（datas）发出的请求写入 User 对象中</span><br><span class="line">public User login(@RequestBody User user) &#123;   </span><br><span class="line">&#x2F;&#x2F; 这样就不会再被解析为跳转路径，而是直接将user对象写入 HTTP 响应正文中</span><br><span class="line">    return user;    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-      <tags>
-        <tag>spring Boot</tag>
-      </tags>
   </entry>
 </search>
