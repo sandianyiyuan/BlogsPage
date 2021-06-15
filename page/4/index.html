@@ -15,7 +15,7 @@
         name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1"
       />
-      <title>为什么身边没人用飞书 |  三点一圆</title>
+      <title> 三点一圆</title>
   <meta name="generator" content="hexo-theme-ayer">
       
       <link rel="shortcut icon" href="/favicon.ico" />
@@ -49,9 +49,105 @@
         style="position: fixed; left: 0px; top: 0px; z-index: 99999; pointer-events: none;"></canvas>
       
     <main class="content on">
-      <section class="outer">
-  <article
-  id="post-日常/为什么身边没人用飞书"
+      
+<section class="cover">
+    
+  <div class="cover-frame">
+    <div class="bg-box">
+      <img src="/images/cover3.jpg" alt="image frame" />
+    </div>
+    <div class="cover-inner text-center text-white">
+      <h1><a href="/">三点一圆</a></h1>
+      <div id="subtitle-box">
+        
+        <span id="subtitle"></span>
+        
+      </div>
+      <div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="cover-learn-more">
+    <a href="javascript:void(0)" class="anchor"><i class="ri-arrow-down-line"></i></a>
+  </div>
+</section>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
+
+
+<!-- Subtitle -->
+
+  <script>
+    try {
+      var typed = new Typed("#subtitle", {
+        strings: ['面朝大海，春暖花开', '愿你一生努力，一生被爱', '想要的都拥有，得不到的都释怀'],
+        startDelay: 0,
+        typeSpeed: 200,
+        loop: true,
+        backSpeed: 100,
+        showCursor: true
+      });
+    } catch (err) {
+      console.log(err)
+    }
+  </script>
+  
+<div id="main">
+  <section class="outer">
+  
+  
+  
+
+<div class="notice" style="margin-top:50px">
+    <i class="ri-heart-fill"></i>
+    <div class="notice-content" id="broad"></div>
+</div>
+<script type="text/javascript">
+    fetch('https://v1.hitokoto.cn')
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById("broad").innerHTML = data.hitokoto;
+        })
+        .catch(console.error)
+</script>
+
+<style>
+    .notice {
+        padding: 20px;
+        border: 1px dashed #e6e6e6;
+        color: #969696;
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        background: #fbfbfb50;
+        border-radius: 10px;
+    }
+
+    .notice i {
+        float: left;
+        color: #999;
+        font-size: 16px;
+        padding-right: 10px;
+        vertical-align: middle;
+        margin-top: -2px;
+    }
+
+    .notice-content {
+        display: initial;
+        vertical-align: middle;
+    }
+</style>
+  
+  <article class="articles">
+    
+    
+    
+    
+    <article
+  id="post-学习笔记/GIT/GitLabPages"
   class="article article-type-post"
   itemscope
   itemprop="blogPost"
@@ -61,204 +157,79 @@
     
     <header class="article-header">
        
-<h1 class="article-title sea-center" style="border-left:0" itemprop="name">
-  为什么身边没人用飞书
-</h1>
+<h2 itemprop="name">
+  <a class="article-title" href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/GIT/GitLabPages/"
+    >GitLabPages</a> 
+</h2>
  
 
       
     </header>
      
     <div class="article-meta">
-      <a href="/%E6%97%A5%E5%B8%B8/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BA%AB%E8%BE%B9%E6%B2%A1%E4%BA%BA%E7%94%A8%E9%A3%9E%E4%B9%A6/" class="article-date">
-  <time datetime="2021-06-15T09:41:51.000Z" itemprop="datePublished">2021-06-15</time>
+      <a href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/GIT/GitLabPages/" class="article-date">
+  <time datetime="2020-07-04T01:34:55.000Z" itemprop="datePublished">2020-07-04</time>
 </a> 
   <div class="article-category">
-    <a class="article-category-link" href="/categories/%E6%97%A5%E5%B8%B8/">日常</a> / <a class="article-category-link" href="/categories/%E6%97%A5%E5%B8%B8/%E9%9A%8F%E6%83%B3/">随想</a>
+    <a class="article-category-link" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a> / <a class="article-category-link" href="/categories/%E6%8A%80%E6%9C%AF/git/">git</a>
   </div>
-  
-<div class="word_count">
-    <span class="post-time">
-        <span class="post-meta-item-icon">
-            <i class="ri-quill-pen-line"></i>
-            <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">143</span>
-        </span>
-    </span>
-
-    <span class="post-time">
-        &nbsp; | &nbsp;
-        <span class="post-meta-item-icon">
-            <i class="ri-book-open-line"></i>
-            <span class="post-meta-item-text"> 阅读时长≈</span>
-            <span class="post-count">1 分钟</span>
-        </span>
-    </span>
-</div>
- 
+   
     </div>
       
-
-
-
-  
     <div class="article-entry" itemprop="articleBody">
        
-  <p>工作原因，从微信QQ沟通交流转到了钉钉，钉钉里面的工具大而全，但使用起来总感觉哪里不舒服，体验不是很好。<br>自己也注册了飞书，感觉飞书简洁轻便，里面的待办、日历、文档等都非常的优秀，不得不赞。想找朋友一起用，推荐给朋友都会问为什么要用，钉钉能做了，沟通交流有微信和QQ，没必要用飞书了。。。<br>好想找几个人拉个团队一起来体验一下新工具。</p>
+  <p>cnblogs.com/zhangnan35/p/10709252.html</p>
+<p>配置Gitlab pages和Gitlab CI<a target="_blank" rel="noopener" href="https://www.cnblogs.com/zhangnan35/p/10709252.html">参考文档：https://www.cnblogs.com/zhangnan35/p/10709252.htm</a></p>
+<p>　　首先，Gitlab pages是很简单的，至少比起github pages要简单很多。</p>
+<p>　　Gitlab Pages的原理这是样的：首先，当你新建一个Gitlab项目的时候，你同时也建了一个存储库。</p>
+<p>　　只要你的工程目录的根目录下有.gitlab-ci.yml文件，注意必须严格起这个名字。gitlab runner就会执行这个脚本文件。</p>
+<p>　　脚本的最终目的很简单：把静态文件放入名为public目录下的文件夹内。Gitlab pages会一直去这个存储库的public目录找。注意：这个public是指存储库的public，与项目结构无关。换言之，这个public目录不可见。</p>
+<p>　　也就是说：当你在项目的根目录下添加了.gitlab-ci.yml，且在脚本中将静态文件正确地放入了public文件夹，gitlab page就会自动打开并部署，部署的域名将会默认分配。</p>
+<p>　　当然，如果你不想使用默认的配置，而是想部署到特定的域名和服务器，则需要在yml文件中进行一些docker的配置。</p>
+<p>　　开发者提交代码后,runner检索项目根目录下名为**.gitlab-ci.yml<strong>的文件，并执行文件中的脚本，脚本内容包括项目的运行，打包，缓存打包文件，转移文件到</strong>public**目录以供gitlab pages使用。而gitlab pages会到public目录中解析静态文件成页面。</p>
+<p>　　好，现在就来看一下我写的一份CI脚本，首先说一下，CI的代码风格类似于python这种，纯靠缩进来区分层级关系的，所以书写时，<strong>缩进是严格的</strong>。</p>
+<p>　　<img src="GitLabPages/%E4%B8%80%E4%BB%BDCI%E8%84%9A%E6%9C%AC.png" alt="img"></p>
+<p>　　下面是代码注释版版的：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">building: &#x2F;&#x2F;自己随便命名的</span><br><span class="line">  image: node:latest &#x2F;&#x2F;node镜像为最新版的，最好指定版本号</span><br><span class="line">  stage: build &#x2F;&#x2F;当前stage阶段为build</span><br><span class="line">  script: &#x2F;&#x2F;build阶段运行的脚本</span><br><span class="line">    - npm install --progress&#x3D;false --no-optional &#x2F;&#x2F;根据package.json来安装依赖 progress设为false是为了不打印安装的具体进度，no optional是为了跳过npm推荐的但不是编译必须的，也没有写在package.json里一些依赖，比如说查看源代码等</span><br><span class="line">    - npm run build &#x2F;&#x2F;打包</span><br><span class="line">  artifacts: &#x2F;&#x2F;工件，可以缓存在gitlab的流水线记录中，供直接下载</span><br><span class="line">    expire_in: 3 days &#x2F;&#x2F;工件缓存的有效时间</span><br><span class="line">    paths: &#x2F;&#x2F;路径</span><br><span class="line">      - dist &#x2F;&#x2F;工件指向的目录，这里指整个dist目录</span><br><span class="line"></span><br><span class="line">cache: &#x2F;&#x2F;缓存</span><br><span class="line">  paths: &#x2F;&#x2F;路径</span><br><span class="line">    - node_modules&#x2F; &#x2F;&#x2F;缓存node_mudules将大大提高ci运行的速度</span><br><span class="line"></span><br><span class="line">pages: &#x2F;&#x2F;随便起的名字</span><br><span class="line">  stage: deploy &#x2F;&#x2F;当前阶段为deploy</span><br><span class="line">  script: &#x2F;&#x2F;deploy阶段运行的命令</span><br><span class="line">    - rm -rf public&#x2F;* &#x2F;&#x2F;linux命令，递归无询问删除public目录下所有文件- mv dist&#x2F;* public &#x2F;&#x2F;将dist目录下的所有文件都移动到public目录下</span><br><span class="line">  artifacts: &#x2F;&#x2F;工件缓存</span><br><span class="line">    expire_in: 3 days &#x2F;&#x2F;时效为3天</span><br><span class="line">    paths: &#x2F;&#x2F;路径</span><br><span class="line">      - public &#x2F;&#x2F;缓存整个public目录的文件</span><br><span class="line">  only: </span><br><span class="line">    - dev &#x2F;&#x2F;ceate pages下的所有操作只在dev分支上进行</span><br></pre></td></tr></table></figure>
+<p>　　下载一个工件下来看看：</p>
+<p>　　<img src="GitLabPages/%E5%B7%A5%E4%BB%B6.png" alt="img"></p>
+<p>　　可以发现我所言非虚。这时候我们把这个提交推到远程。</p>
+<p><img src="GitLabPages/%E6%8F%90%E4%BA%A4%E5%88%B0%E8%BF%9C%E7%A8%8B.png" alt="img"></p>
+<p>　　等待这个流水线跑完，在 <strong>项目 –&gt; 设置 –&gt; pages</strong> 中，可以看到线上页面已经生成了。</p>
+<p>　　<img src="GitLabPages/%E6%9F%A5%E7%9C%8B%E9%A1%B5%E9%9D%A2.png" alt="img"></p>
  
       <!-- reward -->
-      
-      <div id="reword-out">
-        <div id="reward-btn">
-          打赏
-        </div>
-      </div>
       
     </div>
     
 
     <!-- copyright -->
     
-    <div class="declare">
-      <ul class="post-copyright">
-        <li>
-          <i class="ri-copyright-line"></i>
-          <strong>版权声明： </strong>
-          
-          本博客所有文章除特别声明外，著作权归作者所有。转载请注明出处！
-          
-        </li>
-      </ul>
-    </div>
-    
     <footer class="article-footer">
        
-<div class="share-btn">
-      <span class="share-sns share-outer">
-        <i class="ri-share-forward-line"></i>
-        分享
-      </span>
-      <div class="share-wrap">
-        <i class="arrow"></i>
-        <div class="share-icons">
-          
-          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
-            <i class="ri-weibo-fill"></i>
-          </a>
-          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
-            <i class="ri-wechat-fill"></i>
-          </a>
-          <a class="qq share-sns" href="javascript:;" data-type="qq">
-            <i class="ri-qq-fill"></i>
-          </a>
-          <a class="douban share-sns" href="javascript:;" data-type="douban">
-            <i class="ri-douban-line"></i>
-          </a>
-          <!-- <a class="qzone share-sns" href="javascript:;" data-type="qzone">
-            <i class="icon icon-qzone"></i>
-          </a> -->
-          
-          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
-            <i class="ri-facebook-circle-fill"></i>
-          </a>
-          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
-            <i class="ri-twitter-fill"></i>
-          </a>
-          <a class="google share-sns" href="javascript:;" data-type="google">
-            <i class="ri-google-fill"></i>
-          </a>
-        </div>
-      </div>
-</div>
-
-<div class="wx-share-modal">
-    <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
-    <p>扫一扫，分享到微信</p>
-    <div class="wx-qrcode">
-      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://sdyy.host/%E6%97%A5%E5%B8%B8/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BA%AB%E8%BE%B9%E6%B2%A1%E4%BA%BA%E7%94%A8%E9%A3%9E%E4%B9%A6/" alt="微信分享二维码">
-    </div>
-</div>
-
-<div id="share-mask"></div>  
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%97%A5%E5%B8%B8/" rel="tag">日常</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/git/" rel="tag">git</a></li></ul>
 
     </footer>
   </div>
 
-   
-  <nav class="article-nav">
     
-      <a href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/themeleaf%20%E7%9A%84%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/" class="article-nav-link">
-        <strong class="article-nav-caption">上一篇</strong>
-        <div class="article-nav-title">
-          
-            themeleaf 的常用标签
-          
-        </div>
-      </a>
-    
-    
-      <a href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/GIT/github%20Actions/" class="article-nav-link">
-        <strong class="article-nav-caption">下一篇</strong>
-        <div class="article-nav-title">github Actions</div>
-      </a>
-    
-  </nav>
-
-   
-<!-- valine评论 -->
-<div id="vcomments-box">
-  <div id="vcomments"></div>
-</div>
-<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js"></script>
-<script>
-  new Valine({
-    el: "#vcomments",
-    app_id: "adJPEYCuzXIQ6c71ARFtKaLI-gzGzoHsz",
-    app_key: "q2JjCDc85Mn5U1RLXAPAO9GU",
-    path: window.location.pathname,
-    avatar: "monsterid",
-    placeholder: "有什么想说的吗？留言吧",
-    recordIP: true,
-  });
-  const infoEle = document.querySelector("#vcomments .info");
-  if (infoEle && infoEle.childNodes && infoEle.childNodes.length > 0) {
-    infoEle.childNodes.forEach(function (item) {
-      item.parentNode.removeChild(item);
-    });
-  }
-</script>
-<style>
-  #vcomments-box {
-    padding: 5px 30px;
-  }
-
-  @media screen and (max-width: 800px) {
-    #vcomments-box {
-      padding: 5px 0px;
-    }
-  }
-
-  #vcomments-box #vcomments {
-    background-color: #fff;
-  }
-
-  .v .vlist .vcard .vh {
-    padding-right: 20px;
-  }
-
-  .v .vlist .vcard {
-    padding-left: 10px;
-  }
-</style>
-
  
-   
-     
+    
 </article>
 
+    
+  </article>
+  
+
+  
+  <nav class="page-nav">
+    
+    <a class="extend prev" rel="prev" href="/page/3/">上一页</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><span class="page-number current">4</span>
+  </nav>
+  
 </section>
+</div>
+
       <footer class="footer">
   <div class="outer">
     <ul>
@@ -407,22 +378,6 @@
 <script src="/js/lazyload.min.js"></script>
 
 <!-- Tocbot -->
- 
-<script src="/js/tocbot.min.js"></script>
-
-<script>
-  tocbot.init({
-    tocSelector: ".tocbot",
-    contentSelector: ".article-entry",
-    headingSelector: "h1, h2, h3, h4, h5, h6",
-    hasInnerContainers: true,
-    scrollSmooth: true,
-    scrollContainer: "main",
-    positionFixedSelector: ".tocbot",
-    positionFixedClass: "is-position-fixed",
-    fixedSidebarOffset: "auto",
-  });
-</script>
 
 <script src="https://cdn.jsdelivr.net/npm/jquery-modal@0.9.2/jquery.modal.min.js"></script>
 <link

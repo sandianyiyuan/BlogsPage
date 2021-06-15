@@ -459,4 +459,21 @@
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;dependencies&gt;</span><br><span class="line">        &lt;dependency&gt;</span><br><span class="line">            &lt;groupId&gt;org.springframework.boot&lt;&#x2F;groupId&gt;</span><br><span class="line">            &lt;artifactId&gt;spring-boot-starter-data-jpa&lt;&#x2F;artifactId&gt;</span><br><span class="line">        &lt;&#x2F;dependency&gt;</span><br><span class="line">&lt;&#x2F;dependencies&gt;        </span><br></pre></td></tr></table></figure>
 ]]></content>
   </entry>
+  <entry>
+    <title>themeleaf 的常用标签</title>
+    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/themeleaf%20%E7%9A%84%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>参考文档 <a href="https://www.yiibai.com/thymeleaf/standard-dialects.html">https://www.yiibai.com/thymeleaf/standard-dialects.html</a></p>
+<h2 id="themeleaf-标准表达式"><a href="#themeleaf-标准表达式" class="headerlink" title="themeleaf 标准表达式"></a>themeleaf 标准表达式</h2><ul>
+<li>  <code>$&#123;...&#125;</code> : 变量表达式。</li>
+<li>  <code>*&#123;...&#125;</code> : 选择表达式。</li>
+<li>  <code>#&#123;...&#125;</code> : 消息 (i18n) 表达式。</li>
+<li>  <code>@&#123;...&#125;</code> : 链接 (URL) 表达式。</li>
+<li>  <code>~&#123;...&#125;</code> : 片段表达式。</li>
+</ul>
+]]></content>
+      <tags>
+        <tag>技术</tag>
+        <tag>themeleaf</tag>
+      </tags>
+  </entry>
 </search>
