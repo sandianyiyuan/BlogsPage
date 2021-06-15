@@ -78,7 +78,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">785</span>
+            <span class="post-count">797</span>
         </span>
     </span>
 
@@ -112,7 +112,14 @@
 <p>B) PUT方式提交时， 根据request header Content-Type的值来判断:</p>
 <p>application/x-www-form-urlencoded， 必须；multipart/form-data, 不能处理；其他格式， 必须；<br>说明：request的body部分的数据编码格式由header部分的Content-Type指定；</p>
 <p>例如：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">@RequestMapping(value &#x3D; &quot;user&#x2F;login&quot;)</span><br><span class="line">@ResponseBody</span><br><span class="line">&#x2F;&#x2F; 将ajax（datas）发出的请求写入 User 对象中</span><br><span class="line">public User login(@RequestBody User user) &#123;   </span><br><span class="line">&#x2F;&#x2F; 这样就不会再被解析为跳转路径，而是直接将user对象写入 HTTP 响应正文中</span><br><span class="line">    return user;    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure> 
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">@RequestMapping(value &#x3D; &quot;user&#x2F;login&quot;)</span><br><span class="line">@ResponseBody</span><br><span class="line">&#x2F;&#x2F; 将ajax（datas）发出的请求写入 User 对象中</span><br><span class="line">public User login(@RequestBody User user) &#123;   </span><br><span class="line">&#x2F;&#x2F; 这样就不会再被解析为跳转路径，而是直接将user对象写入 HTTP 响应正文中</span><br><span class="line">    return user;    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>待办：  </p>
+<ul>
+<li> [ ] <code>@Resource</code> 与  <code>@Autowired</code> 的区别</li>
+<li> [ ] <code>@MapperScan</code>  的用法</li>
+<li></li>
+</ul>
+ 
       <!-- reward -->
       
       <div id="reword-out">
@@ -356,6 +363,10 @@
     
     <li class="nav-item">
       <a class="nav-item-link" href="/about">关于我</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" target="_blank" rel="noopener" href="http://nav.sdyy.host">导航站</a>
     </li>
     
   </ul>

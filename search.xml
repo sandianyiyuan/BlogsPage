@@ -79,6 +79,90 @@
       </tags>
   </entry>
   <entry>
+    <title>Linux定时任务配置</title>
+    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Linux%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Linux定时任务配置在线生成工具：<a href="https://cron.qqe2.com/">https://cron.qqe2.com/</a></p>
+]]></content>
+      <tags>
+        <tag>技术</tag>
+        <tag>工具软件</tag>
+        <tag>linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Obsidian使用笔记</title>
+    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Obsidian%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="Obsidian-超好用的笔记软件"><a href="#Obsidian-超好用的笔记软件" class="headerlink" title="Obsidian 超好用的笔记软件"></a>Obsidian 超好用的笔记软件</h2><p>官网地址：<a href="https://obsidian.md/">obsidian.md</a><br>软件自带的说明文档已经很详细的说明了使用方法，直接安装后开始研究。</p>
+<p>如果你已经下载好obsidian，现在点击打开它。映入眼帘的是它的默认界面风格，我们马上就要改掉它，因为它不够快捷、直接。如果你曾有过开发经验，在一些开发IDE编辑器里写过代码，那obsidian的使用体验会让你如鱼得水，如果你没有开发经验也无妨，因为obsidian脱胎于markdown文本编辑器，你只要写过markdown文件，obsidian对你就是零门槛。即便你也从未用过markdown文件，也没关系，obsidian的操作及其简单，你只需要对着范例稍微熟悉最多半小时就可以轻松上手。点开范例随时开启obsidian之旅：点击help可以打开自带的示例库，里面有非常详细的使用说明。</p>
+]]></content>
+      <categories>
+        <category>工具软件</category>
+        <category>Obsidian</category>
+      </categories>
+      <tags>
+        <tag>技术</tag>
+        <tag>工具软件</tag>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>github仓库开启Discussions</title>
+    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/github%E4%BB%93%E5%BA%93%E5%BC%80%E5%90%AFDiscussions/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>才发现github仓库可以开Discussions。<br>该功能在settings-&gt;Options中，勾选Discussions就可开启。<br>开启后就可以方便的讨论问题而不用提issue了。<br>快来跟我一起讨论吧<a href="https://github.com/sandianyiyuan/BlogsPage/discussions">传送门</a></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+        <category>git</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo搭建博客的过程</title>
+    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>hexo d 部署报错 ERROR Deployer not found: git 需要安装插件<br><code>npm install --save hexo-deployer-git</code></p>
+<h2 id="多电脑托管的处理方式"><a href="#多电脑托管的处理方式" class="headerlink" title="多电脑托管的处理方式"></a>多电脑托管的处理方式</h2><p>在公司电脑源码构建完成，回到家换了一台电脑想继续弄，应该怎么做？<br>直接将代码库拉下来是不行的，因为代码库中并没有托管全部所需的依赖包<br>应该在新电脑上执行<code>hexo init</code>，创建一个新的hexo项目，然后再将git库中的内容克隆到另一个目录中，克隆完之后，将所有的文件拷贝到刚才初始化的hexo项目目录中。并安装所需要的hexo插件。一切都完成之后就可以继续写文章，提交内容了 。</p>
+]]></content>
+      <categories>
+        <category>技术</category>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>技术</tag>
+        <tag>工具软件</tag>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>nodejs笔记</title>
+    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/nodejs/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>找到一个纯静态的导航页项目，说是纯静态，但它又能在线增加删除导航站上的网址，感觉很神奇。<br>发现它是利用 github 的流水线来实现的自动构建，在 Actions 页可以看到其 yml 配置如下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">name: Build web</span><br><span class="line">on:</span><br><span class="line">  push:</span><br><span class="line">    branches:</span><br><span class="line">      - master</span><br><span class="line">      - main</span><br><span class="line">jobs:</span><br><span class="line">  build:</span><br><span class="line">    runs-on: ubuntu-latest</span><br><span class="line">    steps:</span><br><span class="line">    - name: Checkout</span><br><span class="line">      uses: actions&#x2F;checkout@v2</span><br><span class="line">      with:</span><br><span class="line">        persist-credentials: false</span><br><span class="line">    - name: Install</span><br><span class="line">      uses: sergioramos&#x2F;yarn-actions&#x2F;install@v6</span><br><span class="line">      with:</span><br><span class="line">        frozen-lockfile: true</span><br><span class="line">    - name: Build</span><br><span class="line">      run: |</span><br><span class="line">        npm run build</span><br><span class="line">    - name: Deploy</span><br><span class="line">      uses: JamesIves&#x2F;github-pages-deploy-action@releases&#x2F;v3</span><br><span class="line">      with:</span><br><span class="line">        ACCESS_TOKEN: $&#123;&#123; secrets.TOKEN &#125;&#125;</span><br><span class="line">        BRANCH: gh-pages</span><br><span class="line">        FOLDER: dist</span><br></pre></td></tr></table></figure>
+<p>那么执行 <code>npm run build</code> 时发生了什么？</p>
+]]></content>
+      <categories>
+        <category>nodejs</category>
+      </categories>
+      <tags>
+        <tag>技术</tag>
+        <tag>nodejs</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>为什么身边没人用飞书</title>
+    <url>/%E6%97%A5%E5%B8%B8/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BA%AB%E8%BE%B9%E6%B2%A1%E4%BA%BA%E7%94%A8%E9%A3%9E%E4%B9%A6/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>工作原因，从微信QQ沟通交流转到了钉钉，钉钉里面的工具大而全，但使用起来总感觉哪里不舒服，体验不是很好。<br>自己也注册了飞书，感觉飞书简洁轻便，里面的待办、日历、文档等都非常的优秀，不得不赞。想找朋友一起用，推荐给朋友都会问为什么要用，钉钉能做了，沟通交流有微信和QQ，没必要用飞书了。。。<br>好想找几个人拉个团队一起来体验一下新工具。</p>
+]]></content>
+      <categories>
+        <category>日常</category>
+        <category>随想</category>
+      </categories>
+      <tags>
+        <tag>日常</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Anywhere 快捷卡片应用</title>
     <url>/%E6%97%A5%E5%B8%B8/Anywhere%20%E5%BF%AB%E6%8D%B7%E5%8D%A1%E7%89%87%E5%BA%94%E7%94%A8/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Anywhere 是一款快捷卡片应用，可以在桌面灵活的创建应用快捷方式。</p>
@@ -134,62 +218,6 @@
     <url>/%E6%97%A5%E5%B8%B8/%E9%80%81%E5%88%AB%E5%9B%BD%E4%B9%8B%E8%84%8A%E6%A2%81%E8%A2%81%E9%9A%86%E5%B9%B3/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>【痛悼！送别国之脊梁袁隆平】今天，共和国痛失袁隆平院士。<br>“我最大的愿望是饭碗要牢牢地掌握在我们中国人自己手上！”<br>他把一生浸在稻田里，把功勋写在大地上。国士无双，致敬，缅怀！<br><img src="https://z3.ax1x.com/2021/05/22/gLpCq0.jpg" alt="袁隆平"></p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>Linux定时任务配置</title>
-    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Linux%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1%E9%85%8D%E7%BD%AE/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Linux定时任务配置在线生成工具：<a href="https://cron.qqe2.com/">https://cron.qqe2.com/</a></p>
-]]></content>
-      <tags>
-        <tag>技术</tag>
-        <tag>工具软件</tag>
-        <tag>linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Obsidian使用笔记</title>
-    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Obsidian%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="Obsidian-超好用的笔记软件"><a href="#Obsidian-超好用的笔记软件" class="headerlink" title="Obsidian 超好用的笔记软件"></a>Obsidian 超好用的笔记软件</h2><p>官网地址：<a href="https://obsidian.md/">obsidian.md</a><br>软件自带的说明文档已经很详细的说明了使用方法，直接安装后开始研究。</p>
-<p>如果你已经下载好obsidian，现在点击打开它。映入眼帘的是它的默认界面风格，我们马上就要改掉它，因为它不够快捷、直接。如果你曾有过开发经验，在一些开发IDE编辑器里写过代码，那obsidian的使用体验会让你如鱼得水，如果你没有开发经验也无妨，因为obsidian脱胎于markdown文本编辑器，你只要写过markdown文件，obsidian对你就是零门槛。即便你也从未用过markdown文件，也没关系，obsidian的操作及其简单，你只需要对着范例稍微熟悉最多半小时就可以轻松上手。点开范例随时开启obsidian之旅：点击help可以打开自带的示例库，里面有非常详细的使用说明。</p>
-]]></content>
-      <categories>
-        <category>工具软件</category>
-        <category>Obsidian</category>
-      </categories>
-      <tags>
-        <tag>技术</tag>
-        <tag>工具软件</tag>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>github仓库开启Discussions</title>
-    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/github%E4%BB%93%E5%BA%93%E5%BC%80%E5%90%AFDiscussions/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>才发现github仓库可以开Discussions。<br>该功能在settings-&gt;Options中，勾选Discussions就可开启。<br>开启后就可以方便的讨论问题而不用提issue了。<br>快来跟我一起讨论吧<a href="https://github.com/sandianyiyuan/BlogsPage/discussions">传送门</a></p>
-]]></content>
-      <categories>
-        <category>技术</category>
-        <category>git</category>
-      </categories>
-      <tags>
-        <tag>git</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>hexo搭建博客的过程</title>
-    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>hexo d 部署报错 ERROR Deployer not found: git 需要安装插件<br><code>npm install --save hexo-deployer-git</code></p>
-<h2 id="多电脑托管的处理方式"><a href="#多电脑托管的处理方式" class="headerlink" title="多电脑托管的处理方式"></a>多电脑托管的处理方式</h2><p>在公司电脑源码构建完成，回到家换了一台电脑想继续弄，应该怎么做？<br>直接将代码库拉下来是不行的，因为代码库中并没有托管全部所需的依赖包<br>应该在新电脑上执行<code>hexo init</code>，创建一个新的hexo项目，然后再将git库中的内容克隆到另一个目录中，克隆完之后，将所有的文件拷贝到刚才初始化的hexo项目目录中。并安装所需要的hexo插件。一切都完成之后就可以继续写文章，提交内容了 。</p>
-]]></content>
-      <categories>
-        <category>技术</category>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>技术</tag>
-        <tag>工具软件</tag>
-        <tag>笔记</tag>
-      </tags>
   </entry>
   <entry>
     <title>GitLabPages</title>
@@ -253,6 +281,47 @@
       </tags>
   </entry>
   <entry>
+    <title>github Actions</title>
+    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/GIT/github%20Actions/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>参考文章 <a href="https://zhuanlan.zhihu.com/p/164744104">https://zhuanlan.zhihu.com/p/164744104</a><br>github Actions 官方文档 <a href="https://docs.github.com/en/actions">https://docs.github.com/en/actions</a></p>
+<h3 id="1、我们应该如何使用-Action？"><a href="#1、我们应该如何使用-Action？" class="headerlink" title="1、我们应该如何使用 Action？"></a>1、我们应该如何使用 Action？</h3><p>比如我们可以 check-out 仓库中最新的代码到 Workflow 的工作区：</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">steps:</span><br><span class="line">  - uses: actions/checkout@v2</span><br></pre></td></tr></table></figure>
+<p>当然，我们还可以给它添加个名字：</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">steps:</span><br><span class="line">  - name: Check out Git repository</span><br><span class="line">    uses: actions/checkout@v2</span><br></pre></td></tr></table></figure>
+<p>再比如说，我们如果是 node 项目，我们可以安装 Node.js 与 NPM：</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">steps:</span><br><span class="line">- uses: actions/checkout@v2</span><br><span class="line">- uses: actions/setup-node@v2-beta</span><br><span class="line">  with:</span><br><span class="line">    node-version: &#x27;12&#x27;</span><br></pre></td></tr></table></figure>
+<h3 id="2、上面我们为什么要用：-v2-和-v2-beta-呢？"><a href="#2、上面我们为什么要用：-v2-和-v2-beta-呢？" class="headerlink" title="2、上面我们为什么要用：@v2 和 @v2-beta 呢？"></a>2、上面我们为什么要用：@v2 和 @v2-beta 呢？</h3><p>答：首先，正如大家所想，这个 @v2 和 @v2-beta 的意思都是 Action 的版本。</p>
+<p>我们如果不带版本号的话，其实就是默认使用最新版本的了。</p>
+<p>但是 <strong>Github 官方强烈要求我们带上版本号</strong>——这样子的话，我们就不会出现：<strong>写好一个 Workflow，但是由于某个 Action 的作者一更新，我们的 Workflow 就崩了的问题。</strong></p>
+<h3 id="如何运行命令？"><a href="#如何运行命令？" class="headerlink" title="如何运行命令？"></a>如何运行命令？</h3><p>使用<code>run</code>来运行命令，<strong>每个 run 命令都会启动一个新的 shell，所以我们执行多行连续命令的时候需要写在同一个 run 下：</strong></p>
+<ul>
+<li><strong>单行命令</strong><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">- name: Install Dependencies</span><br><span class="line">  run: npm install</span><br></pre></td></tr></table></figure></li>
+<li>  <strong>多行命令</strong></li>
+</ul>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">- name: Clean install dependencies and build</span><br><span class="line">  run： |</span><br><span class="line">    npm ci</span><br><span class="line">    npm run build</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>技术</category>
+        <category>git</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>java 学习笔记</title>
+    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JAVA/java%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>ipml 接口的实现类</p>
+]]></content>
+      <categories>
+        <category>技术</category>
+        <category>java</category>
+      </categories>
+      <tags>
+        <tag>技术</tag>
+        <tag>java</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello SpringBoot</title>
     <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/Hello%20SpringBoot/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Hello SpringBoot</p>
@@ -272,33 +341,26 @@
 <p>关于基础包，使用默认的值 Group + Artifact 生成的代码在 IDE 中会提示包路径不对：<br><img src="Hello%20SpringBoot/Pasted%20image%2020210603162636.png"></p>
 <p>自己重新设置一下，去掉 Artifact ，生成的就正常了。</p>
 <p>阿里在线生成的是一个多模块的项目，各层是个独立的模块。<br>这样做有什么好参考这篇文章<a href="https://blog.csdn.net/weixin_30361753/article/details/96202803">https://blog.csdn.net/weixin_30361753/article/details/96202803</a><br>maven多模块项目的使用，参考这篇文章<a href="https://blog.csdn.net/tomcat_2014/article/details/50206197">https://blog.csdn.net/tomcat_2014/article/details/50206197</a></p>
-<h2 id="关于三层架构"><a href="#关于三层架构" class="headerlink" title="关于三层架构"></a>关于三层架构</h2><ul>
-<li>entity 层<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">别名： model 层、domain 层</span><br><span class="line">作用： 实体层，用于存放我们的实体类，与数据库中的属性值基本保持一致，实现set和get的方法。</span><br></pre></td></tr></table></figure></li>
-<li> mapper 层<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">别名： dao 层  </span><br><span class="line">用途： 对数据库进行数据持久化操作，他的方法语句是直接针对数据库的操作，主要实现一些增删改查操作。</span><br></pre></td></tr></table></figure></li>
-<li>service 层<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">用途： 业务 service 层，给 controller 层的类提供接口进行调用。一般就是自己写的方法封装起来，就是声明一下，具体实现在serviceImpl中。</span><br></pre></td></tr></table></figure></li>
-<li>controller 层<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">别名： web 层、控制层 </span><br><span class="line">用途： 负责具体模块的业务流程控制，需要调用 service 逻辑设计层的接口来控制业务流程。 controller 通过接收前端 H5 或者 App 传过来的参数进行业务操作，再将处理结果返回到前端。</span><br></pre></td></tr></table></figure></li>
+<h2 id="关于三层架构-与-MVC-的一些概念"><a href="#关于三层架构-与-MVC-的一些概念" class="headerlink" title="关于三层架构 与 MVC 的一些概念"></a>关于三层架构 与 MVC 的一些概念</h2><p>三层架构将整个项目划分为：表现层（UI）、业务逻辑层（BLL）、数据访问层（DAL）<br>MVC 即Model（模型），View（视图），Controller（控制）</p>
+<p>相关概念：</p>
+<ul>
+<li>entity  <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">别名： model 层、domain 层、PO(Persistant Object)持久化对象</span><br><span class="line">作用： 用于存放我们的实体类，与数据库中的属性值基本保持一致，实现set和get的方法。</span><br></pre></td></tr></table></figure></li>
+<li> mapper  <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">别名： dao ( data access object ) 数据访问  </span><br><span class="line">用途： 对数据库进行数据持久化操作，他的方法语句是直接针对数据库的操作，主要实现一些增删改查操作。</span><br></pre></td></tr></table></figure></li>
+<li>service  <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">用途： 业务 service 层，给 controller 层的类提供接口进行调用。一般就是自己写的方法封装起来，就是声明一下，具体实现在serviceImpl中。</span><br></pre></td></tr></table></figure></li>
+<li>controller  <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">别名： web 层、控制层 </span><br><span class="line">用途： 负责具体模块的业务流程控制，需要调用 service 逻辑设计层的接口来控制业务流程。 controller 通过接收前端 H5 或者 App 传过来的参数进行业务操作，再将处理结果返回到前端。</span><br></pre></td></tr></table></figure></li>
+<li>dto ( Data Transfer Object )<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">数据传输对象。这个传输通常指的前后端之间的传输  </span><br><span class="line">dto 是一个比较特殊的对象，他有两种存在形式：  </span><br><span class="line">1. 在后端，他的存在形式是java对象，也就是在controller里面定义的那个东东，通常在后端不需要关心怎么从json转成java对象的，这个都是由一些成熟的框架帮你完成啦，比如spring框架  </span><br><span class="line">2. 在前端，他的存在形式通常是js里面的对象（也可以简单理解成json），也就是通过ajax请求的那个数据体  </span><br><span class="line">dto 是一个普通的Java类，它封装了要传送的批量的数据。  </span><br><span class="line">当客户端需要读取服务器端的数据的时候，服务器端将数据封装在 dto 中，这样客户端就可以在一个网络调用中获得它需要的所有数据</span><br></pre></td></tr></table></figure>
+<h3 id="Mybatis-Mapper"><a href="#Mybatis-Mapper" class="headerlink" title="Mybatis Mapper"></a>Mybatis Mapper</h3></li>
 </ul>
-]]></content>
+<p>参考文章 <a href="https://www.cnblogs.com/demingblog/p/9544774.html">https://www.cnblogs.com/demingblog/p/9544774.html</a><br>参考文章<a href="https://blog.csdn.net/solocoder/article/details/84990904">https://blog.csdn.net/solocoder/article/details/84990904</a>  </p>
+<p>MyBatis 是一款优秀的持久层框架，它支持定制化 SQL、存储过程以及高级映射。<br>MyBatis 避免了几乎所有的 JDBC 代码和手动设置参数以及获取结果集。<br>我们在使用 Mybaits 进行 ，通常只需要定义几个 Mapper 接口，然后在编写一个 xml 配置文件，我们在配置文件中写好 sql , Mybatis 帮我们完成 Mapper 接口到具体实现的调用，以及将结果映射到 model bean 中。<br>我们只需要在项目中编写众多的 Mapper 接口类，根据 Java 的多态性我们知道，可以使用接口接口作为形参，进而在运行时确定具体实现的对象是什么。但是，对于 Mapper 接口，我们并没有编写其实现类，Mybatis 帮我们自动生成代理类，实现了数据库的操作。</p>
+<h2 id="遇到的报错"><a href="#遇到的报错" class="headerlink" title="遇到的报错"></a>遇到的报错</h2><p><code>Invalid bound statement (not found)</code><br>解决办法：检查扫包是否添加，尝试补全包路径。<br>我的代码中扫包路径写时存在问题，补全子路径后没报错了。  </p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">例：  </span><br><span class="line">mapper 类所在包： package host.sdyy.mapper;</span><br><span class="line">config 类（有 @Configuration 注解 ）上的 MapperScan 注解：@MapperScan(&quot;host.sdyy&quot;)  </span><br><span class="line">改为 @MapperScan(&quot;host.sdyy.mapper&quot;) 后问题解决</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>技术</category>
       </categories>
       <tags>
         <tag>技术</tag>
         <tag>Spring Boot</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>java 学习笔记</title>
-    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JAVA/java%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>ipml 接口的实现类</p>
-]]></content>
-      <categories>
-        <category>技术</category>
-        <category>java</category>
-      </categories>
-      <tags>
-        <tag>技术</tag>
-        <tag>java</tag>
       </tags>
   </entry>
   <entry>
@@ -309,6 +371,13 @@
 ]]></content>
   </entry>
   <entry>
+    <title>Spring Boot 多对多</title>
+    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/Spring%20Boot%20%E5%A4%9A%E5%AF%B9%E5%A4%9A/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>参考文章<a href="https://www.cnblogs.com/TimerHotel/p/springboot_matatis_05.html">https://www.cnblogs.com/TimerHotel/p/springboot_matatis_05.html</a></p>
+<p>多对多的查询方法和一对多本质上是一样的，只是在创建数据库表的时候多了一张中间表，用于维护关联关系</p>
+]]></content>
+  </entry>
+  <entry>
     <title>SpringBoot配置文件</title>
     <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/SpringBoot%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>配置文件 <code>application.properties</code> 与<code>application.yml</code> </p>
@@ -316,23 +385,6 @@
 ]]></content>
       <tags>
         <tag>技术</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数据库笔记</title>
-    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E6%95%B0%E6%8D%AE%E5%BA%93/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="未找到父项关键字"><a href="#未找到父项关键字" class="headerlink" title="未找到父项关键字"></a>未找到父项关键字</h2><p>考虑子表中数据已经与主表不一致，可能存在主表没有的数据。<br>解决方法： 先把数据查出来删除再添加外键。<br>查询语句如下：  </p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="keyword">DISTINCT</span>  st.id <span class="keyword">from</span> sub_tab st </span><br><span class="line"><span class="keyword">where</span> st.id  <span class="keyword">NOT</span> <span class="keyword">in</span> (<span class="keyword">select</span> ft.id <span class="keyword">from</span> parent_tab ft);</span><br></pre></td></tr></table></figure>
-<p>看一眼数据，确认之后，将这些数据删除。</p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">delete</span> sub_tab st  <span class="keyword">where</span> st.id <span class="keyword">IN</span></span><br><span class="line">(<span class="keyword">select</span> <span class="keyword">DISTINCT</span>  st.id <span class="keyword">from</span> sub_tab st </span><br><span class="line"><span class="keyword">where</span> st.id  <span class="keyword">NOT</span> <span class="keyword">in</span> (<span class="keyword">select</span> ft.id <span class="keyword">from</span> parent_tab ft););</span><br></pre></td></tr></table></figure>
-<h2 id="名称已被现有约束条件占用"><a href="#名称已被现有约束条件占用" class="headerlink" title="名称已被现有约束条件占用"></a>名称已被现有约束条件占用</h2><p>外键也有自己的名字，报这个错可能是名字其他地方占用了，换个名字就可以了</p>
-]]></content>
-      <categories>
-        <category>技术</category>
-        <category>数据库</category>
-      </categories>
-      <tags>
-        <tag>数据库</tag>
       </tags>
   </entry>
   <entry>
@@ -350,9 +402,33 @@
 <p>B) PUT方式提交时， 根据request header Content-Type的值来判断:</p>
 <p>application/x-www-form-urlencoded， 必须；multipart/form-data, 不能处理；其他格式， 必须；<br>说明：request的body部分的数据编码格式由header部分的Content-Type指定；</p>
 <p>例如：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">@RequestMapping(value &#x3D; &quot;user&#x2F;login&quot;)</span><br><span class="line">@ResponseBody</span><br><span class="line">&#x2F;&#x2F; 将ajax（datas）发出的请求写入 User 对象中</span><br><span class="line">public User login(@RequestBody User user) &#123;   </span><br><span class="line">&#x2F;&#x2F; 这样就不会再被解析为跳转路径，而是直接将user对象写入 HTTP 响应正文中</span><br><span class="line">    return user;    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">@RequestMapping(value &#x3D; &quot;user&#x2F;login&quot;)</span><br><span class="line">@ResponseBody</span><br><span class="line">&#x2F;&#x2F; 将ajax（datas）发出的请求写入 User 对象中</span><br><span class="line">public User login(@RequestBody User user) &#123;   </span><br><span class="line">&#x2F;&#x2F; 这样就不会再被解析为跳转路径，而是直接将user对象写入 HTTP 响应正文中</span><br><span class="line">    return user;    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>待办：  </p>
+<ul>
+<li> [ ] <code>@Resource</code> 与  <code>@Autowired</code> 的区别</li>
+<li> [ ] <code>@MapperScan</code>  的用法</li>
+<li></li>
+</ul>
+]]></content>
       <tags>
         <tag>spring Boot</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据库笔记</title>
+    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E6%95%B0%E6%8D%AE%E5%BA%93/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="未找到父项关键字"><a href="#未找到父项关键字" class="headerlink" title="未找到父项关键字"></a>未找到父项关键字</h2><p>考虑子表中数据已经与主表不一致，可能存在主表没有的数据。<br>解决方法： 先把数据查出来删除再添加外键。<br>查询语句如下：  </p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="keyword">DISTINCT</span>  st.id <span class="keyword">from</span> sub_tab st </span><br><span class="line"><span class="keyword">where</span> st.id  <span class="keyword">NOT</span> <span class="keyword">in</span> (<span class="keyword">select</span> ft.id <span class="keyword">from</span> parent_tab ft);</span><br></pre></td></tr></table></figure>
+<p>看一眼数据，确认之后，将这些数据删除。</p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">delete</span> sub_tab st  <span class="keyword">where</span> st.id <span class="keyword">IN</span></span><br><span class="line">(<span class="keyword">select</span> <span class="keyword">DISTINCT</span>  st.id <span class="keyword">from</span> sub_tab st </span><br><span class="line"><span class="keyword">where</span> st.id  <span class="keyword">NOT</span> <span class="keyword">in</span> (<span class="keyword">select</span> ft.id <span class="keyword">from</span> parent_tab ft););</span><br></pre></td></tr></table></figure>
+<h2 id="名称已被现有约束条件占用"><a href="#名称已被现有约束条件占用" class="headerlink" title="名称已被现有约束条件占用"></a>名称已被现有约束条件占用</h2><p>外键也有自己的名字，报这个错可能是名字其他地方占用了，换个名字就可以了</p>
+]]></content>
+      <categories>
+        <category>技术</category>
+        <category>数据库</category>
+      </categories>
+      <tags>
+        <tag>数据库</tag>
       </tags>
   </entry>
   <entry>
