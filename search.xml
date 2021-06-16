@@ -150,19 +150,6 @@
       </tags>
   </entry>
   <entry>
-    <title>为什么身边没人用飞书</title>
-    <url>/%E6%97%A5%E5%B8%B8/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BA%AB%E8%BE%B9%E6%B2%A1%E4%BA%BA%E7%94%A8%E9%A3%9E%E4%B9%A6/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>工作原因，从微信QQ沟通交流转到了钉钉，钉钉里面的工具大而全，但使用起来总感觉哪里不舒服，体验不是很好。<br>自己也注册了飞书，感觉飞书简洁轻便，里面的待办、日历、文档等都非常的优秀，不得不赞。想找朋友一起用，推荐给朋友都会问为什么要用，钉钉能做了，沟通交流有微信和QQ，没必要用飞书了。。。<br>好想找几个人拉个团队一起来体验一下新工具。</p>
-]]></content>
-      <categories>
-        <category>日常</category>
-        <category>随想</category>
-      </categories>
-      <tags>
-        <tag>日常</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Anywhere 快捷卡片应用</title>
     <url>/%E6%97%A5%E5%B8%B8/Anywhere%20%E5%BF%AB%E6%8D%B7%E5%8D%A1%E7%89%87%E5%BA%94%E7%94%A8/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Anywhere 是一款快捷卡片应用，可以在桌面灵活的创建应用快捷方式。</p>
@@ -170,6 +157,19 @@
 ]]></content>
       <categories>
         <category>日常</category>
+      </categories>
+      <tags>
+        <tag>日常</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>为什么身边没人用飞书</title>
+    <url>/%E6%97%A5%E5%B8%B8/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BA%AB%E8%BE%B9%E6%B2%A1%E4%BA%BA%E7%94%A8%E9%A3%9E%E4%B9%A6/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>工作原因，从微信QQ沟通交流转到了钉钉，钉钉里面的工具大而全，但使用起来总感觉哪里不舒服，体验不是很好。<br>自己也注册了飞书，感觉飞书简洁轻便，里面的待办、日历、文档等都非常的优秀，不得不赞。想找朋友一起用，推荐给朋友都会问为什么要用，钉钉能做了，沟通交流有微信和QQ，没必要用飞书了。。。<br>好想找几个人拉个团队一起来体验一下新工具。</p>
+]]></content>
+      <categories>
+        <category>日常</category>
+        <category>随想</category>
       </categories>
       <tags>
         <tag>日常</tag>
@@ -218,6 +218,33 @@
     <url>/%E6%97%A5%E5%B8%B8/%E9%80%81%E5%88%AB%E5%9B%BD%E4%B9%8B%E8%84%8A%E6%A2%81%E8%A2%81%E9%9A%86%E5%B9%B3/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>【痛悼！送别国之脊梁袁隆平】今天，共和国痛失袁隆平院士。<br>“我最大的愿望是饭碗要牢牢地掌握在我们中国人自己手上！”<br>他把一生浸在稻田里，把功勋写在大地上。国士无双，致敬，缅怀！<br><img src="https://z3.ax1x.com/2021/05/22/gLpCq0.jpg" alt="袁隆平"></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>github Actions</title>
+    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/GIT/github%20Actions/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>参考文章 <a href="https://zhuanlan.zhihu.com/p/164744104">https://zhuanlan.zhihu.com/p/164744104</a><br>github Actions 官方文档 <a href="https://docs.github.com/en/actions">https://docs.github.com/en/actions</a></p>
+<h3 id="1、我们应该如何使用-Action？"><a href="#1、我们应该如何使用-Action？" class="headerlink" title="1、我们应该如何使用 Action？"></a>1、我们应该如何使用 Action？</h3><p>比如我们可以 check-out 仓库中最新的代码到 Workflow 的工作区：</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">steps:</span><br><span class="line">  - uses: actions/checkout@v2</span><br></pre></td></tr></table></figure>
+<p>当然，我们还可以给它添加个名字：</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">steps:</span><br><span class="line">  - name: Check out Git repository</span><br><span class="line">    uses: actions/checkout@v2</span><br></pre></td></tr></table></figure>
+<p>再比如说，我们如果是 node 项目，我们可以安装 Node.js 与 NPM：</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">steps:</span><br><span class="line">- uses: actions/checkout@v2</span><br><span class="line">- uses: actions/setup-node@v2-beta</span><br><span class="line">  with:</span><br><span class="line">    node-version: &#x27;12&#x27;</span><br></pre></td></tr></table></figure>
+<h3 id="2、上面我们为什么要用：-v2-和-v2-beta-呢？"><a href="#2、上面我们为什么要用：-v2-和-v2-beta-呢？" class="headerlink" title="2、上面我们为什么要用：@v2 和 @v2-beta 呢？"></a>2、上面我们为什么要用：@v2 和 @v2-beta 呢？</h3><p>答：首先，正如大家所想，这个 @v2 和 @v2-beta 的意思都是 Action 的版本。</p>
+<p>我们如果不带版本号的话，其实就是默认使用最新版本的了。</p>
+<p>但是 <strong>Github 官方强烈要求我们带上版本号</strong>——这样子的话，我们就不会出现：<strong>写好一个 Workflow，但是由于某个 Action 的作者一更新，我们的 Workflow 就崩了的问题。</strong></p>
+<h3 id="如何运行命令？"><a href="#如何运行命令？" class="headerlink" title="如何运行命令？"></a>如何运行命令？</h3><p>使用<code>run</code>来运行命令，<strong>每个 run 命令都会启动一个新的 shell，所以我们执行多行连续命令的时候需要写在同一个 run 下：</strong></p>
+<ul>
+<li><strong>单行命令</strong><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">- name: Install Dependencies</span><br><span class="line">  run: npm install</span><br></pre></td></tr></table></figure></li>
+<li>  <strong>多行命令</strong></li>
+</ul>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">- name: Clean install dependencies and build</span><br><span class="line">  run： |</span><br><span class="line">    npm ci</span><br><span class="line">    npm run build</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>技术</category>
+        <category>git</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+      </tags>
   </entry>
   <entry>
     <title>GitLabPages</title>
@@ -272,33 +299,6 @@
 <h2 id="打标签"><a href="#打标签" class="headerlink" title="打标签"></a>打标签</h2><p><code>git tag</code> 在控制台打印出当前仓库的所有标签<br><code>git tag tagName commitId</code> 对之前的commit打标签<br><code>git tag v1.0</code> 对最后一次commit打标签<br><code>$ git tag -a v0.1 -m &quot;version 0.1 released&quot; 1094adb</code>创建带有说明的标签，用-a指定标签名，-m指定说明文字：<br><code>git tag -l ‘v0.1.*’</code> 搜索符合模式的标签<br><code>git push origin [tagname]</code> push单个tag<br><code>git push [origin] --tags</code> push所有tag  </p>
 <p><code>git checkout tagName</code> 根据标签名检出</p>
 ]]></content>
-      <categories>
-        <category>技术</category>
-        <category>git</category>
-      </categories>
-      <tags>
-        <tag>git</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>github Actions</title>
-    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/GIT/github%20Actions/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>参考文章 <a href="https://zhuanlan.zhihu.com/p/164744104">https://zhuanlan.zhihu.com/p/164744104</a><br>github Actions 官方文档 <a href="https://docs.github.com/en/actions">https://docs.github.com/en/actions</a></p>
-<h3 id="1、我们应该如何使用-Action？"><a href="#1、我们应该如何使用-Action？" class="headerlink" title="1、我们应该如何使用 Action？"></a>1、我们应该如何使用 Action？</h3><p>比如我们可以 check-out 仓库中最新的代码到 Workflow 的工作区：</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">steps:</span><br><span class="line">  - uses: actions/checkout@v2</span><br></pre></td></tr></table></figure>
-<p>当然，我们还可以给它添加个名字：</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">steps:</span><br><span class="line">  - name: Check out Git repository</span><br><span class="line">    uses: actions/checkout@v2</span><br></pre></td></tr></table></figure>
-<p>再比如说，我们如果是 node 项目，我们可以安装 Node.js 与 NPM：</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">steps:</span><br><span class="line">- uses: actions/checkout@v2</span><br><span class="line">- uses: actions/setup-node@v2-beta</span><br><span class="line">  with:</span><br><span class="line">    node-version: &#x27;12&#x27;</span><br></pre></td></tr></table></figure>
-<h3 id="2、上面我们为什么要用：-v2-和-v2-beta-呢？"><a href="#2、上面我们为什么要用：-v2-和-v2-beta-呢？" class="headerlink" title="2、上面我们为什么要用：@v2 和 @v2-beta 呢？"></a>2、上面我们为什么要用：@v2 和 @v2-beta 呢？</h3><p>答：首先，正如大家所想，这个 @v2 和 @v2-beta 的意思都是 Action 的版本。</p>
-<p>我们如果不带版本号的话，其实就是默认使用最新版本的了。</p>
-<p>但是 <strong>Github 官方强烈要求我们带上版本号</strong>——这样子的话，我们就不会出现：<strong>写好一个 Workflow，但是由于某个 Action 的作者一更新，我们的 Workflow 就崩了的问题。</strong></p>
-<h3 id="如何运行命令？"><a href="#如何运行命令？" class="headerlink" title="如何运行命令？"></a>如何运行命令？</h3><p>使用<code>run</code>来运行命令，<strong>每个 run 命令都会启动一个新的 shell，所以我们执行多行连续命令的时候需要写在同一个 run 下：</strong></p>
-<ul>
-<li><strong>单行命令</strong><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">- name: Install Dependencies</span><br><span class="line">  run: npm install</span><br></pre></td></tr></table></figure></li>
-<li>  <strong>多行命令</strong></li>
-</ul>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">- name: Clean install dependencies and build</span><br><span class="line">  run： |</span><br><span class="line">    npm ci</span><br><span class="line">    npm run build</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>技术</category>
         <category>git</category>
@@ -364,13 +364,6 @@
       </tags>
   </entry>
   <entry>
-    <title>SpringBoot搭建博客</title>
-    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/SpringBoot%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>参考文章：<a href="https://www.cnblogs.com/superfj/p/9044532.html">https://www.cnblogs.com/superfj/p/9044532.html</a></p>
-<p>项目代码：<a href="https://github.com/JayTange/Jantent">https://github.com/JayTange/Jantent</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>Spring Boot 多对多</title>
     <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/Spring%20Boot%20%E5%A4%9A%E5%AF%B9%E5%A4%9A/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>参考文章<a href="https://www.cnblogs.com/TimerHotel/p/springboot_matatis_05.html">https://www.cnblogs.com/TimerHotel/p/springboot_matatis_05.html</a></p>
@@ -386,6 +379,13 @@
       <tags>
         <tag>技术</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>SpringBoot搭建博客</title>
+    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/SpringBoot%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>参考文章：<a href="https://www.cnblogs.com/superfj/p/9044532.html">https://www.cnblogs.com/superfj/p/9044532.html</a></p>
+<p>项目代码：<a href="https://github.com/JayTange/Jantent">https://github.com/JayTange/Jantent</a></p>
+]]></content>
   </entry>
   <entry>
     <title>常用注解</title>
@@ -412,6 +412,70 @@
 ]]></content>
       <tags>
         <tag>spring Boot</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>themeleaf 的常用标签</title>
+    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/themeleaf%20%E7%9A%84%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>参考文档 <a href="https://www.yiibai.com/thymeleaf/standard-dialects.html">https://www.yiibai.com/thymeleaf/standard-dialects.html</a></p>
+<h2 id="themeleaf-标准表达式"><a href="#themeleaf-标准表达式" class="headerlink" title="themeleaf 标准表达式"></a>themeleaf 标准表达式</h2><ul>
+<li>  <code>$&#123;...&#125;</code> : <a href="#%E5%8F%98%E9%87%8F%E8%A1%A8%E8%BE%BE%E5%BC%8F">变量表达式</a>。</li>
+<li>  <code>*&#123;...&#125;</code> : <a href="#%E9%80%89%E6%8B%A9%E8%A1%A8%E8%BE%BE%E5%BC%8F">选择表达式</a>。</li>
+<li>  <code>#&#123;...&#125;</code> : <a href="#%E6%B6%88%E6%81%AF%E8%A1%A8%E8%BE%BE%E5%BC%8F">消息表达式</a>。</li>
+<li>  <code>@&#123;...&#125;</code> : <a href="#%E9%93%BE%E6%8E%A5%E8%A1%A8%E8%BE%BE%E5%BC%8F">链接表达式</a>。</li>
+<li>  <code>~&#123;...&#125;</code> : <a href="#%E7%89%87%E6%AE%B5%E8%A1%A8%E8%BE%BE%E5%BC%8F">片段表达式</a>。</li>
+</ul>
+<h3 id="变量表达式"><a href="#变量表达式" class="headerlink" title="变量表达式"></a>变量表达式</h3><p>变量表达式是OGNL表达式 - 如果将_Thymeleaf_ 与_Spring_ - 集成在上下文变量上(也称为Spring术语中的模型属性)，则为_Spring EL_。 它们看起来像这样:</p>
+<figure class="highlight jsp"><table><tr><td class="code"><pre><span class="line">$&#123;session.user.name&#125;</span><br></pre></td></tr></table></figure>
+<p>它们作为属性值或作为它们的一部分，取决于属性:</p>
+<figure class="highlight jsp"><table><tr><td class="code"><pre><span class="line">&lt;span th:text=<span class="string">&quot;$&#123;book.author.name&#125;&quot;</span>&gt;</span><br></pre></td></tr></table></figure>
+<p>上面的表达式与下面是相同的(在OGNL和SpringEL中):</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">((Book)context.getVariable(<span class="string">&quot;book&quot;</span>)).getAuthor().getName()</span><br></pre></td></tr></table></figure>
+<p>但是不仅在涉及输出的场景中找到变量表达式，而且还可以使用更复杂的处理方式，如:条件，迭代…等等。</p>
+<figure class="highlight jsp"><table><tr><td class="code"><pre><span class="line">&lt;li th:each=<span class="string">&quot;book : $&#123;books&#125;&quot;</span>&gt;</span><br></pre></td></tr></table></figure>
+<p>这里<code>$&#123;books&#125;</code>从上下文中选择名为<code>books</code>的变量，并在<code>th:each</code>中使用循环将其评估为迭代器。</p>
+<h3 id="选择表达式"><a href="#选择表达式" class="headerlink" title="选择表达式"></a>选择表达式</h3><p>选择表达式就像变量表达式一样，它们不是整个上下文变量映射上执行，而是在先前选择的对象。 它们看起来像这样:</p>
+<figure class="highlight jsp"><table><tr><td class="code"><pre><span class="line">*&#123;customer.name&#125;</span><br></pre></td></tr></table></figure>
+<p>它们所作用的对象由<code>th:object</code>属性指定:</p>
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line">&lt;div th:object=<span class="string">&quot;$&#123;book&#125;&quot;</span>&gt;</span><br><span class="line">  ...</span><br><span class="line">  &lt;span th:text=&quot;*&#123;title&#125;&quot;&gt;...&lt;/span&gt;</span><br><span class="line">  ...</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+<p>所以这相当于:</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="comment">// th:object=&quot;$&#123;book&#125;&quot;</span></span><br><span class="line">  <span class="keyword">final</span> Book selection = (Book) context.getVariable(<span class="string">&quot;book&quot;</span>);</span><br><span class="line">  <span class="comment">// th:text=&quot;*&#123;title&#125;&quot;</span></span><br><span class="line">  output(selection.getTitle());</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="消息表达式"><a href="#消息表达式" class="headerlink" title="消息表达式"></a>消息表达式</h3><p>消息表达式(通常称为文本外部化，国际化或i18n)允许从外部源(如:<code>.properties</code>)文件中检索特定于语言环境的消息，通过键来引用这引用消息。</p>
+<p>在Spring应用程序中，它将自动与Spring的MessageSource机制集成。如下 -</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#&#123;main.title&#125;</span><br><span class="line">#&#123;message.entrycreated($&#123;entryId&#125;)&#125;</span><br></pre></td></tr></table></figure>
+<p>以下是在模板中使用它们的方式:</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">table</span>&gt;</span></span><br><span class="line">  ...</span><br><span class="line">  <span class="tag">&lt;<span class="name">th</span> <span class="attr">th:text</span>=<span class="string">&quot;#&#123;header.address.city&#125;&quot;</span>&gt;</span>...<span class="tag">&lt;/<span class="name">th</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">th</span> <span class="attr">th:text</span>=<span class="string">&quot;#&#123;header.address.country&#125;&quot;</span>&gt;</span>...<span class="tag">&lt;/<span class="name">th</span>&gt;</span></span><br><span class="line">  ...</span><br><span class="line"><span class="tag">&lt;/<span class="name">table</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>请注意，如果希望消息键由上下文变量的值确定，或者希望将变量指定为参数，则可以在消息表达式中使用变量表达式:</p>
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line">#&#123;$&#123;config.adminWelcomeKey&#125;($&#123;session.user.name&#125;)&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="链接表达式"><a href="#链接表达式" class="headerlink" title="链接表达式"></a>链接表达式</h3><p>链接表达式在构建URL并向其添加有用的上下文和会话信息(通常称为URL重写的过程)。<br>因此，对于部署在Web服务器的<code>/myapp</code>上下文中的Web应用程序，可以使用以下表达式:</p>
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line">&lt;a th:href=&quot;@&#123;/order/list&#125;&quot;&gt;...&lt;/a&gt;</span><br></pre></td></tr></table></figure>
+<p>可以转换成如下的东西:</p>
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line">&lt;a href=&quot;/myapp/order/list&quot;&gt;...&lt;/a&gt;</span><br></pre></td></tr></table></figure>
+<p>甚至，如果需要保持会话，并且cookie未启用(或者服务器还不知道)，那么生成的格式为:</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;/myapp/order/list;jsessionid=s2ds3fa31abd241e2a01932&quot;</span>&gt;</span>...<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>网址也可以带参数，如下所示:</p>
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line">&lt;a th:href=&quot;@&#123;/order/details(id=$&#123;orderId&#125;,type=$&#123;orderType&#125;)&#125;&quot;&gt;...&lt;/a&gt;</span><br></pre></td></tr></table></figure>
+<p>这将产生类似以下的结果 -</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 注意＆符号会在标签属性中进行HTML转义... --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;/myapp/order/details?id=23&amp;type=online&quot;</span>&gt;</span>...<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>链接表达式可以是相对的，在这种情况下，应用程序上下文将不会被加到URL的前面:</p>
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line">&lt;a th:href=&quot;@&#123;../documents/report&#125;&quot;&gt;...&lt;/a&gt;</span><br></pre></td></tr></table></figure>
+<p>也是服务器相对的(同样，没有应用程序上下文的前缀):</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">th:href</span>=<span class="string">&quot;@&#123;~/contents/main&#125;&quot;</span>&gt;</span>...<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>和协议相关(就像绝对URL一样，但浏览器将使用与正在显示的页面相同的HTTP或HTTPS协议):</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">th:href</span>=<span class="string">&quot;@&#123;//static.mycompany.com/res/initial&#125;&quot;</span>&gt;</span>...<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>当然，链接表达式也可以是绝对的:</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">th:href</span>=<span class="string">&quot;@&#123;http://www.mycompany.com/main&#125;&quot;</span>&gt;</span>...<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>但是绝对(或协议相对)URL ，在Thymeleaf链接表达式中应该添加什么值？ 很简单:由响应过滤器定义URL重写:在基于Servlet的Web应用程序中，对于每个输出的URL(上下文相对，相对，绝对…)，在显示URL之前，Thymeleaf总是调用<code>HttpServletResponse.encodeUrl(...)</code>机制。 这意味着一个过滤器可以通过包装HttpServletResponse对象来为应用程序执行自定义的URL重写。</p>
+<h3 id="片段表达式"><a href="#片段表达式" class="headerlink" title="片段表达式"></a>片段表达式</h3><p>片段表达式是一种简单的方法用来表示标记的片段并将其移动到模板中。 由于这些表达式，片段可以被复制，传递给其他模板的参数等等。</p>
+<p>最常见的是使用<code>th:insert</code>或<code>th:replace</code>来插入片段:</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">th:insert</span>=<span class="string">&quot;~&#123;commons :: main&#125;&quot;</span>&gt;</span>...<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>但是它们可以在任何地方使用，就像任何其他变量一样:</p>
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line">&lt;div th:with=<span class="string">&quot;frag=~&#123;footer :: #main/text()&#125;&quot;</span>&gt;</span><br><span class="line">  &lt;p th:insert=<span class="string">&quot;$&#123;frag&#125;&quot;</span>&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+<p>片段表达式可以有参数。</p>
+]]></content>
+      <tags>
+        <tag>技术</tag>
+        <tag>themeleaf</tag>
       </tags>
   </entry>
   <entry>
@@ -458,22 +522,5 @@
 <p>连接数据库要使用data-jpa，像下面这样写到dependencies中即可。</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;dependencies&gt;</span><br><span class="line">        &lt;dependency&gt;</span><br><span class="line">            &lt;groupId&gt;org.springframework.boot&lt;&#x2F;groupId&gt;</span><br><span class="line">            &lt;artifactId&gt;spring-boot-starter-data-jpa&lt;&#x2F;artifactId&gt;</span><br><span class="line">        &lt;&#x2F;dependency&gt;</span><br><span class="line">&lt;&#x2F;dependencies&gt;        </span><br></pre></td></tr></table></figure>
 ]]></content>
-  </entry>
-  <entry>
-    <title>themeleaf 的常用标签</title>
-    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/themeleaf%20%E7%9A%84%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>参考文档 <a href="https://www.yiibai.com/thymeleaf/standard-dialects.html">https://www.yiibai.com/thymeleaf/standard-dialects.html</a></p>
-<h2 id="themeleaf-标准表达式"><a href="#themeleaf-标准表达式" class="headerlink" title="themeleaf 标准表达式"></a>themeleaf 标准表达式</h2><ul>
-<li>  <code>$&#123;...&#125;</code> : 变量表达式。</li>
-<li>  <code>*&#123;...&#125;</code> : 选择表达式。</li>
-<li>  <code>#&#123;...&#125;</code> : 消息 (i18n) 表达式。</li>
-<li>  <code>@&#123;...&#125;</code> : 链接 (URL) 表达式。</li>
-<li>  <code>~&#123;...&#125;</code> : 片段表达式。</li>
-</ul>
-]]></content>
-      <tags>
-        <tag>技术</tag>
-        <tag>themeleaf</tag>
-      </tags>
   </entry>
 </search>
