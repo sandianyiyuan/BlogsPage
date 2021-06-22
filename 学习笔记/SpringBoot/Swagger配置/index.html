@@ -15,7 +15,7 @@
         name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1"
       />
-      <title>影音 |  三点一圆</title>
+      <title>Swagger配置 |  三点一圆</title>
   <meta name="generator" content="hexo-theme-ayer">
       
       <link rel="shortcut icon" href="/favicon.ico" />
@@ -36,9 +36,6 @@
       <!-- mermaid -->
       
     <link rel="alternate" href="/atom.xml" title="三点一圆" type="application/atom+xml">
-<link rel="stylesheet" href="\assets\css\APlayer.min.css" class="aplayer-style-marker">
-<script src="\assets\js\APlayer.min.js" class="aplayer-script-marker"></script>
-<script src="\assets\js\Meting.min.js" class="meting-script-marker"></script>
 </head>
   </html>
 </html>
@@ -54,8 +51,8 @@
     <main class="content on">
       <section class="outer">
   <article
-  id="page-"
-  class="article article-type-page"
+  id="post-学习笔记/SpringBoot/Swagger配置"
+  class="article article-type-post"
   itemscope
   itemprop="blogPost"
   data-scroll-reveal
@@ -65,21 +62,60 @@
     <header class="article-header">
        
 <h1 class="article-title sea-center" style="border-left:0" itemprop="name">
-  影音
+  Swagger配置
 </h1>
  
 
       
     </header>
-       
+     
+    <div class="article-meta">
+      <a href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/Swagger%E9%85%8D%E7%BD%AE/" class="article-date">
+  <time datetime="2021-06-22T08:46:15.000Z" itemprop="datePublished">2021-06-22</time>
+</a> 
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a>
+  </div>
+  
+<div class="word_count">
+    <span class="post-time">
+        <span class="post-meta-item-icon">
+            <i class="ri-quill-pen-line"></i>
+            <span class="post-meta-item-text"> 字数统计:</span>
+            <span class="post-count">424</span>
+        </span>
+    </span>
+
+    <span class="post-time">
+        &nbsp; | &nbsp;
+        <span class="post-meta-item-icon">
+            <i class="ri-book-open-line"></i>
+            <span class="post-meta-item-text"> 阅读时长≈</span>
+            <span class="post-count">2 分钟</span>
+        </span>
+    </span>
+</div>
+ 
+    </div>
+      
+    <div class="tocbot"></div>
+
+
+
+
+  
     <div class="article-entry" itemprop="articleBody">
        
-  <p>这是网易云音乐我的心动歌单</p>
-<!-- 进阶示例 -->
+  <h2 id="Spring-boot整合Swagger2"><a href="#Spring-boot整合Swagger2" class="headerlink" title="Spring boot整合Swagger2"></a><strong>Spring boot整合Swagger2</strong></h2><p>Spring Boot整合Swagger2可以使用配置文件或者配置类来实现。下面分别介绍一下  </p>
+<h2 id="一、使用配置文件来配置Swagger设置"><a href="#一、使用配置文件来配置Swagger设置" class="headerlink" title="一、使用配置文件来配置Swagger设置"></a>一、使用配置文件来配置Swagger设置</h2><h3 id="1-添加依赖"><a href="#1-添加依赖" class="headerlink" title="1. 添加依赖"></a>1. 添加依赖</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;dependency&gt;</span><br><span class="line">    &lt;groupId&gt;com.spring4all&lt;&#x2F;groupId&gt;</span><br><span class="line">    &lt;artifactId&gt;swagger-spring-boot-starter&lt;&#x2F;artifactId&gt;</span><br><span class="line">    &lt;version&gt;1.8.0.RELEASE&lt;&#x2F;version&gt;</span><br><span class="line">&lt;&#x2F;dependency&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="2-在配置文件application-yml添加配置"><a href="#2-在配置文件application-yml添加配置" class="headerlink" title="2. 在配置文件application.yml添加配置"></a>2. 在配置文件application.yml添加配置</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
+<h3 id="3-在启动类添加注解-EnableSwagger2Doc"><a href="#3-在启动类添加注解-EnableSwagger2Doc" class="headerlink" title="3.在启动类添加注解@EnableSwagger2Doc"></a>3.在启动类添加注解@EnableSwagger2Doc</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">@SpringBootApplication  </span><br><span class="line">@EnableSwagger2Doc  </span><br><span class="line">public class Artificial2BApplication &#123;  </span><br><span class="line">  </span><br><span class="line">    public static void main(String\[\] args) &#123;  </span><br><span class="line">        SpringApplication.run(Artificial2BApplication.class, args);  </span><br><span class="line"> &#125;  </span><br><span class="line">  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-    <div id="aplayer-HtWdQsPP" class="aplayer aplayer-tag-marker meting-tag-marker"
-         data-id="70584230" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="340px" data-preload="none" data-theme="#ad7a86"
-    ></div>
+<h2 id="二、创建Java类来配置Swagger设置"><a href="#二、创建Java类来配置Swagger设置" class="headerlink" title="二、创建Java类来配置Swagger设置"></a>二、创建Java类来配置Swagger设置</h2><h3 id="1-在pom-xml添加依赖"><a href="#1-在pom-xml添加依赖" class="headerlink" title="1. 在pom.xml添加依赖"></a>1. 在pom.xml添加依赖</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">&lt;dependency&gt;</span><br><span class="line">            &lt;groupId&gt;io.springfox&lt;&#x2F;groupId&gt;</span><br><span class="line">            &lt;artifactId&gt;springfox-swagger2&lt;&#x2F;artifactId&gt;</span><br><span class="line">            &lt;version&gt;2.9.2&lt;&#x2F;version&gt;</span><br><span class="line">        &lt;&#x2F;dependency&gt;</span><br><span class="line">&lt;!--        导入swagger-ui依赖--&gt;</span><br><span class="line">        &lt;dependency&gt;</span><br><span class="line">            &lt;groupId&gt;io.springfox&lt;&#x2F;groupId&gt;</span><br><span class="line">            &lt;artifactId&gt;springfox-swagger-ui&lt;&#x2F;artifactId&gt;</span><br><span class="line">            &lt;version&gt;2.9.2&lt;&#x2F;version&gt;</span><br><span class="line">        &lt;&#x2F;dependency&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="2-创建Swagger的Java配置类"><a href="#2-创建Swagger的Java配置类" class="headerlink" title="2. 创建Swagger的Java配置类"></a>2. 创建Swagger的Java配置类</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">@Configuration</span><br><span class="line">public class SwaggerUtil &#123;</span><br><span class="line">    @Bean</span><br><span class="line">    public Docket createRestApi()&#123;</span><br><span class="line">        return new Docket(DocumentationType.SWAGGER_2)</span><br><span class="line">                .pathMapping(&quot;&#x2F;&quot;)</span><br><span class="line">                .select()</span><br><span class="line">                .apis(RequestHandlerSelectors.basePackage(&quot;com.lzr.test.controller&quot;))</span><br><span class="line">                .paths(PathSelectors.any())</span><br><span class="line">                .build()</span><br><span class="line">                .apiInfo(new ApiInfoBuilder()</span><br><span class="line">                .title(&quot;医疗系统&quot;)</span><br><span class="line">                        .description(&quot;用于管理患者信息的医疗系统平台&quot;)</span><br><span class="line">                        .version(&quot;1.0&quot;)</span><br><span class="line">                        .contact(new Contact(&quot;吕小白&quot;,&quot;https:www.baidu.com&quot;,&quot;****@qq.com&quot;)</span><br><span class="line">                        )</span><br><span class="line">                        .license(&quot;The Apache License&quot;)</span><br><span class="line">                        .licenseUrl(&quot;https:www.baidu.com&quot;)</span><br><span class="line">                        .build());</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>这个配置文件随便放在哪个，路径下都可以，只要标有<code>@Configuration</code> 注解都会自动配置的，这就是Spring Boot的方便之处</p>
+<h3 id="3-在启动类添加注解-EnableSwagger2"><a href="#3-在启动类添加注解-EnableSwagger2" class="headerlink" title="3. 在启动类添加注解@EnableSwagger2"></a>3. 在启动类添加注解@EnableSwagger2</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">@SpringBootApplication</span><br><span class="line">@MapperScan(basePackages &#x3D; &quot;com.lzr.test.mapper&quot;)</span><br><span class="line">public class TestApplication &#123;</span><br><span class="line"></span><br><span class="line">    public static void main(String[] args) &#123;</span><br><span class="line">        Object o&#x3D;new Object();</span><br><span class="line">        SpringApplication.run(TestApplication.class, args);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>启动后访问效果：<br><img src="Swagger%E9%85%8D%E7%BD%AE/image_56.png"></p>
  
       <!-- reward -->
       
@@ -150,15 +186,27 @@
     <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://sdyy.host/av/" alt="微信分享二维码">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://sdyy.host/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/Swagger%E9%85%8D%E7%BD%AE/" alt="微信分享二维码">
     </div>
 </div>
 
 <div id="share-mask"></div>  
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%8A%80%E6%9C%AF/" rel="tag">技术</a></li></ul>
+
     </footer>
   </div>
 
    
+  <nav class="article-nav">
+    
+    
+      <a href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/themeleaf%20%E7%9A%84%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/" class="article-nav-link">
+        <strong class="article-nav-caption">下一篇</strong>
+        <div class="article-nav-title">themeleaf 的常用标签</div>
+      </a>
+    
+  </nav>
+
    
 <!-- valine评论 -->
 <div id="vcomments-box">
@@ -208,7 +256,8 @@
 </style>
 
  
-    
+   
+     
 </article>
 
 </section>
@@ -360,6 +409,22 @@
 <script src="/js/lazyload.min.js"></script>
 
 <!-- Tocbot -->
+ 
+<script src="/js/tocbot.min.js"></script>
+
+<script>
+  tocbot.init({
+    tocSelector: ".tocbot",
+    contentSelector: ".article-entry",
+    headingSelector: "h1, h2, h3, h4, h5, h6",
+    hasInnerContainers: true,
+    scrollSmooth: true,
+    scrollContainer: "main",
+    positionFixedSelector: ".tocbot",
+    positionFixedClass: "is-position-fixed",
+    fixedSidebarOffset: "auto",
+  });
+</script>
 
 <script src="https://cdn.jsdelivr.net/npm/jquery-modal@0.9.2/jquery.modal.min.js"></script>
 <link

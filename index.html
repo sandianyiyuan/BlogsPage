@@ -147,6 +147,69 @@
     
     
     <article
+  id="post-学习笔记/SpringBoot/Swagger配置"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/Swagger%E9%85%8D%E7%BD%AE/"
+    >Swagger配置</a> 
+</h2>
+ 
+
+      
+    </header>
+     
+    <div class="article-meta">
+      <a href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/Swagger%E9%85%8D%E7%BD%AE/" class="article-date">
+  <time datetime="2021-06-22T08:46:15.000Z" itemprop="datePublished">2021-06-22</time>
+</a> 
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a>
+  </div>
+   
+    </div>
+      
+    <div class="article-entry" itemprop="articleBody">
+       
+  <h2 id="Spring-boot整合Swagger2"><a href="#Spring-boot整合Swagger2" class="headerlink" title="Spring boot整合Swagger2"></a><strong>Spring boot整合Swagger2</strong></h2><p>Spring Boot整合Swagger2可以使用配置文件或者配置类来实现。下面分别介绍一下  </p>
+<h2 id="一、使用配置文件来配置Swagger设置"><a href="#一、使用配置文件来配置Swagger设置" class="headerlink" title="一、使用配置文件来配置Swagger设置"></a>一、使用配置文件来配置Swagger设置</h2><h3 id="1-添加依赖"><a href="#1-添加依赖" class="headerlink" title="1. 添加依赖"></a>1. 添加依赖</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;dependency&gt;</span><br><span class="line">    &lt;groupId&gt;com.spring4all&lt;&#x2F;groupId&gt;</span><br><span class="line">    &lt;artifactId&gt;swagger-spring-boot-starter&lt;&#x2F;artifactId&gt;</span><br><span class="line">    &lt;version&gt;1.8.0.RELEASE&lt;&#x2F;version&gt;</span><br><span class="line">&lt;&#x2F;dependency&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="2-在配置文件application-yml添加配置"><a href="#2-在配置文件application-yml添加配置" class="headerlink" title="2. 在配置文件application.yml添加配置"></a>2. 在配置文件application.yml添加配置</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
+<h3 id="3-在启动类添加注解-EnableSwagger2Doc"><a href="#3-在启动类添加注解-EnableSwagger2Doc" class="headerlink" title="3.在启动类添加注解@EnableSwagger2Doc"></a>3.在启动类添加注解@EnableSwagger2Doc</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">@SpringBootApplication  </span><br><span class="line">@EnableSwagger2Doc  </span><br><span class="line">public class Artificial2BApplication &#123;  </span><br><span class="line">  </span><br><span class="line">    public static void main(String\[\] args) &#123;  </span><br><span class="line">        SpringApplication.run(Artificial2BApplication.class, args);  </span><br><span class="line"> &#125;  </span><br><span class="line">  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="二、创建Java类来配置Swagger设置"><a href="#二、创建Java类来配置Swagger设置" class="headerlink" title="二、创建Java类来配置Swagger设置"></a>二、创建Java类来配置Swagger设置</h2><h3 id="1-在pom-xml添加依赖"><a href="#1-在pom-xml添加依赖" class="headerlink" title="1. 在pom.xml添加依赖"></a>1. 在pom.xml添加依赖</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">&lt;dependency&gt;</span><br><span class="line">            &lt;groupId&gt;io.springfox&lt;&#x2F;groupId&gt;</span><br><span class="line">            &lt;artifactId&gt;springfox-swagger2&lt;&#x2F;artifactId&gt;</span><br><span class="line">            &lt;version&gt;2.9.2&lt;&#x2F;version&gt;</span><br><span class="line">        &lt;&#x2F;dependency&gt;</span><br><span class="line">&lt;!--        导入swagger-ui依赖--&gt;</span><br><span class="line">        &lt;dependency&gt;</span><br><span class="line">            &lt;groupId&gt;io.springfox&lt;&#x2F;groupId&gt;</span><br><span class="line">            &lt;artifactId&gt;springfox-swagger-ui&lt;&#x2F;artifactId&gt;</span><br><span class="line">            &lt;version&gt;2.9.2&lt;&#x2F;version&gt;</span><br><span class="line">        &lt;&#x2F;dependency&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="2-创建Swagger的Java配置类"><a href="#2-创建Swagger的Java配置类" class="headerlink" title="2. 创建Swagger的Java配置类"></a>2. 创建Swagger的Java配置类</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">@Configuration</span><br><span class="line">public class SwaggerUtil &#123;</span><br><span class="line">    @Bean</span><br><span class="line">    public Docket createRestApi()&#123;</span><br><span class="line">        return new Docket(DocumentationType.SWAGGER_2)</span><br><span class="line">                .pathMapping(&quot;&#x2F;&quot;)</span><br><span class="line">                .select()</span><br><span class="line">                .apis(RequestHandlerSelectors.basePackage(&quot;com.lzr.test.controller&quot;))</span><br><span class="line">                .paths(PathSelectors.any())</span><br><span class="line">                .build()</span><br><span class="line">                .apiInfo(new ApiInfoBuilder()</span><br><span class="line">                .title(&quot;医疗系统&quot;)</span><br><span class="line">                        .description(&quot;用于管理患者信息的医疗系统平台&quot;)</span><br><span class="line">                        .version(&quot;1.0&quot;)</span><br><span class="line">                        .contact(new Contact(&quot;吕小白&quot;,&quot;https:www.baidu.com&quot;,&quot;****@qq.com&quot;)</span><br><span class="line">                        )</span><br><span class="line">                        .license(&quot;The Apache License&quot;)</span><br><span class="line">                        .licenseUrl(&quot;https:www.baidu.com&quot;)</span><br><span class="line">                        .build());</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>这个配置文件随便放在哪个，路径下都可以，只要标有<code>@Configuration</code> 注解都会自动配置的，这就是Spring Boot的方便之处</p>
+<h3 id="3-在启动类添加注解-EnableSwagger2"><a href="#3-在启动类添加注解-EnableSwagger2" class="headerlink" title="3. 在启动类添加注解@EnableSwagger2"></a>3. 在启动类添加注解@EnableSwagger2</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">@SpringBootApplication</span><br><span class="line">@MapperScan(basePackages &#x3D; &quot;com.lzr.test.mapper&quot;)</span><br><span class="line">public class TestApplication &#123;</span><br><span class="line"></span><br><span class="line">    public static void main(String[] args) &#123;</span><br><span class="line">        Object o&#x3D;new Object();</span><br><span class="line">        SpringApplication.run(TestApplication.class, args);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>启动后访问效果：<br><img src="Swagger%E9%85%8D%E7%BD%AE/image_56.png"></p>
+ 
+      <!-- reward -->
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <footer class="article-footer">
+       
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%8A%80%E6%9C%AF/" rel="tag">技术</a></li></ul>
+
+    </footer>
+  </div>
+
+    
+ 
+    
+</article>
+
+    
+    <article
   id="post-学习笔记/SpringBoot/themeleaf 的常用标签"
   class="article article-type-post"
   itemscope
@@ -693,77 +756,6 @@
     <footer class="article-footer">
        
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%8A%80%E6%9C%AF/" rel="tag">技术</a></li></ul>
-
-    </footer>
-  </div>
-
-    
- 
-    
-</article>
-
-    
-    <article
-  id="post-学习笔记/GIT/git常用指令笔记"
-  class="article article-type-post"
-  itemscope
-  itemprop="blogPost"
-  data-scroll-reveal
->
-  <div class="article-inner">
-    
-    <header class="article-header">
-       
-<h2 itemprop="name">
-  <a class="article-title" href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/GIT/git%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4%E7%AC%94%E8%AE%B0/"
-    >git常用指令笔记</a> 
-</h2>
- 
-
-      
-    </header>
-     
-    <div class="article-meta">
-      <a href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/GIT/git%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4%E7%AC%94%E8%AE%B0/" class="article-date">
-  <time datetime="2021-06-04T01:30:36.000Z" itemprop="datePublished">2021-06-04</time>
-</a> 
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a> / <a class="article-category-link" href="/categories/%E6%8A%80%E6%9C%AF/git/">git</a>
-  </div>
-   
-    </div>
-      
-    <div class="article-entry" itemprop="articleBody">
-       
-  <h2 id="删除远程所有分支"><a href="#删除远程所有分支" class="headerlink" title="删除远程所有分支"></a>删除远程所有分支</h2><h2 id="删除远程文件"><a href="#删除远程文件" class="headerlink" title="删除远程文件"></a>删除远程文件</h2><p>多人协作中经常有人将中间文件提交，他人提交之后如果需要删除的话可以这样操作：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git rm -r --cached *.iml        &#x2F;&#x2F;*.iml 是需要删除的文件</span><br><span class="line">git commit -m &quot;ignore *.iml&quot;    &#x2F;&#x2F;&quot;ignore *.iml&quot;是提交的备注</span><br><span class="line">git push </span><br></pre></td></tr></table></figure>
-<p>该操作删除远程的文件，本地文件不受影响，但是别人pull代码之后本地的目录会被删除</p>
-<p>再修改.gitignore文件将其忽略规则加上，别人就不会提交这个文件了。</p>
-<p>gitignore文件规则，只能忽略未被添加到跟踪的文件，作用范围为当前目录的子目录</p>
-<p>如果文件已经被跟踪，则忽略规则不生效;已经被跟踪的文件被删除后忽略规则会生效。</p>
-<p>文件被跟踪后又被删除再被创建时如果满足忽略规则，则不会被跟踪。</p>
-<h2 id="重置远程分支"><a href="#重置远程分支" class="headerlink" title="重置远程分支"></a>重置远程分支</h2><p>本地分支与远程分支不同步时，拉取所有分支：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git fetch	# 将远程所有分支拉取到本地，这时候使用</span><br><span class="line">git checkout -b dev(本地分支名称) origin&#x2F;dev(远程分支名称)</span><br></pre></td></tr></table></figure>
-<h2 id="git-stash恢复文件"><a href="#git-stash恢复文件" class="headerlink" title="git stash恢复文件"></a>git stash恢复文件</h2><p>参考文档<a target="_blank" rel="noopener" href="https://www.cnblogs.com/exmyth/p/6213129.html">https://www.cnblogs.com/exmyth/p/6213129.html</a></p>
-<p>今天在提交脚本的时候不小心删除了数据，瞬间崩溃了</p>
-<p>丢代码的过程：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git stash save &quot;暂存文件&quot;</span><br><span class="line">git pull	# 下载最新的文件，下载很正常没提示错误</span><br><span class="line">git stash apply stash@&#123;0&#125;	# 将暂存的文件还原回来</span><br><span class="line">git stash drop stash@&#123;0&#125;	# 删除暂存的文件</span><br><span class="line">git status # 检查文件状态</span><br></pre></td></tr></table></figure>
-<p>这时候提示没有任何提示，现在工作区是干净的，然后就没有然后了。我也不知道我改了哪些文件改了啥，人都懵了。</p>
-<p>果断上网百度，发现有还原的方法，记录如下：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git fsck --lost-found	# 查看最近删除的提交，其中就有git stash drop stash@&#123;0&#125;时的ID</span><br><span class="line">git show id		# 查看文件记录，id是git fsck指令查出来的ID，找到要还原的记录</span><br><span class="line">git merge id	# 这样就可以将记录还原了。</span><br></pre></td></tr></table></figure>
-<h2 id="打标签"><a href="#打标签" class="headerlink" title="打标签"></a>打标签</h2><p><code>git tag</code> 在控制台打印出当前仓库的所有标签<br><code>git tag tagName commitId</code> 对之前的commit打标签<br><code>git tag v1.0</code> 对最后一次commit打标签<br><code>$ git tag -a v0.1 -m &quot;version 0.1 released&quot; 1094adb</code>创建带有说明的标签，用-a指定标签名，-m指定说明文字：<br><code>git tag -l ‘v0.1.*’</code> 搜索符合模式的标签<br><code>git push origin [tagname]</code> push单个tag<br><code>git push [origin] --tags</code> push所有tag  </p>
-<p><code>git checkout tagName</code> 根据标签名检出</p>
- 
-      <!-- reward -->
-      
-    </div>
-    
-
-    <!-- copyright -->
-    
-    <footer class="article-footer">
-       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/git/" rel="tag">git</a></li></ul>
 
     </footer>
   </div>

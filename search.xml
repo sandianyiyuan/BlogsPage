@@ -54,31 +54,6 @@
       </tags>
   </entry>
   <entry>
-    <title>币圈初窥</title>
-    <url>/%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81/%E5%B8%81%E5%9C%88%E5%88%9D%E7%AA%A5/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>&#8194;&#8194;最近币市又疯狂了，手痒，也想了解一下电子货币的工作原理。<br>周末两天啥都没干，就百度谷歌微博知乎油管B站到处搜，找比特币相关介绍，其实一年前在上一波电子货币火热的时候就在B站看过<a href="https://space.bilibili.com/9458053?from=search&seid=11778469763140839529">李永乐老师</a>讲<a href="https://www.bilibili.com/video/BV1Bb411B7dq">比特币和区块链啥原理？矿机挖矿咋回事？</a>,这又看了一遍。<br>另外注册了OKEX和火币交易所，在上面买入卖出跑通了交易流程，后面了解了比特币钱包的加密性质和大概原理，感觉交易平台上买的币不实在，去中心化的货币在交易平台上应该是集中记账的，否则平台上转账做不到秒转，在后来看到的视频中也有博主强调了这一点，如果不是在交易平台上炒币的话，尽量不要放太多币在平台上，平台只用于买入卖出，交易完就应该马上提现离场。<br>然后就开始找合适的钱包了，在谷歌应用商店里里下载了十多个电子货币钱包，最后只楼下了比太和比特派，比太可以做冷钱包，比特派是热钱包，同时可以监控冷钱包的钱，不得不说比特币系统设计得很巧妙。<br>万事俱备就差币了，买了一点比特币和以太坊由于提现需要手续费，买得又少，暂时先不提到自己钱包上了。<br>然后看到我的电脑买来闲置很久了，正好显卡是RX580不拿来挖矿实在可惜。又花半天找挖矿程序，网上大多数挖矿软件会报毒，网友都说是正常的，随你们信不信，反正我不信。在github上找的正规内核程序，根本不报毒。<br>好了，让它跑一晚上，我也感受一下睡后收入，预计可能有几块块钱😂</p>
-]]></content>
-      <categories>
-        <category>其他</category>
-      </categories>
-      <tags>
-        <tag>加密货币</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>币海大浪涛涛 人心左右摇</title>
-    <url>/%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81/%E5%B8%81%E6%B5%B7%E5%A4%A7%E6%B5%AA%E6%B6%9B%E6%B6%9B%20%E4%BA%BA%E5%BF%83%E5%B7%A6%E5%8F%B3%E6%91%87/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>币圈有句话“币圈一天，人间一年”。<br>最近币圈跌得生猛，前面投进去试水的一点钱，赶上大涨，后又大跌。真的应了这那句话。  目前浮亏一两个点，我是作为探索和研究加密货币而投资的，资金量不大而且都是现货，任它涨跌我就不动，看它到底要干啥。</p>
-]]></content>
-      <categories>
-        <category>日常</category>
-        <category>随想</category>
-      </categories>
-      <tags>
-        <tag>加密货币</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Linux定时任务配置</title>
     <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Linux%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1%E9%85%8D%E7%BD%AE/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Linux定时任务配置在线生成工具：<a href="https://cron.qqe2.com/">https://cron.qqe2.com/</a></p>
@@ -147,6 +122,31 @@
       <tags>
         <tag>技术</tag>
         <tag>nodejs</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>币圈初窥</title>
+    <url>/%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81/%E5%B8%81%E5%9C%88%E5%88%9D%E7%AA%A5/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>&#8194;&#8194;最近币市又疯狂了，手痒，也想了解一下电子货币的工作原理。<br>周末两天啥都没干，就百度谷歌微博知乎油管B站到处搜，找比特币相关介绍，其实一年前在上一波电子货币火热的时候就在B站看过<a href="https://space.bilibili.com/9458053?from=search&seid=11778469763140839529">李永乐老师</a>讲<a href="https://www.bilibili.com/video/BV1Bb411B7dq">比特币和区块链啥原理？矿机挖矿咋回事？</a>,这又看了一遍。<br>另外注册了OKEX和火币交易所，在上面买入卖出跑通了交易流程，后面了解了比特币钱包的加密性质和大概原理，感觉交易平台上买的币不实在，去中心化的货币在交易平台上应该是集中记账的，否则平台上转账做不到秒转，在后来看到的视频中也有博主强调了这一点，如果不是在交易平台上炒币的话，尽量不要放太多币在平台上，平台只用于买入卖出，交易完就应该马上提现离场。<br>然后就开始找合适的钱包了，在谷歌应用商店里里下载了十多个电子货币钱包，最后只楼下了比太和比特派，比太可以做冷钱包，比特派是热钱包，同时可以监控冷钱包的钱，不得不说比特币系统设计得很巧妙。<br>万事俱备就差币了，买了一点比特币和以太坊由于提现需要手续费，买得又少，暂时先不提到自己钱包上了。<br>然后看到我的电脑买来闲置很久了，正好显卡是RX580不拿来挖矿实在可惜。又花半天找挖矿程序，网上大多数挖矿软件会报毒，网友都说是正常的，随你们信不信，反正我不信。在github上找的正规内核程序，根本不报毒。<br>好了，让它跑一晚上，我也感受一下睡后收入，预计可能有几块块钱😂</p>
+]]></content>
+      <categories>
+        <category>其他</category>
+      </categories>
+      <tags>
+        <tag>加密货币</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>币海大浪涛涛 人心左右摇</title>
+    <url>/%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81/%E5%B8%81%E6%B5%B7%E5%A4%A7%E6%B5%AA%E6%B6%9B%E6%B6%9B%20%E4%BA%BA%E5%BF%83%E5%B7%A6%E5%8F%B3%E6%91%87/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>币圈有句话“币圈一天，人间一年”。<br>最近币圈跌得生猛，前面投进去试水的一点钱，赶上大涨，后又大跌。真的应了这那句话。  目前浮亏一两个点，我是作为探索和研究加密货币而投资的，资金量不大而且都是现货，任它涨跌我就不动，看它到底要干啥。</p>
+]]></content>
+      <categories>
+        <category>日常</category>
+        <category>随想</category>
+      </categories>
+      <tags>
+        <tag>加密货币</tag>
       </tags>
   </entry>
   <entry>
@@ -220,33 +220,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>github Actions</title>
-    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/GIT/github%20Actions/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>参考文章 <a href="https://zhuanlan.zhihu.com/p/164744104">https://zhuanlan.zhihu.com/p/164744104</a><br>github Actions 官方文档 <a href="https://docs.github.com/en/actions">https://docs.github.com/en/actions</a></p>
-<h3 id="1、我们应该如何使用-Action？"><a href="#1、我们应该如何使用-Action？" class="headerlink" title="1、我们应该如何使用 Action？"></a>1、我们应该如何使用 Action？</h3><p>比如我们可以 check-out 仓库中最新的代码到 Workflow 的工作区：</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">steps:</span><br><span class="line">  - uses: actions/checkout@v2</span><br></pre></td></tr></table></figure>
-<p>当然，我们还可以给它添加个名字：</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">steps:</span><br><span class="line">  - name: Check out Git repository</span><br><span class="line">    uses: actions/checkout@v2</span><br></pre></td></tr></table></figure>
-<p>再比如说，我们如果是 node 项目，我们可以安装 Node.js 与 NPM：</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">steps:</span><br><span class="line">- uses: actions/checkout@v2</span><br><span class="line">- uses: actions/setup-node@v2-beta</span><br><span class="line">  with:</span><br><span class="line">    node-version: &#x27;12&#x27;</span><br></pre></td></tr></table></figure>
-<h3 id="2、上面我们为什么要用：-v2-和-v2-beta-呢？"><a href="#2、上面我们为什么要用：-v2-和-v2-beta-呢？" class="headerlink" title="2、上面我们为什么要用：@v2 和 @v2-beta 呢？"></a>2、上面我们为什么要用：@v2 和 @v2-beta 呢？</h3><p>答：首先，正如大家所想，这个 @v2 和 @v2-beta 的意思都是 Action 的版本。</p>
-<p>我们如果不带版本号的话，其实就是默认使用最新版本的了。</p>
-<p>但是 <strong>Github 官方强烈要求我们带上版本号</strong>——这样子的话，我们就不会出现：<strong>写好一个 Workflow，但是由于某个 Action 的作者一更新，我们的 Workflow 就崩了的问题。</strong></p>
-<h3 id="如何运行命令？"><a href="#如何运行命令？" class="headerlink" title="如何运行命令？"></a>如何运行命令？</h3><p>使用<code>run</code>来运行命令，<strong>每个 run 命令都会启动一个新的 shell，所以我们执行多行连续命令的时候需要写在同一个 run 下：</strong></p>
-<ul>
-<li><strong>单行命令</strong><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">- name: Install Dependencies</span><br><span class="line">  run: npm install</span><br></pre></td></tr></table></figure></li>
-<li>  <strong>多行命令</strong></li>
-</ul>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">- name: Clean install dependencies and build</span><br><span class="line">  run： |</span><br><span class="line">    npm ci</span><br><span class="line">    npm run build</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>技术</category>
-        <category>git</category>
-      </categories>
-      <tags>
-        <tag>git</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>GitLabPages</title>
     <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/GIT/GitLabPages/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>cnblogs.com/zhangnan35/p/10709252.html</p>
@@ -269,6 +242,33 @@
 <p>　　等待这个流水线跑完，在 <strong>项目 –&gt; 设置 –&gt; pages</strong> 中，可以看到线上页面已经生成了。</p>
 <p>　　<img src="GitLabPages/%E6%9F%A5%E7%9C%8B%E9%A1%B5%E9%9D%A2.png" alt="img"></p>
 ]]></content>
+      <categories>
+        <category>技术</category>
+        <category>git</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>github Actions</title>
+    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/GIT/github%20Actions/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>参考文章 <a href="https://zhuanlan.zhihu.com/p/164744104">https://zhuanlan.zhihu.com/p/164744104</a><br>github Actions 官方文档 <a href="https://docs.github.com/en/actions">https://docs.github.com/en/actions</a></p>
+<h3 id="1、我们应该如何使用-Action？"><a href="#1、我们应该如何使用-Action？" class="headerlink" title="1、我们应该如何使用 Action？"></a>1、我们应该如何使用 Action？</h3><p>比如我们可以 check-out 仓库中最新的代码到 Workflow 的工作区：</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">steps:</span><br><span class="line">  - uses: actions/checkout@v2</span><br></pre></td></tr></table></figure>
+<p>当然，我们还可以给它添加个名字：</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">steps:</span><br><span class="line">  - name: Check out Git repository</span><br><span class="line">    uses: actions/checkout@v2</span><br></pre></td></tr></table></figure>
+<p>再比如说，我们如果是 node 项目，我们可以安装 Node.js 与 NPM：</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">steps:</span><br><span class="line">- uses: actions/checkout@v2</span><br><span class="line">- uses: actions/setup-node@v2-beta</span><br><span class="line">  with:</span><br><span class="line">    node-version: &#x27;12&#x27;</span><br></pre></td></tr></table></figure>
+<h3 id="2、上面我们为什么要用：-v2-和-v2-beta-呢？"><a href="#2、上面我们为什么要用：-v2-和-v2-beta-呢？" class="headerlink" title="2、上面我们为什么要用：@v2 和 @v2-beta 呢？"></a>2、上面我们为什么要用：@v2 和 @v2-beta 呢？</h3><p>答：首先，正如大家所想，这个 @v2 和 @v2-beta 的意思都是 Action 的版本。</p>
+<p>我们如果不带版本号的话，其实就是默认使用最新版本的了。</p>
+<p>但是 <strong>Github 官方强烈要求我们带上版本号</strong>——这样子的话，我们就不会出现：<strong>写好一个 Workflow，但是由于某个 Action 的作者一更新，我们的 Workflow 就崩了的问题。</strong></p>
+<h3 id="如何运行命令？"><a href="#如何运行命令？" class="headerlink" title="如何运行命令？"></a>如何运行命令？</h3><p>使用<code>run</code>来运行命令，<strong>每个 run 命令都会启动一个新的 shell，所以我们执行多行连续命令的时候需要写在同一个 run 下：</strong></p>
+<ul>
+<li><strong>单行命令</strong><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">- name: Install Dependencies</span><br><span class="line">  run: npm install</span><br></pre></td></tr></table></figure></li>
+<li>  <strong>多行命令</strong></li>
+</ul>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">- name: Clean install dependencies and build</span><br><span class="line">  run： |</span><br><span class="line">    npm ci</span><br><span class="line">    npm run build</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>技术</category>
         <category>git</category>
@@ -322,6 +322,23 @@
       </tags>
   </entry>
   <entry>
+    <title>数据库笔记</title>
+    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E6%95%B0%E6%8D%AE%E5%BA%93/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="未找到父项关键字"><a href="#未找到父项关键字" class="headerlink" title="未找到父项关键字"></a>未找到父项关键字</h2><p>考虑子表中数据已经与主表不一致，可能存在主表没有的数据。<br>解决方法： 先把数据查出来删除再添加外键。<br>查询语句如下：  </p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="keyword">DISTINCT</span>  st.id <span class="keyword">from</span> sub_tab st </span><br><span class="line"><span class="keyword">where</span> st.id  <span class="keyword">NOT</span> <span class="keyword">in</span> (<span class="keyword">select</span> ft.id <span class="keyword">from</span> parent_tab ft);</span><br></pre></td></tr></table></figure>
+<p>看一眼数据，确认之后，将这些数据删除。</p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">delete</span> sub_tab st  <span class="keyword">where</span> st.id <span class="keyword">IN</span></span><br><span class="line">(<span class="keyword">select</span> <span class="keyword">DISTINCT</span>  st.id <span class="keyword">from</span> sub_tab st </span><br><span class="line"><span class="keyword">where</span> st.id  <span class="keyword">NOT</span> <span class="keyword">in</span> (<span class="keyword">select</span> ft.id <span class="keyword">from</span> parent_tab ft););</span><br></pre></td></tr></table></figure>
+<h2 id="名称已被现有约束条件占用"><a href="#名称已被现有约束条件占用" class="headerlink" title="名称已被现有约束条件占用"></a>名称已被现有约束条件占用</h2><p>外键也有自己的名字，报这个错可能是名字其他地方占用了，换个名字就可以了</p>
+]]></content>
+      <categories>
+        <category>技术</category>
+        <category>数据库</category>
+      </categories>
+      <tags>
+        <tag>数据库</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello SpringBoot</title>
     <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/Hello%20SpringBoot/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Hello SpringBoot</p>
@@ -371,6 +388,13 @@
 ]]></content>
   </entry>
   <entry>
+    <title>SpringBoot搭建博客</title>
+    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/SpringBoot%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>参考文章：<a href="https://www.cnblogs.com/superfj/p/9044532.html">https://www.cnblogs.com/superfj/p/9044532.html</a></p>
+<p>项目代码：<a href="https://github.com/JayTange/Jantent">https://github.com/JayTange/Jantent</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>SpringBoot配置文件</title>
     <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/SpringBoot%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>配置文件 <code>application.properties</code> 与<code>application.yml</code> </p>
@@ -381,11 +405,25 @@
       </tags>
   </entry>
   <entry>
-    <title>SpringBoot搭建博客</title>
-    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/SpringBoot%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>参考文章：<a href="https://www.cnblogs.com/superfj/p/9044532.html">https://www.cnblogs.com/superfj/p/9044532.html</a></p>
-<p>项目代码：<a href="https://github.com/JayTange/Jantent">https://github.com/JayTange/Jantent</a></p>
+    <title>Swagger配置</title>
+    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/Swagger%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="Spring-boot整合Swagger2"><a href="#Spring-boot整合Swagger2" class="headerlink" title="Spring boot整合Swagger2"></a><strong>Spring boot整合Swagger2</strong></h2><p>Spring Boot整合Swagger2可以使用配置文件或者配置类来实现。下面分别介绍一下  </p>
+<h2 id="一、使用配置文件来配置Swagger设置"><a href="#一、使用配置文件来配置Swagger设置" class="headerlink" title="一、使用配置文件来配置Swagger设置"></a>一、使用配置文件来配置Swagger设置</h2><h3 id="1-添加依赖"><a href="#1-添加依赖" class="headerlink" title="1. 添加依赖"></a>1. 添加依赖</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;dependency&gt;</span><br><span class="line">    &lt;groupId&gt;com.spring4all&lt;&#x2F;groupId&gt;</span><br><span class="line">    &lt;artifactId&gt;swagger-spring-boot-starter&lt;&#x2F;artifactId&gt;</span><br><span class="line">    &lt;version&gt;1.8.0.RELEASE&lt;&#x2F;version&gt;</span><br><span class="line">&lt;&#x2F;dependency&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="2-在配置文件application-yml添加配置"><a href="#2-在配置文件application-yml添加配置" class="headerlink" title="2. 在配置文件application.yml添加配置"></a>2. 在配置文件application.yml添加配置</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
+<h3 id="3-在启动类添加注解-EnableSwagger2Doc"><a href="#3-在启动类添加注解-EnableSwagger2Doc" class="headerlink" title="3.在启动类添加注解@EnableSwagger2Doc"></a>3.在启动类添加注解@EnableSwagger2Doc</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">@SpringBootApplication  </span><br><span class="line">@EnableSwagger2Doc  </span><br><span class="line">public class Artificial2BApplication &#123;  </span><br><span class="line">  </span><br><span class="line">    public static void main(String\[\] args) &#123;  </span><br><span class="line">        SpringApplication.run(Artificial2BApplication.class, args);  </span><br><span class="line"> &#125;  </span><br><span class="line">  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="二、创建Java类来配置Swagger设置"><a href="#二、创建Java类来配置Swagger设置" class="headerlink" title="二、创建Java类来配置Swagger设置"></a>二、创建Java类来配置Swagger设置</h2><h3 id="1-在pom-xml添加依赖"><a href="#1-在pom-xml添加依赖" class="headerlink" title="1. 在pom.xml添加依赖"></a>1. 在pom.xml添加依赖</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;dependency&gt;</span><br><span class="line">            &lt;groupId&gt;io.springfox&lt;&#x2F;groupId&gt;</span><br><span class="line">            &lt;artifactId&gt;springfox-swagger2&lt;&#x2F;artifactId&gt;</span><br><span class="line">            &lt;version&gt;2.9.2&lt;&#x2F;version&gt;</span><br><span class="line">        &lt;&#x2F;dependency&gt;</span><br><span class="line">&lt;!--        导入swagger-ui依赖--&gt;</span><br><span class="line">        &lt;dependency&gt;</span><br><span class="line">            &lt;groupId&gt;io.springfox&lt;&#x2F;groupId&gt;</span><br><span class="line">            &lt;artifactId&gt;springfox-swagger-ui&lt;&#x2F;artifactId&gt;</span><br><span class="line">            &lt;version&gt;2.9.2&lt;&#x2F;version&gt;</span><br><span class="line">        &lt;&#x2F;dependency&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="2-创建Swagger的Java配置类"><a href="#2-创建Swagger的Java配置类" class="headerlink" title="2. 创建Swagger的Java配置类"></a>2. 创建Swagger的Java配置类</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">@Configuration</span><br><span class="line">public class SwaggerUtil &#123;</span><br><span class="line">    @Bean</span><br><span class="line">    public Docket createRestApi()&#123;</span><br><span class="line">        return new Docket(DocumentationType.SWAGGER_2)</span><br><span class="line">                .pathMapping(&quot;&#x2F;&quot;)</span><br><span class="line">                .select()</span><br><span class="line">                .apis(RequestHandlerSelectors.basePackage(&quot;com.lzr.test.controller&quot;))</span><br><span class="line">                .paths(PathSelectors.any())</span><br><span class="line">                .build()</span><br><span class="line">                .apiInfo(new ApiInfoBuilder()</span><br><span class="line">                .title(&quot;医疗系统&quot;)</span><br><span class="line">                        .description(&quot;用于管理患者信息的医疗系统平台&quot;)</span><br><span class="line">                        .version(&quot;1.0&quot;)</span><br><span class="line">                        .contact(new Contact(&quot;吕小白&quot;,&quot;https:www.baidu.com&quot;,&quot;****@qq.com&quot;)</span><br><span class="line">                        )</span><br><span class="line">                        .license(&quot;The Apache License&quot;)</span><br><span class="line">                        .licenseUrl(&quot;https:www.baidu.com&quot;)</span><br><span class="line">                        .build());</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>这个配置文件随便放在哪个，路径下都可以，只要标有<code>@Configuration</code> 注解都会自动配置的，这就是Spring Boot的方便之处</p>
+<h3 id="3-在启动类添加注解-EnableSwagger2"><a href="#3-在启动类添加注解-EnableSwagger2" class="headerlink" title="3. 在启动类添加注解@EnableSwagger2"></a>3. 在启动类添加注解@EnableSwagger2</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">@SpringBootApplication</span><br><span class="line">@MapperScan(basePackages &#x3D; &quot;com.lzr.test.mapper&quot;)</span><br><span class="line">public class TestApplication &#123;</span><br><span class="line"></span><br><span class="line">    public static void main(String[] args) &#123;</span><br><span class="line">        Object o&#x3D;new Object();</span><br><span class="line">        SpringApplication.run(TestApplication.class, args);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>启动后访问效果：<br><img src="Swagger%E9%85%8D%E7%BD%AE/image_56.png"></p>
 ]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>技术</tag>
+      </tags>
   </entry>
   <entry>
     <title>常用注解</title>
@@ -476,23 +514,6 @@
       <tags>
         <tag>技术</tag>
         <tag>themeleaf</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数据库笔记</title>
-    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E6%95%B0%E6%8D%AE%E5%BA%93/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="未找到父项关键字"><a href="#未找到父项关键字" class="headerlink" title="未找到父项关键字"></a>未找到父项关键字</h2><p>考虑子表中数据已经与主表不一致，可能存在主表没有的数据。<br>解决方法： 先把数据查出来删除再添加外键。<br>查询语句如下：  </p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="keyword">DISTINCT</span>  st.id <span class="keyword">from</span> sub_tab st </span><br><span class="line"><span class="keyword">where</span> st.id  <span class="keyword">NOT</span> <span class="keyword">in</span> (<span class="keyword">select</span> ft.id <span class="keyword">from</span> parent_tab ft);</span><br></pre></td></tr></table></figure>
-<p>看一眼数据，确认之后，将这些数据删除。</p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">delete</span> sub_tab st  <span class="keyword">where</span> st.id <span class="keyword">IN</span></span><br><span class="line">(<span class="keyword">select</span> <span class="keyword">DISTINCT</span>  st.id <span class="keyword">from</span> sub_tab st </span><br><span class="line"><span class="keyword">where</span> st.id  <span class="keyword">NOT</span> <span class="keyword">in</span> (<span class="keyword">select</span> ft.id <span class="keyword">from</span> parent_tab ft););</span><br></pre></td></tr></table></figure>
-<h2 id="名称已被现有约束条件占用"><a href="#名称已被现有约束条件占用" class="headerlink" title="名称已被现有约束条件占用"></a>名称已被现有约束条件占用</h2><p>外键也有自己的名字，报这个错可能是名字其他地方占用了，换个名字就可以了</p>
-]]></content>
-      <categories>
-        <category>技术</category>
-        <category>数据库</category>
-      </categories>
-      <tags>
-        <tag>数据库</tag>
       </tags>
   </entry>
   <entry>
