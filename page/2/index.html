@@ -147,6 +147,125 @@
     
     
     <article
+  id="post-学习笔记/SpringBoot/常用注解"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/%E5%B8%B8%E7%94%A8%E6%B3%A8%E8%A7%A3/"
+    >常用注解</a> 
+</h2>
+ 
+
+      
+    </header>
+     
+    <div class="article-meta">
+      <a href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/%E5%B8%B8%E7%94%A8%E6%B3%A8%E8%A7%A3/" class="article-date">
+  <time datetime="2021-06-04T09:54:27.000Z" itemprop="datePublished">2021-06-04</time>
+</a>    
+    </div>
+      
+    <div class="article-entry" itemprop="articleBody">
+       
+  <p>@ResponseBody 的作用其实是将 java 对象转为 json 格式的数据。</p>
+<p>@responseBody 注解的作用是将 controller 的方法返回的对象通过适当的转换器转换为指定的格式之后，写入到 response 对象的 body 区，通常用来返回 JSON 数据或者是XML数据。<br>注意：在使用此注解之后不会再走视图处理器，而是直接将数据写入到输入流中，他的效果等同于通过response 对象输出指定格式的数据。</p>
+<p>@ResponseBody 是作用在方法上的， @ResponseBody 表示该方法的返回结果直接写入 HTTP response body 中，一般在异步获取数据时使用【也就是AJAX】。<br>注意：在使用 @RequestMapping后，返回值通常解析为跳转路径，但是加上 @ResponseBody 后返回结果不会被解析为跳转路径，而是直接写入 HTTP response body 中。 比如异步获取 json 数据，加上 @ResponseBody 后，会直接返回 json 数据。@RequestBody 将 HTTP 请求正文插入方法中，使用适合的 HttpMessageConverter 将请求体写入某个对象。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">后台 Controller类中对应的方法：</span><br><span class="line">@RequestMapping(&quot;&#x2F;login.do&quot;)</span><br><span class="line">@ResponseBody</span><br><span class="line">public Object login(String name, String password, HttpSession session) &#123;</span><br><span class="line">	user &#x3D; userService.checkLogin(name, password);</span><br><span class="line">	session.setAttribute(&quot;user&quot;, user);</span><br><span class="line">	return new JsonResult(user);</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line">@RequestBody是作用在形参列表上，用于将前台发送过来固定格式的数据【xml格式 或者 json等】封装为对应的 JavaBean 对象，</span><br><span class="line">封装时使用到的一个对象是系统默认配置的 HttpMessageConverter进行解析，然后封装到形参上。</span><br><span class="line">如上面的登录后台代码可以改为：</span><br><span class="line">@RequestMapping(&quot;&#x2F;login.do&quot;)</span><br><span class="line">@ResponseBody</span><br><span class="line">public Object login(@RequestBody User loginUuser, HttpSession session) &#123;</span><br><span class="line">	user &#x3D; userService.checkLogin(loginUser);</span><br><span class="line">	session.setAttribute(&quot;user&quot;, user);</span><br><span class="line">	return new JsonResult(user);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>@RequestBody<br>@RequestBody 注解则是将 HTTP 请求正文插入方法中，使用适合的 HttpMessageConverter 将请求体写入某个对象。<br>作用：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1) 该注解用于读取Request请求的body部分数据，使用系统默认配置的HttpMessageConverter进行解析，然后把相应的数据绑定</span><br><span class="line">    到要返回的对象上； </span><br><span class="line">2) 再把HttpMessageConverter返回的对象数据绑定到 controller中方法的参数上。</span><br></pre></td></tr></table></figure>
+<p>使用时机：</p>
+<p>A) GET、POST方式提时， 根据request header Content-Type的值来判断:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">    application&#x2F;x-www-form-urlencoded， 可选（即非必须，因为这种情况的数据@RequestParam, @ModelAttribute</span><br><span class="line">也可以处理，当然@RequestBody也能处理）； </span><br><span class="line">    multipart&#x2F;form-data, 不能处理（即使用@RequestBody不能处理这种格式的数据）； </span><br><span class="line">    其他格式， 必须（其他格式包括application&#x2F;json, application&#x2F;xml等。这些格式的数据，必须使用@RequestBody来处理）；</span><br></pre></td></tr></table></figure>
+<p>B) PUT方式提交时， 根据request header Content-Type的值来判断:</p>
+<p>application/x-www-form-urlencoded， 必须；multipart/form-data, 不能处理；其他格式， 必须；<br>说明：request的body部分的数据编码格式由header部分的Content-Type指定；</p>
+<p>例如：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">@RequestMapping(value &#x3D; &quot;user&#x2F;login&quot;)</span><br><span class="line">@ResponseBody</span><br><span class="line">&#x2F;&#x2F; 将ajax（datas）发出的请求写入 User 对象中</span><br><span class="line">public User login(@RequestBody User user) &#123;   </span><br><span class="line">&#x2F;&#x2F; 这样就不会再被解析为跳转路径，而是直接将user对象写入 HTTP 响应正文中</span><br><span class="line">    return user;    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>待办：  </p>
+<ul>
+<li> [ ] <code>@Resource</code> 与  <code>@Autowired</code> 的区别</li>
+<li> [ ] <code>@MapperScan</code>  的用法</li>
+<li></li>
+</ul>
+ 
+      <!-- reward -->
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <footer class="article-footer">
+       
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/spring-Boot/" rel="tag">spring Boot</a></li></ul>
+
+    </footer>
+  </div>
+
+    
+ 
+    
+</article>
+
+    
+    <article
+  id="post-学习笔记/SpringBoot/SpringBoot配置文件"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/SpringBoot%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/"
+    >SpringBoot配置文件</a> 
+</h2>
+ 
+
+      
+    </header>
+     
+    <div class="article-meta">
+      <a href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/SpringBoot%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/" class="article-date">
+  <time datetime="2021-06-04T02:42:35.000Z" itemprop="datePublished">2021-06-04</time>
+</a>    
+    </div>
+      
+    <div class="article-entry" itemprop="articleBody">
+       
+  <p>配置文件 <code>application.properties</code> 与<code>application.yml</code> </p>
+<p>spring boot项目中同时存在application.properties和application.yml文件时，两个文件都有效，但是application.properties的优先级会比application.yml高。<br>参考文档：<a target="_blank" rel="noopener" href="https://www.hangge.com/blog/cache/detail_2459.html">https://www.hangge.com/blog/cache/detail_2459.html</a><br>在创建一个 SpringBoot 项目时，引入的 spring-boot-starter-web 依赖间接地引入了 snakeyaml 依赖， snakeyaml 会实现对 YAML 配置的解析。<br><code>application.yml</code> 的结构更加清晰，建议使用 <code>application.yml</code></p>
+ 
+      <!-- reward -->
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <footer class="article-footer">
+       
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%8A%80%E6%9C%AF/" rel="tag">技术</a></li></ul>
+
+    </footer>
+  </div>
+
+    
+ 
+    
+</article>
+
+    
+    <article
   id="post-学习笔记/GIT/git常用指令笔记"
   class="article article-type-post"
   itemscope
@@ -614,109 +733,6 @@
     <footer class="article-footer">
        
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%97%A5%E5%B8%B8/" rel="tag">日常</a></li></ul>
-
-    </footer>
-  </div>
-
-    
- 
-    
-</article>
-
-    
-    <article
-  id="post-日常/送别国之脊梁袁隆平"
-  class="article article-type-post"
-  itemscope
-  itemprop="blogPost"
-  data-scroll-reveal
->
-  <div class="article-inner">
-    
-    <header class="article-header">
-       
-<h2 itemprop="name">
-  <a class="article-title" href="/%E6%97%A5%E5%B8%B8/%E9%80%81%E5%88%AB%E5%9B%BD%E4%B9%8B%E8%84%8A%E6%A2%81%E8%A2%81%E9%9A%86%E5%B9%B3/"
-    >送别国之脊梁袁隆平</a> 
-</h2>
- 
-
-      
-    </header>
-     
-    <div class="article-meta">
-      <a href="/%E6%97%A5%E5%B8%B8/%E9%80%81%E5%88%AB%E5%9B%BD%E4%B9%8B%E8%84%8A%E6%A2%81%E8%A2%81%E9%9A%86%E5%B9%B3/" class="article-date">
-  <time datetime="2021-05-22T07:25:46.000Z" itemprop="datePublished">2021-05-22</time>
-</a>    
-    </div>
-      
-    <div class="article-entry" itemprop="articleBody">
-       
-  <p>【痛悼！送别国之脊梁袁隆平】今天，共和国痛失袁隆平院士。<br>“我最大的愿望是饭碗要牢牢地掌握在我们中国人自己手上！”<br>他把一生浸在稻田里，把功勋写在大地上。国士无双，致敬，缅怀！<br><img src="https://z3.ax1x.com/2021/05/22/gLpCq0.jpg" alt="袁隆平"></p>
- 
-      <!-- reward -->
-      
-    </div>
-    
-
-    <!-- copyright -->
-    
-    <footer class="article-footer">
-       
-    </footer>
-  </div>
-
-    
- 
-    
-</article>
-
-    
-    <article
-  id="post-hexo中本引用本站链接"
-  class="article article-type-post"
-  itemscope
-  itemprop="blogPost"
-  data-scroll-reveal
->
-  <div class="article-inner">
-    
-    <header class="article-header">
-       
-<h2 itemprop="name">
-  <a class="article-title" href="/hexo%E4%B8%AD%E6%9C%AC%E5%BC%95%E7%94%A8%E6%9C%AC%E7%AB%99%E9%93%BE%E6%8E%A5/"
-    >hexo中本引用本站链接</a> 
-</h2>
- 
-
-      
-    </header>
-     
-    <div class="article-meta">
-      <a href="/hexo%E4%B8%AD%E6%9C%AC%E5%BC%95%E7%94%A8%E6%9C%AC%E7%AB%99%E9%93%BE%E6%8E%A5/" class="article-date">
-  <time datetime="2021-05-22T04:29:59.000Z" itemprop="datePublished">2021-05-22</time>
-</a>    
-    </div>
-      
-    <div class="article-entry" itemprop="articleBody">
-       
-  <p>在本地写md文件，在某篇文章中想引用其他文章，通过markdown的语法插入文章后，在本地跳转是OK的，但hexo生成静态文件部署之后的文章链接就不对了。<br>例如：我在这篇文章中引用“关于我”的页面。<br>这个地址在本地能正常跳转，部署后不能跳转：<br><a href="../../about/index.md">关于我</a></p>
-<p>插入的链接如下：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[关于我](..&#x2F;..&#x2F;about&#x2F;index.md)</span><br></pre></td></tr></table></figure>
-<p>在本地点击链接是可以正常跳转的，部署后web上文章的路径发生了变化，点击链接跳转就发生了错误。<br>原因有几点：<br>1.hexo的配置文件中 permalink 项是配置永久链接格式的。默认是年月日加文件路径，导致文件相对路径不正确的原因就是加了年月日，使网页路径与本地文件路径发生了变化，解决这个问题，可以去掉 permalink 配置中的年月日，只设置<code>:title/</code>就与与本地文件一致了。<br>2.现在解决了相对路径的问题，还有文件后缀存在问题。<br> md 文件中引用文件路径写的是 *.md , hexo 渲染的网页中还是 md ，导致页面还是访问不到，解决这个问题可以去掉链接中的后缀，这样markdown编辑器在本地能识别链接的文件，渲染后在浏览器中也能正常跳转。<br> 插入链接地址如下：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[关于我](..&#x2F;..&#x2F;about&#x2F;index)</span><br></pre></td></tr></table></figure>
-<p>这个地址在本地能正常跳转，部署后也能跳转：<br><a href="../../about/index">关于我</a></p>
- 
-      <!-- reward -->
-      
-    </div>
-    
-
-    <!-- copyright -->
-    
-    <footer class="article-footer">
-       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/" rel="tag">hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%8A%80%E6%9C%AF/" rel="tag">技术</a></li></ul>
 
     </footer>
   </div>

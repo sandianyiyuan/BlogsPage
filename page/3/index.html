@@ -147,6 +147,109 @@
     
     
     <article
+  id="post-日常/送别国之脊梁袁隆平"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/%E6%97%A5%E5%B8%B8/%E9%80%81%E5%88%AB%E5%9B%BD%E4%B9%8B%E8%84%8A%E6%A2%81%E8%A2%81%E9%9A%86%E5%B9%B3/"
+    >送别国之脊梁袁隆平</a> 
+</h2>
+ 
+
+      
+    </header>
+     
+    <div class="article-meta">
+      <a href="/%E6%97%A5%E5%B8%B8/%E9%80%81%E5%88%AB%E5%9B%BD%E4%B9%8B%E8%84%8A%E6%A2%81%E8%A2%81%E9%9A%86%E5%B9%B3/" class="article-date">
+  <time datetime="2021-05-22T07:25:46.000Z" itemprop="datePublished">2021-05-22</time>
+</a>    
+    </div>
+      
+    <div class="article-entry" itemprop="articleBody">
+       
+  <p>【痛悼！送别国之脊梁袁隆平】今天，共和国痛失袁隆平院士。<br>“我最大的愿望是饭碗要牢牢地掌握在我们中国人自己手上！”<br>他把一生浸在稻田里，把功勋写在大地上。国士无双，致敬，缅怀！<br><img src="https://z3.ax1x.com/2021/05/22/gLpCq0.jpg" alt="袁隆平"></p>
+ 
+      <!-- reward -->
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <footer class="article-footer">
+       
+    </footer>
+  </div>
+
+    
+ 
+    
+</article>
+
+    
+    <article
+  id="post-hexo中本引用本站链接"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/hexo%E4%B8%AD%E6%9C%AC%E5%BC%95%E7%94%A8%E6%9C%AC%E7%AB%99%E9%93%BE%E6%8E%A5/"
+    >hexo中本引用本站链接</a> 
+</h2>
+ 
+
+      
+    </header>
+     
+    <div class="article-meta">
+      <a href="/hexo%E4%B8%AD%E6%9C%AC%E5%BC%95%E7%94%A8%E6%9C%AC%E7%AB%99%E9%93%BE%E6%8E%A5/" class="article-date">
+  <time datetime="2021-05-22T04:29:59.000Z" itemprop="datePublished">2021-05-22</time>
+</a>    
+    </div>
+      
+    <div class="article-entry" itemprop="articleBody">
+       
+  <p>在本地写md文件，在某篇文章中想引用其他文章，通过markdown的语法插入文章后，在本地跳转是OK的，但hexo生成静态文件部署之后的文章链接就不对了。<br>例如：我在这篇文章中引用“关于我”的页面。<br>这个地址在本地能正常跳转，部署后不能跳转：<br><a href="../../about/index.md">关于我</a></p>
+<p>插入的链接如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[关于我](..&#x2F;..&#x2F;about&#x2F;index.md)</span><br></pre></td></tr></table></figure>
+<p>在本地点击链接是可以正常跳转的，部署后web上文章的路径发生了变化，点击链接跳转就发生了错误。<br>原因有几点：<br>1.hexo的配置文件中 permalink 项是配置永久链接格式的。默认是年月日加文件路径，导致文件相对路径不正确的原因就是加了年月日，使网页路径与本地文件路径发生了变化，解决这个问题，可以去掉 permalink 配置中的年月日，只设置<code>:title/</code>就与与本地文件一致了。<br>2.现在解决了相对路径的问题，还有文件后缀存在问题。<br> md 文件中引用文件路径写的是 *.md , hexo 渲染的网页中还是 md ，导致页面还是访问不到，解决这个问题可以去掉链接中的后缀，这样markdown编辑器在本地能识别链接的文件，渲染后在浏览器中也能正常跳转。<br> 插入链接地址如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[关于我](..&#x2F;..&#x2F;about&#x2F;index)</span><br></pre></td></tr></table></figure>
+<p>这个地址在本地能正常跳转，部署后也能跳转：<br><a href="../../about/index">关于我</a></p>
+ 
+      <!-- reward -->
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <footer class="article-footer">
+       
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/" rel="tag">hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%8A%80%E6%9C%AF/" rel="tag">技术</a></li></ul>
+
+    </footer>
+  </div>
+
+    
+ 
+    
+</article>
+
+    
+    <article
   id="post-keepass/keepass(密码管理工具)"
   class="article article-type-post"
   itemscope
@@ -300,7 +403,7 @@
     
     <footer class="article-footer">
        
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%B7%A5%E5%85%B7%E8%BD%AF%E4%BB%B6/" rel="tag">工具软件</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%8A%80%E6%9C%AF/" rel="tag">技术</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%AC%94%E8%AE%B0/" rel="tag">笔记</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%B7%A5%E5%85%B7%E8%BD%AF%E4%BB%B6/" rel="tag">工具软件</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%8A%80%E6%9C%AF-%E6%B5%8B%E8%AF%95/" rel="tag">技术-测试</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%AC%94%E8%AE%B0/" rel="tag">笔记</a></li></ul>
 
     </footer>
   </div>
@@ -566,108 +669,6 @@
        
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81/" rel="tag">加密货币</a></li></ul>
 
-    </footer>
-  </div>
-
-    
- 
-    
-</article>
-
-    
-    <article
-  id="post-学习笔记/SpringBoot/1. Maven、Spring IO、SpringBoot简介/Maven是干什么的"
-  class="article article-type-post"
-  itemscope
-  itemprop="blogPost"
-  data-scroll-reveal
->
-  <div class="article-inner">
-    
-    <header class="article-header">
-       
-<h2 itemprop="name">
-  <a class="article-title" href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/1.%20Maven%E3%80%81Spring%20IO%E3%80%81SpringBoot%E7%AE%80%E4%BB%8B/Maven%E6%98%AF%E5%B9%B2%E4%BB%80%E4%B9%88%E7%9A%84/"
-    >maven的作用</a> 
-</h2>
- 
-
-      
-    </header>
-     
-    <div class="article-meta">
-      <a href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/1.%20Maven%E3%80%81Spring%20IO%E3%80%81SpringBoot%E7%AE%80%E4%BB%8B/Maven%E6%98%AF%E5%B9%B2%E4%BB%80%E4%B9%88%E7%9A%84/" class="article-date">
-  <time datetime="2020-09-03T02:34:09.000Z" itemprop="datePublished">2020-09-03</time>
-</a>    
-    </div>
-      
-    <div class="article-entry" itemprop="articleBody">
-       
-  <h2 id="1-Maven是干什么的"><a href="#1-Maven是干什么的" class="headerlink" title="1. Maven是干什么的"></a>1. Maven是干什么的</h2><p>Maven是依赖管理工具。</p>
-<p>在Maven项目中有一个pom文件，文件中记录了项目运行所依赖的jar包。</p>
-<p>pom文件中指定依赖包的名字、版本等信息，程序运行时自动从Mavne仓库中找对应版本的依赖包。</p>
-<p>自动管理后就不用在项目的构建路径中添加相关依赖，使依赖管理更加方便快捷。</p>
- 
-      <!-- reward -->
-      
-    </div>
-    
-
-    <!-- copyright -->
-    
-    <footer class="article-footer">
-       
-    </footer>
-  </div>
-
-    
- 
-    
-</article>
-
-    
-    <article
-  id="post-学习笔记/SpringBoot/1. Maven、Spring IO、SpringBoot简介/Spring IO是什么"
-  class="article article-type-post"
-  itemscope
-  itemprop="blogPost"
-  data-scroll-reveal
->
-  <div class="article-inner">
-    
-    <header class="article-header">
-       
-<h2 itemprop="name">
-  <a class="article-title" href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/1.%20Maven%E3%80%81Spring%20IO%E3%80%81SpringBoot%E7%AE%80%E4%BB%8B/Spring%20IO%E6%98%AF%E4%BB%80%E4%B9%88/"
-    >Spring IO是什么</a> 
-</h2>
- 
-
-      
-    </header>
-     
-    <div class="article-meta">
-      <a href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/1.%20Maven%E3%80%81Spring%20IO%E3%80%81SpringBoot%E7%AE%80%E4%BB%8B/Spring%20IO%E6%98%AF%E4%BB%80%E4%B9%88/" class="article-date">
-  <time datetime="2020-09-03T02:34:09.000Z" itemprop="datePublished">2020-09-03</time>
-</a>    
-    </div>
-      
-    <div class="article-entry" itemprop="articleBody">
-       
-  <h2 id="Spring-IO"><a href="#Spring-IO" class="headerlink" title="Spring IO"></a>Spring IO</h2><p>Spring IO 项目用于帮助管理项目依赖的版本号,创建Maven项目后在官网找到将其拷贝放入pom中即可。</p>
-<p>其中管理了大量依赖，各个依赖版本之间正确可用。</p>
-<p>Spring IO 已经停止维护，鼓励使用Spring Boot。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">End of Life</span><br><span class="line">The Platform will reach the end of its supported life on 9 April 2019. Maintenence releases of both the Brussels and Cairo lines will continue to be published up until that time. Users of the Platform are encourage to start using Spring Boot’s dependency management directory, either by using spring-boot-starter-parent as their Maven project’s parent, or by importing the spring-boot-dependencies bom.</span><br></pre></td></tr></table></figure>
- 
-      <!-- reward -->
-      
-    </div>
-    
-
-    <!-- copyright -->
-    
-    <footer class="article-footer">
-       
     </footer>
   </div>
 
