@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>hexo中本引用本站链接</title>
+    <url>/hexo%E4%B8%AD%E6%9C%AC%E5%BC%95%E7%94%A8%E6%9C%AC%E7%AB%99%E9%93%BE%E6%8E%A5/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>在本地写md文件，在某篇文章中想引用其他文章，通过markdown的语法插入文章后，在本地跳转是OK的，但hexo生成静态文件部署之后的文章链接就不对了。<br>例如：我在这篇文章中引用“关于我”的页面。<br>这个地址在本地能正常跳转，部署后不能跳转：<br><a href="../../about/index.md">关于我</a></p>
+<p>插入的链接如下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">[关于我](..&#x2F;..&#x2F;about&#x2F;index.md)</span><br></pre></td></tr></table></figure>
+<p>在本地点击链接是可以正常跳转的，部署后web上文章的路径发生了变化，点击链接跳转就发生了错误。<br>原因有几点：<br>1.hexo的配置文件中 permalink 项是配置永久链接格式的。默认是年月日加文件路径，导致文件相对路径不正确的原因就是加了年月日，使网页路径与本地文件路径发生了变化，解决这个问题，可以去掉 permalink 配置中的年月日，只设置<code>:title/</code>就与与本地文件一致了。<br>2.构建是在同名目录的<code>index.html</code>中，同级的文章引用文章需要从父级目录开始写相对路径，或者从网页根目录开始引用，否则署后会找不到。<br>3.现在解决了相对路径的问题，还有文件后缀存在问题。<br> md 文件中引用文件路径写的是 *.md , hexo 渲染的网页中还是 md ，导致页面还是访问不到，解决这个问题可以去掉链接中的后缀，这样markdown编辑器在本地能识别链接的文件，渲染后在浏览器中也能正常跳转。<br> 插入链接地址如下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">[关于我](..&#x2F;..&#x2F;about&#x2F;index)</span><br></pre></td></tr></table></figure>
+<p>这个地址在本地能正常跳转，部署后也能跳转：<br><a href="../../about/index">关于我</a></p>
+]]></content>
+      <tags>
+        <tag>技术</tag>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>hello world</title>
     <url>/hello/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>按照惯例，从hello world开始，正式开启博客旅途。<br>这算是第一篇文章，以后在这里做笔记、分享日常。</p>
@@ -8,18 +23,28 @@
 ]]></content>
   </entry>
   <entry>
-    <title>hexo中本引用本站链接</title>
-    <url>/hexo%E4%B8%AD%E6%9C%AC%E5%BC%95%E7%94%A8%E6%9C%AC%E7%AB%99%E9%93%BE%E6%8E%A5/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>在本地写md文件，在某篇文章中想引用其他文章，通过markdown的语法插入文章后，在本地跳转是OK的，但hexo生成静态文件部署之后的文章链接就不对了。<br>例如：我在这篇文章中引用“关于我”的页面。<br>这个地址在本地能正常跳转，部署后不能跳转：<br><a href="../../about/index.md">关于我</a></p>
-<p>插入的链接如下：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">[关于我](..&#x2F;..&#x2F;about&#x2F;index.md)</span><br></pre></td></tr></table></figure>
-<p>在本地点击链接是可以正常跳转的，部署后web上文章的路径发生了变化，点击链接跳转就发生了错误。<br>原因有几点：<br>1.hexo的配置文件中 permalink 项是配置永久链接格式的。默认是年月日加文件路径，导致文件相对路径不正确的原因就是加了年月日，使网页路径与本地文件路径发生了变化，解决这个问题，可以去掉 permalink 配置中的年月日，只设置<code>:title/</code>就与与本地文件一致了。<br>2.现在解决了相对路径的问题，还有文件后缀存在问题。<br> md 文件中引用文件路径写的是 *.md , hexo 渲染的网页中还是 md ，导致页面还是访问不到，解决这个问题可以去掉链接中的后缀，这样markdown编辑器在本地能识别链接的文件，渲染后在浏览器中也能正常跳转。<br> 插入链接地址如下：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">[关于我](..&#x2F;..&#x2F;about&#x2F;index)</span><br></pre></td></tr></table></figure>
-<p>这个地址在本地能正常跳转，部署后也能跳转：<br><a href="../../about/index">关于我</a></p>
+    <title>币圈初窥</title>
+    <url>/%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81/%E5%B8%81%E5%9C%88%E5%88%9D%E7%AA%A5/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>&#8194;&#8194;最近币市又疯狂了，手痒，也想了解一下电子货币的工作原理。<br>周末两天啥都没干，就百度谷歌微博知乎油管B站到处搜，找比特币相关介绍，其实一年前在上一波电子货币火热的时候就在B站看过<a href="https://space.bilibili.com/9458053?from=search&seid=11778469763140839529">李永乐老师</a>讲<a href="https://www.bilibili.com/video/BV1Bb411B7dq">比特币和区块链啥原理？矿机挖矿咋回事？</a>,这又看了一遍。<br>另外注册了OKEX和火币交易所，在上面买入卖出跑通了交易流程，后面了解了比特币钱包的加密性质和大概原理，感觉交易平台上买的币不实在，去中心化的货币在交易平台上应该是集中记账的，否则平台上转账做不到秒转，在后来看到的视频中也有博主强调了这一点，如果不是在交易平台上炒币的话，尽量不要放太多币在平台上，平台只用于买入卖出，交易完就应该马上提现离场。<br>然后就开始找合适的钱包了，在谷歌应用商店里里下载了十多个电子货币钱包，最后只楼下了比太和比特派，比太可以做冷钱包，比特派是热钱包，同时可以监控冷钱包的钱，不得不说比特币系统设计得很巧妙。<br>万事俱备就差币了，买了一点比特币和以太坊由于提现需要手续费，买得又少，暂时先不提到自己钱包上了。<br>然后看到我的电脑买来闲置很久了，正好显卡是RX580不拿来挖矿实在可惜。又花半天找挖矿程序，网上大多数挖矿软件会报毒，网友都说是正常的，随你们信不信，反正我不信。在github上找的正规内核程序，根本不报毒。<br>好了，让它跑一晚上，我也感受一下睡后收入，预计可能有几块块钱😂</p>
 ]]></content>
+      <categories>
+        <category>其他</category>
+      </categories>
       <tags>
-        <tag>技术</tag>
-        <tag>hexo</tag>
+        <tag>加密货币</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>币海大浪涛涛 人心左右摇</title>
+    <url>/%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81/%E5%B8%81%E6%B5%B7%E5%A4%A7%E6%B5%AA%E6%B6%9B%E6%B6%9B%20%E4%BA%BA%E5%BF%83%E5%B7%A6%E5%8F%B3%E6%91%87/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>币圈有句话“币圈一天，人间一年”。<br>最近币圈跌得生猛，前面投进去试水的一点钱，赶上大涨，后又大跌。真的应了这那句话。  目前浮亏一两个点，我是作为探索和研究加密货币而投资的，资金量不大而且都是现货，任它涨跌我就不动，看它到底要干啥。</p>
+]]></content>
+      <categories>
+        <category>日常</category>
+        <category>随想</category>
+      </categories>
+      <tags>
+        <tag>加密货币</tag>
       </tags>
   </entry>
   <entry>
@@ -54,31 +79,6 @@
       </tags>
   </entry>
   <entry>
-    <title>币圈初窥</title>
-    <url>/%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81/%E5%B8%81%E5%9C%88%E5%88%9D%E7%AA%A5/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>&#8194;&#8194;最近币市又疯狂了，手痒，也想了解一下电子货币的工作原理。<br>周末两天啥都没干，就百度谷歌微博知乎油管B站到处搜，找比特币相关介绍，其实一年前在上一波电子货币火热的时候就在B站看过<a href="https://space.bilibili.com/9458053?from=search&seid=11778469763140839529">李永乐老师</a>讲<a href="https://www.bilibili.com/video/BV1Bb411B7dq">比特币和区块链啥原理？矿机挖矿咋回事？</a>,这又看了一遍。<br>另外注册了OKEX和火币交易所，在上面买入卖出跑通了交易流程，后面了解了比特币钱包的加密性质和大概原理，感觉交易平台上买的币不实在，去中心化的货币在交易平台上应该是集中记账的，否则平台上转账做不到秒转，在后来看到的视频中也有博主强调了这一点，如果不是在交易平台上炒币的话，尽量不要放太多币在平台上，平台只用于买入卖出，交易完就应该马上提现离场。<br>然后就开始找合适的钱包了，在谷歌应用商店里里下载了十多个电子货币钱包，最后只楼下了比太和比特派，比太可以做冷钱包，比特派是热钱包，同时可以监控冷钱包的钱，不得不说比特币系统设计得很巧妙。<br>万事俱备就差币了，买了一点比特币和以太坊由于提现需要手续费，买得又少，暂时先不提到自己钱包上了。<br>然后看到我的电脑买来闲置很久了，正好显卡是RX580不拿来挖矿实在可惜。又花半天找挖矿程序，网上大多数挖矿软件会报毒，网友都说是正常的，随你们信不信，反正我不信。在github上找的正规内核程序，根本不报毒。<br>好了，让它跑一晚上，我也感受一下睡后收入，预计可能有几块块钱😂</p>
-]]></content>
-      <categories>
-        <category>其他</category>
-      </categories>
-      <tags>
-        <tag>加密货币</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>币海大浪涛涛 人心左右摇</title>
-    <url>/%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81/%E5%B8%81%E6%B5%B7%E5%A4%A7%E6%B5%AA%E6%B6%9B%E6%B6%9B%20%E4%BA%BA%E5%BF%83%E5%B7%A6%E5%8F%B3%E6%91%87/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>币圈有句话“币圈一天，人间一年”。<br>最近币圈跌得生猛，前面投进去试水的一点钱，赶上大涨，后又大跌。真的应了这那句话。  目前浮亏一两个点，我是作为探索和研究加密货币而投资的，资金量不大而且都是现货，任它涨跌我就不动，看它到底要干啥。</p>
-]]></content>
-      <categories>
-        <category>日常</category>
-        <category>随想</category>
-      </categories>
-      <tags>
-        <tag>加密货币</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Linux定时任务配置</title>
     <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Linux%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1%E9%85%8D%E7%BD%AE/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Linux定时任务配置在线生成工具：<a href="https://cron.qqe2.com/">https://cron.qqe2.com/</a></p>
@@ -103,22 +103,6 @@
         <tag>技术</tag>
         <tag>工具软件</tag>
         <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>hexo搭建博客的过程</title>
-    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>hexo d 部署报错 ERROR Deployer not found: git 需要安装插件<br><code>npm install --save hexo-deployer-git</code></p>
-<h2 id="多电脑托管的处理方式"><a href="#多电脑托管的处理方式" class="headerlink" title="多电脑托管的处理方式"></a>多电脑托管的处理方式</h2><p>在公司电脑源码构建完成，回到家换了一台电脑想继续弄，应该怎么做？<br>直接将代码库拉下来是不行的，因为代码库中并没有托管全部所需的依赖包<br>应该在新电脑上执行<code>hexo init</code>，创建一个新的hexo项目，然后再将git库中的内容克隆到另一个目录中，克隆完之后，将所有的文件拷贝到刚才初始化的hexo项目目录中。并安装所需要的hexo插件。一切都完成之后就可以继续写文章，提交内容了 。</p>
-]]></content>
-      <categories>
-        <category>技术</category>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>工具软件</tag>
-        <tag>笔记</tag>
-        <tag>技术-测试</tag>
       </tags>
   </entry>
   <entry>
@@ -189,15 +173,6 @@
       </tags>
   </entry>
   <entry>
-    <title>关于焦虑</title>
-    <url>/%E6%97%A5%E5%B8%B8/%E7%84%A6%E8%99%91/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>这几天感觉浑身不舒服，跟焦虑症的症状全都对上了<br>知乎上搜到篇文章<a href="https://zhuanlan.zhihu.com/p/25909485">焦虑，是闲出来的病，是懒出来的症</a>  </p>
-]]></content>
-      <categories>
-        <category>日常</category>
-      </categories>
-  </entry>
-  <entry>
     <title>纠结症</title>
     <url>/%E6%97%A5%E5%B8%B8/%E7%BA%A0%E7%BB%93%E7%97%87/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>经常会发生想做一件事又怕麻烦或者还没开始做就想得很远很远，怕开头的方向不对，导致后面纠正麻烦的情况，然后就让自己陷入无尽的纠结之中。<br><img src="https://z3.ax1x.com/2021/05/24/gjbShj.jpg" alt="抓狂"></p>
@@ -218,6 +193,15 @@
     <url>/%E6%97%A5%E5%B8%B8/%E9%80%81%E5%88%AB%E5%9B%BD%E4%B9%8B%E8%84%8A%E6%A2%81%E8%A2%81%E9%9A%86%E5%B9%B3/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>【痛悼！送别国之脊梁袁隆平】今天，共和国痛失袁隆平院士。<br>“我最大的愿望是饭碗要牢牢地掌握在我们中国人自己手上！”<br>他把一生浸在稻田里，把功勋写在大地上。国士无双，致敬，缅怀！<br><img src="https://z3.ax1x.com/2021/05/22/gLpCq0.jpg" alt="袁隆平"></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>关于焦虑</title>
+    <url>/%E6%97%A5%E5%B8%B8/%E7%84%A6%E8%99%91/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>这几天感觉浑身不舒服，跟焦虑症的症状全都对上了<br>知乎上搜到篇文章<a href="https://zhuanlan.zhihu.com/p/25909485">焦虑，是闲出来的病，是懒出来的症</a>  </p>
+]]></content>
+      <categories>
+        <category>日常</category>
+      </categories>
   </entry>
   <entry>
     <title>GitLabPages</title>
@@ -278,36 +262,6 @@
       </tags>
   </entry>
   <entry>
-    <title>git常用指令笔记</title>
-    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/GIT/git%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="删除远程所有分支"><a href="#删除远程所有分支" class="headerlink" title="删除远程所有分支"></a>删除远程所有分支</h2><h2 id="删除远程文件"><a href="#删除远程文件" class="headerlink" title="删除远程文件"></a>删除远程文件</h2><p>多人协作中经常有人将中间文件提交，他人提交之后如果需要删除的话可以这样操作：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git rm -r --cached *.iml        &#x2F;&#x2F;*.iml 是需要删除的文件</span><br><span class="line">git commit -m &quot;ignore *.iml&quot;    &#x2F;&#x2F;&quot;ignore *.iml&quot;是提交的备注</span><br><span class="line">git push </span><br></pre></td></tr></table></figure>
-<p>该操作删除远程的文件，本地文件不受影响，但是别人pull代码之后本地的目录会被删除</p>
-<p>再修改.gitignore文件将其忽略规则加上，别人就不会提交这个文件了。</p>
-<p>gitignore文件规则，只能忽略未被添加到跟踪的文件，作用范围为当前目录的子目录</p>
-<p>如果文件已经被跟踪，则忽略规则不生效;已经被跟踪的文件被删除后忽略规则会生效。</p>
-<p>文件被跟踪后又被删除再被创建时如果满足忽略规则，则不会被跟踪。</p>
-<h2 id="重置远程分支"><a href="#重置远程分支" class="headerlink" title="重置远程分支"></a>重置远程分支</h2><p>本地分支与远程分支不同步时，拉取所有分支：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git fetch	# 将远程所有分支拉取到本地，这时候使用</span><br><span class="line">git checkout -b dev(本地分支名称) origin&#x2F;dev(远程分支名称)</span><br></pre></td></tr></table></figure>
-<h2 id="git-stash恢复文件"><a href="#git-stash恢复文件" class="headerlink" title="git stash恢复文件"></a>git stash恢复文件</h2><p>参考文档<a href="https://www.cnblogs.com/exmyth/p/6213129.html">https://www.cnblogs.com/exmyth/p/6213129.html</a></p>
-<p>今天在提交脚本的时候不小心删除了数据，瞬间崩溃了</p>
-<p>丢代码的过程：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git stash save &quot;暂存文件&quot;</span><br><span class="line">git pull	# 下载最新的文件，下载很正常没提示错误</span><br><span class="line">git stash apply stash@&#123;0&#125;	# 将暂存的文件还原回来</span><br><span class="line">git stash drop stash@&#123;0&#125;	# 删除暂存的文件</span><br><span class="line">git status # 检查文件状态</span><br></pre></td></tr></table></figure>
-<p>这时候提示没有任何提示，现在工作区是干净的，然后就没有然后了。我也不知道我改了哪些文件改了啥，人都懵了。</p>
-<p>果断上网百度，发现有还原的方法，记录如下：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git fsck --lost-found	# 查看最近删除的提交，其中就有git stash drop stash@&#123;0&#125;时的ID</span><br><span class="line">git show id		# 查看文件记录，id是git fsck指令查出来的ID，找到要还原的记录</span><br><span class="line">git merge id	# 这样就可以将记录还原了。</span><br></pre></td></tr></table></figure>
-<h2 id="打标签"><a href="#打标签" class="headerlink" title="打标签"></a>打标签</h2><p><code>git tag</code> 在控制台打印出当前仓库的所有标签<br><code>git tag tagName commitId</code> 对之前的commit打标签<br><code>git tag v1.0</code> 对最后一次commit打标签<br><code>$ git tag -a v0.1 -m &quot;version 0.1 released&quot; 1094adb</code>创建带有说明的标签，用-a指定标签名，-m指定说明文字：<br><code>git tag -l ‘v0.1.*’</code> 搜索符合模式的标签<br><code>git push origin [tagname]</code> push单个tag<br><code>git push [origin] --tags</code> push所有tag  </p>
-<p><code>git checkout tagName</code> 根据标签名检出</p>
-]]></content>
-      <categories>
-        <category>技术</category>
-        <category>git</category>
-      </categories>
-      <tags>
-        <tag>git</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>java 学习笔记</title>
     <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JAVA/java%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>ipml 接口的实现类</p>
@@ -340,6 +294,52 @@
 ]]></content>
       <tags>
         <tag>技术</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>git常用指令笔记</title>
+    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/GIT/git%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="删除远程所有分支"><a href="#删除远程所有分支" class="headerlink" title="删除远程所有分支"></a>删除远程所有分支</h2><h2 id="删除远程文件"><a href="#删除远程文件" class="headerlink" title="删除远程文件"></a>删除远程文件</h2><p>多人协作中经常有人将中间文件提交，他人提交之后如果需要删除的话可以这样操作：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git rm -r --cached *.iml        &#x2F;&#x2F;*.iml 是需要删除的文件</span><br><span class="line">git commit -m &quot;ignore *.iml&quot;    &#x2F;&#x2F;&quot;ignore *.iml&quot;是提交的备注</span><br><span class="line">git push </span><br></pre></td></tr></table></figure>
+<p>该操作删除远程的文件，本地文件不受影响，但是别人pull代码之后本地的目录会被删除</p>
+<p>再修改.gitignore文件将其忽略规则加上，别人就不会提交这个文件了。</p>
+<p>gitignore文件规则，只能忽略未被添加到跟踪的文件，作用范围为当前目录的子目录</p>
+<p>如果文件已经被跟踪，则忽略规则不生效;已经被跟踪的文件被删除后忽略规则会生效。</p>
+<p>文件被跟踪后又被删除再被创建时如果满足忽略规则，则不会被跟踪。</p>
+<h2 id="重置远程分支"><a href="#重置远程分支" class="headerlink" title="重置远程分支"></a>重置远程分支</h2><p>本地分支与远程分支不同步时，拉取所有分支：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git fetch	# 将远程所有分支拉取到本地，这时候使用</span><br><span class="line">git checkout -b dev(本地分支名称) origin&#x2F;dev(远程分支名称)</span><br></pre></td></tr></table></figure>
+<h2 id="git-stash恢复文件"><a href="#git-stash恢复文件" class="headerlink" title="git stash恢复文件"></a>git stash恢复文件</h2><p>参考文档<a href="https://www.cnblogs.com/exmyth/p/6213129.html">https://www.cnblogs.com/exmyth/p/6213129.html</a></p>
+<p>今天在提交脚本的时候不小心删除了数据，瞬间崩溃了</p>
+<p>丢代码的过程：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git stash save &quot;暂存文件&quot;</span><br><span class="line">git pull	# 下载最新的文件，下载很正常没提示错误</span><br><span class="line">git stash apply stash@&#123;0&#125;	# 将暂存的文件还原回来</span><br><span class="line">git stash drop stash@&#123;0&#125;	# 删除暂存的文件</span><br><span class="line">git status # 检查文件状态</span><br></pre></td></tr></table></figure>
+<p>这时候提示没有任何提示，现在工作区是干净的，然后就没有然后了。我也不知道我改了哪些文件改了啥，人都懵了。</p>
+<p>果断上网百度，发现有还原的方法，记录如下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git fsck --lost-found	# 查看最近删除的提交，其中就有git stash drop stash@&#123;0&#125;时的ID</span><br><span class="line">git show id		# 查看文件记录，id是git fsck指令查出来的ID，找到要还原的记录</span><br><span class="line">git merge id	# 这样就可以将记录还原了。</span><br></pre></td></tr></table></figure>
+<h2 id="打标签"><a href="#打标签" class="headerlink" title="打标签"></a>打标签</h2><p><code>git tag</code> 在控制台打印出当前仓库的所有标签<br><code>git tag tagName commitId</code> 对之前的commit打标签<br><code>git tag v1.0</code> 对最后一次commit打标签<br><code>$ git tag -a v0.1 -m &quot;version 0.1 released&quot; 1094adb</code>创建带有说明的标签，用-a指定标签名，-m指定说明文字：<br><code>git tag -l ‘v0.1.*’</code> 搜索符合模式的标签<br><code>git push origin [tagname]</code> push单个tag<br><code>git push [origin] --tags</code> push所有tag  </p>
+<p><code>git checkout tagName</code> 根据标签名检出</p>
+]]></content>
+      <categories>
+        <category>技术</category>
+        <category>git</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo搭建博客的过程</title>
+    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>hexo d 部署报错 ERROR Deployer not found: git 需要安装插件<br><code>npm install --save hexo-deployer-git</code></p>
+<h2 id="多电脑托管的处理方式"><a href="#多电脑托管的处理方式" class="headerlink" title="多电脑托管的处理方式"></a>多电脑托管的处理方式</h2><p>在公司电脑源码构建完成，回到家换了一台电脑想继续弄，应该怎么做？<br>直接将代码库拉下来是不行的，因为代码库中并没有托管全部所需的依赖包<br>应该在新电脑上执行<code>hexo init</code>，创建一个新的hexo项目，然后再将git库中的内容克隆到另一个目录中，克隆完之后，将所有的文件拷贝到刚才初始化的hexo项目目录中。并安装所需要的hexo插件。一切都完成之后就可以继续写文章，提交内容了 。</p>
+]]></content>
+      <categories>
+        <category>技术</category>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>工具软件</tag>
+        <tag>笔记</tag>
+        <tag>技术-测试</tag>
       </tags>
   </entry>
   <entry>
@@ -490,6 +490,33 @@
       </tags>
   </entry>
   <entry>
+    <title>常用注解</title>
+    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/%E5%B8%B8%E7%94%A8%E6%B3%A8%E8%A7%A3/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>@ResponseBody 的作用其实是将 java 对象转为 json 格式的数据。</p>
+<p>@responseBody 注解的作用是将 controller 的方法返回的对象通过适当的转换器转换为指定的格式之后，写入到 response 对象的 body 区，通常用来返回 JSON 数据或者是XML数据。<br>注意：在使用此注解之后不会再走视图处理器，而是直接将数据写入到输入流中，他的效果等同于通过response 对象输出指定格式的数据。</p>
+<p>@ResponseBody 是作用在方法上的， @ResponseBody 表示该方法的返回结果直接写入 HTTP response body 中，一般在异步获取数据时使用【也就是AJAX】。<br>注意：在使用 @RequestMapping后，返回值通常解析为跳转路径，但是加上 @ResponseBody 后返回结果不会被解析为跳转路径，而是直接写入 HTTP response body 中。 比如异步获取 json 数据，加上 @ResponseBody 后，会直接返回 json 数据。@RequestBody 将 HTTP 请求正文插入方法中，使用适合的 HttpMessageConverter 将请求体写入某个对象。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">后台 Controller类中对应的方法：</span><br><span class="line">@RequestMapping(&quot;&#x2F;login.do&quot;)</span><br><span class="line">@ResponseBody</span><br><span class="line">public Object login(String name, String password, HttpSession session) &#123;</span><br><span class="line">	user &#x3D; userService.checkLogin(name, password);</span><br><span class="line">	session.setAttribute(&quot;user&quot;, user);</span><br><span class="line">	return new JsonResult(user);</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line">@RequestBody是作用在形参列表上，用于将前台发送过来固定格式的数据【xml格式 或者 json等】封装为对应的 JavaBean 对象，</span><br><span class="line">封装时使用到的一个对象是系统默认配置的 HttpMessageConverter进行解析，然后封装到形参上。</span><br><span class="line">如上面的登录后台代码可以改为：</span><br><span class="line">@RequestMapping(&quot;&#x2F;login.do&quot;)</span><br><span class="line">@ResponseBody</span><br><span class="line">public Object login(@RequestBody User loginUuser, HttpSession session) &#123;</span><br><span class="line">	user &#x3D; userService.checkLogin(loginUser);</span><br><span class="line">	session.setAttribute(&quot;user&quot;, user);</span><br><span class="line">	return new JsonResult(user);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>@RequestBody<br>@RequestBody 注解则是将 HTTP 请求正文插入方法中，使用适合的 HttpMessageConverter 将请求体写入某个对象。<br>作用：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">1) 该注解用于读取Request请求的body部分数据，使用系统默认配置的HttpMessageConverter进行解析，然后把相应的数据绑定</span><br><span class="line">    到要返回的对象上； </span><br><span class="line">2) 再把HttpMessageConverter返回的对象数据绑定到 controller中方法的参数上。</span><br></pre></td></tr></table></figure>
+<p>使用时机：</p>
+<p>A) GET、POST方式提时， 根据request header Content-Type的值来判断:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">    application&#x2F;x-www-form-urlencoded， 可选（即非必须，因为这种情况的数据@RequestParam, @ModelAttribute</span><br><span class="line">也可以处理，当然@RequestBody也能处理）； </span><br><span class="line">    multipart&#x2F;form-data, 不能处理（即使用@RequestBody不能处理这种格式的数据）； </span><br><span class="line">    其他格式， 必须（其他格式包括application&#x2F;json, application&#x2F;xml等。这些格式的数据，必须使用@RequestBody来处理）；</span><br></pre></td></tr></table></figure>
+<p>B) PUT方式提交时， 根据request header Content-Type的值来判断:</p>
+<p>application/x-www-form-urlencoded， 必须；multipart/form-data, 不能处理；其他格式， 必须；<br>说明：request的body部分的数据编码格式由header部分的Content-Type指定；</p>
+<p>例如：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">@RequestMapping(value &#x3D; &quot;user&#x2F;login&quot;)</span><br><span class="line">@ResponseBody</span><br><span class="line">&#x2F;&#x2F; 将ajax（datas）发出的请求写入 User 对象中</span><br><span class="line">public User login(@RequestBody User user) &#123;   </span><br><span class="line">&#x2F;&#x2F; 这样就不会再被解析为跳转路径，而是直接将user对象写入 HTTP 响应正文中</span><br><span class="line">    return user;    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>待办：  </p>
+<ul>
+<li> [ ] <code>@Resource</code> 与  <code>@Autowired</code> 的区别</li>
+<li> [ ] <code>@MapperScan</code>  的用法</li>
+<li></li>
+</ul>
+]]></content>
+      <tags>
+        <tag>Springboot</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>themeleaf 的常用标签</title>
     <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/themeleaf%20%E7%9A%84%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>参考文档 <a href="https://www.yiibai.com/thymeleaf/standard-dialects.html">https://www.yiibai.com/thymeleaf/standard-dialects.html</a></p>
@@ -554,42 +581,6 @@
       </tags>
   </entry>
   <entry>
-    <title>常用注解</title>
-    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/%E5%B8%B8%E7%94%A8%E6%B3%A8%E8%A7%A3/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>@ResponseBody 的作用其实是将 java 对象转为 json 格式的数据。</p>
-<p>@responseBody 注解的作用是将 controller 的方法返回的对象通过适当的转换器转换为指定的格式之后，写入到 response 对象的 body 区，通常用来返回 JSON 数据或者是XML数据。<br>注意：在使用此注解之后不会再走视图处理器，而是直接将数据写入到输入流中，他的效果等同于通过response 对象输出指定格式的数据。</p>
-<p>@ResponseBody 是作用在方法上的， @ResponseBody 表示该方法的返回结果直接写入 HTTP response body 中，一般在异步获取数据时使用【也就是AJAX】。<br>注意：在使用 @RequestMapping后，返回值通常解析为跳转路径，但是加上 @ResponseBody 后返回结果不会被解析为跳转路径，而是直接写入 HTTP response body 中。 比如异步获取 json 数据，加上 @ResponseBody 后，会直接返回 json 数据。@RequestBody 将 HTTP 请求正文插入方法中，使用适合的 HttpMessageConverter 将请求体写入某个对象。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">后台 Controller类中对应的方法：</span><br><span class="line">@RequestMapping(&quot;&#x2F;login.do&quot;)</span><br><span class="line">@ResponseBody</span><br><span class="line">public Object login(String name, String password, HttpSession session) &#123;</span><br><span class="line">	user &#x3D; userService.checkLogin(name, password);</span><br><span class="line">	session.setAttribute(&quot;user&quot;, user);</span><br><span class="line">	return new JsonResult(user);</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line">@RequestBody是作用在形参列表上，用于将前台发送过来固定格式的数据【xml格式 或者 json等】封装为对应的 JavaBean 对象，</span><br><span class="line">封装时使用到的一个对象是系统默认配置的 HttpMessageConverter进行解析，然后封装到形参上。</span><br><span class="line">如上面的登录后台代码可以改为：</span><br><span class="line">@RequestMapping(&quot;&#x2F;login.do&quot;)</span><br><span class="line">@ResponseBody</span><br><span class="line">public Object login(@RequestBody User loginUuser, HttpSession session) &#123;</span><br><span class="line">	user &#x3D; userService.checkLogin(loginUser);</span><br><span class="line">	session.setAttribute(&quot;user&quot;, user);</span><br><span class="line">	return new JsonResult(user);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>@RequestBody<br>@RequestBody 注解则是将 HTTP 请求正文插入方法中，使用适合的 HttpMessageConverter 将请求体写入某个对象。<br>作用：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">1) 该注解用于读取Request请求的body部分数据，使用系统默认配置的HttpMessageConverter进行解析，然后把相应的数据绑定</span><br><span class="line">    到要返回的对象上； </span><br><span class="line">2) 再把HttpMessageConverter返回的对象数据绑定到 controller中方法的参数上。</span><br></pre></td></tr></table></figure>
-<p>使用时机：</p>
-<p>A) GET、POST方式提时， 根据request header Content-Type的值来判断:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">    application&#x2F;x-www-form-urlencoded， 可选（即非必须，因为这种情况的数据@RequestParam, @ModelAttribute</span><br><span class="line">也可以处理，当然@RequestBody也能处理）； </span><br><span class="line">    multipart&#x2F;form-data, 不能处理（即使用@RequestBody不能处理这种格式的数据）； </span><br><span class="line">    其他格式， 必须（其他格式包括application&#x2F;json, application&#x2F;xml等。这些格式的数据，必须使用@RequestBody来处理）；</span><br></pre></td></tr></table></figure>
-<p>B) PUT方式提交时， 根据request header Content-Type的值来判断:</p>
-<p>application/x-www-form-urlencoded， 必须；multipart/form-data, 不能处理；其他格式， 必须；<br>说明：request的body部分的数据编码格式由header部分的Content-Type指定；</p>
-<p>例如：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">@RequestMapping(value &#x3D; &quot;user&#x2F;login&quot;)</span><br><span class="line">@ResponseBody</span><br><span class="line">&#x2F;&#x2F; 将ajax（datas）发出的请求写入 User 对象中</span><br><span class="line">public User login(@RequestBody User user) &#123;   </span><br><span class="line">&#x2F;&#x2F; 这样就不会再被解析为跳转路径，而是直接将user对象写入 HTTP 响应正文中</span><br><span class="line">    return user;    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>待办：  </p>
-<ul>
-<li> [ ] <code>@Resource</code> 与  <code>@Autowired</code> 的区别</li>
-<li> [ ] <code>@MapperScan</code>  的用法</li>
-<li></li>
-</ul>
-]]></content>
-      <tags>
-        <tag>Springboot</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>maven的作用</title>
-    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/1.%20Maven%E3%80%81Spring%20IO%E3%80%81SpringBoot%E7%AE%80%E4%BB%8B/Maven%E6%98%AF%E5%B9%B2%E4%BB%80%E4%B9%88%E7%9A%84/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="1-Maven是干什么的"><a href="#1-Maven是干什么的" class="headerlink" title="1. Maven是干什么的"></a>1. Maven是干什么的</h2><p>Maven是依赖管理工具。</p>
-<p>在Maven项目中有一个pom文件，文件中记录了项目运行所依赖的jar包。</p>
-<p>pom文件中指定依赖包的名字、版本等信息，程序运行时自动从Mavne仓库中找对应版本的依赖包。</p>
-<p>自动管理后就不用在项目的构建路径中添加相关依赖，使依赖管理更加方便快捷。</p>
-]]></content>
-  </entry>
-  <entry>
     <title>数据库笔记</title>
     <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E6%95%B0%E6%8D%AE%E5%BA%93/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="未找到父项关键字"><a href="#未找到父项关键字" class="headerlink" title="未找到父项关键字"></a>未找到父项关键字</h2><p>考虑子表中数据已经与主表不一致，可能存在主表没有的数据。<br>解决方法： 先把数据查出来删除再添加外键。<br>查询语句如下：  </p>
@@ -607,13 +598,12 @@
       </tags>
   </entry>
   <entry>
-    <title>SpringBoot是什么</title>
-    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/1.%20Maven%E3%80%81Spring%20IO%E3%80%81SpringBoot%E7%AE%80%E4%BB%8B/SpringBoot%E6%98%AF%E4%BB%80%E4%B9%88/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="Spring-Boot是什么"><a href="#Spring-Boot是什么" class="headerlink" title="Spring Boot是什么"></a>Spring Boot是什么</h2><p>创建Spring Boot项目后，项目会自动添加spring-boot-starter-parent的父依赖项目，其就是Spring IO。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;project xmlns&#x3D;&quot;http:&#x2F;&#x2F;maven.apache.org&#x2F;POM&#x2F;4.0.0&quot; xmlns:xsi&#x3D;&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2001&#x2F;XMLSchema-instance&quot;</span><br><span class="line">         xsi:schemaLocation&#x3D;&quot;http:&#x2F;&#x2F;maven.apache.org&#x2F;POM&#x2F;4.0.0 https:&#x2F;&#x2F;maven.apache.org&#x2F;xsd&#x2F;maven-4.0.0.xsd&quot;&gt;</span><br><span class="line">    &lt;modelVersion&gt;4.0.0&lt;&#x2F;modelVersion&gt;</span><br><span class="line">    &lt;parent&gt;</span><br><span class="line">        &lt;groupId&gt;org.springframework.boot&lt;&#x2F;groupId&gt;</span><br><span class="line">        &lt;artifactId&gt;spring-boot-starter-parent&lt;&#x2F;artifactId&gt;</span><br><span class="line">        &lt;version&gt;2.1.8.RELEASE&lt;&#x2F;version&gt;</span><br><span class="line">        &lt;relativePath&#x2F;&gt; &lt;!-- lookup parent from repository --&gt;</span><br><span class="line">    &lt;&#x2F;parent&gt;</span><br><span class="line">&lt;&#x2F;project&gt;</span><br></pre></td></tr></table></figure>
-<p>当前创建的项目需要使用的依赖只需要写名字就好，父项目自动使用合适的版本。</p>
-<p>连接数据库要使用data-jpa，像下面这样写到dependencies中即可。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;dependencies&gt;</span><br><span class="line">        &lt;dependency&gt;</span><br><span class="line">            &lt;groupId&gt;org.springframework.boot&lt;&#x2F;groupId&gt;</span><br><span class="line">            &lt;artifactId&gt;spring-boot-starter-data-jpa&lt;&#x2F;artifactId&gt;</span><br><span class="line">        &lt;&#x2F;dependency&gt;</span><br><span class="line">&lt;&#x2F;dependencies&gt;        </span><br></pre></td></tr></table></figure>
+    <title>maven的作用</title>
+    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/1.%20Maven%E3%80%81Spring%20IO%E3%80%81SpringBoot%E7%AE%80%E4%BB%8B/Maven%E6%98%AF%E5%B9%B2%E4%BB%80%E4%B9%88%E7%9A%84/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="1-Maven是干什么的"><a href="#1-Maven是干什么的" class="headerlink" title="1. Maven是干什么的"></a>1. Maven是干什么的</h2><p>Maven是依赖管理工具。</p>
+<p>在Maven项目中有一个pom文件，文件中记录了项目运行所依赖的jar包。</p>
+<p>pom文件中指定依赖包的名字、版本等信息，程序运行时自动从Mavne仓库中找对应版本的依赖包。</p>
+<p>自动管理后就不用在项目的构建路径中添加相关依赖，使依赖管理更加方便快捷。</p>
 ]]></content>
   </entry>
   <entry>
@@ -623,6 +613,16 @@
 <p>其中管理了大量依赖，各个依赖版本之间正确可用。</p>
 <p>Spring IO 已经停止维护，鼓励使用Spring Boot。</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">End of Life</span><br><span class="line">The Platform will reach the end of its supported life on 9 April 2019. Maintenence releases of both the Brussels and Cairo lines will continue to be published up until that time. Users of the Platform are encourage to start using Spring Boot’s dependency management directory, either by using spring-boot-starter-parent as their Maven project’s parent, or by importing the spring-boot-dependencies bom.</span><br></pre></td></tr></table></figure>
+]]></content>
+  </entry>
+  <entry>
+    <title>SpringBoot是什么</title>
+    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/1.%20Maven%E3%80%81Spring%20IO%E3%80%81SpringBoot%E7%AE%80%E4%BB%8B/SpringBoot%E6%98%AF%E4%BB%80%E4%B9%88/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="Spring-Boot是什么"><a href="#Spring-Boot是什么" class="headerlink" title="Spring Boot是什么"></a>Spring Boot是什么</h2><p>创建Spring Boot项目后，项目会自动添加spring-boot-starter-parent的父依赖项目，其就是Spring IO。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;project xmlns&#x3D;&quot;http:&#x2F;&#x2F;maven.apache.org&#x2F;POM&#x2F;4.0.0&quot; xmlns:xsi&#x3D;&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2001&#x2F;XMLSchema-instance&quot;</span><br><span class="line">         xsi:schemaLocation&#x3D;&quot;http:&#x2F;&#x2F;maven.apache.org&#x2F;POM&#x2F;4.0.0 https:&#x2F;&#x2F;maven.apache.org&#x2F;xsd&#x2F;maven-4.0.0.xsd&quot;&gt;</span><br><span class="line">    &lt;modelVersion&gt;4.0.0&lt;&#x2F;modelVersion&gt;</span><br><span class="line">    &lt;parent&gt;</span><br><span class="line">        &lt;groupId&gt;org.springframework.boot&lt;&#x2F;groupId&gt;</span><br><span class="line">        &lt;artifactId&gt;spring-boot-starter-parent&lt;&#x2F;artifactId&gt;</span><br><span class="line">        &lt;version&gt;2.1.8.RELEASE&lt;&#x2F;version&gt;</span><br><span class="line">        &lt;relativePath&#x2F;&gt; &lt;!-- lookup parent from repository --&gt;</span><br><span class="line">    &lt;&#x2F;parent&gt;</span><br><span class="line">&lt;&#x2F;project&gt;</span><br></pre></td></tr></table></figure>
+<p>当前创建的项目需要使用的依赖只需要写名字就好，父项目自动使用合适的版本。</p>
+<p>连接数据库要使用data-jpa，像下面这样写到dependencies中即可。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;dependencies&gt;</span><br><span class="line">        &lt;dependency&gt;</span><br><span class="line">            &lt;groupId&gt;org.springframework.boot&lt;&#x2F;groupId&gt;</span><br><span class="line">            &lt;artifactId&gt;spring-boot-starter-data-jpa&lt;&#x2F;artifactId&gt;</span><br><span class="line">        &lt;&#x2F;dependency&gt;</span><br><span class="line">&lt;&#x2F;dependencies&gt;        </span><br></pre></td></tr></table></figure>
 ]]></content>
   </entry>
   <entry>
@@ -756,7 +756,7 @@
 <h5 id="8-启动测试"><a href="#8-启动测试" class="headerlink" title="8.启动测试"></a>8.启动测试</h5><p><img src="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Shiro/%E6%95%B4%E5%90%88%20SpringBoot%20%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98/Pasted%20image%2020210729095316.png"></p>
 <h3 id="6-8-授权实现"><a href="#6-8-授权实现" class="headerlink" title="6.8 授权实现"></a>6.8 授权实现</h3><h4 id="6-8-1-没有数据库"><a href="#6-8-1-没有数据库" class="headerlink" title="6.8.1 没有数据库"></a>6.8.1 没有数据库</h4><h5 id="1-页面资源授权"><a href="#1-页面资源授权" class="headerlink" title="1.页面资源授权"></a>1.页面资源授权</h5><p>index.jsp</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;%@page contentType&#x3D;&quot;text&#x2F;html;utf-8&quot; pageEncoding&#x3D;&quot;utf-8&quot; isELIgnored&#x3D;&quot;false&quot; %&gt;</span><br><span class="line">&lt;%@taglib prefix&#x3D;&quot;shiro&quot; uri&#x3D;&quot;http:&#x2F;&#x2F;shiro.apache.org&#x2F;tags&quot; %&gt;</span><br><span class="line">&lt;!doctype html&gt;</span><br><span class="line">&lt;html lang&#x3D;&quot;en&quot;&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">    &lt;meta charset&#x3D;&quot;UTF-8&quot;&gt;</span><br><span class="line">    &lt;meta name&#x3D;&quot;viewport&quot;</span><br><span class="line">          content&#x3D;&quot;width&#x3D;device-width, user-scalable&#x3D;no, initial-scale&#x3D;1.0, maximum-scale&#x3D;1.0, minimum-scale&#x3D;1.0&quot;&gt;</span><br><span class="line">    &lt;meta http-equiv&#x3D;&quot;X-UA-Compatible&quot; content&#x3D;&quot;ie&#x3D;edge&quot;&gt;</span><br><span class="line">    &lt;title&gt;Document&lt;&#x2F;title&gt;</span><br><span class="line">&lt;&#x2F;head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">&lt;%--    受限资源--%&gt;</span><br><span class="line">&lt;h1&gt;系统主页&lt;&#x2F;h1&gt;</span><br><span class="line">&lt;a href&#x3D;&quot;$&#123;pageContext.request.contextPath&#125;&#x2F;user&#x2F;logout&quot;&gt;退出登录&lt;&#x2F;a&gt;</span><br><span class="line">&lt;ul&gt;</span><br><span class="line">    &lt;shiro:hasAnyRoles name&#x3D;&quot;user_manager,admin,addinfo_manager&quot;&gt;</span><br><span class="line">        &lt;li&gt;&lt;a href&#x3D;&quot;&quot;&gt;用户管理&lt;&#x2F;a&gt;</span><br><span class="line">            &lt;ul&gt;</span><br><span class="line">                &lt;shiro:hasPermission name&#x3D;&quot;user:add:*&quot;&gt;</span><br><span class="line">                    &lt;li&gt;&lt;a href&#x3D;&quot;&quot;&gt;添加&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;</span><br><span class="line">                &lt;&#x2F;shiro:hasPermission&gt;</span><br><span class="line">                &lt;shiro:hasPermission name&#x3D;&quot;user:delete:*&quot;&gt;</span><br><span class="line">                    &lt;li&gt;&lt;a href&#x3D;&quot;&quot;&gt;删除&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;</span><br><span class="line">                &lt;&#x2F;shiro:hasPermission&gt;</span><br><span class="line">                &lt;shiro:hasPermission name&#x3D;&quot;user:update:*&quot;&gt;</span><br><span class="line">                    &lt;li&gt;&lt;a href&#x3D;&quot;&quot;&gt;修改&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;</span><br><span class="line">                &lt;&#x2F;shiro:hasPermission&gt;</span><br><span class="line">                &lt;shiro:hasPermission name&#x3D;&quot;user:find:*&quot;&gt;</span><br><span class="line">                    &lt;li&gt;&lt;a href&#x3D;&quot;&quot;&gt;查询&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;</span><br><span class="line">                &lt;&#x2F;shiro:hasPermission&gt;</span><br><span class="line">            &lt;&#x2F;ul&gt;</span><br><span class="line">        &lt;&#x2F;li&gt;</span><br><span class="line">    &lt;&#x2F;shiro:hasAnyRoles&gt;</span><br><span class="line">    &lt;shiro:hasAnyRoles name&#x3D;&quot;order_manager,admin,addinfo_manager&quot;&gt;</span><br><span class="line">        &lt;li&gt;&lt;a href&#x3D;&quot;&quot;&gt;订单管理&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;</span><br><span class="line">        &lt;ul&gt;</span><br><span class="line">            &lt;shiro:hasPermission name&#x3D;&quot;order:add:*&quot;&gt;</span><br><span class="line">                &lt;li&gt;&lt;a href&#x3D;&quot;&quot;&gt;添加&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;</span><br><span class="line">            &lt;&#x2F;shiro:hasPermission&gt;</span><br><span class="line">            &lt;shiro:hasPermission name&#x3D;&quot;order:delete:*&quot;&gt;</span><br><span class="line">                &lt;li&gt;&lt;a href&#x3D;&quot;&quot;&gt;删除&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;</span><br><span class="line">            &lt;&#x2F;shiro:hasPermission&gt;</span><br><span class="line">            &lt;shiro:hasPermission name&#x3D;&quot;order:update:*&quot;&gt;</span><br><span class="line">                &lt;li&gt;&lt;a href&#x3D;&quot;&quot;&gt;修改&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;</span><br><span class="line">            &lt;&#x2F;shiro:hasPermission&gt;</span><br><span class="line">            &lt;shiro:hasPermission name&#x3D;&quot;order:find:*&quot;&gt;</span><br><span class="line">                &lt;li&gt;&lt;a href&#x3D;&quot;&quot;&gt;查询&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;</span><br><span class="line">            &lt;&#x2F;shiro:hasPermission&gt;</span><br><span class="line">        &lt;&#x2F;ul&gt;</span><br><span class="line">    &lt;&#x2F;shiro:hasAnyRoles&gt;</span><br><span class="line">    &lt;shiro:hasRole name&#x3D;&quot;admin&quot;&gt;</span><br><span class="line">        &lt;li&gt;&lt;a href&#x3D;&quot;&quot;&gt;商品管理&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;</span><br><span class="line">        &lt;li&gt;&lt;a href&#x3D;&quot;&quot;&gt;物流管理&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;</span><br><span class="line">    &lt;&#x2F;shiro:hasRole&gt;</span><br><span class="line"></span><br><span class="line">    &lt;shiro:hasRole name&#x3D;&quot;user&quot;&gt;</span><br><span class="line">        &lt;li&gt;&lt;a href&#x3D;&quot;&quot;&gt;仅普通用户可见&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;</span><br><span class="line">        &lt;li&gt;&lt;a href&#x3D;&quot;&quot;&gt;公共资源&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;</span><br><span class="line">    &lt;&#x2F;shiro:hasRole&gt;</span><br><span class="line">&lt;&#x2F;ul&gt;</span><br><span class="line">&lt;&#x2F;body&gt;</span><br><span class="line">&lt;&#x2F;html&gt;</span><br></pre></td></tr></table></figure>
-<p>thymeleaf 中使用Shiro标签参考<a href="thymeleaf%E4%B8%AD%E4%BD%BF%E7%94%A8Shiro%E6%A0%87%E7%AD%BE">thymeleaf中使用Shiro标签</a></p>
+<p>thymeleaf 中使用Shiro标签参考<a href="../Shiro/thymeleaf%E4%B8%AD%E4%BD%BF%E7%94%A8Shiro%E6%A0%87%E7%AD%BE">thymeleaf中使用Shiro标签</a><br><a href="thymeleaf%E4%B8%AD%E4%BD%BF%E7%94%A8Shiro%E6%A0%87%E7%AD%BE">thymeleaf中使用Shiro标签</a></p>
 <h5 id="2-代码方式授权"><a href="#2-代码方式授权" class="headerlink" title="2.代码方式授权"></a>2.代码方式授权</h5><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">@RequestMapping(&quot;save&quot;)</span><br><span class="line">public String save()&#123;</span><br><span class="line">  System.out.println(&quot;进入方法&quot;);</span><br><span class="line">  </span><br><span class="line">  &#x2F;&#x2F;基于角色</span><br><span class="line">  &#x2F;&#x2F;获取主体对象</span><br><span class="line">  Subject subject &#x3D; SecurityUtils.getSubject();</span><br><span class="line">  &#x2F;&#x2F;代码方式</span><br><span class="line">  if (subject.hasRole(&quot;admin&quot;)) &#123;</span><br><span class="line">    System.out.println(&quot;保存订单!&quot;);</span><br><span class="line">  &#125;else&#123;</span><br><span class="line">    System.out.println(&quot;无权访问!&quot;);</span><br><span class="line">  &#125;</span><br><span class="line">  &#x2F;&#x2F;基于权限字符串</span><br><span class="line">  &#x2F;&#x2F;....</span><br><span class="line">  return &quot;redirect:&#x2F;index.jsp&quot;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <h5 id="3-方法调用授权"><a href="#3-方法调用授权" class="headerlink" title="3.方法调用授权"></a>3.方法调用授权</h5><ul>
 <li>  @RequiresRoles 用来基于角色进行授权</li>
