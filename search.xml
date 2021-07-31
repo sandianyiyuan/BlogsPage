@@ -8,6 +8,21 @@
 ]]></content>
   </entry>
   <entry>
+    <title>hexo中本引用本站链接</title>
+    <url>/hexo%E4%B8%AD%E6%9C%AC%E5%BC%95%E7%94%A8%E6%9C%AC%E7%AB%99%E9%93%BE%E6%8E%A5/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>在本地写md文件，在某篇文章中想引用其他文章，通过markdown的语法插入文章后，在本地跳转是OK的，但hexo生成静态文件部署之后的文章链接就不对了。<br>例如：我在这篇文章中引用“关于我”的页面。<br>这个地址在本地能正常跳转，部署后不能跳转：<br><a href="../../about/index.md">关于我</a></p>
+<p>插入的链接如下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">[关于我](..&#x2F;..&#x2F;about&#x2F;index.md)</span><br></pre></td></tr></table></figure>
+<p>在本地点击链接是可以正常跳转的，部署后web上文章的路径发生了变化，点击链接跳转就发生了错误。<br>原因有几点：<br>1.hexo的配置文件中 permalink 项是配置永久链接格式的。默认是年月日加文件路径，导致文件相对路径不正确的原因就是加了年月日，使网页路径与本地文件路径发生了变化，解决这个问题，可以去掉 permalink 配置中的年月日，只设置<code>:title/</code>就与与本地文件一致了。<br>2.构建是在同名目录的<code>index.html</code>中，hexo 处理 MarkDown 语法链接中<code>相对路径</code>与<code>绝对路径</code>处理方式不同，想对路径会加上房前文章的路径，部署后也会找不到，建议用绝对路径。<br>3.现在解决了路径的问题，还有文件后缀存在问题。<br> md 文件中引用文件路径写的是 *.md , hexo 渲染的网页中还是 md ，导致页面还是访问不到，解决这个问题可以去掉链接中的后缀，这样markdown编辑器在本地能识别链接的文件，渲染后在浏览器中也能正常跳转。<br> 插入链接地址如下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">[关于我](..&#x2F;..&#x2F;about&#x2F;index)</span><br></pre></td></tr></table></figure>
+<p>这个地址在本地能正常跳转，部署后也能跳转：<br><a href="../../about/index">关于我</a></p>
+]]></content>
+      <tags>
+        <tag>技术</tag>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>keepass(密码管理工具)</title>
     <url>/keepass/keepass(%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7)/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>官方网站<a href="https://keepass.info/">keepass.info</a><br>github上已经两个项目全面地介绍了keepass及插件的使用方法：<br><a href="https://github.com/1688aa/KeePass-Plugins-Instructions-for-use">github.com/1688aa/KeePass-Plugins-Instructions-for-use</a><br><a href="https://github.com/1688aa/KeePass-Instructions-for-use">github.com/1688aa/KeePass-Instructions-for-use</a></p>
@@ -34,6 +49,20 @@
       </categories>
       <tags>
         <tag>加密货币</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>mybase(个人笔记软件)</title>
+    <url>/keepass/mybase(%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6)/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>myBase 是一款用于分类管理任意格式文档资料的小型个人数据库软件， 有助于个人用户在 (Linux/MacOSX/Windows)桌面电脑系统上实施文档、笔记、日记、图片和网页等知识内容的分类管理。 借助软件提供的各项功能，创建和维护一个专属于自己的个人知识库将变的非常容易。 与传统意义上的数据库软件不同，myBase 通过内置的富文本编辑器接受图文信息的输入，并按树形大纲分门别类保存，同时接受任意磁盘文件作为大纲条目的附件。 myBase 提供了更好的方式使知识/信息的捕获、编辑、组织、查看、索引、搜索和分享变得更快捷、更容易。<br>对于工作中的一些个人笔记，可以用mybase存放，使用mybase可以避免文件散落在磁盘的各个地方。</p>
+]]></content>
+      <categories>
+        <category>工具软件</category>
+        <category>mybase</category>
+      </categories>
+      <tags>
+        <tag>工具软件</tag>
+        <tag>笔记</tag>
       </tags>
   </entry>
   <entry>
@@ -77,19 +106,6 @@
       </tags>
   </entry>
   <entry>
-    <title>github仓库开启Discussions</title>
-    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/github%E4%BB%93%E5%BA%93%E5%BC%80%E5%90%AFDiscussions/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>才发现github仓库可以开Discussions。<br>该功能在settings-&gt;Options中，勾选Discussions就可开启。<br>开启后就可以方便的讨论问题而不用提issue了。<br>快来跟我一起讨论吧<a href="https://github.com/sandianyiyuan/BlogsPage/discussions">传送门</a></p>
-]]></content>
-      <categories>
-        <category>技术</category>
-        <category>git</category>
-      </categories>
-      <tags>
-        <tag>git</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>hexo搭建博客的过程</title>
     <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>hexo d 部署报错 ERROR Deployer not found: git 需要安装插件<br><code>npm install --save hexo-deployer-git</code></p>
@@ -106,6 +122,19 @@
       </tags>
   </entry>
   <entry>
+    <title>github仓库开启Discussions</title>
+    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/github%E4%BB%93%E5%BA%93%E5%BC%80%E5%90%AFDiscussions/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>才发现github仓库可以开Discussions。<br>该功能在settings-&gt;Options中，勾选Discussions就可开启。<br>开启后就可以方便的讨论问题而不用提issue了。<br>快来跟我一起讨论吧<a href="https://github.com/sandianyiyuan/BlogsPage/discussions">传送门</a></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+        <category>git</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>nodejs笔记</title>
     <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/nodejs/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>找到一个纯静态的导航页项目，说是纯静态，但它又能在线增加删除导航站上的网址，感觉很神奇。<br>发现它是利用 github 的流水线来实现的自动构建，在 Actions 页可以看到其 yml 配置如下：</p>
@@ -118,6 +147,19 @@
       <tags>
         <tag>技术</tag>
         <tag>nodejs</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Anywhere 快捷卡片应用</title>
+    <url>/%E6%97%A5%E5%B8%B8/Anywhere%20%E5%BF%AB%E6%8D%B7%E5%8D%A1%E7%89%87%E5%BA%94%E7%94%A8/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Anywhere 是一款快捷卡片应用，可以在桌面灵活的创建应用快捷方式。</p>
+<p>有时候在群里说了一句话没人理我，然后我就想，能不能不说这么多废话，或者换一个地方说？ 不说憋着不舒服，发朋友圈感觉又不合适，想来想去好像只有微博最适合日常吐槽，发一些乱七八糟的东西。<br>这时候发现微博发文不像在群里说话那样输入内容点 send 就发出去了，微博稍微繁琐一些。想找一款第三方的客户端，它只有一个类似微信对话窗口，输入内容点 send 就能发博，避免停留在微博首页时间太长被其他信息干扰。<br>找来找去没找到合适的客户端，最后还是用了微博的官方客户端。<br>后来想到之前安装的快捷方式卡片能创建一个快捷方式，通过快捷方式可以直接打开编辑微博的页面，感觉这也很方便快捷。<br>上手之后发现确实不错。  </p>
+]]></content>
+      <categories>
+        <category>日常</category>
+      </categories>
+      <tags>
+        <tag>日常</tag>
       </tags>
   </entry>
   <entry>
@@ -141,19 +183,6 @@
       <categories>
         <category>日常</category>
         <category>随想</category>
-      </categories>
-      <tags>
-        <tag>日常</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Anywhere 快捷卡片应用</title>
-    <url>/%E6%97%A5%E5%B8%B8/Anywhere%20%E5%BF%AB%E6%8D%B7%E5%8D%A1%E7%89%87%E5%BA%94%E7%94%A8/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Anywhere 是一款快捷卡片应用，可以在桌面灵活的创建应用快捷方式。</p>
-<p>有时候在群里说了一句话没人理我，然后我就想，能不能不说这么多废话，或者换一个地方说？ 不说憋着不舒服，发朋友圈感觉又不合适，想来想去好像只有微博最适合日常吐槽，发一些乱七八糟的东西。<br>这时候发现微博发文不像在群里说话那样输入内容点 send 就发出去了，微博稍微繁琐一些。想找一款第三方的客户端，它只有一个类似微信对话窗口，输入内容点 send 就能发博，避免停留在微博首页时间太长被其他信息干扰。<br>找来找去没找到合适的客户端，最后还是用了微博的官方客户端。<br>后来想到之前安装的快捷方式卡片能创建一个快捷方式，通过快捷方式可以直接打开编辑微博的页面，感觉这也很方便快捷。<br>上手之后发现确实不错。  </p>
-]]></content>
-      <categories>
-        <category>日常</category>
       </categories>
       <tags>
         <tag>日常</tag>
@@ -203,6 +232,87 @@
         <tag>技术</tag>
         <tag>java</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>shiro 的使用</title>
+    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Shiro/shiro%20%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>参考文档&amp;推荐学习资料：<br>编程不良人<a href="https://www.bilibili.com/video/BV1uz4y197Zm">B站教学视频</a>对应<a href="https://blog.csdn.net/A233666/article/details/113436813">文档资料</a><br><a href="https://www.baizhiedu.xin/">编程不良人官网</a>视频免费看,资料也比较便宜，建议支持</p>
+<p><a href="https://www.cnblogs.com/guitu18/p/11258089.html">这个文档</a>写得也不错。</p>
+<p><a href="https://www.cnblogs.com/kzyuan/p/12762738.html">https://www.cnblogs.com/kzyuan/p/12762738.html</a> 这个文档没看懂哪里有关于权限验证的</p>
+<p>subject : 主体<br>Principai：身份信息 需要唯一</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">是主体进行身份认证的标识，需要具有唯一性，一个主体可以有多个身份，但必须有一个主身份</span><br></pre></td></tr></table></figure>
+<p>credential：凭证信息</p>
+<p>认证流程：<br><img src="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Shiro/shiro%20%E7%9A%84%E4%BD%BF%E7%94%A8/Pasted%20image%2020210724143728.png"></p>
+<p>注意：</p>
+<ol>
+<li>Shiro 设置的默认认证页面要与认证方法的请求路径相同，否则跳到认证页面没有对应的方法会提示 404</li>
+<li>返回页面路径加 <code>redirect</code> 是重定向到新页面。重定向是二次请求，会再次调用<code>@RequestMapping()</code> 注解对应的方法，如果返回的路径没有对应的注解会找不到页面报404。另外要注意多次重定向的问题，登录失败重定向到登录页面可能会导致多次重定向。</li>
+<li>如果登录方法取不到前端传来的参数，检查参数名大小写是否一致</li>
+</ol>
+]]></content>
+      <tags>
+        <tag>技术</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>thymeleaf中使用Shiro标签</title>
+    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Shiro/thymeleaf%E4%B8%AD%E4%BD%BF%E7%94%A8Shiro%E6%A0%87%E7%AD%BE/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Shiro 未提供对 thymeleaf 的支持。第三方项目 thymeleaf-extras-shiro 提供了在 thymeleaf 上使用 shiro 标签的能力。  </p>
+<h1 id="添加maven依赖"><a href="#添加maven依赖" class="headerlink" title="添加maven依赖"></a>添加maven依赖</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;dependency&gt;</span><br><span class="line">    &lt;groupId&gt;com.github.theborakompanioni&lt;&#x2F;groupId&gt;</span><br><span class="line">    &lt;artifactId&gt;thymeleaf-extras-shiro&lt;&#x2F;artifactId&gt;</span><br><span class="line">    &lt;!-- 目前最新版为2.0.0 --&gt;</span><br><span class="line">    &lt;version&gt;$&#123;thymeleaf-shiro.version&#125;&lt;&#x2F;version&gt;</span><br><span class="line">&lt;&#x2F;dependency&gt;</span><br></pre></td></tr></table></figure>
+<h1 id="标签说明："><a href="#标签说明：" class="headerlink" title="标签说明："></a>标签说明：</h1><table>
+<thead>
+<tr>
+<th align="center">标签</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">shiro:principal</td>
+<td>当前用户的登录信息，用户名之类</td>
+</tr>
+<tr>
+<td align="center">shiro:guest=””</td>
+<td>验证是否是游客，即未认证的用户</td>
+</tr>
+<tr>
+<td align="center">shiro:user=””</td>
+<td>验证是否是已认证或已记住用户</td>
+</tr>
+<tr>
+<td align="center">shiro:authenticated=””</td>
+<td>验证是否是已认证用户，不包括已记住用户</td>
+</tr>
+<tr>
+<td align="center">shiro:notAuthenticated= “”</td>
+<td>未认证用户，但是 已记住用户</td>
+</tr>
+<tr>
+<td align="center">shiro:lacksRole=“admin”</td>
+<td>表示没有 admin 角色的用户</td>
+</tr>
+<tr>
+<td align="center">shiro:hasAllRoles=“admin, user1”</td>
+<td>表示需要同时拥有两种角色</td>
+</tr>
+<tr>
+<td align="center">shiro:hasAnyRoles=“admin, user1”</td>
+<td>表示 拥有其中一个角色即可</td>
+</tr>
+<tr>
+<td align="center">shiro:lacksPermission=“admin:delete”</td>
+<td>类似于 shiro:lacksRole</td>
+</tr>
+<tr>
+<td align="center">shiro:hasAllPermissions=“admin:delete, admin:edit”</td>
+<td>类似于 shiro:hasAllRoles</td>
+</tr>
+<tr>
+<td align="center">shiro:hasAnyPermission=“admin:delete, admin:edit”</td>
+<td>类似于 hasAnyRoles</td>
+</tr>
+</tbody></table>
+<h1 id="添加配置"><a href="#添加配置" class="headerlink" title="添加配置"></a>添加配置</h1><p>为了在thymeleaf中使用shiro的自定义tag，需要添加 thymeleaf 使用 Shiro 的配置，否则 Shiro 在前端页面<em>无法限制</em>元素是否显示 </p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">@Bean(name &#x3D; &quot;shiroDialect&quot;)  </span><br><span class="line">public ShiroDialect shiroDialect()&#123;  </span><br><span class="line">    return new ShiroDialect();  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
   </entry>
   <entry>
     <title>GitLabPages</title>
@@ -293,99 +403,20 @@
       </tags>
   </entry>
   <entry>
-    <title>shiro 的使用</title>
-    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Shiro/shiro%20%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>参考文档&amp;推荐学习资料：<br>编程不良人<a href="https://www.bilibili.com/video/BV1uz4y197Zm">B站教学视频</a>对应<a href="https://blog.csdn.net/A233666/article/details/113436813">文档资料</a><br><a href="https://www.baizhiedu.xin/">编程不良人官网</a>视频免费看,资料也比较便宜，建议支持</p>
-<p><a href="https://www.cnblogs.com/guitu18/p/11258089.html">这个文档</a>写得也不错。</p>
-<p><a href="https://www.cnblogs.com/kzyuan/p/12762738.html">https://www.cnblogs.com/kzyuan/p/12762738.html</a> 这个文档没看懂哪里有关于权限验证的</p>
-<p>subject : 主体<br>Principai：身份信息 需要唯一</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">是主体进行身份认证的标识，需要具有唯一性，一个主体可以有多个身份，但必须有一个主身份</span><br></pre></td></tr></table></figure>
-<p>credential：凭证信息</p>
-<p>认证流程：<br><img src="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Shiro/shiro%20%E7%9A%84%E4%BD%BF%E7%94%A8/Pasted%20image%2020210724143728.png"></p>
-<p>注意：</p>
-<ol>
-<li>Shiro 设置的默认认证页面要与认证方法的请求路径相同，否则跳到认证页面没有对应的方法会提示 404</li>
-<li>返回页面路径加 <code>redirect</code> 是重定向到新页面。重定向是二次请求，会再次调用<code>@RequestMapping()</code> 注解对应的方法，如果返回的路径没有对应的注解会找不到页面报404。另外要注意多次重定向的问题，登录失败重定向到登录页面可能会导致多次重定向。</li>
-<li>如果登录方法取不到前端传来的参数，检查参数名大小写是否一致</li>
-</ol>
+    <title>数据库笔记</title>
+    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E6%95%B0%E6%8D%AE%E5%BA%93/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="未找到父项关键字"><a href="#未找到父项关键字" class="headerlink" title="未找到父项关键字"></a>未找到父项关键字</h2><p>考虑子表中数据已经与主表不一致，可能存在主表没有的数据。<br>解决方法： 先把数据查出来删除再添加外键。<br>查询语句如下：  </p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="keyword">DISTINCT</span>  st.id <span class="keyword">from</span> sub_tab st </span><br><span class="line"><span class="keyword">where</span> st.id  <span class="keyword">NOT</span> <span class="keyword">in</span> (<span class="keyword">select</span> ft.id <span class="keyword">from</span> parent_tab ft);</span><br></pre></td></tr></table></figure>
+<p>看一眼数据，确认之后，将这些数据删除。</p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">delete</span> sub_tab st  <span class="keyword">where</span> st.id <span class="keyword">IN</span></span><br><span class="line">(<span class="keyword">select</span> <span class="keyword">DISTINCT</span>  st.id <span class="keyword">from</span> sub_tab st </span><br><span class="line"><span class="keyword">where</span> st.id  <span class="keyword">NOT</span> <span class="keyword">in</span> (<span class="keyword">select</span> ft.id <span class="keyword">from</span> parent_tab ft););</span><br></pre></td></tr></table></figure>
+<h2 id="名称已被现有约束条件占用"><a href="#名称已被现有约束条件占用" class="headerlink" title="名称已被现有约束条件占用"></a>名称已被现有约束条件占用</h2><p>外键也有自己的名字，报这个错可能是名字其他地方占用了，换个名字就可以了</p>
 ]]></content>
+      <categories>
+        <category>技术</category>
+        <category>数据库</category>
+      </categories>
       <tags>
-        <tag>技术</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>thymeleaf中使用Shiro标签</title>
-    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Shiro/thymeleaf%E4%B8%AD%E4%BD%BF%E7%94%A8Shiro%E6%A0%87%E7%AD%BE/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Shiro 未提供对 thymeleaf 的支持。第三方项目 thymeleaf-extras-shiro 提供了在 thymeleaf 上使用 shiro 标签的能力。  </p>
-<h1 id="添加maven依赖"><a href="#添加maven依赖" class="headerlink" title="添加maven依赖"></a>添加maven依赖</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;dependency&gt;</span><br><span class="line">    &lt;groupId&gt;com.github.theborakompanioni&lt;&#x2F;groupId&gt;</span><br><span class="line">    &lt;artifactId&gt;thymeleaf-extras-shiro&lt;&#x2F;artifactId&gt;</span><br><span class="line">    &lt;!-- 目前最新版为2.0.0 --&gt;</span><br><span class="line">    &lt;version&gt;$&#123;thymeleaf-shiro.version&#125;&lt;&#x2F;version&gt;</span><br><span class="line">&lt;&#x2F;dependency&gt;</span><br></pre></td></tr></table></figure>
-<h1 id="标签说明："><a href="#标签说明：" class="headerlink" title="标签说明："></a>标签说明：</h1><table>
-<thead>
-<tr>
-<th align="center">标签</th>
-<th>含义</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">shiro:principal</td>
-<td>当前用户的登录信息，用户名之类</td>
-</tr>
-<tr>
-<td align="center">shiro:guest=””</td>
-<td>验证是否是游客，即未认证的用户</td>
-</tr>
-<tr>
-<td align="center">shiro:user=””</td>
-<td>验证是否是已认证或已记住用户</td>
-</tr>
-<tr>
-<td align="center">shiro:authenticated=””</td>
-<td>验证是否是已认证用户，不包括已记住用户</td>
-</tr>
-<tr>
-<td align="center">shiro:notAuthenticated= “”</td>
-<td>未认证用户，但是 已记住用户</td>
-</tr>
-<tr>
-<td align="center">shiro:lacksRole=“admin”</td>
-<td>表示没有 admin 角色的用户</td>
-</tr>
-<tr>
-<td align="center">shiro:hasAllRoles=“admin, user1”</td>
-<td>表示需要同时拥有两种角色</td>
-</tr>
-<tr>
-<td align="center">shiro:hasAnyRoles=“admin, user1”</td>
-<td>表示 拥有其中一个角色即可</td>
-</tr>
-<tr>
-<td align="center">shiro:lacksPermission=“admin:delete”</td>
-<td>类似于 shiro:lacksRole</td>
-</tr>
-<tr>
-<td align="center">shiro:hasAllPermissions=“admin:delete, admin:edit”</td>
-<td>类似于 shiro:hasAllRoles</td>
-</tr>
-<tr>
-<td align="center">shiro:hasAnyPermission=“admin:delete, admin:edit”</td>
-<td>类似于 hasAnyRoles</td>
-</tr>
-</tbody></table>
-<h1 id="添加配置"><a href="#添加配置" class="headerlink" title="添加配置"></a>添加配置</h1><p>为了在thymeleaf中使用shiro的自定义tag，需要添加 thymeleaf 使用 Shiro 的配置，否则 Shiro 在前端页面<em>无法限制</em>元素是否显示 </p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">@Bean(name &#x3D; &quot;shiroDialect&quot;)  </span><br><span class="line">public ShiroDialect shiroDialect()&#123;  </span><br><span class="line">    return new ShiroDialect();  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-  </entry>
-  <entry>
-    <title>hexo中本引用本站链接</title>
-    <url>/hexo%E4%B8%AD%E6%9C%AC%E5%BC%95%E7%94%A8%E6%9C%AC%E7%AB%99%E9%93%BE%E6%8E%A5/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>在本地写md文件，在某篇文章中想引用其他文章，通过markdown的语法插入文章后，在本地跳转是OK的，但hexo生成静态文件部署之后的文章链接就不对了。<br>例如：我在这篇文章中引用“关于我”的页面。<br>这个地址在本地能正常跳转，部署后不能跳转：<br><a href="../../about/index.md">关于我</a></p>
-<p>插入的链接如下：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">[关于我](..&#x2F;..&#x2F;about&#x2F;index.md)</span><br></pre></td></tr></table></figure>
-<p>在本地点击链接是可以正常跳转的，部署后web上文章的路径发生了变化，点击链接跳转就发生了错误。<br>原因有几点：<br>1.hexo的配置文件中 permalink 项是配置永久链接格式的。默认是年月日加文件路径，导致文件相对路径不正确的原因就是加了年月日，使网页路径与本地文件路径发生了变化，解决这个问题，可以去掉 permalink 配置中的年月日，只设置<code>:title/</code>就与与本地文件一致了。<br>2.构建是在同名目录的<code>index.html</code>中，同级的文章引用文章需要从父级目录开始写相对路径，或者从网页根目录开始引用，否则署后会找不到。<br>3.现在解决了相对路径的问题，还有文件后缀存在问题。<br> md 文件中引用文件路径写的是 *.md , hexo 渲染的网页中还是 md ，导致页面还是访问不到，解决这个问题可以去掉链接中的后缀，这样markdown编辑器在本地能识别链接的文件，渲染后在浏览器中也能正常跳转。<br> 插入链接地址如下：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">[关于我](..&#x2F;..&#x2F;about&#x2F;index)</span><br></pre></td></tr></table></figure>
-<p>这个地址在本地能正常跳转，部署后也能跳转：<br><a href="../../about/index">关于我</a></p>
-]]></content>
-      <tags>
-        <tag>技术</tag>
-        <tag>hexo</tag>
+        <tag>数据库</tag>
       </tags>
   </entry>
   <entry>
@@ -455,27 +486,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Swagger配置</title>
-    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/Swagger%E9%85%8D%E7%BD%AE/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="Spring-boot整合Swagger2"><a href="#Spring-boot整合Swagger2" class="headerlink" title="Spring boot整合Swagger2"></a><strong>Spring boot整合Swagger2</strong></h2><p>Spring Boot整合Swagger2可以使用配置文件或者配置类来实现。下面分别介绍一下  </p>
-<h2 id="一、使用配置文件来配置Swagger设置"><a href="#一、使用配置文件来配置Swagger设置" class="headerlink" title="一、使用配置文件来配置Swagger设置"></a>一、使用配置文件来配置Swagger设置</h2><h3 id="1-添加依赖"><a href="#1-添加依赖" class="headerlink" title="1. 添加依赖"></a>1. 添加依赖</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;dependency&gt;</span><br><span class="line">    &lt;groupId&gt;com.spring4all&lt;&#x2F;groupId&gt;</span><br><span class="line">    &lt;artifactId&gt;swagger-spring-boot-starter&lt;&#x2F;artifactId&gt;</span><br><span class="line">    &lt;version&gt;1.8.0.RELEASE&lt;&#x2F;version&gt;</span><br><span class="line">&lt;&#x2F;dependency&gt;</span><br></pre></td></tr></table></figure>
-<h3 id="2-在配置文件application-yml添加配置"><a href="#2-在配置文件application-yml添加配置" class="headerlink" title="2. 在配置文件application.yml添加配置"></a>2. 在配置文件application.yml添加配置</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
-<h3 id="3-在启动类添加注解-EnableSwagger2Doc"><a href="#3-在启动类添加注解-EnableSwagger2Doc" class="headerlink" title="3.在启动类添加注解@EnableSwagger2Doc"></a>3.在启动类添加注解@EnableSwagger2Doc</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">@SpringBootApplication  </span><br><span class="line">@EnableSwagger2Doc  </span><br><span class="line">public class Artificial2BApplication &#123;  </span><br><span class="line">  </span><br><span class="line">    public static void main(String[] args) &#123;  </span><br><span class="line">        SpringApplication.run(Artificial2BApplication.class, args);  </span><br><span class="line"> &#125;  </span><br><span class="line">  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="二、创建Java类来配置Swagger设置"><a href="#二、创建Java类来配置Swagger设置" class="headerlink" title="二、创建Java类来配置Swagger设置"></a>二、创建Java类来配置Swagger设置</h2><h3 id="1-在pom-xml添加依赖"><a href="#1-在pom-xml添加依赖" class="headerlink" title="1. 在pom.xml添加依赖"></a>1. 在pom.xml添加依赖</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;dependency&gt;</span><br><span class="line">            &lt;groupId&gt;io.springfox&lt;&#x2F;groupId&gt;</span><br><span class="line">            &lt;artifactId&gt;springfox-swagger2&lt;&#x2F;artifactId&gt;</span><br><span class="line">            &lt;version&gt;2.9.2&lt;&#x2F;version&gt;</span><br><span class="line">        &lt;&#x2F;dependency&gt;</span><br><span class="line">&lt;!--        导入swagger-ui依赖--&gt;</span><br><span class="line">        &lt;dependency&gt;</span><br><span class="line">            &lt;groupId&gt;io.springfox&lt;&#x2F;groupId&gt;</span><br><span class="line">            &lt;artifactId&gt;springfox-swagger-ui&lt;&#x2F;artifactId&gt;</span><br><span class="line">            &lt;version&gt;2.9.2&lt;&#x2F;version&gt;</span><br><span class="line">        &lt;&#x2F;dependency&gt;</span><br></pre></td></tr></table></figure>
-<h3 id="2-创建Swagger的Java配置类"><a href="#2-创建Swagger的Java配置类" class="headerlink" title="2. 创建Swagger的Java配置类"></a>2. 创建Swagger的Java配置类</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">@Configuration</span><br><span class="line">public class SwaggerUtil &#123;</span><br><span class="line">    @Bean</span><br><span class="line">    public Docket createRestApi()&#123;</span><br><span class="line">        return new Docket(DocumentationType.SWAGGER_2)</span><br><span class="line">                .pathMapping(&quot;&#x2F;&quot;)</span><br><span class="line">                .select()</span><br><span class="line">                .apis(RequestHandlerSelectors.basePackage(&quot;com.lzr.test.controller&quot;))</span><br><span class="line">                .paths(PathSelectors.any())</span><br><span class="line">                .build()</span><br><span class="line">                .apiInfo(new ApiInfoBuilder()</span><br><span class="line">                .title(&quot;医疗系统&quot;)</span><br><span class="line">                        .description(&quot;用于管理患者信息的医疗系统平台&quot;)</span><br><span class="line">                        .version(&quot;1.0&quot;)</span><br><span class="line">                        .contact(new Contact(&quot;吕小白&quot;,&quot;https:www.baidu.com&quot;,&quot;****@qq.com&quot;)</span><br><span class="line">                        )</span><br><span class="line">                        .license(&quot;The Apache License&quot;)</span><br><span class="line">                        .licenseUrl(&quot;https:www.baidu.com&quot;)</span><br><span class="line">                        .build());</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>这个配置文件随便放在哪个，路径下都可以，只要标有<code>@Configuration</code> 注解都会自动配置的，这就是Spring Boot的方便之处</p>
-<h3 id="3-在启动类添加注解-EnableSwagger2"><a href="#3-在启动类添加注解-EnableSwagger2" class="headerlink" title="3. 在启动类添加注解@EnableSwagger2"></a>3. 在启动类添加注解@EnableSwagger2</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">@SpringBootApplication</span><br><span class="line">@MapperScan(basePackages &#x3D; &quot;com.lzr.test.mapper&quot;)</span><br><span class="line">public class TestApplication &#123;</span><br><span class="line"></span><br><span class="line">    public static void main(String[] args) &#123;</span><br><span class="line">        Object o&#x3D;new Object();</span><br><span class="line">        SpringApplication.run(TestApplication.class, args);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>启动后访问效果：<br><img src="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/Swagger%E9%85%8D%E7%BD%AE/image_56.png"></p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>技术</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>常用注解</title>
     <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/%E5%B8%B8%E7%94%A8%E6%B3%A8%E8%A7%A3/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>@ResponseBody 的作用其实是将 java 对象转为 json 格式的数据。</p>
@@ -500,6 +510,27 @@
 ]]></content>
       <tags>
         <tag>Springboot</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Swagger配置</title>
+    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/Swagger%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="Spring-boot整合Swagger2"><a href="#Spring-boot整合Swagger2" class="headerlink" title="Spring boot整合Swagger2"></a><strong>Spring boot整合Swagger2</strong></h2><p>Spring Boot整合Swagger2可以使用配置文件或者配置类来实现。下面分别介绍一下  </p>
+<h2 id="一、使用配置文件来配置Swagger设置"><a href="#一、使用配置文件来配置Swagger设置" class="headerlink" title="一、使用配置文件来配置Swagger设置"></a>一、使用配置文件来配置Swagger设置</h2><h3 id="1-添加依赖"><a href="#1-添加依赖" class="headerlink" title="1. 添加依赖"></a>1. 添加依赖</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;dependency&gt;</span><br><span class="line">    &lt;groupId&gt;com.spring4all&lt;&#x2F;groupId&gt;</span><br><span class="line">    &lt;artifactId&gt;swagger-spring-boot-starter&lt;&#x2F;artifactId&gt;</span><br><span class="line">    &lt;version&gt;1.8.0.RELEASE&lt;&#x2F;version&gt;</span><br><span class="line">&lt;&#x2F;dependency&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="2-在配置文件application-yml添加配置"><a href="#2-在配置文件application-yml添加配置" class="headerlink" title="2. 在配置文件application.yml添加配置"></a>2. 在配置文件application.yml添加配置</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
+<h3 id="3-在启动类添加注解-EnableSwagger2Doc"><a href="#3-在启动类添加注解-EnableSwagger2Doc" class="headerlink" title="3.在启动类添加注解@EnableSwagger2Doc"></a>3.在启动类添加注解@EnableSwagger2Doc</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">@SpringBootApplication  </span><br><span class="line">@EnableSwagger2Doc  </span><br><span class="line">public class Artificial2BApplication &#123;  </span><br><span class="line">  </span><br><span class="line">    public static void main(String[] args) &#123;  </span><br><span class="line">        SpringApplication.run(Artificial2BApplication.class, args);  </span><br><span class="line"> &#125;  </span><br><span class="line">  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="二、创建Java类来配置Swagger设置"><a href="#二、创建Java类来配置Swagger设置" class="headerlink" title="二、创建Java类来配置Swagger设置"></a>二、创建Java类来配置Swagger设置</h2><h3 id="1-在pom-xml添加依赖"><a href="#1-在pom-xml添加依赖" class="headerlink" title="1. 在pom.xml添加依赖"></a>1. 在pom.xml添加依赖</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;dependency&gt;</span><br><span class="line">            &lt;groupId&gt;io.springfox&lt;&#x2F;groupId&gt;</span><br><span class="line">            &lt;artifactId&gt;springfox-swagger2&lt;&#x2F;artifactId&gt;</span><br><span class="line">            &lt;version&gt;2.9.2&lt;&#x2F;version&gt;</span><br><span class="line">        &lt;&#x2F;dependency&gt;</span><br><span class="line">&lt;!--        导入swagger-ui依赖--&gt;</span><br><span class="line">        &lt;dependency&gt;</span><br><span class="line">            &lt;groupId&gt;io.springfox&lt;&#x2F;groupId&gt;</span><br><span class="line">            &lt;artifactId&gt;springfox-swagger-ui&lt;&#x2F;artifactId&gt;</span><br><span class="line">            &lt;version&gt;2.9.2&lt;&#x2F;version&gt;</span><br><span class="line">        &lt;&#x2F;dependency&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="2-创建Swagger的Java配置类"><a href="#2-创建Swagger的Java配置类" class="headerlink" title="2. 创建Swagger的Java配置类"></a>2. 创建Swagger的Java配置类</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">@Configuration</span><br><span class="line">public class SwaggerUtil &#123;</span><br><span class="line">    @Bean</span><br><span class="line">    public Docket createRestApi()&#123;</span><br><span class="line">        return new Docket(DocumentationType.SWAGGER_2)</span><br><span class="line">                .pathMapping(&quot;&#x2F;&quot;)</span><br><span class="line">                .select()</span><br><span class="line">                .apis(RequestHandlerSelectors.basePackage(&quot;com.lzr.test.controller&quot;))</span><br><span class="line">                .paths(PathSelectors.any())</span><br><span class="line">                .build()</span><br><span class="line">                .apiInfo(new ApiInfoBuilder()</span><br><span class="line">                .title(&quot;医疗系统&quot;)</span><br><span class="line">                        .description(&quot;用于管理患者信息的医疗系统平台&quot;)</span><br><span class="line">                        .version(&quot;1.0&quot;)</span><br><span class="line">                        .contact(new Contact(&quot;吕小白&quot;,&quot;https:www.baidu.com&quot;,&quot;****@qq.com&quot;)</span><br><span class="line">                        )</span><br><span class="line">                        .license(&quot;The Apache License&quot;)</span><br><span class="line">                        .licenseUrl(&quot;https:www.baidu.com&quot;)</span><br><span class="line">                        .build());</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>这个配置文件随便放在哪个，路径下都可以，只要标有<code>@Configuration</code> 注解都会自动配置的，这就是Spring Boot的方便之处</p>
+<h3 id="3-在启动类添加注解-EnableSwagger2"><a href="#3-在启动类添加注解-EnableSwagger2" class="headerlink" title="3. 在启动类添加注解@EnableSwagger2"></a>3. 在启动类添加注解@EnableSwagger2</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">@SpringBootApplication</span><br><span class="line">@MapperScan(basePackages &#x3D; &quot;com.lzr.test.mapper&quot;)</span><br><span class="line">public class TestApplication &#123;</span><br><span class="line"></span><br><span class="line">    public static void main(String[] args) &#123;</span><br><span class="line">        Object o&#x3D;new Object();</span><br><span class="line">        SpringApplication.run(TestApplication.class, args);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>启动后访问效果：<br><img src="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/Swagger%E9%85%8D%E7%BD%AE/image_56.png"></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>技术</tag>
       </tags>
   </entry>
   <entry>
@@ -567,39 +598,12 @@
       </tags>
   </entry>
   <entry>
-    <title>数据库笔记</title>
-    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E6%95%B0%E6%8D%AE%E5%BA%93/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="未找到父项关键字"><a href="#未找到父项关键字" class="headerlink" title="未找到父项关键字"></a>未找到父项关键字</h2><p>考虑子表中数据已经与主表不一致，可能存在主表没有的数据。<br>解决方法： 先把数据查出来删除再添加外键。<br>查询语句如下：  </p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="keyword">DISTINCT</span>  st.id <span class="keyword">from</span> sub_tab st </span><br><span class="line"><span class="keyword">where</span> st.id  <span class="keyword">NOT</span> <span class="keyword">in</span> (<span class="keyword">select</span> ft.id <span class="keyword">from</span> parent_tab ft);</span><br></pre></td></tr></table></figure>
-<p>看一眼数据，确认之后，将这些数据删除。</p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">delete</span> sub_tab st  <span class="keyword">where</span> st.id <span class="keyword">IN</span></span><br><span class="line">(<span class="keyword">select</span> <span class="keyword">DISTINCT</span>  st.id <span class="keyword">from</span> sub_tab st </span><br><span class="line"><span class="keyword">where</span> st.id  <span class="keyword">NOT</span> <span class="keyword">in</span> (<span class="keyword">select</span> ft.id <span class="keyword">from</span> parent_tab ft););</span><br></pre></td></tr></table></figure>
-<h2 id="名称已被现有约束条件占用"><a href="#名称已被现有约束条件占用" class="headerlink" title="名称已被现有约束条件占用"></a>名称已被现有约束条件占用</h2><p>外键也有自己的名字，报这个错可能是名字其他地方占用了，换个名字就可以了</p>
-]]></content>
-      <categories>
-        <category>技术</category>
-        <category>数据库</category>
-      </categories>
-      <tags>
-        <tag>数据库</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>maven的作用</title>
     <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/1.%20Maven%E3%80%81Spring%20IO%E3%80%81SpringBoot%E7%AE%80%E4%BB%8B/Maven%E6%98%AF%E5%B9%B2%E4%BB%80%E4%B9%88%E7%9A%84/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="1-Maven是干什么的"><a href="#1-Maven是干什么的" class="headerlink" title="1. Maven是干什么的"></a>1. Maven是干什么的</h2><p>Maven是依赖管理工具。</p>
 <p>在Maven项目中有一个pom文件，文件中记录了项目运行所依赖的jar包。</p>
 <p>pom文件中指定依赖包的名字、版本等信息，程序运行时自动从Mavne仓库中找对应版本的依赖包。</p>
 <p>自动管理后就不用在项目的构建路径中添加相关依赖，使依赖管理更加方便快捷。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>SpringBoot是什么</title>
-    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/1.%20Maven%E3%80%81Spring%20IO%E3%80%81SpringBoot%E7%AE%80%E4%BB%8B/SpringBoot%E6%98%AF%E4%BB%80%E4%B9%88/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="Spring-Boot是什么"><a href="#Spring-Boot是什么" class="headerlink" title="Spring Boot是什么"></a>Spring Boot是什么</h2><p>创建Spring Boot项目后，项目会自动添加spring-boot-starter-parent的父依赖项目，其就是Spring IO。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;project xmlns&#x3D;&quot;http:&#x2F;&#x2F;maven.apache.org&#x2F;POM&#x2F;4.0.0&quot; xmlns:xsi&#x3D;&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2001&#x2F;XMLSchema-instance&quot;</span><br><span class="line">         xsi:schemaLocation&#x3D;&quot;http:&#x2F;&#x2F;maven.apache.org&#x2F;POM&#x2F;4.0.0 https:&#x2F;&#x2F;maven.apache.org&#x2F;xsd&#x2F;maven-4.0.0.xsd&quot;&gt;</span><br><span class="line">    &lt;modelVersion&gt;4.0.0&lt;&#x2F;modelVersion&gt;</span><br><span class="line">    &lt;parent&gt;</span><br><span class="line">        &lt;groupId&gt;org.springframework.boot&lt;&#x2F;groupId&gt;</span><br><span class="line">        &lt;artifactId&gt;spring-boot-starter-parent&lt;&#x2F;artifactId&gt;</span><br><span class="line">        &lt;version&gt;2.1.8.RELEASE&lt;&#x2F;version&gt;</span><br><span class="line">        &lt;relativePath&#x2F;&gt; &lt;!-- lookup parent from repository --&gt;</span><br><span class="line">    &lt;&#x2F;parent&gt;</span><br><span class="line">&lt;&#x2F;project&gt;</span><br></pre></td></tr></table></figure>
-<p>当前创建的项目需要使用的依赖只需要写名字就好，父项目自动使用合适的版本。</p>
-<p>连接数据库要使用data-jpa，像下面这样写到dependencies中即可。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;dependencies&gt;</span><br><span class="line">        &lt;dependency&gt;</span><br><span class="line">            &lt;groupId&gt;org.springframework.boot&lt;&#x2F;groupId&gt;</span><br><span class="line">            &lt;artifactId&gt;spring-boot-starter-data-jpa&lt;&#x2F;artifactId&gt;</span><br><span class="line">        &lt;&#x2F;dependency&gt;</span><br><span class="line">&lt;&#x2F;dependencies&gt;        </span><br></pre></td></tr></table></figure>
 ]]></content>
   </entry>
   <entry>
@@ -612,18 +616,14 @@
 ]]></content>
   </entry>
   <entry>
-    <title>mybase(个人笔记软件)</title>
-    <url>/keepass/mybase(%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6)/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>myBase 是一款用于分类管理任意格式文档资料的小型个人数据库软件， 有助于个人用户在 (Linux/MacOSX/Windows)桌面电脑系统上实施文档、笔记、日记、图片和网页等知识内容的分类管理。 借助软件提供的各项功能，创建和维护一个专属于自己的个人知识库将变的非常容易。 与传统意义上的数据库软件不同，myBase 通过内置的富文本编辑器接受图文信息的输入，并按树形大纲分门别类保存，同时接受任意磁盘文件作为大纲条目的附件。 myBase 提供了更好的方式使知识/信息的捕获、编辑、组织、查看、索引、搜索和分享变得更快捷、更容易。<br>对于工作中的一些个人笔记，可以用mybase存放，使用mybase可以避免文件散落在磁盘的各个地方。</p>
+    <title>SpringBoot是什么</title>
+    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SpringBoot/1.%20Maven%E3%80%81Spring%20IO%E3%80%81SpringBoot%E7%AE%80%E4%BB%8B/SpringBoot%E6%98%AF%E4%BB%80%E4%B9%88/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="Spring-Boot是什么"><a href="#Spring-Boot是什么" class="headerlink" title="Spring Boot是什么"></a>Spring Boot是什么</h2><p>创建Spring Boot项目后，项目会自动添加spring-boot-starter-parent的父依赖项目，其就是Spring IO。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;project xmlns&#x3D;&quot;http:&#x2F;&#x2F;maven.apache.org&#x2F;POM&#x2F;4.0.0&quot; xmlns:xsi&#x3D;&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2001&#x2F;XMLSchema-instance&quot;</span><br><span class="line">         xsi:schemaLocation&#x3D;&quot;http:&#x2F;&#x2F;maven.apache.org&#x2F;POM&#x2F;4.0.0 https:&#x2F;&#x2F;maven.apache.org&#x2F;xsd&#x2F;maven-4.0.0.xsd&quot;&gt;</span><br><span class="line">    &lt;modelVersion&gt;4.0.0&lt;&#x2F;modelVersion&gt;</span><br><span class="line">    &lt;parent&gt;</span><br><span class="line">        &lt;groupId&gt;org.springframework.boot&lt;&#x2F;groupId&gt;</span><br><span class="line">        &lt;artifactId&gt;spring-boot-starter-parent&lt;&#x2F;artifactId&gt;</span><br><span class="line">        &lt;version&gt;2.1.8.RELEASE&lt;&#x2F;version&gt;</span><br><span class="line">        &lt;relativePath&#x2F;&gt; &lt;!-- lookup parent from repository --&gt;</span><br><span class="line">    &lt;&#x2F;parent&gt;</span><br><span class="line">&lt;&#x2F;project&gt;</span><br></pre></td></tr></table></figure>
+<p>当前创建的项目需要使用的依赖只需要写名字就好，父项目自动使用合适的版本。</p>
+<p>连接数据库要使用data-jpa，像下面这样写到dependencies中即可。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;dependencies&gt;</span><br><span class="line">        &lt;dependency&gt;</span><br><span class="line">            &lt;groupId&gt;org.springframework.boot&lt;&#x2F;groupId&gt;</span><br><span class="line">            &lt;artifactId&gt;spring-boot-starter-data-jpa&lt;&#x2F;artifactId&gt;</span><br><span class="line">        &lt;&#x2F;dependency&gt;</span><br><span class="line">&lt;&#x2F;dependencies&gt;        </span><br></pre></td></tr></table></figure>
 ]]></content>
-      <categories>
-        <category>工具软件</category>
-        <category>mybase</category>
-      </categories>
-      <tags>
-        <tag>工具软件</tag>
-        <tag>笔记</tag>
-      </tags>
   </entry>
   <entry>
     <title>Shiro 整合 SpringBoot 项目实战</title>
@@ -756,7 +756,7 @@
 <h5 id="8-启动测试"><a href="#8-启动测试" class="headerlink" title="8.启动测试"></a>8.启动测试</h5><p><img src="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Shiro/%E6%95%B4%E5%90%88%20SpringBoot%20%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98/Pasted%20image%2020210729095316.png"></p>
 <h3 id="6-8-授权实现"><a href="#6-8-授权实现" class="headerlink" title="6.8 授权实现"></a>6.8 授权实现</h3><h4 id="6-8-1-没有数据库"><a href="#6-8-1-没有数据库" class="headerlink" title="6.8.1 没有数据库"></a>6.8.1 没有数据库</h4><h5 id="1-页面资源授权"><a href="#1-页面资源授权" class="headerlink" title="1.页面资源授权"></a>1.页面资源授权</h5><p>index.jsp</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;%@page contentType&#x3D;&quot;text&#x2F;html;utf-8&quot; pageEncoding&#x3D;&quot;utf-8&quot; isELIgnored&#x3D;&quot;false&quot; %&gt;</span><br><span class="line">&lt;%@taglib prefix&#x3D;&quot;shiro&quot; uri&#x3D;&quot;http:&#x2F;&#x2F;shiro.apache.org&#x2F;tags&quot; %&gt;</span><br><span class="line">&lt;!doctype html&gt;</span><br><span class="line">&lt;html lang&#x3D;&quot;en&quot;&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">    &lt;meta charset&#x3D;&quot;UTF-8&quot;&gt;</span><br><span class="line">    &lt;meta name&#x3D;&quot;viewport&quot;</span><br><span class="line">          content&#x3D;&quot;width&#x3D;device-width, user-scalable&#x3D;no, initial-scale&#x3D;1.0, maximum-scale&#x3D;1.0, minimum-scale&#x3D;1.0&quot;&gt;</span><br><span class="line">    &lt;meta http-equiv&#x3D;&quot;X-UA-Compatible&quot; content&#x3D;&quot;ie&#x3D;edge&quot;&gt;</span><br><span class="line">    &lt;title&gt;Document&lt;&#x2F;title&gt;</span><br><span class="line">&lt;&#x2F;head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">&lt;%--    受限资源--%&gt;</span><br><span class="line">&lt;h1&gt;系统主页&lt;&#x2F;h1&gt;</span><br><span class="line">&lt;a href&#x3D;&quot;$&#123;pageContext.request.contextPath&#125;&#x2F;user&#x2F;logout&quot;&gt;退出登录&lt;&#x2F;a&gt;</span><br><span class="line">&lt;ul&gt;</span><br><span class="line">    &lt;shiro:hasAnyRoles name&#x3D;&quot;user_manager,admin,addinfo_manager&quot;&gt;</span><br><span class="line">        &lt;li&gt;&lt;a href&#x3D;&quot;&quot;&gt;用户管理&lt;&#x2F;a&gt;</span><br><span class="line">            &lt;ul&gt;</span><br><span class="line">                &lt;shiro:hasPermission name&#x3D;&quot;user:add:*&quot;&gt;</span><br><span class="line">                    &lt;li&gt;&lt;a href&#x3D;&quot;&quot;&gt;添加&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;</span><br><span class="line">                &lt;&#x2F;shiro:hasPermission&gt;</span><br><span class="line">                &lt;shiro:hasPermission name&#x3D;&quot;user:delete:*&quot;&gt;</span><br><span class="line">                    &lt;li&gt;&lt;a href&#x3D;&quot;&quot;&gt;删除&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;</span><br><span class="line">                &lt;&#x2F;shiro:hasPermission&gt;</span><br><span class="line">                &lt;shiro:hasPermission name&#x3D;&quot;user:update:*&quot;&gt;</span><br><span class="line">                    &lt;li&gt;&lt;a href&#x3D;&quot;&quot;&gt;修改&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;</span><br><span class="line">                &lt;&#x2F;shiro:hasPermission&gt;</span><br><span class="line">                &lt;shiro:hasPermission name&#x3D;&quot;user:find:*&quot;&gt;</span><br><span class="line">                    &lt;li&gt;&lt;a href&#x3D;&quot;&quot;&gt;查询&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;</span><br><span class="line">                &lt;&#x2F;shiro:hasPermission&gt;</span><br><span class="line">            &lt;&#x2F;ul&gt;</span><br><span class="line">        &lt;&#x2F;li&gt;</span><br><span class="line">    &lt;&#x2F;shiro:hasAnyRoles&gt;</span><br><span class="line">    &lt;shiro:hasAnyRoles name&#x3D;&quot;order_manager,admin,addinfo_manager&quot;&gt;</span><br><span class="line">        &lt;li&gt;&lt;a href&#x3D;&quot;&quot;&gt;订单管理&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;</span><br><span class="line">        &lt;ul&gt;</span><br><span class="line">            &lt;shiro:hasPermission name&#x3D;&quot;order:add:*&quot;&gt;</span><br><span class="line">                &lt;li&gt;&lt;a href&#x3D;&quot;&quot;&gt;添加&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;</span><br><span class="line">            &lt;&#x2F;shiro:hasPermission&gt;</span><br><span class="line">            &lt;shiro:hasPermission name&#x3D;&quot;order:delete:*&quot;&gt;</span><br><span class="line">                &lt;li&gt;&lt;a href&#x3D;&quot;&quot;&gt;删除&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;</span><br><span class="line">            &lt;&#x2F;shiro:hasPermission&gt;</span><br><span class="line">            &lt;shiro:hasPermission name&#x3D;&quot;order:update:*&quot;&gt;</span><br><span class="line">                &lt;li&gt;&lt;a href&#x3D;&quot;&quot;&gt;修改&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;</span><br><span class="line">            &lt;&#x2F;shiro:hasPermission&gt;</span><br><span class="line">            &lt;shiro:hasPermission name&#x3D;&quot;order:find:*&quot;&gt;</span><br><span class="line">                &lt;li&gt;&lt;a href&#x3D;&quot;&quot;&gt;查询&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;</span><br><span class="line">            &lt;&#x2F;shiro:hasPermission&gt;</span><br><span class="line">        &lt;&#x2F;ul&gt;</span><br><span class="line">    &lt;&#x2F;shiro:hasAnyRoles&gt;</span><br><span class="line">    &lt;shiro:hasRole name&#x3D;&quot;admin&quot;&gt;</span><br><span class="line">        &lt;li&gt;&lt;a href&#x3D;&quot;&quot;&gt;商品管理&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;</span><br><span class="line">        &lt;li&gt;&lt;a href&#x3D;&quot;&quot;&gt;物流管理&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;</span><br><span class="line">    &lt;&#x2F;shiro:hasRole&gt;</span><br><span class="line"></span><br><span class="line">    &lt;shiro:hasRole name&#x3D;&quot;user&quot;&gt;</span><br><span class="line">        &lt;li&gt;&lt;a href&#x3D;&quot;&quot;&gt;仅普通用户可见&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;</span><br><span class="line">        &lt;li&gt;&lt;a href&#x3D;&quot;&quot;&gt;公共资源&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;</span><br><span class="line">    &lt;&#x2F;shiro:hasRole&gt;</span><br><span class="line">&lt;&#x2F;ul&gt;</span><br><span class="line">&lt;&#x2F;body&gt;</span><br><span class="line">&lt;&#x2F;html&gt;</span><br></pre></td></tr></table></figure>
-<p>thymeleaf 中使用Shiro标签参考<a href="../Shiro/thymeleaf%E4%B8%AD%E4%BD%BF%E7%94%A8Shiro%E6%A0%87%E7%AD%BE">thymeleaf中使用Shiro标签</a><br><a href="thymeleaf%E4%B8%AD%E4%BD%BF%E7%94%A8Shiro%E6%A0%87%E7%AD%BE">thymeleaf中使用Shiro标签</a><br><a href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Shiro/thymeleaf%E4%B8%AD%E4%BD%BF%E7%94%A8Shiro%E6%A0%87%E7%AD%BE">thymeleaf中使用Shiro标签</a><br><a href="_posts/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Shiro/thymeleaf%E4%B8%AD%E4%BD%BF%E7%94%A8Shiro%E6%A0%87%E7%AD%BE">thymeleaf中使用Shiro标签</a><br><a href="thymeleaf%E4%B8%AD%E4%BD%BF%E7%94%A8Shiro%E6%A0%87%E7%AD%BE.md">thymeleaf中使用Shiro标签</a></p>
+<p>thymeleaf 中使用Shiro标签参考<a href="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Shiro/thymeleaf%E4%B8%AD%E4%BD%BF%E7%94%A8Shiro%E6%A0%87%E7%AD%BE">thymeleaf中使用Shiro标签</a>  </p>
 <h5 id="2-代码方式授权"><a href="#2-代码方式授权" class="headerlink" title="2.代码方式授权"></a>2.代码方式授权</h5><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">@RequestMapping(&quot;save&quot;)</span><br><span class="line">public String save()&#123;</span><br><span class="line">  System.out.println(&quot;进入方法&quot;);</span><br><span class="line">  </span><br><span class="line">  &#x2F;&#x2F;基于角色</span><br><span class="line">  &#x2F;&#x2F;获取主体对象</span><br><span class="line">  Subject subject &#x3D; SecurityUtils.getSubject();</span><br><span class="line">  &#x2F;&#x2F;代码方式</span><br><span class="line">  if (subject.hasRole(&quot;admin&quot;)) &#123;</span><br><span class="line">    System.out.println(&quot;保存订单!&quot;);</span><br><span class="line">  &#125;else&#123;</span><br><span class="line">    System.out.println(&quot;无权访问!&quot;);</span><br><span class="line">  &#125;</span><br><span class="line">  &#x2F;&#x2F;基于权限字符串</span><br><span class="line">  &#x2F;&#x2F;....</span><br><span class="line">  return &quot;redirect:&#x2F;index.jsp&quot;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <h5 id="3-方法调用授权"><a href="#3-方法调用授权" class="headerlink" title="3.方法调用授权"></a>3.方法调用授权</h5><ul>
 <li>  @RequiresRoles 用来基于角色进行授权</li>
