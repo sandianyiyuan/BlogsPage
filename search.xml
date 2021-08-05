@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>hello world</title>
+    <url>/hello/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>按照惯例，从hello world开始，正式开启博客旅途。<br>这算是第一篇文章，以后在这里做笔记、分享日常。</p>
+<p>如果有什么建议或者意见可以在文章末尾留言，由于使用的是第的三方评论系统，你的留言我可能看到不及时，而且回复你也不会收到提醒，如果想要与我沟通的话可以在博客讨论区与我交流：<a href="https://github.com/sandianyiyuan/BlogsPage/discussions">传送门</a>  或者在<a href="../about/index">关于我</a>页面通过其他联系方式找到我。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>hexo中本引用本站链接</title>
     <url>/hexo%E4%B8%AD%E6%9C%AC%E5%BC%95%E7%94%A8%E6%9C%AC%E7%AB%99%E9%93%BE%E6%8E%A5/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>在本地写md文件，在某篇文章中想引用其他文章，通过markdown的语法插入文章后，在本地跳转是OK的，但hexo生成静态文件部署之后的文章链接就不对了。<br>例如：我在这篇文章中引用“关于我”的页面。<br>这个地址在本地能正常跳转，部署后不能跳转：<br><a href="../../about/index.md">关于我</a></p>
@@ -16,11 +23,21 @@
       </tags>
   </entry>
   <entry>
-    <title>hello world</title>
-    <url>/hello/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>按照惯例，从hello world开始，正式开启博客旅途。<br>这算是第一篇文章，以后在这里做笔记、分享日常。</p>
-<p>如果有什么建议或者意见可以在文章末尾留言，由于使用的是第的三方评论系统，你的留言我可能看到不及时，而且回复你也不会收到提醒，如果想要与我沟通的话可以在博客讨论区与我交流：<a href="https://github.com/sandianyiyuan/BlogsPage/discussions">传送门</a>  或者在<a href="../about/index">关于我</a>页面通过其他联系方式找到我。</p>
+    <title>keepass(密码管理工具)</title>
+    <url>/keepass/keepass(%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7)/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>官方网站<a href="https://keepass.info/">keepass.info</a><br>github上已经两个项目全面地介绍了keepass及插件的使用方法：<br><a href="https://github.com/1688aa/KeePass-Plugins-Instructions-for-use">github.com/1688aa/KeePass-Plugins-Instructions-for-use</a><br><a href="https://github.com/1688aa/KeePass-Instructions-for-use">github.com/1688aa/KeePass-Instructions-for-use</a></p>
+<p>KeePass 是一款免费的开源密码管理器，KeePass 将密码存储为一个数据库，而这个数据库由一个主密码或密码文件锁住，也就是说我们只需要记住一个主密码，或使用一个密码文件，就可以解开这个数据库，就可以获得其他的密码内容。<br>办公室电脑密码、笔记本密码、家里电脑密码、上网帐号密码、手机服务密码、邮箱密码、QQ 密码、银行卡查询密码、银行卡交易密码、银行卡网上支付密码……我们需要记太多太多的密码。纵然我们可以使一些密码一致，但无法让所有的密码都一样，到头来，我们仍要记不少的密码，尤其是对于掌握信息系统的人来说，密码更多了。</p>
+<p>实际上把密码记下来，也不代表不安全，完全留在脑中，反而容易忘记。所以有了 KeePass。</p>
 ]]></content>
+      <categories>
+        <category>工具软件</category>
+        <category>keepass</category>
+      </categories>
+      <tags>
+        <tag>技术</tag>
+        <tag>工具软件</tag>
+        <tag>笔记</tag>
+      </tags>
   </entry>
   <entry>
     <title>mybase(个人笔记软件)</title>
@@ -57,6 +74,19 @@
         <tag>技术</tag>
         <tag>工具软件</tag>
         <tag>linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>币海大浪涛涛 人心左右摇</title>
+    <url>/%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81/%E5%B8%81%E6%B5%B7%E5%A4%A7%E6%B5%AA%E6%B6%9B%E6%B6%9B%20%E4%BA%BA%E5%BF%83%E5%B7%A6%E5%8F%B3%E6%91%87/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>币圈有句话“币圈一天，人间一年”。<br>最近币圈跌得生猛，前面投进去试水的一点钱，赶上大涨，后又大跌。真的应了这那句话。  目前浮亏一两个点，我是作为探索和研究加密货币而投资的，资金量不大而且都是现货，任它涨跌我就不动，看它到底要干啥。</p>
+]]></content>
+      <categories>
+        <category>日常</category>
+        <category>随想</category>
+      </categories>
+      <tags>
+        <tag>加密货币</tag>
       </tags>
   </entry>
   <entry>
@@ -105,6 +135,21 @@
       </tags>
   </entry>
   <entry>
+    <title>nodejs笔记</title>
+    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/nodejs/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>找到一个纯静态的导航页项目，说是纯静态，但它又能在线增加删除导航站上的网址，感觉很神奇。<br>发现它是利用 github 的流水线来实现的自动构建，在 Actions 页可以看到其 yml 配置如下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">name: Build web</span><br><span class="line">on:</span><br><span class="line">  push:</span><br><span class="line">    branches:</span><br><span class="line">      - master</span><br><span class="line">      - main</span><br><span class="line">jobs:</span><br><span class="line">  build:</span><br><span class="line">    runs-on: ubuntu-latest</span><br><span class="line">    steps:</span><br><span class="line">    - name: Checkout</span><br><span class="line">      uses: actions&#x2F;checkout@v2</span><br><span class="line">      with:</span><br><span class="line">        persist-credentials: false</span><br><span class="line">    - name: Install</span><br><span class="line">      uses: sergioramos&#x2F;yarn-actions&#x2F;install@v6</span><br><span class="line">      with:</span><br><span class="line">        frozen-lockfile: true</span><br><span class="line">    - name: Build</span><br><span class="line">      run: |</span><br><span class="line">        npm run build</span><br><span class="line">    - name: Deploy</span><br><span class="line">      uses: JamesIves&#x2F;github-pages-deploy-action@releases&#x2F;v3</span><br><span class="line">      with:</span><br><span class="line">        ACCESS_TOKEN: $&#123;&#123; secrets.TOKEN &#125;&#125;</span><br><span class="line">        BRANCH: gh-pages</span><br><span class="line">        FOLDER: dist</span><br></pre></td></tr></table></figure>
+<p>那么执行 <code>npm run build</code> 时发生了什么？</p>
+]]></content>
+      <categories>
+        <category>nodejs</category>
+      </categories>
+      <tags>
+        <tag>技术</tag>
+        <tag>nodejs</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Anywhere 快捷卡片应用</title>
     <url>/%E6%97%A5%E5%B8%B8/Anywhere%20%E5%BF%AB%E6%8D%B7%E5%8D%A1%E7%89%87%E5%BA%94%E7%94%A8/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Anywhere 是一款快捷卡片应用，可以在桌面灵活的创建应用快捷方式。</p>
@@ -112,19 +157,6 @@
 ]]></content>
       <categories>
         <category>日常</category>
-      </categories>
-      <tags>
-        <tag>日常</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>为什么身边没人用飞书</title>
-    <url>/%E6%97%A5%E5%B8%B8/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BA%AB%E8%BE%B9%E6%B2%A1%E4%BA%BA%E7%94%A8%E9%A3%9E%E4%B9%A6/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>工作原因，从微信QQ沟通交流转到了钉钉，钉钉里面的工具大而全，但使用起来总感觉哪里不舒服，体验不是很好。<br>自己也注册了飞书，感觉飞书简洁轻便，里面的待办、日历、文档等都非常的优秀，不得不赞。想找朋友一起用，推荐给朋友都会问为什么要用，钉钉能做了，沟通交流有微信和QQ，没必要用飞书了。。。<br>好想找几个人拉个团队一起来体验一下新工具。</p>
-]]></content>
-      <categories>
-        <category>日常</category>
-        <category>随想</category>
       </categories>
       <tags>
         <tag>日常</tag>
@@ -169,42 +201,6 @@
       </tags>
   </entry>
   <entry>
-    <title>送别国之脊梁袁隆平</title>
-    <url>/%E6%97%A5%E5%B8%B8/%E9%80%81%E5%88%AB%E5%9B%BD%E4%B9%8B%E8%84%8A%E6%A2%81%E8%A2%81%E9%9A%86%E5%B9%B3/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>【痛悼！送别国之脊梁袁隆平】今天，共和国痛失袁隆平院士。<br>“我最大的愿望是饭碗要牢牢地掌握在我们中国人自己手上！”<br>他把一生浸在稻田里，把功勋写在大地上。国士无双，致敬，缅怀！<br><img src="https://z3.ax1x.com/2021/05/22/gLpCq0.jpg" alt="袁隆平"></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>keepass(密码管理工具)</title>
-    <url>/keepass/keepass(%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7)/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>官方网站<a href="https://keepass.info/">keepass.info</a><br>github上已经两个项目全面地介绍了keepass及插件的使用方法：<br><a href="https://github.com/1688aa/KeePass-Plugins-Instructions-for-use">github.com/1688aa/KeePass-Plugins-Instructions-for-use</a><br><a href="https://github.com/1688aa/KeePass-Instructions-for-use">github.com/1688aa/KeePass-Instructions-for-use</a></p>
-<p>KeePass 是一款免费的开源密码管理器，KeePass 将密码存储为一个数据库，而这个数据库由一个主密码或密码文件锁住，也就是说我们只需要记住一个主密码，或使用一个密码文件，就可以解开这个数据库，就可以获得其他的密码内容。<br>办公室电脑密码、笔记本密码、家里电脑密码、上网帐号密码、手机服务密码、邮箱密码、QQ 密码、银行卡查询密码、银行卡交易密码、银行卡网上支付密码……我们需要记太多太多的密码。纵然我们可以使一些密码一致，但无法让所有的密码都一样，到头来，我们仍要记不少的密码，尤其是对于掌握信息系统的人来说，密码更多了。</p>
-<p>实际上把密码记下来，也不代表不安全，完全留在脑中，反而容易忘记。所以有了 KeePass。</p>
-]]></content>
-      <categories>
-        <category>工具软件</category>
-        <category>keepass</category>
-      </categories>
-      <tags>
-        <tag>技术</tag>
-        <tag>工具软件</tag>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>币海大浪涛涛 人心左右摇</title>
-    <url>/%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81/%E5%B8%81%E6%B5%B7%E5%A4%A7%E6%B5%AA%E6%B6%9B%E6%B6%9B%20%E4%BA%BA%E5%BF%83%E5%B7%A6%E5%8F%B3%E6%91%87/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>币圈有句话“币圈一天，人间一年”。<br>最近币圈跌得生猛，前面投进去试水的一点钱，赶上大涨，后又大跌。真的应了这那句话。  目前浮亏一两个点，我是作为探索和研究加密货币而投资的，资金量不大而且都是现货，任它涨跌我就不动，看它到底要干啥。</p>
-]]></content>
-      <categories>
-        <category>日常</category>
-        <category>随想</category>
-      </categories>
-      <tags>
-        <tag>加密货币</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>java 学习笔记</title>
     <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/JAVA/java%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>ipml 接口的实现类</p>
@@ -217,6 +213,12 @@
         <tag>技术</tag>
         <tag>java</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>送别国之脊梁袁隆平</title>
+    <url>/%E6%97%A5%E5%B8%B8/%E9%80%81%E5%88%AB%E5%9B%BD%E4%B9%8B%E8%84%8A%E6%A2%81%E8%A2%81%E9%9A%86%E5%B9%B3/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>【痛悼！送别国之脊梁袁隆平】今天，共和国痛失袁隆平院士。<br>“我最大的愿望是饭碗要牢牢地掌握在我们中国人自己手上！”<br>他把一生浸在稻田里，把功勋写在大地上。国士无双，致敬，缅怀！<br><img src="https://z3.ax1x.com/2021/05/22/gLpCq0.jpg" alt="袁隆平"></p>
+]]></content>
   </entry>
   <entry>
     <title>GitLabPages</title>
@@ -247,21 +249,6 @@
       </categories>
       <tags>
         <tag>git</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>nodejs笔记</title>
-    <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/nodejs/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>找到一个纯静态的导航页项目，说是纯静态，但它又能在线增加删除导航站上的网址，感觉很神奇。<br>发现它是利用 github 的流水线来实现的自动构建，在 Actions 页可以看到其 yml 配置如下：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">name: Build web</span><br><span class="line">on:</span><br><span class="line">  push:</span><br><span class="line">    branches:</span><br><span class="line">      - master</span><br><span class="line">      - main</span><br><span class="line">jobs:</span><br><span class="line">  build:</span><br><span class="line">    runs-on: ubuntu-latest</span><br><span class="line">    steps:</span><br><span class="line">    - name: Checkout</span><br><span class="line">      uses: actions&#x2F;checkout@v2</span><br><span class="line">      with:</span><br><span class="line">        persist-credentials: false</span><br><span class="line">    - name: Install</span><br><span class="line">      uses: sergioramos&#x2F;yarn-actions&#x2F;install@v6</span><br><span class="line">      with:</span><br><span class="line">        frozen-lockfile: true</span><br><span class="line">    - name: Build</span><br><span class="line">      run: |</span><br><span class="line">        npm run build</span><br><span class="line">    - name: Deploy</span><br><span class="line">      uses: JamesIves&#x2F;github-pages-deploy-action@releases&#x2F;v3</span><br><span class="line">      with:</span><br><span class="line">        ACCESS_TOKEN: $&#123;&#123; secrets.TOKEN &#125;&#125;</span><br><span class="line">        BRANCH: gh-pages</span><br><span class="line">        FOLDER: dist</span><br></pre></td></tr></table></figure>
-<p>那么执行 <code>npm run build</code> 时发生了什么？</p>
-]]></content>
-      <categories>
-        <category>nodejs</category>
-      </categories>
-      <tags>
-        <tag>技术</tag>
-        <tag>nodejs</tag>
       </tags>
   </entry>
   <entry>
@@ -626,6 +613,19 @@
 ]]></content>
   </entry>
   <entry>
+    <title>为什么身边没人用飞书</title>
+    <url>/%E6%97%A5%E5%B8%B8/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BA%AB%E8%BE%B9%E6%B2%A1%E4%BA%BA%E7%94%A8%E9%A3%9E%E4%B9%A6/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>工作原因，从微信QQ沟通交流转到了钉钉，钉钉里面的工具大而全，但使用起来总感觉哪里不舒服，体验不是很好。<br>自己也注册了飞书，感觉飞书简洁轻便，里面的待办、日历、文档等都非常的优秀，不得不赞。想找朋友一起用，推荐给朋友都会问为什么要用，钉钉能做了，沟通交流有微信和QQ，没必要用飞书了。。。<br>好想找几个人拉个团队一起来体验一下新工具。</p>
+]]></content>
+      <categories>
+        <category>日常</category>
+        <category>随想</category>
+      </categories>
+      <tags>
+        <tag>日常</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Shiro 整合 SpringBoot 项目实战</title>
     <url>/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Shiro/%E6%95%B4%E5%90%88%20SpringBoot%20%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>文章转自：<br>编程不良人<a href="https://www.bilibili.com/video/BV1uz4y197Zm">B站教学视频</a>对应<a href="https://blog.csdn.net/A233666/article/details/113436813">文档资料</a><br><a href="https://www.baizhiedu.xin/">编程不良人官网</a>视频免费看资料收费，但也比较便宜，建议支持</p>
@@ -633,6 +633,7 @@
 <h3 id="6-2-配置环境"><a href="#6-2-配置环境" class="headerlink" title="6.2 配置环境"></a>6.2 配置环境</h3><h4 id="1-创建项目"><a href="#1-创建项目" class="headerlink" title="1.创建项目"></a>1.创建项目</h4><p><img src="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Shiro/%E6%95%B4%E5%90%88%20SpringBoot%20%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98/Pasted%20image%2020210729085502.png"></p>
 <h4 id="2-引入依赖"><a href="#2-引入依赖" class="headerlink" title="2.引入依赖"></a>2.引入依赖</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;dependency&gt;</span><br><span class="line">     &lt;groupId&gt;org.apache.tomcat.embed&lt;&#x2F;groupId&gt;</span><br><span class="line">     &lt;artifactId&gt;tomcat-embed-jasper&lt;&#x2F;artifactId&gt;</span><br><span class="line">     &lt;&#x2F;dependency&gt;</span><br><span class="line">&lt;dependency&gt;</span><br><span class="line">     &lt;groupId&gt;jstl&lt;&#x2F;groupId&gt;</span><br><span class="line">     &lt;artifactId&gt;jstl&lt;&#x2F;artifactId&gt;</span><br><span class="line">     &lt;version&gt;1.2&lt;&#x2F;version&gt;</span><br><span class="line">&lt;&#x2F;dependency&gt;</span><br></pre></td></tr></table></figure>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!--引入shiro整合Springboot依赖--&gt;</span><br><span class="line">&lt;dependency&gt;</span><br><span class="line">  &lt;groupId&gt;org.apache.shiro&lt;&#x2F;groupId&gt;</span><br><span class="line">  &lt;artifactId&gt;shiro-spring-boot-starter&lt;&#x2F;artifactId&gt;</span><br><span class="line">  &lt;version&gt;1.5.3&lt;&#x2F;version&gt;</span><br><span class="line">&lt;&#x2F;dependency&gt;</span><br></pre></td></tr></table></figure>
+<a id="more"></a>
 <h4 id="3-修改视图"><a href="#3-修改视图" class="headerlink" title="3.修改视图"></a>3.修改视图</h4><p>application.properties 文件</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">server.port&#x3D;8080</span><br><span class="line">server.servlet.context-path&#x3D;&#x2F;shiro</span><br><span class="line">spring.application.name&#x3D;shiro</span><br><span class="line"></span><br><span class="line">spring.mvc.view.prefix&#x3D;&#x2F;</span><br><span class="line">spring.mvc.view.suffix&#x3D;.jsp</span><br></pre></td></tr></table></figure>
 <h4 id="4-修改配置"><a href="#4-修改配置" class="headerlink" title="4.修改配置"></a>4.修改配置</h4><p>JSP 与IDEA 与SpringBoot存在一定的不兼容，修改此配置即可解决<br><img src="/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Shiro/%E6%95%B4%E5%90%88%20SpringBoot%20%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98/Pasted%20image%2020210729085638.png"></p>
